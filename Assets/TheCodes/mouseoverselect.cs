@@ -30,8 +30,6 @@ public class mouseoverselect : MonoBehaviour {
 		transform.position = Vector2.Lerp(transform.position, mousePosition, moveSpeed / 5);
 		SpriteRenderer m = greenCircle.GetComponent<SpriteRenderer> ();
         mouseIsover = true;
-		m.enabled = true;
-
 
         //if (Input.GetKeyDown(KeyCode.Space) && (isFrozen == true))
         //{
