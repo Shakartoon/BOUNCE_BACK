@@ -8,13 +8,19 @@ public class newSoundMakingObject : MonoBehaviour {
 	public GameObject myBall; 
 	public AudioClip myClip; 
 	public AudioSource myAudioSource;
-	public bool myCollision; 
+	public bool myCollision;
+	public Vector3 defaultPosition; 
+	public Vector3 newPosition; 
+
+	// Timer- stops when L button is released and immediately start a loop immedialtey a new ball instiate 
 //	public instantiateOnDrag instantiateScript; 
 
 
 	void Start () {
 		myAudioSource = GetComponent<AudioSource>(); 
 		myAudioSource.clip = myClip; 
+		defaultPosition = transform.position; 
+
 	}
 	
 	// Update is called once per frame
@@ -24,20 +30,59 @@ public class newSoundMakingObject : MonoBehaviour {
 		yield return new WaitForSeconds (1); 
 //		Destroy (instantiateScript.ball); 
 	
-	} 
+	}
 
+
+	public IEnumerator wiggleAnimation()
+	{
+		float speed = 0.1f; //time?
+		float delta = 0.5f; //length 
+		float y = transform.position.y + Mathf.PingPong(speed * Time.time, delta); 
+		Vector3 pos = new Vector3(transform.position.x, y, transform.position.z);
+		transform.position = pos; 
+		yield return new WaitForSeconds(0.06f);
+		
+		float speed1 = 0.1f; //time?
+		float delta1 = -0.1f; //length / position? 
+		float y1 = transform.position.y + Mathf.PingPong(speed1 * Time.time, delta1); 
+		Vector3 pos1 = new Vector3(transform.position.x, y1, transform.position.z);
+		transform.position = pos1; 
+		
+		yield return new WaitForSeconds(0.01f);
+		transform.position = defaultPosition; 
+		
+		float speed2 = 0.3f; //time?
+		float delta2 = 0.5f; //length 
+		float y2 = transform.position.y + Mathf.PingPong(speed2 * Time.time, delta2); 
+		Vector3 pos2 = new Vector3(transform.position.x, y2, transform.position.z);
+		transform.position = pos2; 
+		yield return new WaitForSeconds(0.04f);
+		
+		float speed3 = 0.2f; //time?
+		float delta3 = -0.1f; //length / position? 
+		float y3 = transform.position.y + Mathf.PingPong(speed3 * Time.time, delta3); 
+		Vector3 pos3 = new Vector3(transform.position.x, y3, transform.position.z);
+		transform.position = pos3; 
+		
+		yield return new WaitForSeconds(0.01f);
+		transform.position = defaultPosition; 
+
+	}
+	
+	
 	void OnCollisionEnter2D(Collision2D collision)
 		{
 
 			if (collision.gameObject.CompareTag ("Ball")) {
 		
 			myAudioSource.Play (); 
-			myCollision = true; 
+			myCollision = true;
 
-		//	StartCoroutine (destroyBall ()); 
-		//	myAudioSource.PlayOneShot (myClip); //, Random.Range(0.25f, 0.75f)); 
-		//	myAudioSource.pitch = (Random.Range (1, 3)); 
-		}
+			StartCoroutine(wiggleAnimation());
+				//	StartCoroutine (destroyBall ()); 
+				//	myAudioSource.PlayOneShot (myClip); //, Random.Range(0.25f, 0.75f)); 
+				//	myAudioSource.pitch = (Random.Range (1, 3)); 
+			}
 	}
 		
 } 

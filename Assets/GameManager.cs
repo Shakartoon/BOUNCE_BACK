@@ -13,8 +13,8 @@ public class GameManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		
 		InitializeServices ();
-
 		myAudioSource = gameObject.AddComponent<AudioSource> ();
 	}
 
@@ -39,41 +39,7 @@ public class GameManager : MonoBehaviour {
 		
 	}
 
-	// Update is called once per frame
-	void Update () {
-
-		if (Input.GetKeyDown("a")) {
-			SceneManager.LoadScene("NewRug"); 
-			Debug.Log ("OK"); 
-		} 
-
-		if (Input.GetKeyDown("b")) {
-			SceneManager.LoadScene("Microphone"); 
-			Debug.Log ("OK"); 
-		} 
-
-		if (Input.GetKeyDown("c")) {
-			SceneManager.LoadScene("FlickingBeat"); 
-			Debug.Log ("OK"); 
-		} 
-
-		if (Input.GetKeyDown("v") && !isPaused) {
-			print ("paused"); 
-			Time.timeScale = 0.0f;
-			isPaused = true;
-
-		}
-
-		else if(Input.GetKeyDown("v") && isPaused)
-		{
-			print("Unpaused");
-			Time.timeScale = 1.0f;
-			isPaused = false;  
-		} 
-
-		//why the fuck isn't this working 
-		if (Input.GetKeyDown ("x")) {
-			Destroy (InstantiateBeatBallScript.beatballClone); 
-		}
+	void Update()
+	{
 	}
 }

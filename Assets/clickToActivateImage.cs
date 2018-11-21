@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class clickToActivateImage : MonoBehaviour {
 
-	public GameObject barOutline; 
+	public GameObject barOutline;
+	public SpriteRenderer barSprite; 
 
 	void Start () {
 
-		SpriteRenderer barSprite = GetComponent<SpriteRenderer> (); 
+	    barSprite = GetComponent<SpriteRenderer> (); 
 		barSprite.enabled = false; 
 	}
 	

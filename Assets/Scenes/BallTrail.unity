@@ -184,7 +184,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &247772073
 GameObject:
@@ -257,6 +257,7 @@ MonoBehaviour:
   myClip: {fileID: 8300000, guid: 66dd2e3827cf943c8b3224e0675991ec, type: 3}
   myAudioSource: {fileID: 247772077}
   myCollision: 0
+  currentPosition: {x: 0, y: 0, z: 0}
 --- !u!82 &247772077
 AudioSource:
   m_ObjectHideFlags: 0
@@ -493,6 +494,7 @@ MonoBehaviour:
   myClip: {fileID: 8300000, guid: d7089743affd04965a423ac011925dcf, type: 3}
   myAudioSource: {fileID: 429268261}
   myCollision: 0
+  currentPosition: {x: 0, y: 0, z: 0}
 --- !u!50 &429268263
 Rigidbody2D:
   serializedVersion: 4
@@ -593,7 +595,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &455867643
 GameObject:
@@ -647,7 +649,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &540427221
 Mesh:
@@ -850,6 +852,7 @@ MonoBehaviour:
   myClip: {fileID: 8300000, guid: 51257cf16259347e38c365ef171befe9, type: 3}
   myAudioSource: {fileID: 627414890}
   myCollision: 0
+  currentPosition: {x: 0, y: 0, z: 0}
 --- !u!82 &627414890
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1001,6 +1004,7 @@ MonoBehaviour:
   myClip: {fileID: 8300000, guid: fd657096ea9924c3288b6d094a98c282, type: 3}
   myAudioSource: {fileID: 820664393}
   myCollision: 0
+  currentPosition: {x: 0, y: 0, z: 0}
 --- !u!82 &820664393
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1152,7 +1156,7 @@ Transform:
   m_LocalScale: {x: 1.3548226, y: 1.3548228, z: 1.3548228}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &848287428
 GameObject:
@@ -1254,7 +1258,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &848287432
 MonoBehaviour:
@@ -1271,6 +1275,7 @@ MonoBehaviour:
   myClip: {fileID: 8300000, guid: f665d4f082e33450dbee4f7b533d049d, type: 3}
   myAudioSource: {fileID: 848287434}
   myCollision: 0
+  currentPosition: {x: 0, y: 0, z: 0}
 --- !u!50 &848287433
 Rigidbody2D:
   serializedVersion: 4
@@ -1401,6 +1406,7 @@ MonoBehaviour:
   ball: {fileID: 1823109062}
   ballClone: {fileID: 0}
   newSoundMakingObjectScript: {fileID: 848287432}
+  autoSpawnBallPosition: {x: 0, y: 0, z: 0}
 --- !u!4 &956405850
 Transform:
   m_ObjectHideFlags: 0
@@ -1412,7 +1418,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1135140747
 GameObject:
@@ -1490,7 +1496,7 @@ Transform:
   - {fileID: 247772074}
   - {fileID: 627414887}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &1135140750
 PolygonCollider2D:
@@ -1527,6 +1533,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa12e828a7e1e4814884946b4a16d882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barOutline: {fileID: 0}
+  barSprite: {fileID: 0}
 --- !u!1 &1173572126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,7 +1606,7 @@ Transform:
   m_LocalScale: {x: 1.4906715, y: 1.8390629, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1412541344
 GameObject:
@@ -1613,6 +1621,7 @@ GameObject:
   - component: {fileID: 1412541347}
   - component: {fileID: 1412541346}
   - component: {fileID: 1412541345}
+  - component: {fileID: 1412541351}
   m_Layer: 0
   m_Name: Sprite2
   m_TagString: SoundMakingObject
@@ -1715,6 +1724,7 @@ MonoBehaviour:
   myClip: {fileID: 8300000, guid: 66dd2e3827cf943c8b3224e0675991ec, type: 3}
   myAudioSource: {fileID: 1412541345}
   myCollision: 0
+  currentPosition: {x: 0, y: 0, z: 0}
 --- !u!50 &1412541347
 Rigidbody2D:
   serializedVersion: 4
@@ -1815,8 +1825,30 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1412541351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1412541344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
 --- !u!1001 &1703674401
 Prefab:
   m_ObjectHideFlags: 0
@@ -1862,7 +1894,7 @@ Prefab:
     - target: {fileID: 224957248308871418, guid: 941b6df82fb5545d2b74f9d5b1db5b29,
         type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 224957248308871418, guid: 941b6df82fb5545d2b74f9d5b1db5b29,
         type: 2}
@@ -1957,6 +1989,46 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 50136780244876948, guid: 941b6df82fb5545d2b74f9d5b1db5b29,
     type: 2}
   m_PrefabInternal: {fileID: 1703674401}
+--- !u!1 &1819406200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1819406202}
+  - component: {fileID: 1819406201}
+  m_Layer: 0
+  m_Name: InputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1819406201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1819406200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94ebf6329bb4276919e6528804a2c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1819406202
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1819406200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.9438567, y: -0.22463727, z: 3.4752238}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1823109062
 GameObject:
   m_ObjectHideFlags: 0
@@ -2031,7 +2103,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1823109065
 CircleCollider2D:

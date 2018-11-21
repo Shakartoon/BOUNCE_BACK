@@ -49,9 +49,9 @@ public class SoundMakingObject : MonoBehaviour {
 	} 
 
 	void FixedUpdate () {
-		scaleVel += (1f - currentScaleAmount) * .2f;
-		scaleVel *= .92f;
-		currentScaleAmount += scaleVel;
+		scaleVel = scaleVel + (1f - currentScaleAmount) * .2f;
+		scaleVel = scaleVel * .92f;
+		currentScaleAmount = currentScaleAmount + scaleVel;
 		transform.localScale = new Vector2 (defScale.x * (1f / currentScaleAmount), defScale.y * currentScaleAmount);
 	}
 
