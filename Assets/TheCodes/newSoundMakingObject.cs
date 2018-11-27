@@ -9,10 +9,11 @@ public class newSoundMakingObject : MonoBehaviour {
 	public AudioClip myClip; 
 	public AudioSource myAudioSource;
 	public bool myCollision;
-	public Vector3 defaultPosition; 
-	public Vector3 newPosition;
+	private Vector3 defaultPosition; 
+	private Vector3 newPosition;
 
-	public GameObject rotatingCube; 
+	public GameObject rotatingCube;
+	
 
 	// Timer- stops when L button is released and immediately start a loop immedialtey a new ball instiate 
 //	public instantiateOnDrag instantiateScript; 
@@ -21,8 +22,8 @@ public class newSoundMakingObject : MonoBehaviour {
 	void Start () {
 		myAudioSource = GetComponent<AudioSource>(); 
 		myAudioSource.clip = myClip; 
-		defaultPosition = transform.position; 
-
+		defaultPosition = transform.position;
+		
 	}
 	
 	// Update is called once per frame
@@ -34,7 +35,7 @@ public class newSoundMakingObject : MonoBehaviour {
 	
 	}
 
-
+/*
 	public IEnumerator wiggleAnimation()
 	{
 		float speed = 0.1f; //time?
@@ -70,6 +71,7 @@ public class newSoundMakingObject : MonoBehaviour {
 		transform.position = defaultPosition; 
 
 	}
+*/
 	
 	
 	void OnCollisionEnter2D(Collision2D collision)
@@ -80,12 +82,15 @@ public class newSoundMakingObject : MonoBehaviour {
 			myAudioSource.Play (); 
 			myCollision = true;
 
-			StartCoroutine(wiggleAnimation());
+			//StartCoroutine(wiggleAnimation());
+			//StartCoroutine(ballScale());
+
 			
-			iTween.RotateBy(gameObject, iTween.Hash("y", .25, "easeType", "easeInOutBack", "loopType", "pingPong", "delay", .01));
+			//iTween.RotateBy(gameObject, iTween.Hash("y", .25, "easeType", "easeInOutBack", "loopType", "pingPong", "delay", .01));
 			
 			iTween.RotateBy(rotatingCube, iTween.Hash("x", .25, "easeType", "easeInOutBack", "loopType", "pingPong", "delay", .4));
-
+			
+				//else make iTween stop 
 				//	StartCoroutine (destroyBall ()); 
 				//	myAudioSource.PlayOneShot (myClip); //, Random.Range(0.25f, 0.75f)); 
 				//	myAudioSource.pitch = (Random.Range (1, 3)); 

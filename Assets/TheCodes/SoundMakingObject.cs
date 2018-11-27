@@ -50,7 +50,7 @@ public class SoundMakingObject : MonoBehaviour {
 
 	void FixedUpdate () {
 		scaleVel = scaleVel + (1f - currentScaleAmount) * .2f;
-		scaleVel = scaleVel * .92f;
+		scaleVel = scaleVel * .94f;
 		currentScaleAmount = currentScaleAmount + scaleVel;
 		transform.localScale = new Vector2 (defScale.x * (1f / currentScaleAmount), defScale.y * currentScaleAmount);
 	}

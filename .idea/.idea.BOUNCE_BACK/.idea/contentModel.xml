@@ -5,7 +5,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets/clickToActivateImage.cs" t="Include" />
       <e p="Assets/Editor" t="Include">
         <e p="FMODMigrationUtil.cs" t="Include" />
       </e>
@@ -83,7 +82,6 @@
           </e>
         </e>
       </e>
-      <e p="Assets/inputMGMT.cs" t="Include" />
       <e p="Assets/NotMine" t="Include">
         <e p="AudioVisualizer" t="Include">
           <e p="Editor" t="Include">
@@ -402,11 +400,13 @@
           <e p="AudioSyncer.cs" t="Include" />
           <e p="AudioSyncScale.cs" t="Include" />
         </e>
+        <e p="bg_load.cs" t="Include" />
         <e p="cameramovecoroutine.cs" t="Include" />
         <e p="CameraScript.cs" t="Include" />
         <e p="CameraShake.cs" t="Include" />
         <e p="circlularMovement.cs" t="Include" />
         <e p="Clickdragobject.cs" t="Include" />
+        <e p="clickToActivateImage.cs" t="Include" />
         <e p="ClipLibrary.cs" t="Include" />
         <e p="Clock.cs" t="Include" />
         <e p="clockwiserotation.cs" t="Include" />
@@ -421,6 +421,7 @@
         <e p="Followcursor.cs" t="Include" />
         <e p="funnymovement.cs" t="Include" />
         <e p="GameController.cs" t="Include" />
+        <e p="inputMGMT.cs" t="Include" />
         <e p="InstantiateBeatBall.cs" t="Include" />
         <e p="InstantiateObjects.cs" t="Include" />
         <e p="instantiateOnDrag.cs" t="Include" />
@@ -444,6 +445,7 @@
         <e p="playercollision_new.cs" t="Include" />
         <e p="record.cs" t="Include" />
         <e p="recordScript.cs" t="Include" />
+        <e p="scalingAnimations.cs" t="Include" />
         <e p="Services.cs" t="Include" />
         <e p="SinWaveMovement.cs" t="Include" />
         <e p="sliderdragmovement.cs" t="Include" />

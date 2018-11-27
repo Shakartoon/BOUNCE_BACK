@@ -31,6 +31,7 @@ public class InstantiateBeatBall : MonoBehaviour {
 	//	Instantiate (beatBall, new Vector3 (0, 0, 0), Quaternion.identity);
 
 		newPosition = new Vector2 (1, 1); 
+		//why doesn't instantiate have a scale? 
 		beatballClone = Instantiate(beatBall, newPosition, transform.rotation);
 
 

@@ -11,12 +11,13 @@ public class instantiateOnDrag : MonoBehaviour {
 	private Vector3 worldPos; 
 	public GameObject ballClone; 
 	public newSoundMakingObject newSoundMakingObjectScript;
-	public Vector3 autoSpawnBallPosition;
+	private Vector3 autoSpawnBallPosition;
 	private float autoSpawnTimerGap; //the gap between the time / THE TIME BETWEEN 
 	private float autoSpawnTimer; // a running timer
 	bool isRecordingTime; //true -- we are recording the time // or using it / playing back 
 	
-	private Vector3 spawnPosition; 
+	private Vector3 spawnPosition;
+	public float minTimeforInstantiate; 
 
 	// Use this for initialization
 	void start () {
@@ -25,12 +26,6 @@ public class instantiateOnDrag : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-
-	public IEnumerator instantiateTheBalls(){
-	
-		yield return new WaitForSeconds (1); 
-	//	Destroy (objectInstance); 
-	}
 
 	void MoveByExample () {
 
@@ -98,7 +93,8 @@ public class instantiateOnDrag : MonoBehaviour {
 		}
 		
 		// We need a timer; doesn't care about recording or setup, just keeps trying to instantiate a new ball 
-		if (autoSpawnTimerGap > 0) { 
+		//the time the player sets 
+		if (autoSpawnTimerGap > minTimeforInstantiate) { 
 			//set a legal value or pattern for auto spawn
 			// do the auto spawn - increase the value of the running timer 
 			//the timer increases - if it hits the auto spawn time gap - means we've passed a certain amount of time and have to instantiate new one 
@@ -126,7 +122,7 @@ public class instantiateOnDrag : MonoBehaviour {
 			//transform.position = Vector3.Lerp (startPosition, endPosition, 1f); 
 		
 			
-		Destroy (ballClone, 0.5f); 
+		Destroy (ballClone, 1.5f); 
 
 
 		}

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using NUnit.Framework.Constraints;
 using UnityEngine;
 
 public class Drag : MonoBehaviour {
@@ -10,17 +11,40 @@ public class Drag : MonoBehaviour {
     public float degreesPerSec = 360f;
 
 	public GameObject littleBalls; 
+	
+	//keetp track of init position 
+	private Vector3 intialPosOfLittleBalls;
 
-	void Start() {
-		InvokeRepeating ("ActivateLittleBalls", 1f, 2f); 
+	void Start()
+	{
+		//InvokeRepeating ("ActivateLittleBalls", 1f, 2f); 
+
+		intialPosOfLittleBalls = transform.position;
+		littleBalls.SetActive(false); //InvokeRepeating ("ActivateLittleBalls", 1f, 2f); 
+		StartCoroutine(activatetheballs());
+
+}
+
+	IEnumerator activatetheballs()
+	{
+		//This is twitching... 
+		yield return new WaitForSeconds(3f);
+		littleBalls.transform.position = intialPosOfLittleBalls;
+		littleBalls.SetActive(true); // we reset its position to initial position // also reset speed 
+		yield return new WaitForSeconds(3f); 
+		littleBalls.SetActive(false); 	
+		StartCoroutine(activatetheballs());
+
 	}
 
-	void ActivateLittleBalls(){
-
-		littleBalls.SetActive(true); 
-	}
+//	void ActivateLittleBalls(){
+//
+//		littleBalls.SetActive(true); 
+//	}
 		
-	void Update () {
+	void Update ()
+	{
+		//StartCoroutine(activatetheballs()); 
 
 	}
 
