@@ -31,6 +31,9 @@
         <relationship name="timeline">
             <destination>{34f65a4b-cb20-4ab2-8f85-82d7f3c66c17}</destination>
         </relationship>
+        <relationship name="banks">
+            <destination>{3394c129-f141-4c64-bd76-75df481b8645}</destination>
+        </relationship>
     </object>
     <object class="EventMixer" id="{8eab7fc3-653f-48b5-8d4c-e9f32349be89}">
         <relationship name="masterBus">
@@ -60,7 +63,7 @@
             <destination>{64414272-abf9-4966-bb07-0b9bcb9599e4}</destination>
         </relationship>
         <relationship name="modules">
-            <destination>{b1b93ef9-c1ca-4c47-b65d-bc385ea6c3a8}</destination>
+            <destination>{c14fc1c9-6757-4e9f-9202-adcaa4a132a0}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{260132fa-d14f-468f-ab9b-e75633795d54}</destination>
@@ -68,7 +71,7 @@
     </object>
     <object class="Timeline" id="{34f65a4b-cb20-4ab2-8f85-82d7f3c66c17}">
         <relationship name="modules">
-            <destination>{b1b93ef9-c1ca-4c47-b65d-bc385ea6c3a8}</destination>
+            <destination>{c14fc1c9-6757-4e9f-9202-adcaa4a132a0}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{e2c6e803-598c-44cc-aa00-a7d0c8002f44}">
@@ -96,24 +99,15 @@
             <destination>{e2838806-0f6b-493b-b331-d9496f2fe3a3}</destination>
         </relationship>
     </object>
-    <object class="SingleSound" id="{b1b93ef9-c1ca-4c47-b65d-bc385ea6c3a8}">
+    <object class="SingleSound" id="{c14fc1c9-6757-4e9f-9202-adcaa4a132a0}">
         <property name="length">
-            <value>1.0800000000000001</value>
-        </property>
-        <property name="color">
-            <value>Green</value>
-        </property>
-        <property name="volume">
-            <value>-4</value>
+            <value>0.3429251700680272</value>
         </property>
         <relationship name="audioFile">
-            <destination>{0ba2e984-1775-421b-9c01-7d607c27128e}</destination>
+            <destination>{6db143a6-9900-484e-96a6-2194e6f26af3}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{260132fa-d14f-468f-ab9b-e75633795d54}">
-        <property name="volume">
-            <value>-11</value>
-        </property>
         <property name="name">
             <value>Audio 1</value>
         </property>
@@ -146,6 +140,9 @@
     <object class="PitchShifterEffect" id="{80f31849-bd2e-4c86-b164-f5065bc76d91}">
         <property name="fftSize">
             <value>4096</value>
+        </property>
+        <property name="overlap">
+            <value>10.8000002</value>
         </property>
         <property name="maxChannels">
             <value>8.09999943</value>
@@ -196,7 +193,7 @@
             <value>0.46414318853387093</value>
         </property>
         <property name="value">
-            <value>1.67999995</value>
+            <value>1.79999995</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{1fedc348-0a3a-4e11-963d-5d1e62a7e166}">
