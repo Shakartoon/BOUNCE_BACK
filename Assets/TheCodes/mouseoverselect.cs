@@ -52,7 +52,6 @@ public class mouseoverselect : MonoBehaviour {
     }
 
     void OnMouseUp () { 
-		Debug.Log ("Yes it did"); 
 		SpriteRenderer m = greenCircle.GetComponent<SpriteRenderer> ();
         mouseIsover = false;
 		m.enabled = false; 

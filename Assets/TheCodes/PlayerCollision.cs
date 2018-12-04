@@ -57,7 +57,7 @@ public class PlayerCollision : MonoBehaviour {
 
 
 	void OnCollisionEnter2D (Collision2D col) {
-		Debug.Log ("Collision Detected.");
+//		Debug.Log ("Collision Detected.");
 
 		transform.GetChild (1).GetComponent<ParticleSystem> ().Play() ;
 	
@@ -70,7 +70,7 @@ public class PlayerCollision : MonoBehaviour {
 
 		if (col.relativeVelocity.magnitude > 2) { 	
 
-			Debug.Log ("HI!"); 
+			Debug.Log ("Magnitude is more than 2"); 
 
 		} 
 

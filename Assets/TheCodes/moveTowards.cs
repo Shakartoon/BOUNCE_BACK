@@ -56,7 +56,6 @@ public class moveTowards : MonoBehaviour {
 	{ 
 
 		if (col.gameObject.tag == "Ball") {
-			Debug.Log ("Collided!!!"); 
 			ball.transform.position = Vector2.Lerp(transform.position, ballMousePosition, ballMoveSpeed / 5f);
 		}
 	}

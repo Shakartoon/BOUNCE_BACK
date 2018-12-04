@@ -26,8 +26,8 @@ public class SoundMakingObject : MonoBehaviour {
 	public string salmonColorHex = "#F08080"; 
 
 	private Color pinkColor = new Color(); 
-	public string pinkColorHex = "#F35FBD"; 
-
+	public string pinkColorHex = "#F35FBD";
+	
 	void Start () {
 		myAudioSource = GetComponent<AudioSource> ();
 		myAudioSource.clip = mySound; 
@@ -40,13 +40,7 @@ public class SoundMakingObject : MonoBehaviour {
 		ColorUtility.TryParseHtmlString (salmonColorHex, out salmonColor);
 		ColorUtility.TryParseHtmlString (pinkColorHex, out pinkColor);
 
-		//colAnim = GetComponent<ScriptNameToDisable>();
-
 	}
-
-	void Update() {
-		
-	} 
 
 	void FixedUpdate () {
 		scaleVel = scaleVel + (1f - currentScaleAmount) * .2f;
@@ -95,6 +89,7 @@ public class SoundMakingObject : MonoBehaviour {
 			Services.Clock.SyncFunction (PlaySound, quantizeDistance);
 			colAnim.enabled = true; 
 		} 
+		
 			
 			// Services.Clips.Scream;
 
@@ -102,7 +97,6 @@ public class SoundMakingObject : MonoBehaviour {
 			// flatfx.AddEffect(Vector2.zero,0);
 			// transform.Rotate (Time.deltaTime, 200, 0); 
 	}
-
 
 	
 }

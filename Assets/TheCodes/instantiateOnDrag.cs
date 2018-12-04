@@ -58,7 +58,7 @@ public class instantiateOnDrag : MonoBehaviour {
 
 		} 
 		
-		if (Input.GetKey(KeyCode.L)) 
+		if (Input.GetKey(KeyCode.Alpha1)) 
 		{
 			//starts to record when mouse button clicked 
 			if (Input.GetMouseButtonDown (0))
@@ -86,7 +86,7 @@ public class instantiateOnDrag : MonoBehaviour {
 
 		}
 
-		if (Input.GetKeyUp(KeyCode.L))
+		if (Input.GetKeyUp(KeyCode.Alpha1))
 		{
 			isRecordingTime = false; 
 	
@@ -110,8 +110,46 @@ public class instantiateOnDrag : MonoBehaviour {
 		}		
 
 		//IF MOUSE DRAGGED, CREATE A NEW BALL AT EVERY X/Y LOCATION EVERY ~0.5 SECONDS 
+		//////////////////////////////
 
+		if (Input.GetKey(KeyCode.Alpha2)) 
+		{
+			if (Input.GetMouseButtonDown (0))
+			{
+				autoSpawnBallPosition = spawnPosition; 
+				isRecordingTime = true;
+				autoSpawnTimerGap = 0f; 
+				Debug.Log("description");
+			}
 
+			if (isRecordingTime == true)
+			{
+				autoSpawnTimerGap = autoSpawnTimerGap + Time.deltaTime;   
+			}
+
+		}
+
+		if (Input.GetKeyUp(KeyCode.Alpha2))
+		{
+			isRecordingTime = false; 
+	
+		}
+		
+		if (autoSpawnTimerGap > minTimeforInstantiate) { 
+			autoSpawnTimer = autoSpawnTimer + Time.deltaTime;
+			if (autoSpawnTimer >= autoSpawnTimerGap)
+			{
+				ballClone = (GameObject) Instantiate (ball, autoSpawnBallPosition, Quaternion.Euler(new Vector3(0, 0, 0))) as GameObject;
+				autoSpawnTimer = 0; 
+
+			}
+
+		}		
+
+		
+		
+	
+		//////////////////////////////	
 
 	  if (newSoundMakingObjectScript.myCollision = true) {
 
