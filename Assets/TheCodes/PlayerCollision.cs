@@ -59,7 +59,7 @@ public class PlayerCollision : MonoBehaviour {
 	void OnCollisionEnter2D (Collision2D col) {
 //		Debug.Log ("Collision Detected.");
 
-		transform.GetChild (1).GetComponent<ParticleSystem> ().Play() ;
+		//transform.GetChild (1).GetComponent<ParticleSystem> ().Play() ;
 	
 
 		foreach (ContactPoint2D contact in col.contacts)

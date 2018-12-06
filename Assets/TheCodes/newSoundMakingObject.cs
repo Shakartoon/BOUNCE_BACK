@@ -13,7 +13,7 @@ public class newSoundMakingObject : MonoBehaviour {
 	private Vector3 newPosition;
 
 	public GameObject rotatingCube;
-	
+	private instantiateOnDrag _instantiateOnDrag; 
 
 	// Timer- stops when L button is released and immediately start a loop immedialtey a new ball instiate 
 //	public instantiateOnDrag instantiateScript; 
@@ -22,7 +22,7 @@ public class newSoundMakingObject : MonoBehaviour {
 	void Start () {
 		myAudioSource = GetComponent<AudioSource>(); 
 		myAudioSource.clip = myClip; 
-		defaultPosition = transform.position;
+		defaultPosition = transform.position; 
 		
 	}
 	
@@ -87,8 +87,9 @@ public class newSoundMakingObject : MonoBehaviour {
 
 			
 			//iTween.RotateBy(gameObject, iTween.Hash("y", .25, "easeType", "easeInOutBack", "loopType", "pingPong", "delay", .01));
-			
-			iTween.RotateBy(rotatingCube, iTween.Hash("x", .25, "easeType", "easeInOutBack", "loopType", "pingPong", "delay", .4));
+			//iTween.RotateBy(gameObject, new Vector3(0, 0, 20), 1f);
+
+			//iTween.RotateBy(gameObject, iTween.Hash("x", .25, "easeType", "easeInOutBack", "loopType", "pingPong", "delay", .1));
 			
 				//else make iTween stop 
 				//	StartCoroutine (destroyBall ()); 

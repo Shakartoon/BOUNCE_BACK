@@ -14,6 +14,7 @@ public class Drag : MonoBehaviour {
 	
 	//keetp track of init position 
 	private Vector3 intialPosOfLittleBalls;
+	public bool _colliderPressed; 
 
 	void Start()
 	{
@@ -55,6 +56,7 @@ public class Drag : MonoBehaviour {
 	{
 		screenPoint = Camera.main.WorldToScreenPoint(transform.position);
 		offset =  transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,screenPoint.z));
+		_colliderPressed = true; 
 	}
 
 	void OnMouseDrag()

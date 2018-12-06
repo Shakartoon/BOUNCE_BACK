@@ -388,6 +388,7 @@
             <e p="FmodResonanceAudioRoom.cs" t="Include" />
           </e>
         </e>
+        <e p="TemporarySMObjects.cs" t="Include" />
         <e p="TheCodes" t="Include">
           <e p="AudioManager.cs" t="Include" />
           <e p="ballScript.cs" t="Include" />
@@ -464,6 +465,7 @@
           <e p="xButtonClick.cs" t="Include" />
           <e p="ySize.cs" t="Include" />
         </e>
+        <e p="touchTest.cs" t="Include" />
       </e>
       <e p="BOUNCE_BACK.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
