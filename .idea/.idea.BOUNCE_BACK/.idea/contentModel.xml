@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CameraMoveClick.cs" t="Include" />
         <e p="CamRotation.cs" t="Include" />
         <e p="Editor" t="Include">
           <e p="FMODMigrationUtil.cs" t="Include" />
@@ -25,6 +26,7 @@
         </e>
         <e p="hitboxeffect.cs" t="Include" />
         <e p="InstantiateLittleBalls.cs" t="Include" />
+        <e p="MousePressed.cs" t="Include" />
         <e p="NotMine" t="Include">
           <e p="AudioVisualizer" t="Include">
             <e p="Editor" t="Include">

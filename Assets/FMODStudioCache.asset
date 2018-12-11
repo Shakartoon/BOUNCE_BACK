@@ -13,13 +13,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114069432734639318}
-  - {fileID: 114171036759175864}
+  - {fileID: 114893983260292990}
   EditorEvents:
-  - {fileID: 114873822835282604}
-  - {fileID: 114628311149234632}
-  MasterBankRef: {fileID: 114171036759175864}
+  - {fileID: 114640756192781222}
+  - {fileID: 114361117512026330}
+  MasterBankRef: {fileID: 114893983260292990}
   StringsBankRef: {fileID: 114069432734639318}
-  stringsBankWriteTime: 636790171980000000
+  stringsBankWriteTime: 636800511960000000
   cacheVersion: 2
 --- !u!114 &114060703213991704
 MonoBehaviour:
@@ -47,12 +47,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: NewOud /Build/Desktop/Master Bank.strings.bank
-  lastModified: 636790171980000000
+  Path: /Users/nyugamecenter/Desktop/Test/Build/Desktop/Master Bank.strings.bank
+  lastModified: 636800511960000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 764
+    Value: 798
   Exists: 1
 --- !u!114 &114123089212459562
 MonoBehaviour:
@@ -118,6 +118,28 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+--- !u!114 &114361117512026330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/TestEvent2Folder/TestEvent2
+  guid: c215a8f8721fa149b1e64e92a97139ec
+  Banks:
+  - {fileID: 114893983260292990}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4500
 --- !u!114 &114364364967676788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,6 +286,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 8000
+--- !u!114 &114640756192781222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/TestEvent1Folder/TestEvent1
+  guid: b2871c86260c114ebcc742cef45597da
+  Banks:
+  - {fileID: 114893983260292990}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 14350
 --- !u!114 &114675947669439110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,3 +392,21 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 4000
+--- !u!114 &114893983260292990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Users/nyugamecenter/Desktop/Test/Build/Desktop/Master Bank.bank
+  lastModified: 636800511960000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 138176
+  Exists: 1
