@@ -26,6 +26,7 @@
         </e>
         <e p="hitboxeffect.cs" t="Include" />
         <e p="InstantiateLittleBalls.cs" t="Include" />
+        <e p="InstantiateSoundMakingObjects.cs" t="Include" />
         <e p="MousePressed.cs" t="Include" />
         <e p="NotMine" t="Include">
           <e p="AudioVisualizer" t="Include">
@@ -133,6 +134,8 @@
             </e>
           </e>
         </e>
+        <e p="OnCollisionShrink.cs" t="Include" />
+        <e p="OnTriggerChangeColor.cs" t="Include" />
         <e p="Pixelplacement" t="Include">
           <e p="Surge" t="Include">
             <e p="Chooser" t="Include">
