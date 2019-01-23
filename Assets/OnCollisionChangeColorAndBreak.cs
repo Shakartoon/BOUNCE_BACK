@@ -41,7 +41,6 @@ public class OnCollisionChangeColorAndBreak : MonoBehaviour
 			
 				Debug.Log("COlor is Blackkk");
 			}
-		//if (GameObject.FindGameObjectsWithTag("box").GetComponent<SpriteRenderer>.Color = color.Black)
 		
 	}
 
