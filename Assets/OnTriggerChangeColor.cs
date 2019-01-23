@@ -45,7 +45,7 @@ public class OnTriggerChangeColor : MonoBehaviour
 		if (col.gameObject.CompareTag("Ball")) 
 		{
 		
-			SR.color = Random.ColorHSV();
+			SR.color = Random.ColorHSV(0.5f, 1f, 1f, 1f, 0.5f, 1f);
 			
 		}
 
