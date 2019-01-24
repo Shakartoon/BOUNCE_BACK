@@ -19,11 +19,15 @@ public class OnCollisionShapeAppearRotate : MonoBehaviour
 
 	public GameObject blackCircle;
 	public GameObject whiteCircle; 
+	public GameObject whiteCircle2; 
+
 	
 	void Start ()
 	{
 
 		whiteCircle.SetActive(false);
+		whiteCircle2.SetActive(false);
+
 
 	}
 	
@@ -50,6 +54,12 @@ public class OnCollisionShapeAppearRotate : MonoBehaviour
 			
 		}
 
+		if (counter == 15)
+		{
+			whiteCircle2.SetActive(true);
+
+		}
+		
 		if (theScreenIsBlack)
 		{
 			whiteCircle.SetActive(true);

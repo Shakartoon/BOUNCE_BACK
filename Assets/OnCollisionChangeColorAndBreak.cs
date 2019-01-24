@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class OnCollisionChangeColorAndBreak : MonoBehaviour
 {
-	private SpriteRenderer SR;  
-	private Color lerpedColor = Color.cyan;
 	public float counter = 0;
-	
 	float decrementValue = 0.1f;
 	float colorValue = 1;
+
+	private SpriteRenderer SR;  
+	public SpriteRenderer[] AllSR; 
+
+	public bool colorIsBlack = false; 
 
 	
 	void Start ()
 	{
 
+		
 		SR = GetComponent<SpriteRenderer>();
+		AllSR[4] = GetComponent<SpriteRenderer>(); 
 	}
 	
 	// Update is called once per frame
@@ -37,11 +41,21 @@ public class OnCollisionChangeColorAndBreak : MonoBehaviour
 	{
 
 		if (SR.color == Color.black)
+		{
+			colorIsBlack = true;
+			Debug.Log("Color is Blackkk");
+		}
+
+
+		for (int i = 0; i < AllSR.Length; i++)
+		{
+			if (SR.color == new Color (0, 0, 0, 1))
 			{
-			
-				Debug.Log("COlor is Blackkk");
+				Debug.Log("THIS FUCKING WORKS!!!");
+
 			}
-		
+
+		}
 	}
 
 }
