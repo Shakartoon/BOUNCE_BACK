@@ -18,7 +18,6 @@ public class OnBlackBreak : MonoBehaviour
 	void Update ()
 	{
 
-		if (colorScript.colorIsBlack) 
 		{
 			
 			

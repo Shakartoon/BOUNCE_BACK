@@ -5,14 +5,22 @@ using UnityEngine;
 public class cameraZoomOut : MonoBehaviour
 {
 	private bool zoomedIn = true;
-	private OnCollisionChangeColorAndBreak collisionColorScript; 
+	public OnCollisionChangeColorAndBreak collisionColorScript; 
+	
 	void Start ()
 	{
 
+		collisionColorScript.allBlack = false; 
 
 	}
+
+
+	private IEnumerator Delay()
+	{
+
+		yield return new WaitForSeconds(10f); 
+	}
 	
-	// Update is called once per frame
 	void Update () {
 
 		//Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, zoom, Time.deltaTime * smooth); 
@@ -26,10 +34,12 @@ public class cameraZoomOut : MonoBehaviour
 		
 		//if (Input.GetMouseButtonDown(0))
 		
-		if (collisionColorScript.counter >= 4)
-			
+		//if (collisionColorScript.counter >= 4)
+		
+		if(collisionColorScript.allBlack)
+
 		{
-			Debug.Log("Awesome");
+			StartCoroutine(Delay()); 
 			Camera.main.orthographicSize = 5f;
 			Camera.main.transform.position = new Vector3(0, 0f, -10f);
 			zoomedIn = !zoomedIn; 

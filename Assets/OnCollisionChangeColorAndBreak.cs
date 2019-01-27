@@ -11,7 +11,7 @@ public class OnCollisionChangeColorAndBreak : MonoBehaviour
 	private SpriteRenderer SR;  
 	public SpriteRenderer[] AllSR; 
 
-	public bool colorIsBlack = false; 
+	public bool allBlack = false; 
 
 	
 	void Start ()
@@ -31,18 +31,18 @@ public class OnCollisionChangeColorAndBreak : MonoBehaviour
 		{
 			counter++;
 			colorValue -= decrementValue;
-			SR.color = new Color(colorValue,colorValue, colorValue);
+			SR.color = new Color(colorValue, colorValue, colorValue);
 
 		}
 
 	}
 
+	
 	void Update()
 	{
 
 		if (SR.color == Color.black)
 		{
-			colorIsBlack = true;
 			Debug.Log("Color is Blackkk");
 		}
 
@@ -52,7 +52,8 @@ public class OnCollisionChangeColorAndBreak : MonoBehaviour
 			if (SR.color == new Color (0, 0, 0, 1))
 			{
 				Debug.Log("THIS FUCKING WORKS!!!");
-
+				allBlack = true; 
+				Destroy(gameObject, 3f);
 			}
 
 		}

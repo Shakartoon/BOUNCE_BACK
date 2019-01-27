@@ -7,12 +7,15 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BBonCollisionChangeColor.cs" t="Include" />
         <e p="CameraMoveClick.cs" t="Include" />
         <e p="cameraZoomOut.cs" t="Include" />
         <e p="CamRotation.cs" t="Include" />
+        <e p="CollisionRotate.cs" t="Include" />
         <e p="Editor" t="Include">
           <e p="FMODMigrationUtil.cs" t="Include" />
         </e>
+        <e p="FadeImage.cs" t="Include" />
         <e p="GameManager.cs" t="Include" />
         <e p="GoogleVR" t="Include">
           <e p="Editor" t="Include">
@@ -321,6 +324,7 @@
             </e>
           </e>
         </e>
+        <e p="PlayAnimationOnCollision.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="FMOD" t="Include">
@@ -389,6 +393,8 @@
             </e>
           </e>
         </e>
+        <e p="pulse.cs" t="Include" />
+        <e p="RandomVectorAndScale.cs" t="Include" />
         <e p="ResonanceAudio" t="Include">
           <e p="Editor" t="Include">
             <e p="FmodResonanceAudioRoomEditor.cs" t="Include" />
