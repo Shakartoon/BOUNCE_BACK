@@ -5,19 +5,29 @@ using UnityEngine;
 public class PlayAnimationOnCollision : MonoBehaviour
 {
 
-	public GameObject blueSquare; 
+	public GameObject blueSquare;
+	public bool CollidedWithBall = false;
+	private Animator anim; 
 	
-	void Start () {
-		
+	void Start ()
+	{
+
+		anim = GetComponent<Animator>(); 
 	}
 	
 	// Update is called once per frame
-	void OnCollisionEnter (Collision2D col) {
+	void OnCollisionEnter2D (Collision2D col) {
 
 		if (col.gameObject.CompareTag("Ball"))
 		{
-			
-			blueSquare.animation.Play();
+
+			CollidedWithBall = true; 
+		}
+
+		if (CollidedWithBall)
+		{
+			anim.Play("BlueSquareAnimation");
+
 		}
 		
 	}
