@@ -1,8 +1,9 @@
 ﻿ using System.Collections;
  using UnityEngine;
  
- public class pulse : MonoBehaviour {
- 
+ public class pulse : MonoBehaviour
+ {
+     private TemporarySMObjects SMScript; 
      // Grow parameters
      public float approachSpeed = 0.02f;
      public float growthBound = 2f;
@@ -28,7 +29,20 @@
          // Then start the routine
          routine = StartCoroutine(Pulse());
      }
- 
+
+     /*
+     void Update()
+     {
+         SMScript.CollisionHappened = false;
+
+         if (SMScript.CollisionHappened)
+         {
+            routine = StartCoroutine(Pulse());
+
+         }
+
+     }
+ */ 
      IEnumerator Pulse()
      {
          // Run this indefinitely
@@ -55,7 +69,8 @@
                  SR.transform.localScale = Vector3.one * currentRatio;
                  //SR = "Shrinking!";
  
-                 yield return new WaitForEndOfFrame();
+                 //yield return new WaitForEndOfFrame();
+                 yield return null; 
              }
          }
      }

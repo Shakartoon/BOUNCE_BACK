@@ -14,11 +14,17 @@ public class Drag : MonoBehaviour {
 	
 	//keetp track of init position 
 	private Vector3 intialPosOfLittleBalls;
-	public bool _colliderPressed; 
+	public bool _colliderPressed;
+	private SpriteRenderer SR; 
+
+	private float timer = 0f; 
+	
+	public Color newColor; 
 
 	void Start()
 	{
 		//InvokeRepeating ("ActivateLittleBalls", 1f, 2f); 
+		SR = GetComponent<SpriteRenderer>(); 
 
 	} 
 //	void ActivateLittleBalls(){
@@ -34,13 +40,26 @@ public class Drag : MonoBehaviour {
 
 
     void OnMouseOver(){
+	    
+	    SR.color = newColor; 
+	    
         if (Input.GetMouseButtonDown(1)){
-            float rotAmount = degreesPerSec * Time.deltaTime;
+	        
+	        timer++;
+            //float rotAmount = degreesPerSec * Time.deltaTime;
+	        float rotAmount = degreesPerSec * Time.deltaTime * 2f; 
             float curRot = transform.localRotation.eulerAngles.z;
-            transform.localRotation = Quaternion.Euler(new Vector3(0, 0, curRot + rotAmount));
+	        
+            transform.localRotation = Quaternion.Euler(new Vector3(0, 0, curRot + rotAmount++));
+	     	        
         }
 
-		if (Input.GetKeyDown(KeyCode.Z)) {
+	    if (Input.GetMouseButtonUp(1))
+	    {
+		    timer = 0; 
+	    }
+
+	    if (Input.GetKeyDown(KeyCode.Z)) {
 
 			Instantiate(this, new Vector3(0, 0, 0), Quaternion.identity);
 		}
@@ -48,10 +67,24 @@ public class Drag : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.X)) {
 		
 			Destroy (this); 
-		} 
+		}
+
+	    
+	    if (Input.GetMouseButtonDown(0) && timer == 3f) 
+	    {
+		    Instantiate(this, transform.position * 1f, Quaternion.identity); 
+
+	    }
 			
     }
 
+	void OnMouseExit()
+	{
+		
+		SR.color = Color.white; 
+
+	}
+	
     void OnMouseDown()
 	{
 		screenPoint = Camera.main.WorldToScreenPoint(transform.position);

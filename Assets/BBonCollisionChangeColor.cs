@@ -7,18 +7,28 @@ public class BBonCollisionChangeColor : MonoBehaviour
 
 	public Color lerpedColor;
 	private SpriteRenderer SR;
+	private Animator AM; 
 	
-	private float timer; 
+	private float timer;
+
+	public bool Collided = false; 
 	
 	void Start ()
 	{
-		SR = GetComponent<SpriteRenderer>(); 
+		SR = GetComponent<SpriteRenderer>();
+		AM = GetComponent<Animator>();
 	}
 
 
 	void Update()
 	{
-		timer = timer + Time.deltaTime; 
+		timer = timer + Time.deltaTime;
+
+		if (Collided)
+		{
+			AM.Play("explosionAnim"); 
+
+		}
 
 	}
 	void OnCollisionEnter2D(Collision2D col)
@@ -38,9 +48,11 @@ public class BBonCollisionChangeColor : MonoBehaviour
 		
 		if (col.gameObject.CompareTag("SoundMakingObject") && timer > 1f)
 		{
+			Collided = true; 
 			SR.color = Color.white; 
 
 		}
+	
 	
 	}
 

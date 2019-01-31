@@ -21,7 +21,5 @@ public class tempCollision : MonoBehaviour
 			AS.Play();
 		}
 		
-	
-		
 	}
 }

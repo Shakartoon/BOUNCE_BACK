@@ -5,6 +5,7 @@ using UnityEngine;
 public class TemporarySMObjects : MonoBehaviour
 {
 	private AudioSource AS;
+	public bool CollisionHappened = false; 
 	public bool _sparkleCollided;
 	private Animator _anim;
 	private bool allowDestroyingAssets; 
@@ -34,6 +35,7 @@ public class TemporarySMObjects : MonoBehaviour
 			allowDestroyingAssets = true; 
 			//fuck! doesn't play because it's destroying itself 
 			//Destroy(gameObject, 0.1f)
+			CollisionHappened = true; 
 		}
 		
 		else 

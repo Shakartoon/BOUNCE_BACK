@@ -49,7 +49,7 @@ public class PlayerCollision : MonoBehaviour {
 
 	public IEnumerator trailRender () {
 
-		yield return new WaitForSeconds (0.8f); 
+		yield return new WaitForSeconds (2f); 
 		tr.enabled = true; 
 		yield return null; 
 
