@@ -10,8 +10,12 @@ public class InstantiateBeatBall : MonoBehaviour {
 	//private Transform myBall; 
 
 	public float range;
-	public GameObject beatballClone; 
+	public GameObject beatballClone;
 
+	public GameObject[] beatBallPrefab; 
+	public GameObject[] beatBallArray;
+	public Vector2[] newPositions; 
+	
 	//FIND CURRENT POSITION OF ORIGINAL BEAT BALL AND INSTANTIATE IT THERE, MOVING IT ON THE X POSITION LEFT OR RIGHT
 
 
@@ -23,6 +27,14 @@ public class InstantiateBeatBall : MonoBehaviour {
 
 	//Instantiate the BeatBall on button press 
 
+	public void SpawnPrefab()
+	{
+		
+		
+	}
+	
+	
+	
 	void OnMouseDown(){
 		
 		Debug.Log ("ButtonPressed!"); 
@@ -31,9 +43,17 @@ public class InstantiateBeatBall : MonoBehaviour {
 	//	Instantiate (beatBall, new Vector3 (0, 0, 0), Quaternion.identity);
 
 		newPosition = new Vector2 (1, 1); 
-		//why doesn't instantiate have a scale? 
 		beatballClone = Instantiate(beatBall, newPosition, transform.rotation);
 
+
+		beatBallArray = new GameObject[beatBallPrefab.Length]; 
+		
+		for (int i = 0; i < beatBallPrefab.Length; i++)
+         		{
+         			newPositions = new Vector2[4];   
+         			beatBallArray[i] = Instantiate(beatBallPrefab[i], newPositions[i], transform.rotation);
+         	
+         		}
 
 		//Instantiate (beatBall, previousPosition, Quaternion.identity); 
 		//Instantiate (beatBall, new Vector3(Random.Range (-9, 9), 0, 0), Quaternion.identity); 

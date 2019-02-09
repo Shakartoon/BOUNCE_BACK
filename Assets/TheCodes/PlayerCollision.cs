@@ -17,13 +17,27 @@ public class PlayerCollision : MonoBehaviour {
 
 	public TrailRenderer tr; 
 
-	public GameObject happyAnim; 
+	public GameObject happyAnim;
 
+	public GameObject circleOutline;
+	public GameObject circleOutline2;
+	public float collisionCounter = 0;
 
+	private bool counterReached = false; 
+	
+	public bool CollisionHappened = false; 
+
+	
 	void Start () {
+		
+		circleOutline2.SetActive(false);
+
+		
 		defPos = transform.position;
 		rb = GetComponent<Rigidbody2D> ();
 		tr = GetComponent<TrailRenderer> ();
+		collisionCounter += Time.deltaTime; 
+
 	}
 	void Update(){
 		
@@ -44,12 +58,17 @@ public class PlayerCollision : MonoBehaviour {
 
 		}
 
+		if (counterReached)
+		{
+			circleOutline2.SetActive(true);
+
+		}
 	
 	}
 
 	public IEnumerator trailRender () {
 
-		yield return new WaitForSeconds (2f); 
+		yield return new WaitForSeconds (10f); 
 		tr.enabled = true; 
 		yield return null; 
 
@@ -57,6 +76,22 @@ public class PlayerCollision : MonoBehaviour {
 
 
 	void OnCollisionEnter2D (Collision2D col) {
+
+		if (col.gameObject.CompareTag("SoundMakingObject"))
+		{
+			CollisionHappened = true; 
+			collisionCounter++; 
+
+			if (collisionCounter == 4)
+			{
+				counterReached = true; 
+
+			}
+
+		}
+		
+//		circleOutline.transform.localScale += new Vector3(0.5F, 0.5F, 0F);
+		
 //		Debug.Log ("Collision Detected.");
 
 		//transform.GetChild (1).GetComponent<ParticleSystem> ().Play() ;
@@ -232,6 +267,7 @@ public class PlayerCollision : MonoBehaviour {
 
         }
     }
+
 
 
 //	IEnumerator stopSparkles()

@@ -1248,6 +1248,7 @@ MonoBehaviour:
   degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &24192252
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6854,6 +6855,7 @@ MonoBehaviour:
   degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &157980095
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8293,6 +8295,7 @@ MonoBehaviour:
   degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &192594385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12844,6 +12847,9 @@ MonoBehaviour:
   defPos: {x: 0, y: 0, z: 0}
   tr: {fileID: 0}
   happyAnim: {fileID: 0}
+  circleOutline: {fileID: 0}
+  circleOutline2: {fileID: 0}
+  collisionCounter: 0
 --- !u!114 &297497031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31595,6 +31601,7 @@ MonoBehaviour:
   degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &676812287
 AudioSource:
   m_ObjectHideFlags: 0
@@ -33020,6 +33027,9 @@ MonoBehaviour:
   defPos: {x: 0, y: 0, z: 0}
   tr: {fileID: 0}
   happyAnim: {fileID: 0}
+  circleOutline: {fileID: 0}
+  circleOutline2: {fileID: 0}
+  collisionCounter: 0
 --- !u!114 &697458289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34353,6 +34363,7 @@ MonoBehaviour:
   degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &718107091
 AudioSource:
   m_ObjectHideFlags: 0
@@ -39377,7 +39388,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.91, y: 0.16}
+  m_AnchoredPosition: {x: -1.96, y: 0.51}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &847757057
@@ -46324,6 +46335,9 @@ MonoBehaviour:
   defPos: {x: 0, y: 0, z: 0}
   tr: {fileID: 0}
   happyAnim: {fileID: 0}
+  circleOutline: {fileID: 0}
+  circleOutline2: {fileID: 0}
+  collisionCounter: 0
 --- !u!114 &874450195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50995,6 +51009,9 @@ MonoBehaviour:
   defPos: {x: 0, y: 0, z: 0}
   tr: {fileID: 0}
   happyAnim: {fileID: 0}
+  circleOutline: {fileID: 0}
+  circleOutline2: {fileID: 0}
+  collisionCounter: 0
 --- !u!114 &971900628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55562,6 +55579,7 @@ MonoBehaviour:
   degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1091313781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57320,6 +57338,7 @@ MonoBehaviour:
   degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1123485662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69321,6 +69340,7 @@ MonoBehaviour:
   degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &1427135201
 AudioSource:
   m_ObjectHideFlags: 0
@@ -73784,6 +73804,7 @@ MonoBehaviour:
   degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1550558762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74584,6 +74605,7 @@ MonoBehaviour:
   degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &1557094721
 AudioSource:
   m_ObjectHideFlags: 0
@@ -98359,6 +98381,7 @@ MonoBehaviour:
   degreesPerSec: 360
   littleBalls: {fileID: 156362696}
   _colliderPressed: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &1932988228
 AudioSource:
   m_ObjectHideFlags: 0

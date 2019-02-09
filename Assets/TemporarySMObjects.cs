@@ -8,7 +8,9 @@ public class TemporarySMObjects : MonoBehaviour
 	public bool CollisionHappened = false; 
 	public bool _sparkleCollided;
 	private Animator _anim;
-	private bool allowDestroyingAssets; 
+	private bool allowDestroyingAssets;
+
+	private RotateAroundButton buttonScript; 
 
 	void Start ()
 	{
@@ -16,6 +18,7 @@ public class TemporarySMObjects : MonoBehaviour
 		allowDestroyingAssets = true; 
 		_anim = GetComponent<Animator>(); 
 		AS = GetComponent<AudioSource>();
+		buttonScript.topRightQuadrant = false; 
 
 	}
 
@@ -35,7 +38,14 @@ public class TemporarySMObjects : MonoBehaviour
 			allowDestroyingAssets = true; 
 			//fuck! doesn't play because it's destroying itself 
 			//Destroy(gameObject, 0.1f)
-			CollisionHappened = true; 
+			CollisionHappened = true;
+
+			if (buttonScript.topRightQuadrant)
+			{
+				AS.pitch = 0.5f; 
+
+			}
+			
 		}
 		
 		else 

@@ -11,13 +11,13 @@ public class OnCollisionChangeColorAndBreak : MonoBehaviour
 	private SpriteRenderer SR;  
 	public SpriteRenderer[] AllSR; 
 
-	public bool allBlack = false; 
+	public bool allBlack = false;
+	public bool CollisionHappened = false; 
 
 	
 	void Start ()
 	{
 
-		
 		SR = GetComponent<SpriteRenderer>();
 		AllSR[4] = GetComponent<SpriteRenderer>(); 
 	}
@@ -32,7 +32,6 @@ public class OnCollisionChangeColorAndBreak : MonoBehaviour
 			counter++;
 			colorValue -= decrementValue;
 			SR.color = new Color(colorValue, colorValue, colorValue);
-
 		}
 
 	}

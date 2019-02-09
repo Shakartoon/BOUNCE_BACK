@@ -13,6 +13,8 @@ public class inputMGMT : MonoBehaviour {
 	void Start ()
 	{
 
+		Screen.SetResolution(1600, 900, true); 
+
 	}
 	
 	// Update is called once per frame
@@ -23,20 +25,35 @@ public class inputMGMT : MonoBehaviour {
 		} 
 
 		if (Input.GetKeyDown("b")) {
-			SceneManager.LoadScene("Microphone"); 
-			Debug.Log ("OK"); 
-		} 
-		
-		if (Input.GetKeyDown("c")) {
-			SceneManager.LoadScene("BallTrail"); 
+			SceneManager.LoadScene("Microphone1"); 
 			Debug.Log ("OK"); 
 		}
 
+
+		if (Input.GetKeyDown("c"))
+		{
+			SceneManager.LoadScene("Microphone4"); 
+
+		}
 
 		if (Input.GetKeyDown("d")) {
-			SceneManager.LoadScene("FlickingBeat"); 
+			SceneManager.LoadScene("Microphone8"); 
 			Debug.Log ("OK"); 
 		}
+		
+		
+		
+		if (Input.GetKeyDown("e")) {
+			SceneManager.LoadScene("FlickingBeatLoop"); 
+			Debug.Log ("OK"); 
+		}
+	
+		
+		if (Input.GetKeyDown("f")) {
+			SceneManager.LoadScene("BallTrail2"); 
+			Debug.Log ("OK"); 
+		}
+
 
 		if (Input.GetKeyDown("r"))
 		{

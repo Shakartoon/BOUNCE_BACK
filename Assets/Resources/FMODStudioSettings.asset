@@ -13,9 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: /Users/nyugamecenter/Desktop/Test/Test.fspro
-  SourceProjectPathUnformatted: /Users/nyugamecenter/Desktop/Test/Test.fspro
-  SourceBankPathUnformatted: /Users/nyugamecenter/Desktop/Test/Build
+  sourceProjectPath: /Users/nyugamecenter/Desktop/test/test.fspro
+  SourceProjectPathUnformatted: /Users/nyugamecenter/Desktop/test/test.fspro
+  SourceBankPathUnformatted: /Users/nyugamecenter/Desktop/test/Build
   AutomaticEventLoading: 1
   AutomaticSampleLoading: 0
   ImportType: 0
@@ -58,5 +58,5 @@ MonoBehaviour:
   - Platform: 2
     Value: 32
   Plugins: []
-  MasterBank: Master Bank
+  MasterBank: 
   Banks: []

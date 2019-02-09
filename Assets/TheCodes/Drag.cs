@@ -8,7 +8,7 @@ public class Drag : MonoBehaviour {
     public bool isRotating;
 	public Vector3 screenPoint; 
 	public Vector3 offset;
-    public float degreesPerSec = 360f;
+    public float degreesPerSec = 180f;
 
 	public GameObject littleBalls; 
 	
@@ -39,11 +39,17 @@ public class Drag : MonoBehaviour {
 	}
 
 
-    void OnMouseOver(){
+	void OnMouseEnter()
+	{
+		SR.color = Color.red;
+	} 
+
+	void OnMouseOver(){
 	    
-	    SR.color = newColor; 
+	    SR.color = new Color (0, 0.4481132F, 0.4481132F, 0.5F); 
+		
 	    
-        if (Input.GetMouseButtonDown(1)){
+        if (Input.GetMouseButton(1)){
 	        
 	        timer++;
             //float rotAmount = degreesPerSec * Time.deltaTime;
@@ -94,6 +100,8 @@ public class Drag : MonoBehaviour {
 
 	void OnMouseDrag()
 	{
+		if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) 
+			return;
 		Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
 		Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
 		transform.position = curPosition;

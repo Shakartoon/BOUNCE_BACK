@@ -14,13 +14,34 @@ public class mouseoverselect : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		greenCircle.SetActive(false);  
+
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
     }
+
+	void OnMouseOver()
+	{
+
+		greenCircle.SetActive(true);  
+		
+		if ((Input.GetKeyDown(KeyCode.Space) && (this.isFrozen == false) && (this.ballDrag.beingDragged == false)))
+		{
+			this.rb2d.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY; //Makes rigidbody freeze x and y axis
+			this.isFrozen = true;
+		}
+
+		else if (Input.GetKeyDown(KeyCode.Space) && (this.isFrozen == true))
+		{
+			this.rb2d.constraints = RigidbodyConstraints2D.None; //Remove the restraints
+			this.isFrozen = false;
+		}
+
+	}
+
 
 	void OnMouseDown() { 
 
@@ -59,20 +80,5 @@ public class mouseoverselect : MonoBehaviour {
 		// if two fingers, move 
 	
 	}
-    void OnMouseOver()
-    {
 
-        if ((Input.GetKeyDown(KeyCode.Space) && (this.isFrozen == false) && (this.ballDrag.beingDragged == false)))
-        {
-            this.rb2d.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY; //Makes rigidbody freeze x and y axis
-            this.isFrozen = true;
-        }
-
-        else if (Input.GetKeyDown(KeyCode.Space) && (this.isFrozen == true))
-        {
-            this.rb2d.constraints = RigidbodyConstraints2D.None; //Remove the restraints
-            this.isFrozen = false;
-        }
-
-    }
 }
