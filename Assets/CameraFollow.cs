@@ -21,18 +21,24 @@ public class CameraFollow : MonoBehaviour
 
 	IEnumerator Wait()
 	{
+		yield return new WaitForSeconds(1f);
+		myFieldOfView += 5f * Time.deltaTime; 
 
-		yield return new WaitForSeconds(0.5f); 
-		Camera.main.fieldOfView = myFieldOfView; 
-		
-
-		
 	}
 	
 	void Update ()
 	{
+		Camera.main.fieldOfView = myFieldOfView;
+		StartCoroutine(Wait()); 
+		transform.position = player.transform.position + distance;
 
-		transform.position = player.transform.position + distance; 
+		if (myFieldOfView >= 28f)
+		{
+			StopCoroutine(Wait()); 
+
+			myFieldOfView = 23f; 
+
+		}
 
 	}
 }

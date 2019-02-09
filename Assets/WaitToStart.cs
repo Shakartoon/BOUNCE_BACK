@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class WaitToStart : MonoBehaviour
 {
-	private Rigidbody2D my_rb; 
-	
+	private Rigidbody2D my_rb;
+
 	void Start ()
 	{
 
@@ -17,7 +17,7 @@ public class WaitToStart : MonoBehaviour
 	IEnumerator Wait()
 	{
 
-		yield return new WaitForSeconds(5f);
+		yield return new WaitForSeconds(1.5f);
 		my_rb.isKinematic = false; 
 	}
 
