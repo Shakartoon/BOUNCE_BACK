@@ -35,6 +35,7 @@
         <e p="hitboxeffect.cs" t="Include" />
         <e p="InstantiateLittleBalls.cs" t="Include" />
         <e p="InstantiateSoundMakingObjects.cs" t="Include" />
+        <e p="LaunchBar.cs" t="Include" />
         <e p="MouseOverScale.cs" t="Include" />
         <e p="MousePressed.cs" t="Include" />
         <e p="NotMine" t="Include">
@@ -144,6 +145,7 @@
           </e>
         </e>
         <e p="OnBlackBreak.cs" t="Include" />
+        <e p="OnCollisionAnimate.cs" t="Include" />
         <e p="OnCollisionChangeColorAndBreak.cs" t="Include" />
         <e p="OnCollisionShapeAppearRotate.cs" t="Include" />
         <e p="OnCollisionShrink.cs" t="Include" />

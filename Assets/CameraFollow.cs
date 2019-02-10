@@ -22,7 +22,8 @@ public class CameraFollow : MonoBehaviour
 	IEnumerator Wait()
 	{
 		yield return new WaitForSeconds(1f);
-		myFieldOfView += 5f * Time.deltaTime; 
+		myFieldOfView += 5f * Time.deltaTime;
+		yield return null; 
 
 	}
 	

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CollisionAnimations : MonoBehaviour {
 
-	public Renderer _sprite1; 
-	public Renderer sprite2; 
+	public SpriteRenderer _sprite1; 
+	public SpriteRenderer sprite2; 
 
 
 	public float _scaleVelocity; 

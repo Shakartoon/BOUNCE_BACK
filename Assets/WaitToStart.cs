@@ -5,7 +5,7 @@ using UnityEngine;
 public class WaitToStart : MonoBehaviour
 {
 	private Rigidbody2D my_rb;
-
+	
 	void Start ()
 	{
 
@@ -26,5 +26,6 @@ public class WaitToStart : MonoBehaviour
 		StartCoroutine(Wait()); 
 
 	}
+
 
 }
