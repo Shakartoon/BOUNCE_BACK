@@ -1242,10 +1242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 570fa9028027b46d4b1cd66380bf06e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRotating: 0
-  screenPoint: {x: 0, y: 0, z: 0}
-  offset: {x: 0, y: 0, z: 0}
-  degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
@@ -6849,10 +6845,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 570fa9028027b46d4b1cd66380bf06e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRotating: 0
-  screenPoint: {x: 0, y: 0, z: 0}
-  offset: {x: 0, y: 0, z: 0}
-  degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
@@ -8289,10 +8281,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 570fa9028027b46d4b1cd66380bf06e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRotating: 0
-  screenPoint: {x: 0, y: 0, z: 0}
-  offset: {x: 0, y: 0, z: 0}
-  degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
@@ -12631,7 +12619,7 @@ GameObject:
   - component: {fileID: 297497025}
   - component: {fileID: 297497024}
   m_Layer: 0
-  m_Name: BeatBall
+  m_Name: _NewBB
   m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12850,6 +12838,7 @@ MonoBehaviour:
   circleOutline: {fileID: 0}
   circleOutline2: {fileID: 0}
   collisionCounter: 0
+  CollisionHappened: 0
 --- !u!114 &297497031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12899,7 +12888,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 1
   mouseIsover: 0
-  rb2d: {fileID: 297497029}
   isFrozen: 1
   greenCircle: {fileID: 1333791979}
   ballDrag: {fileID: 0}
@@ -31595,10 +31583,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 570fa9028027b46d4b1cd66380bf06e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRotating: 0
-  screenPoint: {x: 0, y: 0, z: 0}
-  offset: {x: 0, y: 0, z: 0}
-  degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
@@ -33030,6 +33014,7 @@ MonoBehaviour:
   circleOutline: {fileID: 0}
   circleOutline2: {fileID: 0}
   collisionCounter: 0
+  CollisionHappened: 0
 --- !u!114 &697458289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33079,7 +33064,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   mouseIsover: 0
-  rb2d: {fileID: 697458287}
   isFrozen: 0
   greenCircle: {fileID: 1328861684}
   ballDrag: {fileID: 0}
@@ -34357,10 +34341,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 570fa9028027b46d4b1cd66380bf06e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRotating: 0
-  screenPoint: {x: 0, y: 0, z: 0}
-  offset: {x: 0, y: 0, z: 0}
-  degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
@@ -45978,6 +45958,9 @@ MonoBehaviour:
   newPosition: {x: 0, y: 0}
   range: 0
   beatballClone: {fileID: 0}
+  beatBallPrefab: []
+  beatBallArray: []
+  newPositions: []
 --- !u!1 &874450185
 GameObject:
   m_ObjectHideFlags: 0
@@ -46338,6 +46321,7 @@ MonoBehaviour:
   circleOutline: {fileID: 0}
   circleOutline2: {fileID: 0}
   collisionCounter: 0
+  CollisionHappened: 0
 --- !u!114 &874450195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46387,7 +46371,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   mouseIsover: 0
-  rb2d: {fileID: 874450193}
   isFrozen: 1
   greenCircle: {fileID: 2075632064}
   ballDrag: {fileID: 0}
@@ -51012,6 +50995,7 @@ MonoBehaviour:
   circleOutline: {fileID: 0}
   circleOutline2: {fileID: 0}
   collisionCounter: 0
+  CollisionHappened: 0
 --- !u!114 &971900628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51061,7 +51045,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   mouseIsover: 0
-  rb2d: {fileID: 971900626}
   isFrozen: 1
   greenCircle: {fileID: 1976908348}
   ballDrag: {fileID: 0}
@@ -55573,10 +55556,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 570fa9028027b46d4b1cd66380bf06e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRotating: 0
-  screenPoint: {x: 0, y: 0, z: 0}
-  offset: {x: 0, y: 0, z: 0}
-  degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
@@ -57332,10 +57311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 570fa9028027b46d4b1cd66380bf06e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRotating: 0
-  screenPoint: {x: 0, y: 0, z: 0}
-  offset: {x: 0, y: 0, z: 0}
-  degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
@@ -69334,10 +69309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 570fa9028027b46d4b1cd66380bf06e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRotating: 0
-  screenPoint: {x: 0, y: 0, z: 0}
-  offset: {x: 0, y: 0, z: 0}
-  degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
@@ -73798,10 +73769,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 570fa9028027b46d4b1cd66380bf06e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRotating: 0
-  screenPoint: {x: 0, y: 0, z: 0}
-  offset: {x: 0, y: 0, z: 0}
-  degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
@@ -74599,10 +74566,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 570fa9028027b46d4b1cd66380bf06e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRotating: 0
-  screenPoint: {x: 0, y: 0, z: 0}
-  offset: {x: 0, y: 0, z: 0}
-  degreesPerSec: 360
   littleBalls: {fileID: 0}
   _colliderPressed: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
@@ -98375,10 +98338,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 570fa9028027b46d4b1cd66380bf06e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRotating: 0
-  screenPoint: {x: 0, y: 0, z: 0}
-  offset: {x: 0, y: 0, z: 0}
-  degreesPerSec: 360
   littleBalls: {fileID: 156362696}
   _colliderPressed: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}

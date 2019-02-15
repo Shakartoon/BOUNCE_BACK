@@ -14,6 +14,7 @@
         <e p="cameraZoomOut.cs" t="Include" />
         <e p="CamRotation.cs" t="Include" />
         <e p="CircleScript.cs" t="Include" />
+        <e p="ClickAndDrag.cs" t="Include" />
         <e p="CollisionRotate.cs" t="Include" />
         <e p="CombineBars.cs" t="Include" />
         <e p="Destroy.cs" t="Include" />
@@ -137,6 +138,7 @@
         <e p="OnBlackBreak.cs" t="Include" />
         <e p="OnCollisionAnimate.cs" t="Include" />
         <e p="OnCollisionChangeColorAndBreak.cs" t="Include" />
+        <e p="OnCollisionPlaySound.cs" t="Include" />
         <e p="OnCollisionRandomShapes.cs" t="Include" />
         <e p="OnCollisionShapeAppearRotate.cs" t="Include" />
         <e p="OnCollisionShrink.cs" t="Include" />
@@ -348,6 +350,7 @@
         <e p="RotateAroundButton.cs" t="Include" />
         <e p="RotationScript.cs" t="Include" />
         <e p="ScaleBasedOnVolume.cs" t="Include" />
+        <e p="ShapesandPatterns.cs" t="Include" />
         <e p="tempCollision.cs" t="Include" />
         <e p="TemporarySMObjects.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
@@ -496,6 +499,7 @@
         </e>
         <e p="touchTest.cs" t="Include" />
         <e p="WaitToStart.cs" t="Include" />
+        <e p="WEIRDPS.cs" t="Include" />
       </e>
       <e p="BOUNCE_BACK.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
