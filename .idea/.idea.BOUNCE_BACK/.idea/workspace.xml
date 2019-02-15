@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3682ab6-c3bd-4361-8b70-3a026af15fe2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Microphone1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Microphone1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Microphone11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Microphone11.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Microphone3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Microphone3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Microphone4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Microphone4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RugFringe.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RugFringe.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +15,12 @@
     <session id="1163221535">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="42857" />
+          <entry key="cs" value="43015" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="42857" />
+          <entry key="C#" value="43015" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -48,12 +44,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="140" />
+          <entry key="cs" value="141" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="140" />
+          <entry key="C#" value="141" />
         </counts>
       </usages-collector>
     </session>
@@ -145,17 +141,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="315">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
-                <marker date="1548626092000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1548626092000" expanded="true" signature="127:516" ph="{...}" />
-                <marker date="1548626092000" expanded="true" signature="172:248" ph="{...}" />
-                <marker date="1548626092000" expanded="true" signature="279:356" ph="{...}" />
-                <marker date="1548626092000" expanded="true" signature="372:419" ph="{...}" />
-                <marker date="1548626092000" expanded="true" signature="464:514" ph="{...}" />
+                <marker date="1550270523000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550270523000" expanded="true" signature="129:410" ph="{...}" />
+                <marker date="1550270523000" expanded="true" signature="174:219" ph="{...}" />
+                <marker date="1550270523000" expanded="true" signature="301:408" ph="{...}" />
+                <marker date="1550270523000" expanded="true" signature="343:404" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -365,6 +360,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/dragToAimLoop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ParticlePlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnBlackBreak.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/pulsingScale.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/verticalmovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/touchTest.cs" root0="FORCE_HIGHLIGHTING" />
@@ -398,7 +394,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/InstantiateSoundMakingObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/OnTriggerChangeColor.cs" />
         <option value="$PROJECT_DIR$/Assets/OnColorDoShit.cs" />
         <option value="$PROJECT_DIR$/Assets/OnCollisionShapeAppearRotate.cs" />
@@ -449,6 +444,7 @@
         <option value="$PROJECT_DIR$/Assets/ShapesandPatterns.cs" />
         <option value="$PROJECT_DIR$/Assets/ClickAndDrag.cs" />
         <option value="$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs" />
+        <option value="$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs" />
       </list>
     </option>
   </component>
@@ -621,12 +617,12 @@
       <workItem from="1550199651861" duration="2246000" />
       <workItem from="1550254699157" duration="529000" />
       <workItem from="1550261970873" duration="77000" />
-      <workItem from="1550263863665" duration="3851000" />
+      <workItem from="1550263863665" duration="4856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197899000" />
+    <option name="totallyTimeSpent" value="198904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,13 +694,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/SoundMakingObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TheCodes/inputMGMT.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1197,6 +1186,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <marker date="1548626092000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548626092000" expanded="true" signature="127:516" ph="{...}" />
+            <marker date="1548626092000" expanded="true" signature="172:248" ph="{...}" />
+            <marker date="1548626092000" expanded="true" signature="279:356" ph="{...}" />
+            <marker date="1548626092000" expanded="true" signature="372:419" ph="{...}" />
+            <marker date="1548626092000" expanded="true" signature="464:514" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ClickAndDrag.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1210,17 +1214,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="315">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <marker date="1548626092000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548626092000" expanded="true" signature="127:516" ph="{...}" />
-            <marker date="1548626092000" expanded="true" signature="172:248" ph="{...}" />
-            <marker date="1548626092000" expanded="true" signature="279:356" ph="{...}" />
-            <marker date="1548626092000" expanded="true" signature="372:419" ph="{...}" />
-            <marker date="1548626092000" expanded="true" signature="464:514" ph="{...}" />
+            <marker date="1550270523000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550270523000" expanded="true" signature="129:410" ph="{...}" />
+            <marker date="1550270523000" expanded="true" signature="174:219" ph="{...}" />
+            <marker date="1550270523000" expanded="true" signature="301:408" ph="{...}" />
+            <marker date="1550270523000" expanded="true" signature="343:404" ph="{...}" />
           </folding>
         </state>
       </provider>

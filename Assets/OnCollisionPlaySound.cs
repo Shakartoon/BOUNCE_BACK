@@ -18,6 +18,7 @@ public class OnCollisionPlaySound : MonoBehaviour
 		if (col.gameObject.CompareTag("Ball"))
 		{
 			AS.Play();
+			AS.pitch = Random.Range(0.1f, 2f); 
 		}
 
 	}
