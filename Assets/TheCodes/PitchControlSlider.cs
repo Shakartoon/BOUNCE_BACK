@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Pixelplacement.TweenSystem;
 using UnityEngine;
 
 public class PitchControlSlider : MonoBehaviour {
@@ -9,10 +10,9 @@ public class PitchControlSlider : MonoBehaviour {
 	public float m_MySliderValue;
 
 	[Header("Where the slider is positioned")]
-	public float pitchSliderPosX; 
-	public float pitchSliderPosY; 
+	public float pitchSliderPosX, pitchSliderPosY;
 
-
+	
 	void Start () {
 
 		//Initiate the Slider value to half way
@@ -24,7 +24,6 @@ public class PitchControlSlider : MonoBehaviour {
 
 	}
 
-
 	void OnGUI()
 	{
 		//Create a horizontal Slider that controls volume levels. Its highest value is 1 and lowest is 0
@@ -33,5 +32,9 @@ public class PitchControlSlider : MonoBehaviour {
 		//Makes the volume of the Audio match the Slider value
 		m_MyAudioSource.pitch = m_MySliderValue;
 	}
+
+
+
+	
 
 }

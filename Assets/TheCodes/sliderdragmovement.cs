@@ -12,9 +12,6 @@ public class sliderdragmovement : MonoBehaviour {
 	//this is for changing the pitch 
 	public float xPitchPosition1; 
 
-	public float yMaxPosition1; 
-	public float yMaxPosition2; 
-
 
  	public AudioClip mySound; 
 

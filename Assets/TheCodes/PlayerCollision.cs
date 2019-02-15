@@ -25,7 +25,8 @@ public class PlayerCollision : MonoBehaviour {
 
 	private bool counterReached = false; 
 	
-	public bool CollisionHappened = false; 
+	public bool CollisionHappened = false;
+	private ParticleSystem myPS; 
 
 	
 	void Start () {
@@ -36,11 +37,14 @@ public class PlayerCollision : MonoBehaviour {
 		defPos = transform.position;
 		rb = GetComponent<Rigidbody2D> ();
 		tr = GetComponent<TrailRenderer> ();
-		collisionCounter += Time.deltaTime; 
+		collisionCounter += Time.deltaTime;
+
+		myPS = GetComponent<ParticleSystem>(); 
 
 	}
 	void Update(){
 		
+
 		if (transform.position.y < -8) {
 			rb.velocity = Vector3.zero;
 			//this initially made it start wherever it fell from 
@@ -80,9 +84,10 @@ public class PlayerCollision : MonoBehaviour {
 		if (col.gameObject.CompareTag("SoundMakingObject"))
 		{
 			CollisionHappened = true; 
-			collisionCounter++; 
+			collisionCounter++;
+			myPS.Play(); 
 
-			if (collisionCounter == 4)
+			if (collisionCounter >= 4)
 			{
 				counterReached = true; 
 

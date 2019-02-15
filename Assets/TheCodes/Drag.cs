@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class Drag : MonoBehaviour {
 
-    public bool isRotating;
-	public Vector3 screenPoint; 
-	public Vector3 offset;
-    public float degreesPerSec = 180f;
+    private bool isRotating;
+	
+	private Vector3 screenPoint, offset; 
+	
+    private float degreesPerSec = 180f;
 
 	public GameObject littleBalls; 
 	

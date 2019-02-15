@@ -49,14 +49,22 @@ public class CamRotation : MonoBehaviour
 			yield return new WaitForSeconds(10);
 			transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, Time.time * rotationResetSpeed);
 			yield return null;
-		//	firstCoRoutineClick = false; 
 		}
 	}
 
+
+	public void CameraRotation()
+	{
+		StartCoroutine(CamRotate());
+
+	}	
+	
+	
 	private void Update()
 
 	{
 		StartCoroutine(CamRotate());
+		//Start a timer and STATE VARIABLE to tell whether waiting for the game initial 5 seconds or whether the screen is rotating or has stopped 
 
 	}
 }  

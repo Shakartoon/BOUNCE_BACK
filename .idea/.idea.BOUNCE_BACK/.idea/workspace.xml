@@ -4,10 +4,270 @@
     <list default="true" id="b3682ab6-c3bd-4361-8b70-3a026af15fe2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2000px-Solid_white.svg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2000px-Solid_white.svg.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamRotation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CameraFollow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/AddIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/AddIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/ArrowIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/ArrowIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/BankIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/BankIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/Border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/Border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/BrowserIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/BrowserIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/CopyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/CopyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/Delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/Delete.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/EventIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/EventIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/FolderIconClosed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/FolderIconClosed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/FolderIconOpen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/FolderIconOpen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/LevelMeter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/LevelMeter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/LevelMeterOff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/LevelMeterOff.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/NotFound.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/NotFound.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SearchIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SearchIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SearchIconBlack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SearchIconBlack.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/Selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/Selected.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SelectedAlt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SelectedAlt.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SnapshotIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/SnapshotIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/StudioIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/StudioIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportOpen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportOpen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportPlayButtonOff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportPlayButtonOff.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportPlayButtonOn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportPlayButtonOn.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportStopButtonOff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportStopButtonOff.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportStopButtonOn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/TransportStopButtonOn.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/preview.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/previewemitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor Default Resources/FMOD/previewemitter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/FMODMigrationUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/FMODMigrationUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gizmos/FMODEmitter.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gizmos/FMODEmitter.tiff.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/FmodGvrAudioRoomEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Editor/FmodGvrAudioRoomEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Audio/FmodGvrAudio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Audio/FmodGvrAudio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Audio/FmodGvrAudioRoom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Scripts/Audio/FmodGvrAudioRoom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/newBall1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/newBall1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Materials/PurpleNebula.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Materials/PurpleNebula.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Miscellaneous/Rotate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Miscellaneous/Rotate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/fmod.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/fmod.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/armeabi-v7a/libfmod.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/armeabi-v7a/libfmod.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/armeabi-v7a/libfmodL.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/armeabi-v7a/libfmodL.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/armeabi-v7a/libfmodstudio.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/armeabi-v7a/libfmodstudio.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/armeabi-v7a/libfmodstudioL.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/armeabi-v7a/libfmodstudioL.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/x86/libfmod.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/x86/libfmod.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/x86/libfmodL.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/x86/libfmodL.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/x86/libfmodstudio.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/x86/libfmodstudio.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/x86/libfmodstudioL.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/x86/libfmodstudioL.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/BankRefDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/BankRefDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/CreateEventPopup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/CreateEventPopup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EditorBankRef.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EditorBankRef.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EditorEventRef.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EditorEventRef.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EditorParamRef.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EditorParamRef.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EditorUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EditorUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventBrowser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventBrowser.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventCache.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventCache.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventRefDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventRefDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/FindAndReplace.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/FindAndReplace.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/LogViewer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/LogViewer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/MigrationUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/MigrationUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/ParamRefDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/ParamRefDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/SettingsEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/SettingsEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/StudioBankLoaderEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/StudioBankLoaderEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/StudioEventEmitterEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/StudioEventEmitterEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/StudioEventEmitterGizmoDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/StudioEventEmitterGizmoDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/StudioListenerEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/StudioListenerEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/StudioParameterTriggerEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/StudioParameterTriggerEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/Timeline.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/Timeline/FMODEventPlayableEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/Timeline/FMODEventPlayableEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/BankRefAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/BankRefAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/EventRefAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/EventRefAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/FMODAsset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/FMODAsset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/FMOD_Listener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/FMOD_Listener.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/FMOD_StudioEventEmitter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/FMOD_StudioEventEmitter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/LICENSE.TXT.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/OneshotList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/OneshotList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/ParamRef.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/ParamRef.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/RuntimeManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/RuntimeManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/RuntimeUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/RuntimeUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Settings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Settings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/StudioBankLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/StudioBankLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/StudioEventEmitter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/StudioEventEmitter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/StudioListener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/StudioListener.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/StudioParameterTrigger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/StudioParameterTrigger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Timeline.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Timeline/FMODEventPlayable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Timeline/FMODEventPlayable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Timeline/FMODEventTrack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Timeline/FMODEventTrack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Wrapper.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Wrapper/fmod.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Wrapper/fmod.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Wrapper/fmod_dsp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Wrapper/fmod_dsp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Wrapper/fmod_errors.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Wrapper/fmod_errors.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Wrapper/fmod_studio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Wrapper/fmod_studio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/fmodplugins.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/fmodplugins.cpp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UWP/arm/fmod.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UWP/arm/fmod.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UWP/arm/fmodstudio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UWP/arm/fmodstudio.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UWP/x64/fmod.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UWP/x64/fmod.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UWP/x64/fmodstudio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UWP/x64/fmodstudio.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UWP/x86/fmod.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UWP/x86/fmod.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UWP/x86/fmodstudio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UWP/x86/fmodstudio.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/WebGL/libfmodstudiounityplugin.bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/WebGL/libfmodstudiounityplugin.bc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/WebGL/libfmodstudiounitypluginL.bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/WebGL/libfmodstudiounitypluginL.bc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/fmodstudio.bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/fmodstudio.bundle/Contents.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/fmodstudio.bundle/Contents/MacOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/fmodstudio.bundle/Contents/MacOS/fmodstudio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/fmodstudio.bundle/Contents/MacOS/fmodstudio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/fmodstudioL.bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/fmodstudioL.bundle/Contents.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/fmodstudioL.bundle/Contents/MacOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/fmodstudioL.bundle/Contents/MacOS/fmodstudioL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/libfmodstudiounityplugin.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/libfmodstudiounityplugin.a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/libfmodstudiounitypluginL.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/libfmodstudiounitypluginL.a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/tvOS/libfmodstudiounityplugin.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/tvOS/libfmodstudiounityplugin.a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/tvOS/libfmodstudiounitypluginL.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/tvOS/libfmodstudiounitypluginL.a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86/fmodstudio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86/fmodstudio.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86/fmodstudiol.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86/fmodstudiol.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86/libfmod.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86/libfmod.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86/libfmodL.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86/libfmodL.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86/libfmodstudio.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86/libfmodstudio.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86/libfmodstudioL.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86/libfmodstudioL.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86_64/fmodstudio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86_64/fmodstudio.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86_64/fmodstudiol.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86_64/fmodstudiol.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86_64/libfmod.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86_64/libfmod.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86_64/libfmodL.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86_64/libfmodL.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86_64/libfmodstudio.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86_64/libfmodstudio.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86_64/libfmodstudioL.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/x86_64/libfmodstudioL.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResonanceAudio/Editor/FmodResonanceAudioRoomEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResonanceAudio/Editor/FmodResonanceAudioRoomEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResonanceAudio/Scripts/FmodResonanceAudio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResonanceAudio/Scripts/FmodResonanceAudio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/FMODStudioSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/FMODStudioSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RugPieces/Materials/blue-circle-light-md.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RugPieces/Materials/blue-circle-light-md.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Microphone1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Microphone1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Microphone10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Microphone10.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TheCodes/CollisionAnimations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TheCodes/CollisionAnimations.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WaitToStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WaitToStart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Microphone11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Microphone11.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Microphone12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Microphone12.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandy.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandy.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master Bank.bank" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master Bank.bank.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master Bank.strings.bank" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master Bank.strings.bank.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheCodes/Clickdragobject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TheCodes/Clickdragobject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheCodes/Drag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TheCodes/Drag.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheCodes/PitchControlSlider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TheCodes/PitchControlSlider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheCodes/PlayerCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TheCodes/PlayerCollision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheCodes/mouseoverselect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TheCodes/mouseoverselect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheCodes/sliderdragmovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TheCodes/sliderdragmovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/pulsingScale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/pulsingScale.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tempCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tempCollision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,40 +279,41 @@
     <session id="1163221535">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="33970" />
+          <entry key="cs" value="41618" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="33970" />
+          <entry key="C#" value="41618" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="50" />
-          <entry key="project.open.time.10" value="10" />
-          <entry key="project.open.time.11" value="13" />
-          <entry key="project.open.time.12" value="6" />
+          <entry key="project.closed" value="65" />
+          <entry key="project.open.time.10" value="11" />
+          <entry key="project.open.time.11" value="14" />
+          <entry key="project.open.time.12" value="9" />
           <entry key="project.open.time.13" value="7" />
-          <entry key="project.open.time.14" value="4" />
-          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.14" value="7" />
+          <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="6" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="54" />
+          <entry key="project.opened" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="102" />
+          <entry key="cs" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="102" />
+          <entry key="C#" value="137" />
         </counts>
       </usages-collector>
     </session>
@@ -60,226 +321,221 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/TheCodes/Drag.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1515">
-              <caret line="104" column="42" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
-              <folding>
-                <marker date="1549487758000" expanded="false" signature="6:115" ph="..." />
-                <marker date="1549487758000" expanded="true" signature="151:2367" ph="{...}" />
-                <marker date="1549487758000" expanded="true" signature="515:616" ph="{...}" />
-                <marker date="1549487758000" expanded="true" signature="618:690" ph="/* void ActivateLittleBalls(){ ... */" />
-                <marker date="1549487758000" expanded="true" signature="709:757" ph="{...}" />
-                <marker date="1549487758000" expanded="true" signature="780:810" ph="{...}" />
-                <marker date="1549487758000" expanded="true" signature="832:1708" ph="{...}" />
-                <marker date="1549487758000" expanded="true" signature="947:1304" ph="{...}" />
-                <marker date="1549487758000" expanded="true" signature="1341:1373" ph="{...}" />
-                <marker date="1549487758000" expanded="true" signature="1413:1484" ph="{...}" />
-                <marker date="1549487758000" expanded="true" signature="1522:1550" ph="{...}" />
-                <marker date="1549487758000" expanded="true" signature="1611:1698" ph="{...}" />
-                <marker date="1549487758000" expanded="true" signature="1729:1766" ph="{...}" />
-                <marker date="1549487758000" expanded="true" signature="1791:2031" ph="{...}" />
-                <marker date="1549487758000" expanded="true" signature="2052:2364" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/TheCodes/PlayerCollision.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="35" selection-start-line="35" selection-end-line="36" />
-              <folding>
-                <marker date="1549738165000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549738165000" expanded="true" signature="125:5048" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="578:771" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="786:1259" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="824:1084" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="860:985" ph="/* this initially made it start wherever it fell from ... */" />
-                <marker date="1549738165000" expanded="true" signature="1118:1187" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="1210:1254" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="1296:1388" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="1434:4880" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="1490:1623" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="1579:1618" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="1627:1808" ph="/* circleOutline.transform.localScale += new Vector3(0.5F, 0.5F, 0F); ... */" />
-                <marker date="1549738165000" expanded="true" signature="1862:1932" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="1977:2030" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="2066:2221" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="2260:2378" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="2411:2456" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="2499:2587" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="2623:2669" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="2716:2773" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="2810:2860" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="2896:2946" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="2982:3252" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="3035:3246" ph="/* cy3 = GameObject.FindGameObjectsWithTag (&quot;cy3&quot;); ... */" />
-                <marker date="1549738165000" expanded="true" signature="3288:3338" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="3375:3426" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="3463:3514" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="3551:3602" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="3639:3692" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="3728:3779" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="3824:3899" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="3941:4013" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="4054:4129" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="4173:4282" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="4326:4400" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="4444:4518" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="4562:4636" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="4680:4754" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="4799:4874" ph="{...}" />
-                <marker date="1549738165000" expanded="true" signature="4884:5044" ph="/* IEnumerator stopSparkles() ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/TheCodes/InstantiateBeatBall.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-              <folding>
-                <marker date="1549581107000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549581107000" expanded="true" signature="129:1478" ph="{...}" />
-                <marker date="1549581107000" expanded="true" signature="193:258" ph="/* public Vector3 previousPosition; ... */" />
-                <marker date="1549581107000" expanded="true" signature="557:630" ph="{...}" />
-                <marker date="1549581107000" expanded="true" signature="704:716" ph="{...}" />
-                <marker date="1549581107000" expanded="true" signature="742:1475" ph="{...}" />
-                <marker date="1549581107000" expanded="true" signature="783:903" ph="/* previousPosition = myBall.transform.position; ... */" />
-                <marker date="1549581107000" expanded="true" signature="1128:1311" ph="{...}" />
-                <marker date="1549581107000" expanded="true" signature="1315:1471" ph="/* Instantiate (beatBall, previousPosition, Quaternion.identity); ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ScaleBasedOnVolume.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-              <folding>
-                <marker date="1549738948000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549738948000" expanded="true" signature="128:2093" ph="{...}" />
-                <marker date="1549738948000" expanded="true" signature="449:598" ph="{...}" />
-                <marker date="1549738948000" expanded="true" signature="619:658" ph="{...}" />
-                <marker date="1549738948000" expanded="true" signature="685:2090" ph="{...}" />
-                <marker date="1549738948000" expanded="true" signature="864:956" ph="{...}" />
-                <marker date="1549738948000" expanded="true" signature="1430:1651" ph="{...}" />
-                <marker date="1549738948000" expanded="true" signature="1764:1996" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/pulsingScale.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-              <folding>
-                <marker date="1549738580000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549738580000" expanded="true" signature="121:973" ph="{...}" />
-                <marker date="1549738580000" expanded="true" signature="125:183" ph="/* public float MIN_SCALE = 0.75F; ... */" />
-                <marker date="1549738580000" expanded="true" signature="282:334" ph="{...}" />
-                <marker date="1549738580000" expanded="true" signature="389:967" ph="{...}" />
-                <marker date="1549738580000" expanded="true" signature="399:531" ph="/* scale = MIN_SCALE + Mathf.PingPong(Time.time * 0.2f, 1f - MIN_SCALE); ... */" />
-                <marker date="1549738580000" expanded="true" signature="537:696" ph="/* Hashtable hash = new Hashtable(); ... */" />
-                <marker date="1549738580000" expanded="true" signature="738:775" ph="{...}" />
-                <marker date="1549738580000" expanded="true" signature="799:962" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/TheCodes/mouseoverselect.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/TheCodes/Clickdragobject.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
-                <marker date="1549739395000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549739395000" expanded="true" signature="125:1996" ph="{...}" />
-                <marker date="1549739395000" expanded="true" signature="403:442" ph="{...}" />
-                <marker date="1549739395000" expanded="true" signature="496:508" ph="{...}" />
-                <marker date="1549739395000" expanded="true" signature="529:1048" ph="{...}" />
-                <marker date="1549739395000" expanded="true" signature="679:858" ph="{...}" />
-                <marker date="1549739395000" expanded="true" signature="930:1044" ph="{...}" />
-                <marker date="1549739395000" expanded="true" signature="1071:1817" ph="{...}" />
-                <marker date="1549739395000" expanded="true" signature="1402:1555" ph="/* if (Input.GetKeyDown(KeyCode.Space) &amp;&amp; (isFrozen == true)) ... */" />
-                <marker date="1549739395000" expanded="true" signature="1566:1673" ph="/* Enable the two finger thing? ... */" />
-                <marker date="1549739395000" expanded="true" signature="1684:1811" ph="/* if (OnMouseOver == true) { ... */" />
-                <marker date="1549739395000" expanded="true" signature="1841:1993" ph="{...}" />
+                <marker date="1550196004000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550196004000" expanded="true" signature="125:636" ph="{...}" />
+                <marker date="1550196004000" expanded="true" signature="220:257" ph="{...}" />
+                <marker date="1550196004000" expanded="true" signature="280:424" ph="{...}" />
+                <marker date="1550196004000" expanded="true" signature="440:634" ph="{...}" />
+                <marker date="1550196004000" expanded="true" signature="492:628" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/CameraFollow.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/CircleScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+            <state relative-caret-position="225">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
               <folding>
-                <marker date="1549756560000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549756560000" expanded="true" signature="121:694" ph="{...}" />
-                <marker date="1549756560000" expanded="true" signature="221:315" ph="{...}" />
-                <marker date="1549756560000" expanded="true" signature="337:445" ph="{...}" />
-                <marker date="1549756560000" expanded="true" signature="463:692" ph="{...}" />
-                <marker date="1549756560000" expanded="true" signature="626:688" ph="{...}" />
+                <marker date="1550200224000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550200224000" expanded="true" signature="121:695" ph="{...}" />
+                <marker date="1550200224000" expanded="true" signature="227:371" ph="{...}" />
+                <marker date="1550200224000" expanded="true" signature="394:693" ph="{...}" />
+                <marker date="1550200224000" expanded="true" signature="501:690" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/OnCollisionAnimate.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ParticlePlayer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="270">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
-                <marker date="1549758598000" expanded="false" signature="6:106" ph="..." />
-                <marker date="1549758598000" expanded="true" signature="155:779" ph="{...}" />
-                <marker date="1549758598000" expanded="true" signature="279:461" ph="{...}" />
-                <marker date="1549758598000" expanded="true" signature="486:493" ph="{...}" />
-                <marker date="1549758598000" expanded="true" signature="541:777" ph="{...}" />
-                <marker date="1549758598000" expanded="true" signature="658:771" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/LaunchBar.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <marker date="1549760379000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549760379000" expanded="true" signature="119:416" ph="{...}" />
-                <marker date="1549760379000" expanded="true" signature="222:268" ph="{...}" />
-                <marker date="1549760379000" expanded="true" signature="312:413" ph="{...}" />
-                <marker date="1549760379000" expanded="true" signature="347:404" ph="{...}" />
+                <marker date="1550200992000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550200992000" expanded="true" signature="123:350" ph="{...}" />
+                <marker date="1550200992000" expanded="true" signature="173:222" ph="{...}" />
+                <marker date="1550200992000" expanded="true" signature="282:348" ph="{...}" />
+                <marker date="1550200992000" expanded="true" signature="319:345" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/WaitToStart.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/TheCodes/PlayerCollision.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="149">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
               <folding>
-                <marker date="1549760386000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549760386000" expanded="true" signature="120:396" ph="{...}" />
-                <marker date="1549760386000" expanded="true" signature="167:243" ph="{...}" />
-                <marker date="1549760386000" expanded="true" signature="264:342" ph="{...}" />
-                <marker date="1549760386000" expanded="true" signature="358:392" ph="{...}" />
+                <marker date="1550203718000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550203718000" expanded="true" signature="125:5137" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="608:843" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="858:1332" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="897:1157" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="933:1058" ph="/* this initially made it start wherever it fell from ... */" />
+                <marker date="1550203718000" expanded="true" signature="1191:1260" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="1283:1327" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="1369:1461" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="1507:4969" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="1563:1712" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="1668:1707" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="1716:1897" ph="/* circleOutline.transform.localScale += new Vector3(0.5F, 0.5F, 0F); ... */" />
+                <marker date="1550203718000" expanded="true" signature="1951:2021" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="2066:2119" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="2155:2310" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="2349:2467" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="2500:2545" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="2588:2676" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="2712:2758" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="2805:2862" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="2899:2949" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="2985:3035" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="3071:3341" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="3124:3335" ph="/* cy3 = GameObject.FindGameObjectsWithTag (&quot;cy3&quot;); ... */" />
+                <marker date="1550203718000" expanded="true" signature="3377:3427" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="3464:3515" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="3552:3603" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="3640:3691" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="3728:3781" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="3817:3868" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="3913:3988" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="4030:4102" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="4143:4218" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="4262:4371" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="4415:4489" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="4533:4607" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="4651:4725" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="4769:4843" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="4888:4963" ph="{...}" />
+                <marker date="1550203718000" expanded="true" signature="4973:5133" ph="/* IEnumerator stopSparkles() ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/MouseOverScale.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <marker date="1549331039000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549331039000" expanded="true" signature="123:414" ph="{...}" />
+                <marker date="1549331039000" expanded="true" signature="158:219" ph="{...}" />
+                <marker date="1549331039000" expanded="true" signature="252:313" ph="{...}" />
+                <marker date="1549331039000" expanded="true" signature="350:411" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/mouseOverHighlight.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <marker date="1550191376000" expanded="true" signature="6:78" ph="..." />
+                <marker date="1550191376000" expanded="true" signature="127:683" ph="{...}" />
+                <marker date="1550191376000" expanded="true" signature="248:305" ph="{...}" />
+                <marker date="1550191376000" expanded="true" signature="328:539" ph="{...}" />
+                <marker date="1550191376000" expanded="true" signature="563:593" ph="{...}" />
+                <marker date="1550191376000" expanded="true" signature="622:679" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/TheCodes/CameraShake.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+              <folding>
+                <marker date="1540519388000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1540519388000" expanded="true" signature="121:675" ph="{...}" />
+                <marker date="1540519388000" expanded="true" signature="185:670" ph="{...}" />
+                <marker date="1540519388000" expanded="true" signature="384:619" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/NotMine/EZ Camera Shake/Scripts/CameraShaker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <folding>
+                <marker date="1465255879000" expanded="false" signature="6:52" ph="..." />
+                <marker date="1465255879000" expanded="true" signature="181:7753" ph="{...}" />
+                <marker date="1465255879000" expanded="true" signature="196:348" ph="/// The single instance of the CameraShake in the current scene. Do not use if you have multiple instances. ... " />
+                <marker date="1465255879000" expanded="true" signature="506:624" ph="/// The default position influcence of all shakes created by this shaker. ... " />
+                <marker date="1465255879000" expanded="true" signature="712:830" ph="/// The default rotation influcence of all shakes created by this shaker. ... " />
+                <marker date="1465255879000" expanded="true" signature="1053:1155" ph="{...}" />
+                <marker date="1465255879000" expanded="true" signature="1178:2145" ph="{...}" />
+                <marker date="1465255879000" expanded="true" signature="1334:2029" ph="{...}" />
+                <marker date="1465255879000" expanded="true" signature="1582:1697" ph="{...}" />
+                <marker date="1465255879000" expanded="true" signature="1767:2015" ph="{...}" />
+                <marker date="1465255879000" expanded="true" signature="2155:2371" ph="/// Gets the CameraShaker with the given name, if it exists. ... " />
+                <marker date="1465255879000" expanded="true" signature="2431:2655" ph="{...}" />
+                <marker date="1465255879000" expanded="true" signature="2665:2914" ph="/// Starts a shake using the given preset. ... " />
+                <marker date="1465255879000" expanded="true" signature="2982:3073" ph="{...}" />
+                <marker date="1465255879000" expanded="true" signature="3083:3681" ph="/// Shake the camera once, fading in and out  over a specified durations. ... " />
+                <marker date="1465255879000" expanded="true" signature="3797:4119" ph="{...}" />
+                <marker date="1465255879000" expanded="true" signature="4129:4902" ph="/// Shake the camera once, fading in and out over a specified durations. ... " />
+                <marker date="1465255879000" expanded="true" signature="5062:5370" ph="{...}" />
+                <marker date="1465255879000" expanded="true" signature="5380:5844" ph="/// Start shaking the camera. ... " />
+                <marker date="1465255879000" expanded="true" signature="5942:6281" ph="{...}" />
+                <marker date="1465255879000" expanded="true" signature="6291:6931" ph="/// Start shaking the camera. ... " />
+                <marker date="1465255879000" expanded="true" signature="7073:7398" ph="{...}" />
+                <marker date="1465255879000" expanded="true" signature="7408:7515" ph="/// Gets a copy of the list of current camera shake instances. ... " />
+                <marker date="1465255879000" expanded="true" signature="7571:7651" ph="{...}" />
+                <marker date="1465255879000" expanded="true" signature="7677:7747" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/TheCodes/triangleTrigger.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="60" selection-start-line="60" selection-end-line="61" />
+              <folding>
+                <marker date="1540589079000" expanded="false" signature="6:100" ph="..." />
+                <marker date="1540589079000" expanded="true" signature="147:1937" ph="{...}" />
+                <marker date="1540589079000" expanded="true" signature="572:1108" ph="{...}" />
+                <marker date="1540589079000" expanded="true" signature="952:1103" ph="/* mainBallPlayerRB = mainBallPlayer.GetComponent&lt;Rigidbody2D&gt;(); ... */" />
+                <marker date="1540589079000" expanded="true" signature="1189:1269" ph="{...}" />
+                <marker date="1540589079000" expanded="true" signature="1310:1935" ph="{...}" />
+                <marker date="1540589079000" expanded="true" signature="1360:1929" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/TheCodes/dragToAimLoop.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1540941049000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1540941049000" expanded="true" signature="123:2698" ph="{...}" />
+                <marker date="1540941049000" expanded="true" signature="632:950" ph="{...}" />
+                <marker date="1540941049000" expanded="true" signature="968:2464" ph="{...}" />
+                <marker date="1540941049000" expanded="true" signature="1093:1638" ph="{...}" />
+                <marker date="1540941049000" expanded="true" signature="1790:1975" ph="{...}" />
+                <marker date="1540941049000" expanded="true" signature="2160:2415" ph="{...}" />
+                <marker date="1540941049000" expanded="true" signature="2490:2695" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -304,6 +560,10 @@
       <find>m</find>
       <find>hh</find>
       <find>objectmater</find>
+      <find>little</find>
+      <find>shake</find>
+      <find>audio</find>
+      <find>isplaying</find>
     </findStrings>
     <replaceStrings>
       <replace>StartCoroutine(TriggerParameters())</replace>
@@ -314,87 +574,86 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/InstantiateLittleBalls.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/PitchControlSlider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/mouseoverselect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CamRotation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnColorDoShit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/SinWaveMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InstantiateSoundMakingObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/menu_button.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/instantiateOnDrag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnCollisionChangeColorAndBreak.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/StudioParameterTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TemporarySMObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/StudioListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/moveTowards.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnTriggerChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CombineBars.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/tempCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/Sample/RotateSample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/mouseOverHighlight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MouseOverScale.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/audioVisualizerSineWave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnCollsionBall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Clock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/pulse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RotationScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayAnimationOnCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/triangleTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WaitToStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/InstantiateBeatBall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Drag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MousePressed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RotateAroundButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/StudioParameterTriggerEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AnimationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Clickdragobject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BBonCollisionChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/cameramovecoroutine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/hitboxeffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CollisionRotate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/PlayerCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RandomVectorAndScale.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/onCollisionShrinkScale.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnCollisionShapeAppearRotate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/dragToAimLoop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ParticlePlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnBlackBreak.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/pulsingScale.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Math1/Assets/drawPixels.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/verticalmovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/touchTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/SoundMakingObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FadeImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Miscellaneous/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6BD1705A-2945-4650-8350-664111FC363B/f5/50a81f0f/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraMoveClick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LaunchBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/DragBall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnCollisionAnimate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DragVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Flick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScaleBasedOnVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/ySize.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CircleScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/inputMGMT.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/cameraZoomOut.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/clickToActivateImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/sliderdragmovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NotMine/EZ Camera Shake/Scripts/CameraShaker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/bg_load.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/CollisionAnimations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DuplicateObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionRandomShapes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnCollisionShrink.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/newSoundMakingObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/touchtest.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheCodes/scalingAnimations.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheCodes/InstantiateLittleBalls.cs" />
-        <option value="$PROJECT_DIR$/Assets/barOverlap.cs" />
-        <option value="$PROJECT_DIR$/Assets/backgroundArtArray.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheCodes/moveTowards.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheCodes/SoundMakingObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/hitboxeffect.cs" />
-        <option value="$PROJECT_DIR$/Assets/newInstScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheCodes/newSoundMakingObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/SpawnManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/touchTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheCodes/instantiateOnDrag.cs" />
-        <option value="$PROJECT_DIR$/Assets/CamRotation.cs" />
-        <option value="$PROJECT_DIR$/Assets/CameraMovePress.cs" />
         <option value="$PROJECT_DIR$/Assets/MousePressed.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraMoveClick.cs" />
         <option value="$PROJECT_DIR$/Assets/OnCollisionShrink.cs" />
@@ -407,7 +666,6 @@
         <option value="$PROJECT_DIR$/Assets/CollisionRotate.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayAnimationOnCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/AnimationController.cs" />
-        <option value="$PROJECT_DIR$/Assets/tempCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs" />
         <option value="$PROJECT_DIR$/Assets/BBonCollisionChangeColor.cs" />
         <option value="$PROJECT_DIR$/Assets/OnCollsionBall.cs" />
@@ -418,19 +676,35 @@
         <option value="$PROJECT_DIR$/Assets/Destroy.cs" />
         <option value="$PROJECT_DIR$/Assets/TheCodes/inputMGMT.cs" />
         <option value="$PROJECT_DIR$/../../Math1/Assets/drawPixels.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheCodes/Drag.cs" />
         <option value="$PROJECT_DIR$/Assets/DuplicateObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/TheCodes/InstantiateBeatBall.cs" />
         <option value="$PROJECT_DIR$/Assets/OnCollisionChangeColorAndBreak.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheCodes/PlayerCollision.cs" />
-        <option value="$PROJECT_DIR$/Assets/pulsingScale.cs" />
         <option value="$PROJECT_DIR$/Assets/ScaleBasedOnVolume.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheCodes/mouseoverselect.cs" />
-        <option value="$PROJECT_DIR$/Assets/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/TheCodes/CollisionAnimations.cs" />
         <option value="$PROJECT_DIR$/Assets/OnCollisionAnimate.cs" />
         <option value="$PROJECT_DIR$/Assets/LaunchBar.cs" />
         <option value="$PROJECT_DIR$/Assets/WaitToStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheCodes/sliderdragmovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheCodes/PitchControlSlider.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheCodes/Drag.cs" />
+        <option value="$PROJECT_DIR$/Assets/OnCollisionRandomShapes.cs" />
+        <option value="$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Miscellaneous/Rotate.cs" />
+        <option value="$PROJECT_DIR$/Assets/onCollisionShrinkScale.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheCodes/mouseoverselect.cs" />
+        <option value="$PROJECT_DIR$/Assets/tempCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/DragVolume.cs" />
+        <option value="$PROJECT_DIR$/Assets/audioVisualizerSineWave.cs" />
+        <option value="$PROJECT_DIR$/Assets/CamRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/CombineBars.cs" />
+        <option value="$PROJECT_DIR$/Assets/RotationScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/mouseOverHighlight.cs" />
+        <option value="$PROJECT_DIR$/Assets/pulsingScale.cs" />
+        <option value="$PROJECT_DIR$/Assets/transformLookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheCodes/Clickdragobject.cs" />
+        <option value="$PROJECT_DIR$/Assets/CircleScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/ParticlePlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheCodes/PlayerCollision.cs" />
       </list>
     </option>
   </component>
@@ -441,9 +715,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="150" />
-    <option name="y" value="28" />
-    <option name="width" value="1159" />
+    <option name="x" value="79" />
+    <option name="y" value="23" />
+    <option name="width" value="1361" />
     <option name="height" value="872" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -452,10 +726,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -466,12 +736,21 @@
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="GoogleVR" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="TheCodes" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -499,9 +778,9 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="584">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="744">
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="584" />
+      <option name="pid" value="744" />
       <method v="2" />
     </configuration>
     <list>
@@ -574,12 +853,28 @@
       <workItem from="1549737872202" duration="1337000" />
       <workItem from="1549750689982" duration="2161000" />
       <workItem from="1549754429930" duration="3115000" />
-      <workItem from="1549758447046" duration="1017000" />
+      <workItem from="1549758447046" duration="2058000" />
+      <workItem from="1549762739750" duration="7774000" />
+      <workItem from="1549859116903" duration="2235000" />
+      <workItem from="1549924302506" duration="3001000" />
+      <workItem from="1549931259577" duration="349000" />
+      <workItem from="1549931616431" duration="3293000" />
+      <workItem from="1549937134011" duration="1305000" />
+      <workItem from="1549993613345" duration="119000" />
+      <workItem from="1550003129774" duration="680000" />
+      <workItem from="1550006039796" duration="936000" />
+      <workItem from="1550008274587" duration="995000" />
+      <workItem from="1550093163312" duration="3571000" />
+      <workItem from="1550179637785" duration="1000" />
+      <workItem from="1550185839088" duration="929000" />
+      <workItem from="1550188212769" duration="4000" />
+      <workItem from="1550188270567" duration="5507000" />
+      <workItem from="1550199651861" duration="2246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159456000" />
+    <option name="totallyTimeSpent" value="193442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,10 +886,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="150" y="28" width="1159" height="872" extended-state="0" />
-    <editor active="true" />
+    <frame x="79" y="23" width="1361" height="872" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48108107" visible="true" weight="0.26410028" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48108107" visible="true" weight="0.22441243" />
       <window_info id="Structure" order="1" sideWeight="0.51891893" side_tool="true" weight="0.32381728" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -615,7 +909,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.07520143" />
+      <window_info anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.06368461" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -651,173 +945,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6BD1705A-2945-4650-8350-664111FC363B/f5/50a81f0f/List`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11280">
-          <caret line="752" column="8" selection-start-line="752" selection-start-column="8" selection-end-line="752" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/cameramovecoroutine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" selection-start-line="20" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MousePressed.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/newSoundMakingObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CameraMoveClick.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnCollisionShrink.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/InstantiateSoundMakingObjects.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnTriggerChangeColor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/StudioListener.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnCollisionShapeAppearRotate.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnColorDoShit.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/cameraZoomOut.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RandomVectorAndScale.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CollisionRotate.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FadeImage.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnBlackBreak.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PlayAnimationOnCollision.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/AnimationController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/tempCollision.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BBonCollisionChangeColor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnCollsionBall.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/pulse.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RotateAroundButton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/SinWaveMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Destroy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/touchTest.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -825,10 +952,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TemporarySMObjects.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/GameController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/SoundMakingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/inputMGMT.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/moveTowards.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/InstantiateLittleBalls.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventManager.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Math1/Assets/drawPixels.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/DuplicateObjects.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OnCollisionChangeColorAndBreak.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/CollisionAnimations.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/InstantiateBeatBall.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScaleBasedOnVolume.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LaunchBar.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/WaitToStart.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TheCodes/instantiateOnDrag.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1277">
-          <caret line="187" column="6" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="6" />
+        <state relative-caret-position="158">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
           <folding>
             <marker date="1547352153000" expanded="false" signature="6:111" ph="..." />
             <marker date="1547352153000" expanded="true" signature="160:9220" ph="{...}" />
@@ -878,306 +1105,423 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GameManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/PitchControlSlider.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MouseOverScale.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TemporarySMObjects.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/GameController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/SoundMakingObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/inputMGMT.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/moveTowards.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/OnCollisionAnimate.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/InstantiateLittleBalls.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/sliderdragmovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Scripts/Audio/FmodGvrAudio.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Miscellaneous/Rotate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/onCollisionShrinkScale.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8100">
-          <caret line="549" selection-start-line="549" selection-end-line="549" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Math1/Assets/drawPixels.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DuplicateObjects.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnCollisionChangeColorAndBreak.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/CollisionAnimations.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/Drag.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="104" column="42" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
-          <folding>
-            <marker date="1549487758000" expanded="false" signature="6:115" ph="..." />
-            <marker date="1549487758000" expanded="true" signature="151:2367" ph="{...}" />
-            <marker date="1549487758000" expanded="true" signature="515:616" ph="{...}" />
-            <marker date="1549487758000" expanded="true" signature="618:690" ph="/* void ActivateLittleBalls(){ ... */" />
-            <marker date="1549487758000" expanded="true" signature="709:757" ph="{...}" />
-            <marker date="1549487758000" expanded="true" signature="780:810" ph="{...}" />
-            <marker date="1549487758000" expanded="true" signature="832:1708" ph="{...}" />
-            <marker date="1549487758000" expanded="true" signature="947:1304" ph="{...}" />
-            <marker date="1549487758000" expanded="true" signature="1341:1373" ph="{...}" />
-            <marker date="1549487758000" expanded="true" signature="1413:1484" ph="{...}" />
-            <marker date="1549487758000" expanded="true" signature="1522:1550" ph="{...}" />
-            <marker date="1549487758000" expanded="true" signature="1611:1698" ph="{...}" />
-            <marker date="1549487758000" expanded="true" signature="1729:1766" ph="{...}" />
-            <marker date="1549487758000" expanded="true" signature="1791:2031" ph="{...}" />
-            <marker date="1549487758000" expanded="true" signature="2052:2364" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/PlayerCollision.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/menu_button.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="35" selection-start-line="35" selection-end-line="36" />
-          <folding>
-            <marker date="1549738165000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549738165000" expanded="true" signature="125:5048" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="578:771" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="786:1259" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="824:1084" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="860:985" ph="/* this initially made it start wherever it fell from ... */" />
-            <marker date="1549738165000" expanded="true" signature="1118:1187" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="1210:1254" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="1296:1388" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="1434:4880" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="1490:1623" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="1579:1618" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="1627:1808" ph="/* circleOutline.transform.localScale += new Vector3(0.5F, 0.5F, 0F); ... */" />
-            <marker date="1549738165000" expanded="true" signature="1862:1932" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="1977:2030" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="2066:2221" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="2260:2378" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="2411:2456" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="2499:2587" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="2623:2669" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="2716:2773" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="2810:2860" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="2896:2946" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="2982:3252" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="3035:3246" ph="/* cy3 = GameObject.FindGameObjectsWithTag (&quot;cy3&quot;); ... */" />
-            <marker date="1549738165000" expanded="true" signature="3288:3338" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="3375:3426" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="3463:3514" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="3551:3602" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="3639:3692" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="3728:3779" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="3824:3899" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="3941:4013" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="4054:4129" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="4173:4282" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="4326:4400" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="4444:4518" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="4562:4636" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="4680:4754" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="4799:4874" ph="{...}" />
-            <marker date="1549738165000" expanded="true" signature="4884:5044" ph="/* IEnumerator stopSparkles() ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/InstantiateBeatBall.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-          <folding>
-            <marker date="1549581107000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549581107000" expanded="true" signature="129:1478" ph="{...}" />
-            <marker date="1549581107000" expanded="true" signature="193:258" ph="/* public Vector3 previousPosition; ... */" />
-            <marker date="1549581107000" expanded="true" signature="557:630" ph="{...}" />
-            <marker date="1549581107000" expanded="true" signature="704:716" ph="{...}" />
-            <marker date="1549581107000" expanded="true" signature="742:1475" ph="{...}" />
-            <marker date="1549581107000" expanded="true" signature="783:903" ph="/* previousPosition = myBall.transform.position; ... */" />
-            <marker date="1549581107000" expanded="true" signature="1128:1311" ph="{...}" />
-            <marker date="1549581107000" expanded="true" signature="1315:1471" ph="/* Instantiate (beatBall, previousPosition, Quaternion.identity); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ScaleBasedOnVolume.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <marker date="1549738948000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549738948000" expanded="true" signature="128:2093" ph="{...}" />
-            <marker date="1549738948000" expanded="true" signature="449:598" ph="{...}" />
-            <marker date="1549738948000" expanded="true" signature="619:658" ph="{...}" />
-            <marker date="1549738948000" expanded="true" signature="685:2090" ph="{...}" />
-            <marker date="1549738948000" expanded="true" signature="864:956" ph="{...}" />
-            <marker date="1549738948000" expanded="true" signature="1430:1651" ph="{...}" />
-            <marker date="1549738948000" expanded="true" signature="1764:1996" ph="{...}" />
-          </folding>
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TheCodes/mouseoverselect.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/DragBall.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/tempCollision.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OnCollisionRandomShapes.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DragVolume.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/Flick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/audioVisualizerSineWave.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4170">
+          <caret line="280" column="8" selection-start-line="280" selection-start-column="8" selection-end-line="280" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CameraMoveClick.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CamRotation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
-            <marker date="1549739395000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549739395000" expanded="true" signature="125:1996" ph="{...}" />
-            <marker date="1549739395000" expanded="true" signature="403:442" ph="{...}" />
-            <marker date="1549739395000" expanded="true" signature="496:508" ph="{...}" />
-            <marker date="1549739395000" expanded="true" signature="529:1048" ph="{...}" />
-            <marker date="1549739395000" expanded="true" signature="679:858" ph="{...}" />
-            <marker date="1549739395000" expanded="true" signature="930:1044" ph="{...}" />
-            <marker date="1549739395000" expanded="true" signature="1071:1817" ph="{...}" />
-            <marker date="1549739395000" expanded="true" signature="1402:1555" ph="/* if (Input.GetKeyDown(KeyCode.Space) &amp;&amp; (isFrozen == true)) ... */" />
-            <marker date="1549739395000" expanded="true" signature="1566:1673" ph="/* Enable the two finger thing? ... */" />
-            <marker date="1549739395000" expanded="true" signature="1684:1811" ph="/* if (OnMouseOver == true) { ... */" />
-            <marker date="1549739395000" expanded="true" signature="1841:1993" ph="{...}" />
+            <marker date="1550093712000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550093712000" expanded="true" signature="120:1545" ph="{...}" />
+            <marker date="1550093712000" expanded="true" signature="384:477" ph="{...}" />
+            <marker date="1550093712000" expanded="true" signature="512:1264" ph="{...}" />
+            <marker date="1550093712000" expanded="true" signature="570:1261" ph="{...}" />
+            <marker date="1550093712000" expanded="true" signature="674:1076" ph="{...}" />
+            <marker date="1550093712000" expanded="true" signature="712:867" ph="{...}" />
+            <marker date="1550093712000" expanded="true" signature="1296:1334" ph="{...}" />
+            <marker date="1550093712000" expanded="true" signature="1363:1543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CombineBars.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="62" column="171" selection-start-line="62" selection-start-column="171" selection-end-line="62" selection-end-column="171" />
+          <folding>
+            <marker date="1550097654000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550097654000" expanded="true" signature="120:1514" ph="{...}" />
+            <marker date="1550097654000" expanded="true" signature="227:1084" ph="{...}" />
+            <marker date="1550097654000" expanded="true" signature="260:879" ph="{...}" />
+            <marker date="1550097654000" expanded="true" signature="326:875" ph="{...}" />
+            <marker date="1550097654000" expanded="true" signature="715:870" ph="{...}" />
+            <marker date="1550097654000" expanded="true" signature="914:1081" ph="{...}" />
+            <marker date="1550097654000" expanded="true" signature="1134:1432" ph="{...}" />
+            <marker date="1550097654000" expanded="true" signature="1140:1295" ph="/* ensures we only deal with two objects ... */" />
+            <marker date="1550097654000" expanded="true" signature="1481:1512" ph="{...}" />
+            <marker date="1550097654000" expanded="true" signature="1515:1703" ph="/* check if object is attached, where you trigger the regular audio and instead of calling the one sound clip on  ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/Drag.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding>
+            <marker date="1549769611000" expanded="false" signature="6:115" ph="..." />
+            <marker date="1549769611000" expanded="true" signature="151:2358" ph="{...}" />
+            <marker date="1549769611000" expanded="true" signature="506:607" ph="{...}" />
+            <marker date="1549769611000" expanded="true" signature="609:681" ph="/* void ActivateLittleBalls(){ ... */" />
+            <marker date="1549769611000" expanded="true" signature="700:748" ph="{...}" />
+            <marker date="1549769611000" expanded="true" signature="771:801" ph="{...}" />
+            <marker date="1549769611000" expanded="true" signature="823:1699" ph="{...}" />
+            <marker date="1549769611000" expanded="true" signature="938:1295" ph="{...}" />
+            <marker date="1549769611000" expanded="true" signature="1332:1364" ph="{...}" />
+            <marker date="1549769611000" expanded="true" signature="1404:1475" ph="{...}" />
+            <marker date="1549769611000" expanded="true" signature="1513:1541" ph="{...}" />
+            <marker date="1549769611000" expanded="true" signature="1602:1689" ph="{...}" />
+            <marker date="1549769611000" expanded="true" signature="1720:1757" ph="{...}" />
+            <marker date="1549769611000" expanded="true" signature="1782:2022" ph="{...}" />
+            <marker date="1549769611000" expanded="true" signature="2043:2355" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CameraFollow.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        <state relative-caret-position="585">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
           <folding>
-            <marker date="1549756560000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549756560000" expanded="true" signature="121:694" ph="{...}" />
-            <marker date="1549756560000" expanded="true" signature="221:315" ph="{...}" />
-            <marker date="1549756560000" expanded="true" signature="337:445" ph="{...}" />
-            <marker date="1549756560000" expanded="true" signature="463:692" ph="{...}" />
-            <marker date="1549756560000" expanded="true" signature="626:688" ph="{...}" />
+            <marker date="1549933967000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549933967000" expanded="true" signature="121:728" ph="{...}" />
+            <marker date="1549933967000" expanded="true" signature="221:315" ph="{...}" />
+            <marker date="1549933967000" expanded="true" signature="337:476" ph="{...}" />
+            <marker date="1549933967000" expanded="true" signature="494:726" ph="{...}" />
+            <marker date="1549933967000" expanded="true" signature="657:722" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/transformLookAt.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/pulsingScale.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="540">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
-            <marker date="1549738580000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549738580000" expanded="true" signature="121:973" ph="{...}" />
-            <marker date="1549738580000" expanded="true" signature="125:183" ph="/* public float MIN_SCALE = 0.75F; ... */" />
-            <marker date="1549738580000" expanded="true" signature="282:334" ph="{...}" />
-            <marker date="1549738580000" expanded="true" signature="389:967" ph="{...}" />
-            <marker date="1549738580000" expanded="true" signature="399:531" ph="/* scale = MIN_SCALE + Mathf.PingPong(Time.time * 0.2f, 1f - MIN_SCALE); ... */" />
-            <marker date="1549738580000" expanded="true" signature="537:696" ph="/* Hashtable hash = new Hashtable(); ... */" />
-            <marker date="1549738580000" expanded="true" signature="738:775" ph="{...}" />
-            <marker date="1549738580000" expanded="true" signature="799:962" ph="{...}" />
+            <marker date="1550191807000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550191807000" expanded="true" signature="121:974" ph="{...}" />
+            <marker date="1550191807000" expanded="true" signature="125:183" ph="/* public float MIN_SCALE = 0.75F; ... */" />
+            <marker date="1550191807000" expanded="true" signature="282:334" ph="{...}" />
+            <marker date="1550191807000" expanded="true" signature="389:968" ph="{...}" />
+            <marker date="1550191807000" expanded="true" signature="399:531" ph="/* scale = MIN_SCALE + Mathf.PingPong(Time.time * 0.2f, 1f - MIN_SCALE); ... */" />
+            <marker date="1550191807000" expanded="true" signature="537:696" ph="/* Hashtable hash = new Hashtable(); ... */" />
+            <marker date="1550191807000" expanded="true" signature="738:775" ph="{...}" />
+            <marker date="1550191807000" expanded="true" signature="799:963" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnCollisionAnimate.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="435">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
-            <marker date="1549758598000" expanded="false" signature="6:106" ph="..." />
-            <marker date="1549758598000" expanded="true" signature="155:779" ph="{...}" />
-            <marker date="1549758598000" expanded="true" signature="279:461" ph="{...}" />
-            <marker date="1549758598000" expanded="true" signature="486:493" ph="{...}" />
-            <marker date="1549758598000" expanded="true" signature="541:777" ph="{...}" />
-            <marker date="1549758598000" expanded="true" signature="658:771" ph="{...}" />
+            <marker date="1542765617000" expanded="false" signature="6:113" ph="..." />
+            <marker date="1542765617000" expanded="true" signature="156:1002" ph="{...}" />
+            <marker date="1542765617000" expanded="true" signature="361:452" ph="{...}" />
+            <marker date="1542765617000" expanded="true" signature="489:790" ph="{...}" />
+            <marker date="1542765617000" expanded="true" signature="825:928" ph="{...}" />
+            <marker date="1542765617000" expanded="true" signature="971:978" ph="{...}" />
+            <marker date="1542765617000" expanded="true" signature="994:1000" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LaunchBar.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/RotationScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="90">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
-            <marker date="1549760379000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549760379000" expanded="true" signature="119:416" ph="{...}" />
-            <marker date="1549760379000" expanded="true" signature="222:268" ph="{...}" />
-            <marker date="1549760379000" expanded="true" signature="312:413" ph="{...}" />
-            <marker date="1549760379000" expanded="true" signature="347:404" ph="{...}" />
+            <marker date="1550189176000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550189176000" expanded="true" signature="123:335" ph="{...}" />
+            <marker date="1550189176000" expanded="true" signature="167:174" ph="{...}" />
+            <marker date="1550189176000" expanded="true" signature="228:333" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/WaitToStart.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/MouseOverScale.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="15">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <marker date="1549760386000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549760386000" expanded="true" signature="120:396" ph="{...}" />
-            <marker date="1549760386000" expanded="true" signature="167:243" ph="{...}" />
-            <marker date="1549760386000" expanded="true" signature="264:342" ph="{...}" />
-            <marker date="1549760386000" expanded="true" signature="358:392" ph="{...}" />
+            <marker date="1549331039000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549331039000" expanded="true" signature="123:414" ph="{...}" />
+            <marker date="1549331039000" expanded="true" signature="158:219" ph="{...}" />
+            <marker date="1549331039000" expanded="true" signature="252:313" ph="{...}" />
+            <marker date="1549331039000" expanded="true" signature="350:411" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/mouseOverHighlight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <marker date="1550191376000" expanded="true" signature="6:78" ph="..." />
+            <marker date="1550191376000" expanded="true" signature="127:683" ph="{...}" />
+            <marker date="1550191376000" expanded="true" signature="248:305" ph="{...}" />
+            <marker date="1550191376000" expanded="true" signature="328:539" ph="{...}" />
+            <marker date="1550191376000" expanded="true" signature="563:593" ph="{...}" />
+            <marker date="1550191376000" expanded="true" signature="622:679" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/CameraShake.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <marker date="1540519388000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1540519388000" expanded="true" signature="121:675" ph="{...}" />
+            <marker date="1540519388000" expanded="true" signature="185:670" ph="{...}" />
+            <marker date="1540519388000" expanded="true" signature="384:619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/NotMine/EZ Camera Shake/Scripts/CameraShaker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <marker date="1465255879000" expanded="false" signature="6:52" ph="..." />
+            <marker date="1465255879000" expanded="true" signature="181:7753" ph="{...}" />
+            <marker date="1465255879000" expanded="true" signature="196:348" ph="/// The single instance of the CameraShake in the current scene. Do not use if you have multiple instances. ... " />
+            <marker date="1465255879000" expanded="true" signature="506:624" ph="/// The default position influcence of all shakes created by this shaker. ... " />
+            <marker date="1465255879000" expanded="true" signature="712:830" ph="/// The default rotation influcence of all shakes created by this shaker. ... " />
+            <marker date="1465255879000" expanded="true" signature="1053:1155" ph="{...}" />
+            <marker date="1465255879000" expanded="true" signature="1178:2145" ph="{...}" />
+            <marker date="1465255879000" expanded="true" signature="1334:2029" ph="{...}" />
+            <marker date="1465255879000" expanded="true" signature="1582:1697" ph="{...}" />
+            <marker date="1465255879000" expanded="true" signature="1767:2015" ph="{...}" />
+            <marker date="1465255879000" expanded="true" signature="2155:2371" ph="/// Gets the CameraShaker with the given name, if it exists. ... " />
+            <marker date="1465255879000" expanded="true" signature="2431:2655" ph="{...}" />
+            <marker date="1465255879000" expanded="true" signature="2665:2914" ph="/// Starts a shake using the given preset. ... " />
+            <marker date="1465255879000" expanded="true" signature="2982:3073" ph="{...}" />
+            <marker date="1465255879000" expanded="true" signature="3083:3681" ph="/// Shake the camera once, fading in and out  over a specified durations. ... " />
+            <marker date="1465255879000" expanded="true" signature="3797:4119" ph="{...}" />
+            <marker date="1465255879000" expanded="true" signature="4129:4902" ph="/// Shake the camera once, fading in and out over a specified durations. ... " />
+            <marker date="1465255879000" expanded="true" signature="5062:5370" ph="{...}" />
+            <marker date="1465255879000" expanded="true" signature="5380:5844" ph="/// Start shaking the camera. ... " />
+            <marker date="1465255879000" expanded="true" signature="5942:6281" ph="{...}" />
+            <marker date="1465255879000" expanded="true" signature="6291:6931" ph="/// Start shaking the camera. ... " />
+            <marker date="1465255879000" expanded="true" signature="7073:7398" ph="{...}" />
+            <marker date="1465255879000" expanded="true" signature="7408:7515" ph="/// Gets a copy of the list of current camera shake instances. ... " />
+            <marker date="1465255879000" expanded="true" signature="7571:7651" ph="{...}" />
+            <marker date="1465255879000" expanded="true" signature="7677:7747" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/triangleTrigger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="60" selection-start-line="60" selection-end-line="61" />
+          <folding>
+            <marker date="1540589079000" expanded="false" signature="6:100" ph="..." />
+            <marker date="1540589079000" expanded="true" signature="147:1937" ph="{...}" />
+            <marker date="1540589079000" expanded="true" signature="572:1108" ph="{...}" />
+            <marker date="1540589079000" expanded="true" signature="952:1103" ph="/* mainBallPlayerRB = mainBallPlayer.GetComponent&lt;Rigidbody2D&gt;(); ... */" />
+            <marker date="1540589079000" expanded="true" signature="1189:1269" ph="{...}" />
+            <marker date="1540589079000" expanded="true" signature="1310:1935" ph="{...}" />
+            <marker date="1540589079000" expanded="true" signature="1360:1929" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/dragToAimLoop.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1540941049000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1540941049000" expanded="true" signature="123:2698" ph="{...}" />
+            <marker date="1540941049000" expanded="true" signature="632:950" ph="{...}" />
+            <marker date="1540941049000" expanded="true" signature="968:2464" ph="{...}" />
+            <marker date="1540941049000" expanded="true" signature="1093:1638" ph="{...}" />
+            <marker date="1540941049000" expanded="true" signature="1790:1975" ph="{...}" />
+            <marker date="1540941049000" expanded="true" signature="2160:2415" ph="{...}" />
+            <marker date="1540941049000" expanded="true" signature="2490:2695" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/Clickdragobject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding>
+            <marker date="1550196004000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550196004000" expanded="true" signature="125:636" ph="{...}" />
+            <marker date="1550196004000" expanded="true" signature="220:257" ph="{...}" />
+            <marker date="1550196004000" expanded="true" signature="280:424" ph="{...}" />
+            <marker date="1550196004000" expanded="true" signature="440:634" ph="{...}" />
+            <marker date="1550196004000" expanded="true" signature="492:628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CircleScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <marker date="1550200224000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550200224000" expanded="true" signature="121:695" ph="{...}" />
+            <marker date="1550200224000" expanded="true" signature="227:371" ph="{...}" />
+            <marker date="1550200224000" expanded="true" signature="394:693" ph="{...}" />
+            <marker date="1550200224000" expanded="true" signature="501:690" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ParticlePlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <marker date="1550200992000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550200992000" expanded="true" signature="123:350" ph="{...}" />
+            <marker date="1550200992000" expanded="true" signature="173:222" ph="{...}" />
+            <marker date="1550200992000" expanded="true" signature="282:348" ph="{...}" />
+            <marker date="1550200992000" expanded="true" signature="319:345" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheCodes/PlayerCollision.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <marker date="1550203718000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550203718000" expanded="true" signature="125:5137" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="608:843" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="858:1332" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="897:1157" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="933:1058" ph="/* this initially made it start wherever it fell from ... */" />
+            <marker date="1550203718000" expanded="true" signature="1191:1260" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="1283:1327" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="1369:1461" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="1507:4969" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="1563:1712" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="1668:1707" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="1716:1897" ph="/* circleOutline.transform.localScale += new Vector3(0.5F, 0.5F, 0F); ... */" />
+            <marker date="1550203718000" expanded="true" signature="1951:2021" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="2066:2119" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="2155:2310" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="2349:2467" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="2500:2545" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="2588:2676" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="2712:2758" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="2805:2862" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="2899:2949" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="2985:3035" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="3071:3341" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="3124:3335" ph="/* cy3 = GameObject.FindGameObjectsWithTag (&quot;cy3&quot;); ... */" />
+            <marker date="1550203718000" expanded="true" signature="3377:3427" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="3464:3515" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="3552:3603" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="3640:3691" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="3728:3781" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="3817:3868" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="3913:3988" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="4030:4102" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="4143:4218" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="4262:4371" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="4415:4489" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="4533:4607" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="4651:4725" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="4769:4843" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="4888:4963" ph="{...}" />
+            <marker date="1550203718000" expanded="true" signature="4973:5133" ph="/* IEnumerator stopSparkles() ... */" />
           </folding>
         </state>
       </provider>

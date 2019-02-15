@@ -7,17 +7,30 @@ public class Clickdragobject : MonoBehaviour {
     private Vector2 mousePosition;
     public Vector2 objectPosition;
 
-	// Use this for initialization
-	void Start () {
+
+
+	void OnMouseOver()
+	{
+
+		Debug.Log("Entered"); 
 		
-	}
 	
-	// Update is called once per frame
-	void Update () {
-		
 	}
-    void OnMouseDown()
+    void OnMouseDrag()
     {
         objectPosition = mousePosition;
+	    transform.localScale = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0); 
+
     }
+
+	void Update()
+	{
+
+		if (gameObject.transform.localScale.x >= 10f)
+		{
+			
+			//Okay, so I can't manipulate sound effects with the audio source because of the objects use sound making object script 
+		}
+		
+	}
 }

@@ -21,8 +21,10 @@ public class CameraFollow : MonoBehaviour
 
 	IEnumerator Wait()
 	{
+		
 		yield return new WaitForSeconds(1f);
 		myFieldOfView += 5f * Time.deltaTime;
+		Debug.Log("called once");
 		yield return null; 
 
 	}
@@ -35,8 +37,8 @@ public class CameraFollow : MonoBehaviour
 
 		if (myFieldOfView >= 28f)
 		{
+			
 			StopCoroutine(Wait()); 
-
 			myFieldOfView = 23f; 
 
 		}

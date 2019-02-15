@@ -37,9 +37,10 @@ public class pulsingScale : MonoBehaviour
 
 		if (collisionIsTrue)
 		{
+
 			Hashtable hash = new Hashtable();
-			hash.Add("amount", new Vector3(2f, 2f, 0f));
-			hash.Add("time", 1f);
+			hash.Add("amount", new Vector3(3f, 2f, 0f));
+			hash.Add("time", 5f);
 			iTween.PunchScale(gameObject, hash);
 				
 		} 

@@ -10,7 +10,9 @@ namespace AudioVisualizer
 		// Update is called once per frame
 		void FixedUpdate () 
 		{
-			this.transform.RotateAround (this.transform.position, this.transform.up, speed * Time.deltaTime); // rotate around the up axis!
+			//this.transform.RotateAround (this.transform.position, this.transform.up, speed * Time.deltaTime); // rotate around the up axis!
+			transform.Rotate(Vector3.right * Time.deltaTime * speed); 
+
 		}
 	}
 }
