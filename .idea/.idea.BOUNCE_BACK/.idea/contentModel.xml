@@ -26,6 +26,8 @@
         <e p="InstantiateLittleBalls.cs" t="Include" />
         <e p="InstantiateSoundMakingObjects.cs" t="Include" />
         <e p="LaunchBar.cs" t="Include" />
+        <e p="LineRendererStuff.cs" t="Include" />
+        <e p="LRDRAW.cs" t="Include" />
         <e p="mouseOverHighlight.cs" t="Include" />
         <e p="MouseOverScale.cs" t="Include" />
         <e p="MousePressed.cs" t="Include" />
@@ -148,6 +150,7 @@
         <e p="OnTriggerChangeColor.cs" t="Include" />
         <e p="OnTriggerPlaySound.cs" t="Include" />
         <e p="ParticlePlayer.cs" t="Include" />
+        <e p="PatternScales.cs" t="Include" />
         <e p="Pixelplacement" t="Include">
           <e p="Surge" t="Include">
             <e p="Chooser" t="Include">
@@ -350,7 +353,6 @@
         <e p="RotateAroundButton.cs" t="Include" />
         <e p="RotationScript.cs" t="Include" />
         <e p="ScaleBasedOnVolume.cs" t="Include" />
-        <e p="ShapesandPatterns.cs" t="Include" />
         <e p="tempCollision.cs" t="Include" />
         <e p="TemporarySMObjects.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
