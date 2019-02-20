@@ -20,6 +20,7 @@
         <e p="Destroy.cs" t="Include" />
         <e p="DragVolume.cs" t="Include" />
         <e p="DuplicateObjects.cs" t="Include" />
+        <e p="EnemyScript.cs" t="Include" />
         <e p="FadeImage.cs" t="Include" />
         <e p="GameManager.cs" t="Include" />
         <e p="hitboxeffect.cs" t="Include" />
@@ -31,6 +32,7 @@
         <e p="mouseOverHighlight.cs" t="Include" />
         <e p="MouseOverScale.cs" t="Include" />
         <e p="MousePressed.cs" t="Include" />
+        <e p="MoveWithTrig.cs" t="Include" />
         <e p="MvmntTest2Script.cs" t="Include" />
         <e p="NotMine" t="Include">
           <e p="AudioVisualizer" t="Include">
@@ -138,9 +140,9 @@
             </e>
           </e>
         </e>
-        <e p="OnBlackBreak.cs" t="Include" />
         <e p="OnCollisionAnimate.cs" t="Include" />
-        <e p="OnCollisionChangeColorAndBreak.cs" t="Include" />
+        <e p="OnCollisionBreak.cs" t="Include" />
+        <e p="OnCollisionColorChange.cs" t="Include" />
         <e p="OnCollisionPlaySound.cs" t="Include" />
         <e p="OnCollisionRandomShapes.cs" t="Include" />
         <e p="OnCollisionShapeAppearRotate.cs" t="Include" />

@@ -4,49 +4,22 @@ using UnityEngine;
 
 public class pulsingScale : MonoBehaviour
 {
-	//public float MIN_SCALE = 0.75F;
-	//private float scale; 
+	private Vector3 initialScale;
 
-	public PlayerCollision collisionScript;
-	private bool collisionIsTrue = false; 
-	
-	void Start ()
+	void Start()
 	{
-		collisionScript.CollisionHappened = false; 
+		initialScale = transform.localScale;
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+	public void PulseMe() { 
 		
-		
-		//scale = MIN_SCALE + Mathf.PingPong(Time.time * 0.2f, 1f - MIN_SCALE);
-		//transform.localScale = new Vector3(scale, scale, scale);
-		
-		/*
+		//iTween.Stop(gameObject);
+		transform.localScale = initialScale;
 		Hashtable hash = new Hashtable();
-		hash.Add("amount", new Vector3(0.15f, 0.15f, 0f));
-		hash.Add("time", 1f);
+		hash.Add("amount", new Vector3(Random.Range(1, 4), 2f, 0f));
+		hash.Add("time", 5f);
 		iTween.PunchScale(gameObject, hash);
-		*/
-
-		if (collisionScript.CollisionHappened)
-		{
-			collisionIsTrue = true; 
-
-		}
-
-		if (collisionIsTrue)
-		{
-
-			Hashtable hash = new Hashtable();
-			hash.Add("amount", new Vector3(3f, 2f, 0f));
-			hash.Add("time", 5f);
-			iTween.PunchScale(gameObject, hash);
-				
-		} 
 
 	}
 
-
-	
 }

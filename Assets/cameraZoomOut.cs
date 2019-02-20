@@ -4,46 +4,34 @@ using UnityEngine;
 
 public class cameraZoomOut : MonoBehaviour
 {
-	private bool zoomedIn = true;
-	public OnCollisionChangeColorAndBreak collisionColorScript; 
-	
-	void Start ()
-	{
 
-		collisionColorScript.allBlack = false; 
-
-	}
+    public GameObject parent1;
+ 
+    public float targetCameraSize;
+    public float speed; 
 
 
-	private IEnumerator Delay()
-	{
+    IEnumerator ZoomOut()
+    {
+        while (Camera.main.orthographicSize < targetCameraSize)
+        {
+            Camera.main.orthographicSize += speed * 0.5f; 
+            yield return new WaitForSeconds(0.1f);
+        }
+        yield return null;
+    }
+    
+    void Update()
+    {
 
-		yield return new WaitForSeconds(10f); 
-	}
-	
-	void Update () {
+        if (parent1 == null)
+        {
 
-		//Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, zoom, Time.deltaTime * smooth); 
-		
-		if (zoomedIn)
-		{
-			Camera.main.orthographicSize = 2f;
-			Camera.main.transform.position = new Vector3(0.5f, 1.01f, -10f);
-		} 
+            StartCoroutine(ZoomOut()); 
 
-		
-		//if (Input.GetMouseButtonDown(0))
-		
-		//if (collisionColorScript.counter >= 4)
-		
-		if(collisionColorScript.allBlack)
+        }
+        
+    }
+    
 
-		{
-			StartCoroutine(Delay()); 
-			Camera.main.orthographicSize = 5f;
-			Camera.main.transform.position = new Vector3(0, 0f, -10f);
-			zoomedIn = !zoomedIn; 
-		}
-	
-	}
 }

@@ -26,7 +26,9 @@ public class PlayerCollision : MonoBehaviour {
 	private bool counterReached = false; 
 	
 	public bool CollisionHappened = false;
-	private ParticleSystem myPS; 
+	private ParticleSystem myPS;
+
+	public List<pulsingScale> ObjectsToPulse;
 
 	
 	void Start () {
@@ -83,7 +85,10 @@ public class PlayerCollision : MonoBehaviour {
 
 		if (col.gameObject.CompareTag("SoundMakingObject"))
 		{
-			CollisionHappened = true; 
+			foreach (pulsingScale script in ObjectsToPulse)
+			{
+				script.PulseMe();
+			}
 			collisionCounter++;
 			myPS.Play(); 
 
