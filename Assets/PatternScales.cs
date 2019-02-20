@@ -37,7 +37,7 @@ public class PatternScales : MonoBehaviour
 			float rude = Mathf.Deg2Rad;
 			//transform.localEulerAngles = new Vector3(0, 0, rude * 25f) * Time.deltaTime * speed; 
 			//transform.RotateAround(Vector3.left, Vector3.down * 4f, 20 * Time.deltaTime * 20f);
-			transform.Rotate(Vector3.up * Time.deltaTime, Space.World);
+			transform.Rotate(new Vector3(0, 0, 20f) * Time.deltaTime, Space.World);
 
 		}
 		

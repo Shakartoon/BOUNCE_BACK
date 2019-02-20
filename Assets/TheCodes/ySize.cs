@@ -4,19 +4,38 @@ using UnityEngine;
 
 public class ySize : MonoBehaviour
 {
-	private Vector3 defScale; 
+	private Vector3 defScale;
+	public float yScale;
+	public float xScale;
 
-	// Use this for initialization
+	public bool rightScale; 
+
 	void Start ()
 	{
 		defScale = transform.localScale; 
 
 	}
 	
-	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
 
 		//transform.localScale += new Vector3(2F, 2, 0);
-		defScale = new Vector3(0.1f, 0.1f, 0.1f); 
+		
+		
+		defScale = new Vector3(xScale, yScale, 0) * Time.deltaTime;
+		transform.localScale += defScale;
+
+		if (rightScale)
+		{
+			Vector3 newScale = transform.localScale;
+			newScale.x *= 0.1f;
+			transform.localScale += newScale;
+
+			if (transform.localScale.x >= 10f)
+			{
+				transform.localScale = Vector3.zero; 
+
+			}
+
+		}
 	}
 }

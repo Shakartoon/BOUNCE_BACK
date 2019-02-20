@@ -47,8 +47,8 @@ public class Drag : MonoBehaviour {
 
 	void OnMouseOver(){
 	    
-	    SR.color = new Color (0, 0.4481132F, 0.4481132F, 0.5F); 
-		
+	    //SR.color = new Color (0, 0.4481132F, 0.4481132F, 0.5F); 
+		SR.color = Color.black; 
 	    
         if (Input.GetMouseButton(1)){
 	        
@@ -88,12 +88,12 @@ public class Drag : MonoBehaviour {
 	void OnMouseExit()
 	{
 		
-		SR.color = Color.white; 
 
 	}
 	
     void OnMouseDown()
 	{
+		SR.color = Color.black; 
 		screenPoint = Camera.main.WorldToScreenPoint(transform.position);
 		offset =  transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,screenPoint.z));
 		_colliderPressed = true; 
@@ -101,6 +101,8 @@ public class Drag : MonoBehaviour {
 
 	void OnMouseDrag()
 	{
+		SR.color = Color.black; 
+
 		if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) 
 			return;
 		Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);

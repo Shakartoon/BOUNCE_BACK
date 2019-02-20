@@ -30,6 +30,13 @@ public class LineRendererStuff : MonoBehaviour
 		);
 		myLR.colorGradient = gradient;
 
+		Vector3[] positions = new Vector3[3];
+		positions[0] = new Vector3(-2.0f, -2.0f, 0.0f);
+		positions[1] = new Vector3(0.0f, 2.0f, 0.0f);
+		positions[2] = new Vector3(2.0f, -2.0f, 0.0f);
+		myLR.positionCount = positions.Length;
+		myLR.SetPositions(positions);
+
 	
 
 
