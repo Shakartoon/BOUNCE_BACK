@@ -37,21 +37,16 @@ public class LineRendererStuff : MonoBehaviour
 		myLR.positionCount = positions.Length;
 		myLR.SetPositions(positions);
 
-	
-
-
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		
-		
-		myLR.SetWidth(widthx++ / 5f, widthy++ / 15f);
+		myLR.SetWidth(widthx++ / 5f, widthy++ / 5f);
 		
 		var t = Time.time;
 		for (int i = 0; i < lengthOfLineRenderer; i++)
 		{
-			myLR.SetPosition(i, new Vector3(i * 0.1f, Mathf.Sin(i + t), 0.0f));
+			myLR.SetPosition(i, new Vector3(i * 0.1f, Mathf.Sin(i + t), 0.0f)); // * Time.time * 5f);
 		}
 		
 		transform.Translate(2, 2, 0);

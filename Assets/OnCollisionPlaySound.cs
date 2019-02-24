@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class OnCollisionPlaySound : MonoBehaviour
 {
-	private AudioSource AS; 
+	private AudioSource AS;
+	public bool changePitch;
+
+	public GameObject ballToLoad; 
 	
 	void Start ()
 	{
 
 		AS = GetComponent<AudioSource>(); 
+		ballToLoad.SetActive(false);
 
 	}
 	
@@ -18,7 +22,15 @@ public class OnCollisionPlaySound : MonoBehaviour
 		if (col.gameObject.CompareTag("Ball"))
 		{
 			AS.Play();
-			AS.pitch = Random.Range(0.1f, 2f); 
+			if(changePitch)
+			{
+				AS.pitch = Random.Range(0.1f, 2f);
+			}	
+			
+			ballToLoad.SetActive(true);
+			ballToLoad.transform.localScale += new Vector3(0.1f, 0.1f, 0);
+
+			
 		}
 
 	}

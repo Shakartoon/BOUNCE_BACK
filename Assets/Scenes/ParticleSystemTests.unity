@@ -42763,8 +42763,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 15b07e111bd564633a4454454b529522, type: 2}
+  - {fileID: 2100000, guid: 89ff19d667a6a5d4bb76df1fcb718402, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -56869,6 +56869,10 @@ MonoBehaviour:
   theta: 0
   r: 5
   speed: 15
+  SinValue: 0
+  angleInDegrees: 0
+  c1: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  c2: {r: 1, g: 0, b: 0, a: 1}
 --- !u!65 &2039294339
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -32,6 +32,7 @@ public class OnTriggerPlaySound : MonoBehaviour
 	
 	void OnTriggerEnter2D (Collider2D col) {
 		
+		if (col.gameObject.CompareTag("Ball"))
 		AS.Play();
 		Destroy(gameObject, 2f);
 		
