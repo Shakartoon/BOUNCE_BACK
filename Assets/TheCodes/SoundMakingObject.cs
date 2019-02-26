@@ -28,6 +28,10 @@ public class SoundMakingObject : MonoBehaviour {
 	private Color pinkColor = new Color(); 
 	public string pinkColorHex = "#F35FBD";
 	
+	
+	private CheckSpeed checkBallSpeed; 
+	
+	
 	void Start () {
 		myAudioSource = GetComponent<AudioSource> ();
 		myAudioSource.clip = mySound; 

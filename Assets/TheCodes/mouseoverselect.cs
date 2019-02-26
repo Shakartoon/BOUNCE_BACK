@@ -4,20 +4,19 @@ using UnityEngine;
 
 public class mouseoverselect : MonoBehaviour {
 
-	private Vector3 mousePosition; 
-	public float moveSpeed = 0.5f;
-    public bool mouseIsover = false;
-	private Rigidbody2D rb2d;
-	public bool isFrozen = false;
+	
 	public GameObject greenCircle;
-    public DragBall ballDrag;
+	public float moveSpeed = 0.5f;
 
-	private AudioSource myAS; 
+	private Vector3 mousePosition; 
+	private Rigidbody2D rb2d;
 
-	// Use this for initialization
+	
+	[HideInInspector] public bool mouseIsover;
+	[HideInInspector] public bool isFrozen;
+
 	void Start ()
 	{
-		myAS = GetComponent<AudioSource>(); 
 		greenCircle.SetActive(false);  
 
 	}
@@ -42,7 +41,6 @@ public class mouseoverselect : MonoBehaviour {
     }
 
     void OnMouseUp () { 
-	    myAS.Play();
 		SpriteRenderer m = greenCircle.GetComponent<SpriteRenderer> ();
         mouseIsover = false;
 		m.enabled = false; 

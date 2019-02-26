@@ -8,8 +8,10 @@ public class ySize : MonoBehaviour
 	public float yScale;
 	public float xScale;
 
-	public bool rightScale; 
+	public bool rightScale;
+	public bool ScaleMe; 
 
+	
 	void Start ()
 	{
 		defScale = transform.localScale; 
@@ -20,9 +22,11 @@ public class ySize : MonoBehaviour
 
 		//transform.localScale += new Vector3(2F, 2, 0);
 		
-		
-		defScale = new Vector3(xScale, yScale, 0) * Time.deltaTime;
-		transform.localScale += defScale;
+		if (ScaleMe)
+		{
+			defScale = new Vector3(xScale, yScale, 0) * Time.deltaTime;
+			transform.localScale += defScale;
+		}
 
 		if (rightScale)
 		{

@@ -15,36 +15,35 @@ public class Flick : MonoBehaviour {
 	public float period = 1f; 
 
 
-	// Use this for initialization
 	void Start () {
-        spring = this.gameObject.GetComponent<SpringJoint2D>();
+        spring = gameObject.GetComponent<SpringJoint2D>();
         spring.connectedAnchor = gameObject.transform.position;
 		ballRigidBody = gameObject.GetComponent<Rigidbody2D> (); 
 
-	//	InvokeRepeating ("GravityScale", 1.0f, .3f); 
+		//Not sure what this is or what it does
+		InvokeRepeating ("GravityScale", 1.0f, .3f); 
 	}
 	
-
-//	void GravityScale() {
-//		ballRigidBody.gravityScale = 0; 
-//	}
+	void GravityScale() {
+		ballRigidBody.gravityScale = 0; 
+	}
 
 	void Update () {
 
-        if (mouseOver.mouseIsover == true){
+        if (mouseOver.mouseIsover){
             spring.enabled = true; 
 			ballRigidBody.gravityScale = 0; 
         }
         else if (mouseOver.mouseIsover == false)
         {
             spring.enabled = false;
-			ballRigidBody.gravityScale = 1; 
+			ballRigidBody.gravityScale = 1f; 
 
         }
-        if (spring.enabled == true)
+        if (spring.enabled)
         {
             Vector2 cursorPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            spring.connectedAnchor = cursorPosition; //+ new Vector2 (springOffsetx, springOffsety);
+	        spring.connectedAnchor = cursorPosition; // + new Vector2 (springOffsetx, springOffsety);
         }			
     }
 }

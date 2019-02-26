@@ -9,11 +9,15 @@ public class OnCollisionPlaySound : MonoBehaviour
 
 	public GameObject ballToLoad; 
 	
+	
+	private float maxForceForVolume = 18.0f;
+	private float minForceForVolume = 1.0f;
+	
 	void Start ()
 	{
 
-		AS = GetComponent<AudioSource>(); 
-		ballToLoad.SetActive(false);
+		AS = GetComponent<AudioSource>();
+		ballToLoad.SetActive(false); 
 
 	}
 	
@@ -25,6 +29,12 @@ public class OnCollisionPlaySound : MonoBehaviour
 			if(changePitch)
 			{
 				AS.pitch = Random.Range(0.1f, 2f);
+				var force = col.relativeVelocity.magnitude;
+				force = Mathf.Clamp(force, minForceForVolume, maxForceForVolume);
+				force = force / maxForceForVolume;
+
+				AS.volume = force;
+
 			}	
 			
 			ballToLoad.SetActive(true);

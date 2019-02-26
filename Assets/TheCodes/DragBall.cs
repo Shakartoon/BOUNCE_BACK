@@ -8,7 +8,7 @@ public class DragBall : MonoBehaviour {
 	public Vector3 screenPoint; 
 	public Vector3 offset;
     public float degreesPerSec = 360f;
-    public mouseoverselect mouseSelect;
+	[HideInInspector] public mouseoverselect mouseSelect;
     public bool beingDragged;
     public Rigidbody2D rb2d;
 

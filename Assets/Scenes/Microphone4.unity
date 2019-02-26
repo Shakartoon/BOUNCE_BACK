@@ -6638,6 +6638,7 @@ GameObject:
   - component: {fileID: 297497024}
   - component: {fileID: 297497038}
   - component: {fileID: 297497037}
+  - component: {fileID: 297497039}
   m_Layer: 0
   m_Name: BeatBall
   m_TagString: Ball
@@ -6908,11 +6909,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d6d2e05732f14ca48a3c9c156b665de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  greenCircle: {fileID: 1333791979}
   moveSpeed: 1
   mouseIsover: 0
   isFrozen: 1
-  greenCircle: {fileID: 1333791979}
-  ballDrag: {fileID: 0}
 --- !u!23 &297497034
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11607,6 +11607,19 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &297497039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 297497023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2e025b391bb6427aa0aaf1fa06b9661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  adjustedSpeed: 0
 --- !u!1 &361585547
 GameObject:
   m_ObjectHideFlags: 0
@@ -12372,6 +12385,7 @@ MonoBehaviour:
   yScale: 0
   xScale: 0
   rightScale: 0
+  ScaleMe: 0
 --- !u!1 &534958589
 GameObject:
   m_ObjectHideFlags: 0
@@ -17988,11 +18002,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d6d2e05732f14ca48a3c9c156b665de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  greenCircle: {fileID: 1328861684}
   moveSpeed: 3
   mouseIsover: 0
   isFrozen: 0
-  greenCircle: {fileID: 1328861684}
-  ballDrag: {fileID: 0}
 --- !u!23 &697458292
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24772,11 +24785,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d6d2e05732f14ca48a3c9c156b665de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  greenCircle: {fileID: 2075632064}
   moveSpeed: 2
   mouseIsover: 0
   isFrozen: 1
-  greenCircle: {fileID: 2075632064}
-  ballDrag: {fileID: 0}
 --- !u!23 &874450198
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25871,11 +25883,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d6d2e05732f14ca48a3c9c156b665de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  greenCircle: {fileID: 1976908348}
   moveSpeed: 2
   mouseIsover: 0
   isFrozen: 1
-  greenCircle: {fileID: 1976908348}
-  ballDrag: {fileID: 0}
 --- !u!23 &971900631
 MeshRenderer:
   m_ObjectHideFlags: 0

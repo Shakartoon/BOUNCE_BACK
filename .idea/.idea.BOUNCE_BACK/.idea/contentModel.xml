@@ -13,6 +13,7 @@
         <e p="CameraMoveClick.cs" t="Include" />
         <e p="cameraZoomOut.cs" t="Include" />
         <e p="CamRotation.cs" t="Include" />
+        <e p="CheckSpeed.cs" t="Include" />
         <e p="CircleScript.cs" t="Include" />
         <e p="ClickAndDrag.cs" t="Include" />
         <e p="CollisionRotate.cs" t="Include" />
@@ -28,7 +29,9 @@
         <e p="InstantiateObjectsTopOfScreen.cs" t="Include" />
         <e p="InstantiateSoundMakingObjects.cs" t="Include" />
         <e p="LaunchBar.cs" t="Include" />
+        <e p="LineRendererChildren.cs" t="Include" />
         <e p="LineRendererStuff.cs" t="Include" />
+        <e p="LineRendererTest.cs" t="Include" />
         <e p="LRDRAW.cs" t="Include" />
         <e p="MouseClickRotateEffect.cs" t="Include" />
         <e p="MouseClickScaleEffect.cs" t="Include" />
@@ -531,6 +534,7 @@
         </e>
         <e p="timerLoad.cs" t="Include" />
         <e p="touchTest.cs" t="Include" />
+        <e p="TrigExample.cs" t="Include" />
         <e p="WaitToStart.cs" t="Include" />
         <e p="WEIRDPS.cs" t="Include" />
       </e>
