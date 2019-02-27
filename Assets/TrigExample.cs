@@ -56,7 +56,7 @@ public class TrigExample : MonoBehaviour
 		
 		//This didn't do anything 
 
-		lengthA = Random.Range(0.2f, 2f) * Time.time; 
+		//lengthA = Random.Range(0.2f, 2f) * Time.time; 
 		myLine.transform.position = PointOnCircle(Time.time * speedA / Mathf.PI, lengthA * Mathf.Sin(2)) / 2; 
 
 

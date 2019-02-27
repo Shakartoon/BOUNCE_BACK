@@ -10,8 +10,8 @@ public class OnCollisionPlaySound : MonoBehaviour
 	public GameObject ballToLoad; 
 	
 	
-	private float maxForceForVolume = 18.0f;
-	private float minForceForVolume = 1.0f;
+	private float maxForceForVolume = 10.0f;
+	private float minForceForVolume = 0.1f;
 	
 	void Start ()
 	{
@@ -25,15 +25,15 @@ public class OnCollisionPlaySound : MonoBehaviour
 	void OnCollisionEnter2D (Collision2D col) {
 		if (col.gameObject.CompareTag("Ball"))
 		{
+			var force = col.relativeVelocity.magnitude;
+			force = Mathf.Clamp(force, minForceForVolume, maxForceForVolume);
+			force = force / maxForceForVolume;
+			AS.volume = force;
 			AS.Play();
 			if(changePitch)
 			{
 				AS.pitch = Random.Range(0.1f, 2f);
-				var force = col.relativeVelocity.magnitude;
-				force = Mathf.Clamp(force, minForceForVolume, maxForceForVolume);
-				force = force / maxForceForVolume;
-
-				AS.volume = force;
+				
 
 			}	
 			
