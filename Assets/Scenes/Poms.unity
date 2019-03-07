@@ -639,6 +639,7 @@ GameObject:
   - component: {fileID: 74478696}
   - component: {fileID: 74478695}
   - component: {fileID: 74478694}
+  - component: {fileID: 74478698}
   m_Layer: 0
   m_Name: whitecirc (4)
   m_TagString: Untagged
@@ -740,6 +741,17 @@ Transform:
   m_Father: {fileID: 1810206596}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &74478698
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 74478693}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &77834705
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,6 +875,7 @@ GameObject:
   - component: {fileID: 115005719}
   - component: {fileID: 115005718}
   - component: {fileID: 115005717}
+  - component: {fileID: 115005721}
   m_Layer: 0
   m_Name: whitecirc (6)
   m_TagString: Untagged
@@ -964,6 +977,17 @@ Transform:
   m_Father: {fileID: 1810206596}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &115005721
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115005716}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &122005007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,6 +1085,7 @@ GameObject:
   - component: {fileID: 178167034}
   - component: {fileID: 178167033}
   - component: {fileID: 178167032}
+  - component: {fileID: 178167035}
   m_Layer: 0
   m_Name: whitecirc (9)
   m_TagString: Untagged
@@ -1162,6 +1187,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!122 &178167035
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 178167030}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &196171248
 GameObject:
   m_ObjectHideFlags: 0
@@ -1285,6 +1321,7 @@ GameObject:
   - component: {fileID: 202251911}
   - component: {fileID: 202251910}
   - component: {fileID: 202251909}
+  - component: {fileID: 202251912}
   m_Layer: 0
   m_Name: whitecirc (11)
   m_TagString: Untagged
@@ -1386,6 +1423,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!122 &202251912
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 202251907}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &241198132
 GameObject:
   m_ObjectHideFlags: 0
@@ -2155,6 +2203,7 @@ GameObject:
   - component: {fileID: 487929990}
   - component: {fileID: 487929989}
   - component: {fileID: 487929988}
+  - component: {fileID: 487929992}
   m_Layer: 0
   m_Name: whitecirc (5)
   m_TagString: Untagged
@@ -2256,6 +2305,17 @@ Transform:
   m_Father: {fileID: 1810206596}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &487929992
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 487929987}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &523973327
 GameObject:
   m_ObjectHideFlags: 0
@@ -2417,6 +2477,7 @@ MonoBehaviour:
   yScale: 1
   xScale: 0
   rightScale: 0
+  ScaleMe: 0
 --- !u!114 &541537323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2854,6 +2915,7 @@ GameObject:
   - component: {fileID: 697872593}
   - component: {fileID: 697872592}
   - component: {fileID: 697872591}
+  - component: {fileID: 697872595}
   m_Layer: 0
   m_Name: whitecirc (3)
   m_TagString: Untagged
@@ -2955,6 +3017,17 @@ Transform:
   m_Father: {fileID: 1810206596}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &697872595
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 697872590}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &713488421
 GameObject:
   m_ObjectHideFlags: 0
@@ -3434,6 +3507,7 @@ GameObject:
   - component: {fileID: 858600805}
   - component: {fileID: 858600804}
   - component: {fileID: 858600803}
+  - component: {fileID: 858600807}
   m_Layer: 0
   m_Name: whitecirc (2)
   m_TagString: Untagged
@@ -3535,6 +3609,17 @@ Transform:
   m_Father: {fileID: 1810206596}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &858600807
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 858600802}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &882931672
 GameObject:
   m_ObjectHideFlags: 0
@@ -4070,6 +4155,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  rotDirX: 0
+  rotDirY: 0
+  rotDirZ: 0
 --- !u!1 &987266358
 GameObject:
   m_ObjectHideFlags: 0
@@ -4568,6 +4656,7 @@ MonoBehaviour:
   yScale: 3
   xScale: 0
   rightScale: 0
+  ScaleMe: 0
 --- !u!1 &1186696282
 GameObject:
   m_ObjectHideFlags: 0
@@ -4579,6 +4668,7 @@ GameObject:
   - component: {fileID: 1186696286}
   - component: {fileID: 1186696285}
   - component: {fileID: 1186696284}
+  - component: {fileID: 1186696287}
   m_Layer: 0
   m_Name: whitecirc (12)
   m_TagString: Untagged
@@ -4680,6 +4770,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!122 &1186696287
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1186696282}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &1207791386
 GameObject:
   m_ObjectHideFlags: 0
@@ -4691,6 +4792,7 @@ GameObject:
   - component: {fileID: 1207791389}
   - component: {fileID: 1207791388}
   - component: {fileID: 1207791387}
+  - component: {fileID: 1207791391}
   m_Layer: 0
   m_Name: whitecirc (7)
   m_TagString: Untagged
@@ -4792,6 +4894,17 @@ Transform:
   m_Father: {fileID: 1810206596}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &1207791391
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1207791386}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &1256416489
 GameObject:
   m_ObjectHideFlags: 0
@@ -4803,6 +4916,7 @@ GameObject:
   - component: {fileID: 1256416492}
   - component: {fileID: 1256416491}
   - component: {fileID: 1256416490}
+  - component: {fileID: 1256416494}
   m_Layer: 0
   m_Name: whitecirc
   m_TagString: Untagged
@@ -4904,6 +5018,17 @@ Transform:
   m_Father: {fileID: 1810206596}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &1256416494
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1256416489}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &1282892241
 GameObject:
   m_ObjectHideFlags: 0
@@ -4969,6 +5094,7 @@ GameObject:
   - component: {fileID: 1352971245}
   - component: {fileID: 1352971244}
   - component: {fileID: 1352971243}
+  - component: {fileID: 1352971246}
   m_Layer: 0
   m_Name: whitecirc (14)
   m_TagString: Untagged
@@ -5070,6 +5196,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!122 &1352971246
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1352971241}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &1446802339
 GameObject:
   m_ObjectHideFlags: 0
@@ -5081,6 +5218,7 @@ GameObject:
   - component: {fileID: 1446802342}
   - component: {fileID: 1446802341}
   - component: {fileID: 1446802340}
+  - component: {fileID: 1446802344}
   m_Layer: 0
   m_Name: whitecirc (1)
   m_TagString: Untagged
@@ -5182,6 +5320,17 @@ Transform:
   m_Father: {fileID: 1810206596}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &1446802344
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1446802339}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &1462882215
 GameObject:
   m_ObjectHideFlags: 0
@@ -5224,6 +5373,7 @@ GameObject:
   - component: {fileID: 1465124378}
   - component: {fileID: 1465124377}
   - component: {fileID: 1465124376}
+  - component: {fileID: 1465124379}
   m_Layer: 0
   m_Name: whitecirc (8)
   m_TagString: Untagged
@@ -5325,6 +5475,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!122 &1465124379
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1465124374}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &1475839770
 GameObject:
   m_ObjectHideFlags: 0
@@ -5336,6 +5497,7 @@ GameObject:
   - component: {fileID: 1475839774}
   - component: {fileID: 1475839773}
   - component: {fileID: 1475839772}
+  - component: {fileID: 1475839775}
   m_Layer: 0
   m_Name: whitecirc (13)
   m_TagString: Untagged
@@ -5437,6 +5599,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!122 &1475839775
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1475839770}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &1488048619
 GameObject:
   m_ObjectHideFlags: 0
@@ -5581,6 +5754,7 @@ MonoBehaviour:
   yScale: 2
   xScale: 0
   rightScale: 0
+  ScaleMe: 0
 --- !u!114 &1503558486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5922,6 +6096,7 @@ MonoBehaviour:
   yScale: 0
   xScale: 0
   rightScale: 1
+  ScaleMe: 0
 --- !u!114 &1590256838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6085,6 +6260,7 @@ MonoBehaviour:
   yScale: 10
   xScale: 0
   rightScale: 0
+  ScaleMe: 0
 --- !u!1 &1727302279
 GameObject:
   m_ObjectHideFlags: 0
@@ -7024,6 +7200,7 @@ GameObject:
   - component: {fileID: 2042679060}
   - component: {fileID: 2042679059}
   - component: {fileID: 2042679058}
+  - component: {fileID: 2042679061}
   m_Layer: 0
   m_Name: whitecirc (10)
   m_TagString: Untagged
@@ -7125,6 +7302,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!122 &2042679061
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2042679056}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 5
 --- !u!1 &2043790106
 GameObject:
   m_ObjectHideFlags: 0
@@ -7513,6 +7701,7 @@ MonoBehaviour:
   yScale: 0
   xScale: 3
   rightScale: 0
+  ScaleMe: 0
 --- !u!114 &2072297921
 MonoBehaviour:
   m_ObjectHideFlags: 0

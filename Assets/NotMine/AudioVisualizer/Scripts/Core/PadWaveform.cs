@@ -305,7 +305,7 @@ namespace AudioVisualizer
 				}
 				lines[i].SetPosition(lineAttributes.lineSegments-1,firstPos); // set the last pos = to the first pos.
 			}
-		}
+		} 
 
         /// <summary>
         /// Display audio across all rings, damped by distance from the center
@@ -325,10 +325,10 @@ namespace AudioVisualizer
 				for(int j = 0; j < lineAttributes.lineSegments-1; j++)
 				{
 					
-					float rad = Mathf.Deg2Rad*angle;
-					float x = Mathf.Cos(rad)*thisRadius;
+					float rad = Mathf.Deg2Rad*angle * Time.time;
+					float x = Mathf.Cos(rad)*thisRadius * Time.time;
 					float y = samples[j]*maxHeight*dampening;
-					float z = Mathf.Sin(rad)*thisRadius;
+					float z = Mathf.Sin(rad)*thisRadius * Time.time;
 					Vector3 pos = this.transform.position + this.transform.right*x + this.transform.up*y + this.transform.forward*z;
 					lines[i].SetPosition(j,pos);
 					angle += angleStep;

@@ -66,7 +66,7 @@ namespace TMPro.Examples
                     textMesh.fontSize = 96;
 
                     textMesh.color = new Color32(255, 255, 0, 255);
-                    textMesh.text = "@";
+                    textMesh.text = "--";
 
                     // Spawn Floating Text
                     //floatingText_Script = go.AddComponent<TextMeshProFloatingText>();
