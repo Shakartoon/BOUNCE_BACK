@@ -10,8 +10,9 @@ public class StopGravity : MonoBehaviour
 	{
 
 		myRB = GetComponent<Rigidbody2D>();
-		//myRB.gravityScale = 0; 
 		myRB.isKinematic = true; 
+		//myRB.gravityScale = 0; 
+
 
 	}
 	

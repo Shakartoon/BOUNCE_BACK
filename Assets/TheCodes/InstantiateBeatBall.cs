@@ -34,13 +34,15 @@ public class InstantiateBeatBall : MonoBehaviour {
 	}
 	
 	
-	
 	void OnMouseDown(){
 		
-		Debug.Log ("ButtonPressed!"); 
+		if(Input.GetMouseButtonDown(0))
+		{
+			Debug.Log("ButtonPressed!");
+			beatballClone = Instantiate(beatBall, newPosition, transform.rotation);
 
-		//previousPosition = myBall.transform.position; 
-	//	Instantiate (beatBall, new Vector3 (0, 0, 0), Quaternion.identity);
+		}
+	
 
 		newPosition = new Vector2 (1, 1); 
 		beatballClone = Instantiate(beatBall, newPosition, transform.rotation);
@@ -54,7 +56,9 @@ public class InstantiateBeatBall : MonoBehaviour {
          			beatBallArray[i] = Instantiate(beatBallPrefab[i], newPositions[i], transform.rotation);
          	
          		}
-
+		//previousPosition = myBall.transform.position; 
+		//	Instantiate (beatBall, new Vector3 (0, 0, 0), Quaternion.identity);
+		
 		//Instantiate (beatBall, previousPosition, Quaternion.identity); 
 		//Instantiate (beatBall, new Vector3(Random.Range (-9, 9), 0, 0), Quaternion.identity); 
 

@@ -1,62 +1,62 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Permissions;
 using UnityEngine;
 
 public class SquareScaleEffect : MonoBehaviour
 {
 
 	public GameObject objectToLoad;
+	private GameObject currentObject; 
 	public float ScaleUntilLoad;
-	public float rotationAmount; 
-	public float scaleAmount;
-
-	public GameObject[] objects;
-
-	public GameObject clones;
-	private GameObject InstObj; 
+	public float scaleAmountX;
+	public float scaleAmountY;
+	public float rotationAmount;
+	private SpriteRenderer sr; 
 
 	public Color[] my_colors = new Color[6]; 
 
 	private float timer;
-	private SpriteRenderer SR; 
+	//private SpriteRenderer SR; 
 	
 	void Start () {
 		
-		objectToLoad.SetActive(false);
-		objects[2].SetActive(false);
 		timer += Time.deltaTime;
-
-		SR = clones.GetComponent<SpriteRenderer>(); 
+		LoadNewObject(); 
+		SpriteRenderer sr = GetComponent<SpriteRenderer>();
 
 	}
 
 	void Update ()
 	{
 
-		transform.localScale += new Vector3 (scaleAmount, scaleAmount, 0);
-		transform.Rotate(0, 0, rotationAmount);
-
-		
-			if (transform.localScale.x > ScaleUntilLoad)
-			{
-				/* 
-				objectToLoad.SetActive(true);
-				objects[2].SetActive(true);
-				timer = 0;
-				*/ 
-				//SR.color = my_colors[Random.Range(0, my_colors.Length)]; 
-				//SR.color = Color.black;
-				
-				
-				InstObj = Instantiate(clones, new Vector3(1, 1, 0), Quaternion.identity); 
-				//InstObj.transform.localScale += new Vector3 (scaleAmount, scaleAmount, 0);
-
-
-			}
-		
-		for (int i = 0; i < objects.Length; i++)
+		if (currentObject == null)
 		{
-		} 
+			return; 
+
+		}
+		
+		currentObject.transform.localScale += new Vector3 (scaleAmountX, scaleAmountY, 0);
+		currentObject.transform.Rotate(0, 0, rotationAmount);
+
+
+		float width = currentObject.GetComponent<SpriteRenderer>().bounds.size.x; 
+		Debug.Log(width + " / " + Screen.width);
+
+		if (currentObject.transform.localScale.x > Screen.width / 11f)
+		{
+			LoadNewObject();
+		}
 
 	}
+
+	void LoadNewObject()
+	{
+		
+		currentObject = Instantiate(objectToLoad, new Vector3(1, 1, 0), Quaternion.identity);
+		currentObject.GetComponent<SpriteRenderer>().color = my_colors[Random.Range(0, my_colors.Length)];
+		
+	}
+	
+	
 }
