@@ -21,517 +21,584 @@ using UnityEngine.VR;
 
 namespace Pixelplacement
 {
-	[RequireComponent(typeof(Collider))]
-	[RequireComponent(typeof(Rigidbody))]
-	[ExecuteInEditMode]
-	public class ColliderButton : MonoBehaviour
-	{
-		#region Public Events
-		public ColliderButtonEvent OnSelected;
-		public ColliderButtonEvent OnDeselected;
-		public ColliderButtonEvent OnClick;
-		public ColliderButtonEvent OnPressed;
-		public ColliderButtonEvent OnReleased;
-		public static event Action<ColliderButton> OnSelectedGlobal;
-		public static event Action<ColliderButton> OnDeselectedGlobal;
-		public static event Action<ColliderButton> OnClickGlobal;
-		public static event Action<ColliderButton> OnPressedGlobal;
-		public static event Action<ColliderButton> OnReleasedGlobal;
-		#endregion
+    [RequireComponent(typeof(Collider))]
+    [RequireComponent(typeof(Rigidbody))]
+    [ExecuteInEditMode]
+    public sealed class ColliderButton : MonoBehaviour
+    {
+        //Public Events:
+        public ColliderButtonEvent OnSelected;
+        public ColliderButtonEvent OnDeselected;
+        public ColliderButtonEvent OnClick;
+        public ColliderButtonEvent OnPressed;
+        public ColliderButtonEvent OnReleased;
+        public static event Action<ColliderButton> OnSelectedGlobal;
+        public static event Action<ColliderButton> OnDeselectedGlobal;
+        public static event Action<ColliderButton> OnClickGlobal;
+        public static event Action<ColliderButton> OnPressedGlobal;
+        public static event Action<ColliderButton> OnReleasedGlobal;
 
-		#region Public Enums
-		public enum EaseType { EaseOut, EaseOutBack };
-		#endregion
+        //Public Enums:
+        public enum EaseType { EaseOut, EaseOutBack };
 
-		#region Public Properties
-		public bool IsSelected
-		{
-			get;
-			private set;
-		}
-		#endregion
+        //Public Properties:
+        public bool IsSelected
+        {
+            get;
+            private set;
+        }
 
-		#region Public Variables
-		public KeyCode[] keyInput;
-		public bool _unityEventsFolded;
-		public bool _scaleResponseFolded;
-		public bool _colorResponseFolded;
-		public bool applyColor = true;
-		public bool applyScale;
-		public LayerMask collisionLayerMask = -1;
-		public Renderer colorRendererTarget;
-		public Image colorImageTarget;
-		public Color normalColor = Color.white;
-		public Color selectedColor = Color.gray;
-		public Color pressedColor = Color.green;
-		public float colorDuration = .1f;
-		public Transform scaleTarget;
-		public Vector3 normalScale;
-		public Vector3 selectedScale;
-		public Vector3 pressedScale;
-		public float scaleDuration = .1f;
-		public EaseType scaleEaseType;
-		public bool resizeGUIBoxCollider = true;
-		public Vector2 guiBoxColliderPadding;
-		#endregion
+        //Public Variables:
+        public KeyCode[] keyInput;
+        public bool _unityEventsFolded;
+        public bool _scaleResponseFolded;
+        public bool _colorResponseFolded;
+        public bool applyColor;
+        public bool applyScale;
+        public LayerMask collisionLayerMask = -1;
+        public Renderer colorRendererTarget;
+        public Image colorImageTarget;
+        public Color selectedColor = Color.gray;
+        public Color pressedColor = Color.green;
+        public Color disabledColor = new Color(.5f, .5f, .5f, .5f);
+        public float colorDuration = .1f;
+        public Transform scaleTarget;
+        public Vector3 normalScale;
+        public Vector3 selectedScale;
+        public Vector3 pressedScale;
+        public float scaleDuration = .1f;
+        public EaseType scaleEaseType;
+        public bool resizeGUIBoxCollider = true;
+        public bool centerGUIBoxCollider = true;
+        public Vector2 guiBoxColliderPadding;
+        public bool interactable = true;
 
-		#region Private Variables
-		bool _clicking;
-		int _selectedCount;
-		bool _colliderSelected;
-		bool _pressed;
-		bool _released;
-		bool _vrRunning;
-		RectTransform _rectTransform;
-		EventTrigger _eventTrigger;
-		EventTrigger.Entry _pressedEventTrigger;
-		EventTrigger.Entry _releasedEventTrigger;
-		EventTrigger.Entry _enterEventTrigger;
-		EventTrigger.Entry _exitEventTrigger;
-		int _colliderCount;
-		BoxCollider _boxCollider;
-		TweenBase _colorTween;
-		TweenBase _scaleTween;
-		#endregion
+        //Private Variables:
+        bool _clicking;
+        int _selectedCount;
+        bool _colliderSelected;
+        bool _pressed;
+        bool _released;
+        bool _vrRunning;
+        RectTransform _rectTransform;
+        EventTrigger _eventTrigger;
+        EventTrigger.Entry _pressedEventTrigger;
+        EventTrigger.Entry _releasedEventTrigger;
+        EventTrigger.Entry _enterEventTrigger;
+        EventTrigger.Entry _exitEventTrigger;
+        int _colliderCount;
+        BoxCollider _boxCollider;
+        TweenBase _colorTweenImage = null;
+        TweenBase _colorTweenMaterial;
+        TweenBase _scaleTween;
+        Color _normalColorRenderer;
+        Color _normalColorImage;
+        bool _interactableStatus = true;
 
-		#region Init
-		private void Reset()
-		{
-			keyInput = new KeyCode[] { KeyCode.Mouse0 };
+        //Init:
+        private void Reset()
+        {
+            //var sets:
+            applyColor = true;
+            keyInput = new KeyCode[] { KeyCode.Mouse0 };
 
-			//color setup:
-			if (colorRendererTarget == null) colorRendererTarget = GetComponent<Renderer>();
+            //hook up image to help users:
+            Image image = GetComponent<Image>();
+            if (image != null)
+            {
+                colorImageTarget = image;
+            }
 
-			if (Application.isPlaying)
-			{
-				if (colorRendererTarget != null)
-				{
-					if (colorRendererTarget.material.HasProperty("_Color"))
-					{
-						normalColor = colorRendererTarget.material.color;
-					}
-				}
-			}
+            //hook up renderer to help users:
+            Renderer renderer = GetComponent<Renderer>();
+            if (renderer != null && renderer.sharedMaterial.HasProperty("_Color"))
+            {
+                colorRendererTarget = renderer;
+            }
+        }
 
-			if (colorImageTarget == null) colorImageTarget = GetComponent<Image>();
+        private void Awake()
+        {
+            if (Application.isPlaying)
+            {
+                //color setups:
+                if (colorRendererTarget != null)
+                {
+                    if (colorRendererTarget.material.HasProperty("_Color"))
+                    {
+                        _normalColorRenderer = colorRendererTarget.material.color;
+                    }
+                }
+                if (colorImageTarget != null)
+                {
+                    _normalColorImage = colorImageTarget.color;
+                }
+            }
 
-			//scale setup:
-			scaleTarget = transform;
-			normalScale = transform.localScale;
-			selectedScale = transform.localScale * 1.15f;
-			pressedScale = transform.localScale * 1.25f;
+            //scale setup:
+            scaleTarget = transform;
+            normalScale = transform.localScale;
+            selectedScale = transform.localScale * 1.15f;
+            pressedScale = transform.localScale * 1.25f;
 
-			//set initial size on gui collider:
-			_rectTransform = GetComponent<RectTransform>();
-			_boxCollider = GetComponent<BoxCollider>();
-			if (_rectTransform != null && _boxCollider != null) ResizeGUIBoxCollider(_boxCollider);
+            //set initial size on gui collider:
+            _rectTransform = GetComponent<RectTransform>();
+            _boxCollider = GetComponent<BoxCollider>();
+            if (_rectTransform != null && _boxCollider != null) ResizeGUIBoxCollider(_boxCollider);
 
-			//set up rigidbody:
-			GetComponent<Rigidbody>().isKinematic = true;
-		}
+            //set up rigidbody:
+            GetComponent<Rigidbody>().isKinematic = true;
 
-		private void Awake()
-		{
-			Reset();
+            //refs:
+            _rectTransform = GetComponent<RectTransform>();
+            _boxCollider = GetComponent<BoxCollider>();
 
-			_rectTransform = GetComponent<RectTransform>();
-			_boxCollider = GetComponent<BoxCollider>();
+            if (!Application.isPlaying) return;
 
-			if (!Application.isPlaying) return;
+            //rect and event triggers:
+            _rectTransform = GetComponent<RectTransform>();
+            if (_rectTransform != null)
+            {
+                _eventTrigger = gameObject.AddComponent<EventTrigger>();
+                _pressedEventTrigger = new EventTrigger.Entry();
+                _pressedEventTrigger.eventID = EventTriggerType.PointerDown;
+                _releasedEventTrigger = new EventTrigger.Entry();
+                _releasedEventTrigger.eventID = EventTriggerType.PointerUp;
+                _enterEventTrigger = new EventTrigger.Entry();
+                _enterEventTrigger.eventID = EventTriggerType.PointerEnter;
+                _exitEventTrigger = new EventTrigger.Entry();
+                _exitEventTrigger.eventID = EventTriggerType.PointerExit;
+            }
 
-			//rect and event triggers:
-			_rectTransform = GetComponent<RectTransform>();
-			if (_rectTransform != null)
-			{
-				_eventTrigger = gameObject.AddComponent<EventTrigger>();
-				_pressedEventTrigger = new EventTrigger.Entry();
-				_pressedEventTrigger.eventID = EventTriggerType.PointerDown;
-				_releasedEventTrigger = new EventTrigger.Entry();
-				_releasedEventTrigger.eventID = EventTriggerType.PointerUp;
-				_enterEventTrigger = new EventTrigger.Entry();
-				_enterEventTrigger.eventID = EventTriggerType.PointerEnter;
-				_exitEventTrigger = new EventTrigger.Entry();
-				_exitEventTrigger.eventID = EventTriggerType.PointerExit;
-			}
-		}
-		#endregion
+            //events:
+            if (_rectTransform != null)
+            {
+                //event registrations:
+                _pressedEventTrigger.callback.AddListener((data) => { OnPointerDownDelegate((PointerEventData)data); });
+                _eventTrigger.triggers.Add(_pressedEventTrigger);
+                _releasedEventTrigger.callback.AddListener((data) => { OnPointerUpDelegate((PointerEventData)data); });
+                _eventTrigger.triggers.Add(_releasedEventTrigger);
+                _enterEventTrigger.callback.AddListener((data) => { OnPointerEnterDelegate((PointerEventData)data); });
+                _eventTrigger.triggers.Add(_enterEventTrigger);
+                _exitEventTrigger.callback.AddListener((data) => { OnPointerExitDelegate((PointerEventData)data); });
+                _eventTrigger.triggers.Add(_exitEventTrigger);
+            }
+        }
 
-		#region Flow
-		private void OnEnable()
-		{
-			ColorReset();
+        //Flow:
+        private void OnEnable()
+        {
+            if (!Application.isPlaying) return;
 
-			if (!Application.isPlaying) return;
+            ColorReset();
+        }
 
-			if (_rectTransform != null)
-			{
-				//event registrations:
-				_pressedEventTrigger.callback.AddListener((data) => { OnPointerDownDelegate((PointerEventData)data); });
-				_eventTrigger.triggers.Add(_pressedEventTrigger);
-				_releasedEventTrigger.callback.AddListener((data) => { OnPointerUpDelegate((PointerEventData)data); });
-				_eventTrigger.triggers.Add(_releasedEventTrigger);
-				_enterEventTrigger.callback.AddListener((data) => { OnPointerEnterDelegate((PointerEventData)data); });
-				_eventTrigger.triggers.Add(_enterEventTrigger);
-				_exitEventTrigger.callback.AddListener((data) => { OnPointerExitDelegate((PointerEventData)data); });
-				_eventTrigger.triggers.Add(_exitEventTrigger);
-			}
-		}
+        private void OnDisable()
+        {
+            if (!Application.isPlaying) return;
 
-		private void OnDisable()
-		{
-			if (!Application.isPlaying) return;
+            //resets:
+            _pressed = false;
+            _released = false;
+            _clicking = false;
+            _colliderSelected = false;
+            _selectedCount = 0;
+            _colliderCount = 0;
 
-			//resets:
-			_pressed = false;
-			_released = false;
-			_clicking = false;
-			_colliderSelected = false;
-			_selectedCount = 0;
-			_colliderCount = 0;
+            ColorReset();
+            ScaleReset();
+        }
 
-			ColorReset();
-			ScaleReset();
+        //Loops:
+        private void Update()
+        {
+            //disabled?
+            if (_interactableStatus != interactable)
+            {
+                if (interactable)
+                {
+                    ColorNormal();
+                }
+                else
+                {
+                    ColorDisabled();
+                }
 
-			if (_rectTransform != null)
-			{
-				//event deregistrations:
-				_pressedEventTrigger.callback.RemoveAllListeners();
-				_eventTrigger.triggers.Remove(_pressedEventTrigger);
-				_releasedEventTrigger.callback.RemoveAllListeners();
-				_eventTrigger.triggers.Remove(_releasedEventTrigger);
-				_enterEventTrigger.callback.RemoveAllListeners();
-				_eventTrigger.triggers.Remove(_enterEventTrigger);
-				_exitEventTrigger.callback.RemoveAllListeners();
-				_eventTrigger.triggers.Remove(_exitEventTrigger);
-			}
-		}
-		#endregion
+                //handle a Unity GUI button in case it is also attached:
+                Button button = GetComponent<Button>();
+                if (button != null)
+                {
+                    button.interactable = interactable;
+                }
 
-		#region Loops
-		private void Update()
-		{
-			//update gui colliders:
-			if (resizeGUIBoxCollider && _rectTransform != null && _boxCollider != null)
-			{
-				//fit a box collider:
-				ResizeGUIBoxCollider(_boxCollider);
-			}
+                _interactableStatus = interactable;
+            }
 
-			//for in editor updating of the gui collider:
-			if (!Application.isPlaying) return;
+            //update gui colliders:
+            if (resizeGUIBoxCollider && _rectTransform != null && _boxCollider != null)
+            {
+                //fit a box collider:
+                ResizeGUIBoxCollider(_boxCollider);
+            }
 
-			//VR status:
+            //for in editor updating of the gui collider:
+            if (!Application.isPlaying) return;
+
+            //VR status:
 #if UNITY_2017_2_OR_NEWER
-			_vrRunning = (XRSettings.isDeviceActive);
+            _vrRunning = (XRSettings.isDeviceActive);
 #else
-			_vrRunning = (VRSettings.isDeviceActive);
+            _vrRunning = (VRSettings.isDeviceActive);
 #endif
 
-			//collider collision started:
-			if (!_colliderSelected && _colliderCount > 0)
-			{
-				_colliderSelected = true;
-				Selected();
-			}
+            if (!interactable) return;
 
-			//collider collision ended:
-			if (_colliderSelected && _colliderCount == 0)
-			{
-				_colliderSelected = false;
-				Deselected();
-			}
+            //collider collision started:
+            if (!_colliderSelected && _colliderCount > 0)
+            {
+                _colliderSelected = true;
+                Selected();
+            }
 
-			//process input:
-			if (keyInput != null && _selectedCount > 0)
-			{
-				foreach (var item in keyInput)
-				{
-					if (Input.GetKeyDown(item))
-					{
-						if (_selectedCount == 0) return;
-						Pressed();
-					}
+            //collider collision ended:
+            if (_colliderSelected && _colliderCount == 0)
+            {
+                _colliderSelected = false;
+                Deselected();
+            }
 
-					if (Input.GetKeyUp(item))
-					{
-						Released();
-					}
-				}
-			}
-		}
-		#endregion
+            //process input:
+            if (keyInput != null && _selectedCount > 0)
+            {
+                foreach (var item in keyInput)
+                {
+                    if (Input.GetKeyDown(item))
+                    {
+                        if (_selectedCount == 0) return;
+                        Pressed();
+                    }
 
-		#region Event Handlers
-		private void OnTriggerStay(Collider other)
-		{
-			if (_colliderCount == 0)
-			{
-				_colliderCount++;
-			}
-		}
+                    if (Input.GetKeyUp(item))
+                    {
+                        Released();
+                    }
+                }
+            }
+        }
 
-		private void OnTriggerEnter(Collider other)
-		{
-			_colliderCount++;
-		}
+        //Event Handlers:
+        private void OnTriggerStay(Collider other)
+        {
+            if (_colliderCount == 0)
+            {
+                _colliderCount++;
+            }
+        }
 
-		private void OnTriggerExit(Collider other)
-		{
-			_colliderCount--;
-		}
+        private void OnTriggerEnter(Collider other)
+        {
+            _colliderCount++;
+        }
 
-		private void OnPointerDownDelegate(PointerEventData data)
-		{
-			if (Array.IndexOf(keyInput, KeyCode.Mouse0) == -1) return;
-			Pressed();
-		}
+        private void OnTriggerExit(Collider other)
+        {
+            _colliderCount--;
+        }
 
-		private void OnPointerUpDelegate(PointerEventData data)
-		{
-			if (Array.IndexOf(keyInput, KeyCode.Mouse0) == -1) return;
-			Released();
-		}
+        private void OnPointerDownDelegate(PointerEventData data)
+        {
+            if (Array.IndexOf(keyInput, KeyCode.Mouse0) == -1) return;
+            Pressed();
+        }
 
-		private void OnPointerEnterDelegate(PointerEventData data)
-		{
-			Selected();
-		}
+        private void OnPointerUpDelegate(PointerEventData data)
+        {
+            if (Array.IndexOf(keyInput, KeyCode.Mouse0) == -1) return;
+            Released();
+        }
 
-		private void OnPointerExitDelegate(PointerEventData data)
-		{
-			Deselected();
-		}
+        private void OnPointerEnterDelegate(PointerEventData data)
+        {
+            Selected();
+        }
 
-		private void OnMouseDown()
-		{
-			if (_vrRunning) return;
-			if (Array.IndexOf(keyInput, KeyCode.Mouse0) == -1) return;
-			Pressed();
-		}
+        private void OnPointerExitDelegate(PointerEventData data)
+        {
+            Deselected();
+        }
 
-		private void OnMouseUp()
-		{
-			if (_vrRunning) return;
-			if (Array.IndexOf(keyInput, KeyCode.Mouse0) == -1) return;
-			Released();
-			if (Application.isMobilePlatform)
-			{
-				Deselected();
-			}
-		}
+        private void OnMouseDown()
+        {
+            if (_vrRunning) return;
+            if (Array.IndexOf(keyInput, KeyCode.Mouse0) == -1) return;
+            Pressed();
+        }
 
-		private void OnMouseEnter()
-		{
-			if (Application.isMobilePlatform) return;
-			if (_vrRunning) return;
-			Selected();
-		}
+        private void OnMouseUp()
+        {
+            if (_vrRunning) return;
+            if (Array.IndexOf(keyInput, KeyCode.Mouse0) == -1) return;
+            Released();
+            if (Application.isMobilePlatform)
+            {
+                Deselected();
+            }
+        }
 
-		private void OnMouseExit()
-		{
-			if (_vrRunning) return;
-			Deselected();
-		}
+        private void OnMouseEnter()
+        {
+            if (Application.isMobilePlatform) return;
+            if (_vrRunning) return;
+            Selected();
+        }
 
-		public virtual void Deselected()
-		{
-			_selectedCount--;
-			if (_selectedCount < 0) _selectedCount = 0;
-			if (_selectedCount > 0) return;
-			_clicking = false;
-			ColorNormal();
-			ScaleNormal();
-			if (!Application.isMobilePlatform)
-			{
-				if (OnDeselected != null) OnDeselected.Invoke(this);
-				if (OnDeselectedGlobal != null) OnDeselectedGlobal.Invoke(this);
-				IsSelected = false;
-			}
-		}
+        private void OnMouseExit()
+        {
+            if (_vrRunning) return;
+            Deselected();
+        }
 
-		public virtual void Selected()
-		{
-			_selectedCount++;
-			if (_selectedCount != 1) return;
+        public void Deselected()
+        {
+            if (!interactable) return;
 
-			_pressed = false;
-			_released = false;
+            _selectedCount--;
+            if (_selectedCount < 0) _selectedCount = 0;
+            if (_selectedCount > 0) return;
+            _clicking = false;
+            ColorNormal();
+            ScaleNormal();
+            if (!Application.isMobilePlatform)
+            {
+                if (OnDeselected != null) OnDeselected.Invoke(this);
+                if (OnDeselectedGlobal != null) OnDeselectedGlobal.Invoke(this);
+                IsSelected = false;
+            }
+        }
 
-			_clicking = false;
-			ColorSelected();
-			ScaleSelected();
-			if (OnSelected != null) OnSelected.Invoke(this);
-			if (OnSelectedGlobal != null) OnSelectedGlobal(this);
-			IsSelected = true;
-		}
+        public void Selected()
+        {
+            if (!interactable) return;
 
-		public virtual void Pressed()
-		{
-			if (_selectedCount <= 0) return;
-			if (_pressed) return;
-			_pressed = true;
-			_released = false;
+            _selectedCount++;
+            if (_selectedCount != 1) return;
 
-			_clicking = true;
-			ColorPressed();
-			ScalePressed();
-			if (OnPressed != null) OnPressed.Invoke(this);
-			if (OnPressedGlobal != null) OnPressedGlobal(this);
-		}
+            _pressed = false;
+            _released = false;
 
-		public virtual void Released()
-		{
-			if (_released) return;
-			_pressed = false;
-			_released = true;
+            _clicking = false;
+            ColorSelected();
+            ScaleSelected();
+            if (OnSelected != null) OnSelected.Invoke(this);
+            if (OnSelectedGlobal != null) OnSelectedGlobal(this);
+            IsSelected = true;
+        }
 
-			if (_selectedCount != 0)
-			{
-				ColorSelected();
-				ScaleSelected();
-			}
+        public void Pressed()
+        {
+            if (!interactable) return;
 
-			if (_clicking)
-			{
-				if (OnClick != null) OnClick.Invoke(this);
-				if (OnClickGlobal != null) OnClickGlobal(this);
-			}
-			_clicking = false;
-			if (OnReleased != null) OnReleased.Invoke(this);
-			if (OnReleasedGlobal != null) OnReleasedGlobal(this);
-		}
-		#endregion
+            if (_selectedCount <= 0) return;
+            if (_pressed) return;
+            _pressed = true;
+            _released = false;
 
-		#region Private Methods
-		private void ResizeGUIBoxCollider(BoxCollider boxCollider)
-		{
-			if (!resizeGUIBoxCollider) return;
-			boxCollider.size = new Vector3(_rectTransform.rect.width + guiBoxColliderPadding.x, _rectTransform.rect.height + guiBoxColliderPadding.y, _boxCollider.size.z);
+            _clicking = true;
+            ColorPressed();
+            ScalePressed();
+            if (OnPressed != null) OnPressed.Invoke(this);
+            if (OnPressedGlobal != null) OnPressedGlobal(this);
+        }
 
-			float centerX = (Mathf.Abs(_rectTransform.pivot.x - 1) - .5f) * boxCollider.size.x;
-			float centerY = (Mathf.Abs(_rectTransform.pivot.y - 1) - .5f) * boxCollider.size.y;
-			boxCollider.center = new Vector3(centerX, centerY, boxCollider.center.z);
-		}
+        public void Released()
+        {
+            if (!interactable) return;
 
-		private void ColorReset()
-		{
-			if (_colorTween != null)
-			{
-				if (colorRendererTarget != null && colorRendererTarget.material.HasProperty("_Color"))
-				{
-					_colorTween.Stop();
-				}
-			}
+            if (_released) return;
+            _pressed = false;
+            _released = true;
 
-			if (colorRendererTarget != null && colorRendererTarget != null)
-			{
-				if (colorRendererTarget.material.HasProperty("_Color"))
-				{
-					colorRendererTarget.material.color = normalColor;
-				}
-			}
+            if (_selectedCount != 0)
+            {
+                ColorSelected();
+                ScaleSelected();
+            }
 
-			if (colorImageTarget != null)
-			{
-				colorImageTarget.color = normalColor;
-			}
-		}
+            if (_clicking)
+            {
+                if (OnClick != null) OnClick.Invoke(this);
+                if (OnClickGlobal != null) OnClickGlobal(this);
+            }
+            _clicking = false;
+            if (OnReleased != null) OnReleased.Invoke(this);
+            if (OnReleasedGlobal != null) OnReleasedGlobal(this);
+        }
 
-		private void ColorNormal()
-		{
-			if (!applyColor) return;
-			if (colorRendererTarget != null)
-			{
-				if (colorRendererTarget.material.HasProperty("_Color"))
-				{
-					_colorTween = Tween.Color(colorRendererTarget, normalColor, colorDuration, 0, null, Tween.LoopType.None, null, null, false);
-				}
-			}
-			if (colorImageTarget != null) _colorTween = Tween.Color(colorImageTarget, normalColor, colorDuration, 0, null, Tween.LoopType.None, null, null, false);
-		}
+        //Private Methods:
+        private void ResizeGUIBoxCollider(BoxCollider boxCollider)
+        {
+            if (!resizeGUIBoxCollider) return;
+            boxCollider.size = new Vector3(_rectTransform.rect.width + guiBoxColliderPadding.x, _rectTransform.rect.height + guiBoxColliderPadding.y, _boxCollider.size.z);
 
-		private void ColorSelected()
-		{
-			if (!applyColor) return;
-			if (colorRendererTarget != null)
-			{
-				if (colorRendererTarget.material.HasProperty("_Color"))
-				{
-					_colorTween = Tween.Color(colorRendererTarget, selectedColor, colorDuration, 0, null, Tween.LoopType.None, null, null, false);
-				}
-			}
-			if (colorImageTarget != null) _colorTween = Tween.Color(colorImageTarget, selectedColor, colorDuration, 0, null, Tween.LoopType.None, null, null, false);
-		}
+            if (centerGUIBoxCollider)
+            {
+                float centerX = (Mathf.Abs(_rectTransform.pivot.x - 1) - .5f) * boxCollider.size.x;
+                float centerY = (Mathf.Abs(_rectTransform.pivot.y - 1) - .5f) * boxCollider.size.y;
+                boxCollider.center = new Vector3(centerX, centerY, boxCollider.center.z);
+            }
+        }
 
-		private void ColorPressed()
-		{
-			if (!applyColor) return;
-			if (colorRendererTarget != null)
-			{
-				if (colorRendererTarget.material.HasProperty("_Color"))
-				{
-					_colorTween = Tween.Color(colorRendererTarget, pressedColor, colorDuration, 0, null, Tween.LoopType.None, null, null, false);
-				}
-			}
-			if (colorImageTarget != null) _colorTween = Tween.Color(colorImageTarget, pressedColor, colorDuration, 0, null, Tween.LoopType.None, null, null, false);
-		}
+        private void ColorReset()
+        {
+            //stop running tweens:
+            if (_colorTweenImage != null)
+            {
+                _colorTweenImage.Stop();
+            }
 
-		private void ScaleReset()
-		{
-			if (_scaleTween != null) _scaleTween.Stop();
-			scaleTarget.localScale = normalScale;
-		}
+            if (_colorTweenMaterial != null)
+            {
+                _colorTweenMaterial.Stop();
+            }
 
-		private void ScaleNormal()
-		{
-			if (!applyScale) return;
-			AnimationCurve curve = null;
-			switch (scaleEaseType)
-			{
-				case EaseType.EaseOut:
-					curve = Tween.EaseOutStrong;
-					break;
+            if (!applyColor) return;
 
-				case EaseType.EaseOutBack:
-					curve = Tween.EaseOutBack;
-					break;
-			}
-			_scaleTween = Tween.LocalScale(scaleTarget, normalScale, scaleDuration, 0, curve, Tween.LoopType.None, null, null, false);
-		}
+            //reset material color:
+            if (colorRendererTarget != null && colorRendererTarget.material.HasProperty("_Color"))
+            {
+                colorRendererTarget.material.color = _normalColorRenderer;
+            }
 
-		private void ScaleSelected()
-		{
-			if (!applyScale) return;
-			AnimationCurve curve = null;
-			switch (scaleEaseType)
-			{
-				case EaseType.EaseOut:
-					curve = Tween.EaseOutStrong;
-					break;
+            //reset image color:
+            if (colorImageTarget != null)
+            {
+                colorImageTarget.color = _normalColorImage;
+            }
+        }
 
-				case EaseType.EaseOutBack:
-					curve = Tween.EaseOutBack;
-					break;
-			}
-			_scaleTween = Tween.LocalScale(scaleTarget, selectedScale, scaleDuration, 0, curve, Tween.LoopType.None, null, null, false);
-		}
+        private void ColorNormal()
+        {
+            if (!applyColor) return;
 
-		private void ScalePressed()
-		{
-			if (!applyScale) return;
-			AnimationCurve curve = null;
-			switch (scaleEaseType)
-			{
-				case EaseType.EaseOut:
-					curve = Tween.EaseOutStrong;
-					break;
+            //tween material color:
+            if (colorRendererTarget != null && colorRendererTarget.material.HasProperty("_Color"))
+            {
+                _colorTweenMaterial = Tween.Color(colorRendererTarget, _normalColorRenderer, colorDuration, 0, null, Tween.LoopType.None, null, null, false);
+            }
 
-				case EaseType.EaseOutBack:
-					curve = Tween.EaseOutBack;
-					break;
-			}
-			_scaleTween = Tween.LocalScale(scaleTarget, pressedScale, scaleDuration, 0, curve, Tween.LoopType.None, null, null, false);
-		}
-		#endregion
-	}
+            //tween image color:
+            if (colorImageTarget != null)
+            {
+                Tween.Color(colorImageTarget, _normalColorImage, colorDuration, 0, null, Tween.LoopType.None, null, null, false);
+            }
+        }
+
+        private void ColorSelected()
+        {
+            if (!applyColor) return;
+
+            //tween material color:
+            if (colorRendererTarget != null && colorRendererTarget.material.HasProperty("_Color"))
+            {
+                _colorTweenMaterial = Tween.Color(colorRendererTarget, selectedColor, colorDuration, 0, null, Tween.LoopType.None, null, null, false);
+            }
+
+            //tween image color:
+            if (colorImageTarget != null)
+            {
+                Tween.Color(colorImageTarget, selectedColor, colorDuration, 0, null, Tween.LoopType.None, null, null, false);
+            }
+        }
+
+        private void ColorPressed()
+        {
+            if (!applyColor) return;
+
+            //tween material color:
+            if (colorRendererTarget != null && colorRendererTarget.material.HasProperty("_Color"))
+            {
+                _colorTweenMaterial = Tween.Color(colorRendererTarget, pressedColor, colorDuration, 0, null, Tween.LoopType.None, null, null, false);
+            }
+
+            //tween image color:
+            if (colorImageTarget != null)
+            {
+                Tween.Color(colorImageTarget, pressedColor, colorDuration, 0, null, Tween.LoopType.None, null, null, false);
+            }
+        }
+
+        private void ColorDisabled()
+        {
+            if (!applyColor) return;
+
+            //tween material color:
+            if (colorRendererTarget != null && colorRendererTarget.material.HasProperty("_Color"))
+            {
+                _colorTweenMaterial = Tween.Color(colorRendererTarget, disabledColor, colorDuration, 0, null, Tween.LoopType.None, null, null, false);
+            }
+
+            //tween image color:
+            if (colorImageTarget != null)
+            {
+                Tween.Color(colorImageTarget, disabledColor, colorDuration, 0, null, Tween.LoopType.None, null, null, false);
+            }
+        }
+
+        private void ScaleReset()
+        {
+            if (_scaleTween != null) _scaleTween.Stop();
+            scaleTarget.localScale = normalScale;
+        }
+
+        private void ScaleNormal()
+        {
+            if (!applyScale) return;
+            AnimationCurve curve = null;
+            switch (scaleEaseType)
+            {
+                case EaseType.EaseOut:
+                    curve = Tween.EaseOutStrong;
+                    break;
+
+                case EaseType.EaseOutBack:
+                    curve = Tween.EaseOutBack;
+                    break;
+            }
+            _scaleTween = Tween.LocalScale(scaleTarget, normalScale, scaleDuration, 0, curve, Tween.LoopType.None, null, null, false);
+        }
+
+        private void ScaleSelected()
+        {
+            if (!applyScale) return;
+            AnimationCurve curve = null;
+            switch (scaleEaseType)
+            {
+                case EaseType.EaseOut:
+                    curve = Tween.EaseOutStrong;
+                    break;
+
+                case EaseType.EaseOutBack:
+                    curve = Tween.EaseOutBack;
+                    break;
+            }
+            _scaleTween = Tween.LocalScale(scaleTarget, selectedScale, scaleDuration, 0, curve, Tween.LoopType.None, null, null, false);
+        }
+
+        private void ScalePressed()
+        {
+            if (!applyScale) return;
+            AnimationCurve curve = null;
+            switch (scaleEaseType)
+            {
+                case EaseType.EaseOut:
+                    curve = Tween.EaseOutStrong;
+                    break;
+
+                case EaseType.EaseOutBack:
+                    curve = Tween.EaseOutBack;
+                    break;
+            }
+            _scaleTween = Tween.LocalScale(scaleTarget, pressedScale, scaleDuration, 0, curve, Tween.LoopType.None, null, null, false);
+        }
+    }
 }

@@ -14,76 +14,71 @@ using Pixelplacement;
 
 public class ColliderButtonSelector : MonoBehaviour
 {
-	#region Public Variables
-	public Chooser chooser;
-	public bool loopAround;
-	public KeyCode previousKey = KeyCode.LeftArrow;
-	public KeyCode nextKey = KeyCode.RightArrow;
-	public ColliderButton[] colliderButtons;
-	#endregion
+    //Public Variables:
+    public Chooser chooser;
+    public bool loopAround;
+    public KeyCode previousKey = KeyCode.LeftArrow;
+    public KeyCode nextKey = KeyCode.RightArrow;
+    public ColliderButton[] colliderButtons;
 
-	#region Private Variables
-	private int _index;
-	#endregion
+    //Private Variables
+    private int _index;
 
-	#region Init
-	private void OnEnable()
-	{
-		_index = -1;
-		Next();
-	}
+    //Init:
+    private void OnEnable()
+    {
+        _index = -1;
+        Next();
+    }
 
-	private void Reset()
-	{
-		chooser = GetComponent<Chooser>();
-	}
-	#endregion
+    private void Reset()
+    {
+        chooser = GetComponent<Chooser>();
+    }
 
-	#region Loops
-	private void Update()
-	{
-		if (Input.GetKeyDown(previousKey)) Previous();
-		if (Input.GetKeyDown(nextKey)) Next();
-	}
-	#endregion
+    //Loops:
+    private void Update()
+    {
+        if (Input.GetKeyDown(previousKey)) Previous();
+        if (Input.GetKeyDown(nextKey)) Next();
+    }
 
-	#region Public Methods
-	public void Next()
-	{
-		_index++;
+    //Public Methods:
+    public void Next()
+    {
+        _index++;
 
-		if (_index > colliderButtons.Length-1)
-		{
-			if (loopAround)
-			{
-				_index = 0;
-			}
-			else
-			{
-				_index = colliderButtons.Length - 1;
-			}
-		}
-	
-		chooser.transform.LookAt(colliderButtons[_index].transform);
-	}
+        if (_index > colliderButtons.Length-1)
+        {
+            if (loopAround)
+            {
+                _index = 0;
+            }
+            else
+            {
+                _index = colliderButtons.Length - 1;
+            }
+        }
+    
+        chooser.transform.LookAt(colliderButtons[_index].transform);
+    }
 
-	public void Previous()
-	{
-		_index--;
+    public void Previous()
+    {
+        _index--;
 
-		if (_index < 0)
-		{
-			if (loopAround)
-			{
-				_index = colliderButtons.Length - 1;
-			}
-			else
-			{
-				_index = 0;
-			}
-		}
+        if (_index < 0)
+        {
+            if (loopAround)
+            {
+                _index = colliderButtons.Length - 1;
+            }
+            else
+            {
+                _index = 0;
+            }
+        }
 
-		chooser.transform.LookAt(colliderButtons[_index].transform);
-	}
-	#endregion
+        chooser.transform.LookAt(colliderButtons[_index].transform);
+    }
 }

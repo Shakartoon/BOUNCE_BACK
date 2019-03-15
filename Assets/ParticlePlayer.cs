@@ -11,14 +11,29 @@ public class ParticlePlayer : MonoBehaviour
 
 		myPS = GetComponent<ParticleSystem>(); 
 	}
+
+
+	void OnCollisionEnter2D(Collision2D col)
+	{
+
+		if (col.gameObject.CompareTag("SoundMakingObject"))
+		{
+
+			Debug.Log("assdsds"); 
+			myPS.Play(); 
+
+		}
+		
+	}
 	
-	// Update is called once per frame
 	void OnMouseDown () {
 
+		/*
 		if (Input.GetMouseButtonDown(0))
 		{
 
 			myPS.Play(); 
 		}
+		*/ 
 	}
 }

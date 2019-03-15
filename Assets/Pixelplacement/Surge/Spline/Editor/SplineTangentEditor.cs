@@ -12,29 +12,27 @@ using UnityEngine;
 
 namespace Pixelplacement
 {
-	[CustomEditor(typeof(SplineTangent))]
-	public class SplineTangentEditor : Editor
-	{
-		#region Scene GUI
-		void OnSceneGUI ()
-		{
-			//ensure pivot is used so anchor selection has a proper transform origin:
-			if (Tools.pivotMode == PivotMode.Center)
-			{
-				Tools.pivotMode = PivotMode.Pivot;
-			}
-		}
-		#endregion
+    [CustomEditor(typeof(SplineTangent))]
+    public class SplineTangentEditor : Editor
+    {
+        //Scene GUI:
+        void OnSceneGUI ()
+        {
+            //ensure pivot is used so anchor selection has a proper transform origin:
+            if (Tools.pivotMode == PivotMode.Center)
+            {
+                Tools.pivotMode = PivotMode.Pivot;
+            }
+        }
 
-		#region Gizmos
-		[DrawGizmo(GizmoType.Selected)]
-		static void RenderCustomGizmo(Transform objectTransform, GizmoType gizmoType)
-		{
-			if (objectTransform.parent != null && objectTransform.parent.parent != null)
-			{
-				SplineEditor.RenderCustomGizmo(objectTransform.parent.parent, gizmoType);
-			}
-		}
-		#endregion
-	}
+        //Gizmos:
+        [DrawGizmo(GizmoType.Selected)]
+        static void RenderCustomGizmo(Transform objectTransform, GizmoType gizmoType)
+        {
+            if (objectTransform.parent != null && objectTransform.parent.parent != null)
+            {
+                SplineEditor.RenderCustomGizmo(objectTransform.parent.parent, gizmoType);
+            }
+        }
+    }
 }

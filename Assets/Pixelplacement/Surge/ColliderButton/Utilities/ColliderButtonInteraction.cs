@@ -15,16 +15,15 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class ColliderButtonInteraction : MonoBehaviour
 {
-	#region Init
-	private void Reset()
-	{
-		GetComponent<Collider>().isTrigger = true;
-	}
+    //Init
+    private void Reset()
+    {
+        GetComponent<Collider>().isTrigger = true;
+    }
 
-	private void Awake()
-	{
-		Collider collider = GetComponent<Collider>();
-		collider.isTrigger = true;
-	}
-	#endregion
+    private void Awake()
+    {
+        Collider collider = GetComponent<Collider>();
+        collider.isTrigger = true;
+    }
 }

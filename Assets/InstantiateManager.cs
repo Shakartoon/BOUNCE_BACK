@@ -7,12 +7,8 @@ public class InstantiateManager : MonoBehaviour
 
 	public GameObject myBall;
 	private GameObject instantiatedBall; 
-	
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
+	RaycastHit beatHit; 
+ 
 	void Update() {
 
 		if (Input.GetMouseButtonDown(0))
@@ -35,8 +31,20 @@ public class InstantiateManager : MonoBehaviour
 			}				
 			
 			//so instead of instantiating at mousePosition we instantiate at worldPosition 
+			bool clickedScreen = true; 
 			instantiatedBall = Instantiate(myBall, worldPosition, Quaternion.identity);
+
 			
+			
+			if (Physics.Raycast(ray, out hit) && Input.GetMouseButtonDown(0))
+			{
+				if (hit.transform.gameObject == instantiatedBall || hit.transform.gameObject == myBall)
+				//if (hit.collider.gameObject == instantiatedBall || hit.collider.gameObject == myBall || hit.collider.gameObject.name == "whiteball(Clone)")
+				{
+					Debug.Log("Love");
+				}
+			}
+
 		}
 	
 	}

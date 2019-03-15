@@ -31,11 +31,14 @@
         </e>
         <e p="AnimationController.cs" t="Include" />
         <e p="audioVisualizerSineWave.cs" t="Include" />
+        <e p="BallCollisionPulse.cs" t="Include" />
         <e p="BBonCollisionChangeColor.cs" t="Include" />
         <e p="CameraFollow.cs" t="Include" />
+        <e p="CameraMove.cs" t="Include" />
         <e p="CameraMoveClick.cs" t="Include" />
         <e p="cameraZoomOut.cs" t="Include" />
         <e p="CamRotation.cs" t="Include" />
+        <e p="CheckPositionPlayer.cs" t="Include" />
         <e p="CheckSpeed.cs" t="Include" />
         <e p="CircleScript.cs" t="Include" />
         <e p="ClickAndDrag.cs" t="Include" />
@@ -46,10 +49,55 @@
         <e p="DrawShapes.cs" t="Include" />
         <e p="DrawVectors.cs" t="Include" />
         <e p="DuplicateObjects.cs" t="Include" />
+        <e p="Dynamic Color Curves" t="Include">
+          <e p="Demo Scene" t="Include">
+            <e p="Script" t="Include">
+              <e p="DemoCurveImageBehavior.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="ColorCurvesManager.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="ColorCurvesManagerEditor.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Standard Assets" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ImageEffects" t="Include">
+                <e p="ColorCorrectionCurvesEditor.cs" t="Include" />
+                <e p="ColorCorrectionLookupEditor.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Effects" t="Include">
+              <e p="ImageEffects" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="ColorCorrectionCurves.cs" t="Include" />
+                  <e p="ColorCorrectionLookup.cs" t="Include" />
+                  <e p="ColorCorrectionRamp.cs" t="Include" />
+                  <e p="ImageEffectBase.cs" t="Include" />
+                  <e p="ImageEffects.cs" t="Include" />
+                  <e p="PostEffectsBase.cs" t="Include" />
+                  <e p="PostEffectsHelper.cs" t="Include" />
+                  <e p="Quads.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="ColorCorrection3DLut.shader" t="Include" />
+                  <e p="ColorCorrectionCurves.shader" t="Include" />
+                  <e p="ColorCorrectionCurvesSimple.shader" t="Include" />
+                  <e p="ColorCorrectionEffect.shader" t="Include" />
+                  <e p="ColorCorrectionSelective.shader" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="EchoEffect.cs" t="Include" />
         <e p="EnemyScript.cs" t="Include" />
         <e p="FadeImage.cs" t="Include" />
+        <e p="FamilyInstantiate.cs" t="Include" />
+        <e p="FamilyMeets.cs" t="Include" />
         <e p="GameManager.cs" t="Include" />
+        <e p="GlitchEffect.cs" t="Include" />
         <e p="hitboxeffect.cs" t="Include" />
         <e p="InstantiateLittleBalls.cs" t="Include" />
         <e p="InstantiateManager.cs" t="Include" />
@@ -57,6 +105,7 @@
         <e p="InstantiateObjectsTopOfScreen.cs" t="Include" />
         <e p="InstantiateSoundMakingObjects.cs" t="Include" />
         <e p="itweentests.cs" t="Include" />
+        <e p="L1.cs" t="Include" />
         <e p="LaunchBar.cs" t="Include" />
         <e p="LineRendererChildren.cs" t="Include" />
         <e p="LineRendererStuff.cs" t="Include" />
@@ -224,6 +273,7 @@
               <e p="Server.cs" t="Include" />
               <e p="Utilities" t="Include">
                 <e p="ClientConnector.cs" t="Include" />
+                <e p="IPManager.cs" t="Include" />
               </e>
             </e>
             <e p="DisplayObject" t="Include">
@@ -389,10 +439,32 @@
         </e>
         <e p="pulse.cs" t="Include" />
         <e p="pulsingScale.cs" t="Include" />
+        <e p="RandomMovement.cs" t="Include" />
         <e p="RandomVectorAndScale.cs" t="Include" />
         <e p="rectangularMovement.cs" t="Include" />
         <e p="RotateAroundButton.cs" t="Include" />
+        <e p="RotateUpAndDown.cs" t="Include" />
         <e p="RotationScript.cs" t="Include" />
+        <e p="RTS_Camera" t="Include">
+          <e p="Demo" t="Include">
+            <e p="DemoScene.cs" t="Include" />
+            <e p="Projectors" t="Include">
+              <e p="Guidelines.txt" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="ProjectorLight.shader" t="Include" />
+                <e p="ProjectorMultiply.shader" t="Include" />
+              </e>
+            </e>
+            <e p="TargetSelector.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="LayoutHelpers.cs" t="Include" />
+              <e p="RTS_CameraEditor.cs" t="Include" />
+            </e>
+            <e p="RTS_Camera.cs" t="Include" />
+          </e>
+        </e>
         <e p="ScaleBasedOnVolume.cs" t="Include" />
         <e p="ScaleRectIllusion.cs" t="Include" />
         <e p="SceneChanger.cs" t="Include" />

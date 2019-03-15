@@ -42,7 +42,7 @@ namespace TMPro.Examples
                     textMeshPro.alignment = TextAlignmentOptions.Center;
                     textMeshPro.fontSize = 96;
 
-                    textMeshPro.text = "@";
+                    textMeshPro.text = "C.A.R.P.E.T.";
                     textMeshPro.color = new Color32(255, 255, 0, 255);
                     //textMeshPro.Text = "!";
 

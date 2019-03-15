@@ -7,7 +7,7 @@ using UnityEngine;
 public class SceneChanger : MonoBehaviour
 {
 	public float timer = 0f;
-	public float timeToNextScene = Random.Range(20, 60);
+	public float timeToNextScene = 45f;
 	
 	public GameObject[] _short;
 	public GameObject[] _medium; 
@@ -62,13 +62,21 @@ public class SceneChanger : MonoBehaviour
 		timer += Time.deltaTime;
 		Debug.Log(timer);
 		
-		if (timer >= 5 || Input.GetKey(KeyCode.RightArrow))   
+		if (timer >= timeToNextScene || Input.GetKey(KeyCode.RightArrow))   
 
 		{
 			
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 			timer = 0; 
 
+		}
+		
+		if (Input.GetKey(KeyCode.LeftArrow))   
+
+		{
+			
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+			timer = 0; 
 		}
 		
 		

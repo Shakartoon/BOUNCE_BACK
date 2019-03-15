@@ -18,7 +18,8 @@
      private bool keepGoing = true;
      private bool closeEnough = false;
 
-     private SpriteRenderer SR; 
+     private SpriteRenderer SR;
+     private float timer; 
  
      // Attach the coroutine
      void Awake ()
@@ -27,52 +28,48 @@
          // Find the text  element we want to use
  
          // Then start the routine
+        
          routine = StartCoroutine(Pulse());
+         
      }
 
-     /*
      void Update()
      {
-         SMScript.CollisionHappened = false;
-
-         if (SMScript.CollisionHappened)
-         {
-            routine = StartCoroutine(Pulse());
-
-         }
+         timer += Time.deltaTime; 
 
      }
- */ 
+     
      IEnumerator Pulse()
      {
-         // Run this indefinitely
-         while (keepGoing)
-         {
-             // Get bigger for a few seconds
-             while (currentRatio != growthBound)
+         
+        // Run this indefinitely
+             while (keepGoing)
              {
-                 // Determine the new ratio to use
-                 currentRatio = Mathf.MoveTowards( currentRatio, growthBound, approachSpeed);
- 
-                 // Update our text element
+                 // Get bigger for a few seconds
+                 while (currentRatio != growthBound)
+                 {
+                     // Determine the new ratio to use
+                     currentRatio = Mathf.MoveTowards(currentRatio, growthBound, approachSpeed);
 
-                 yield return new WaitForEndOfFrame();
+                     // Update our text element
+
+                     yield return new WaitForEndOfFrame();
+                 }
+
+                 // Shrink for a few seconds
+                 while (this.currentRatio != this.shrinkBound)
+                 {
+                     // Determine the new ratio to use
+                     currentRatio = Mathf.MoveTowards(currentRatio, shrinkBound, approachSpeed);
+
+                     // Update our text element
+                     SR.transform.localScale = Vector3.one * currentRatio;
+                     //SR = "Shrinking!";
+
+                     //yield return new WaitForEndOfFrame();
+                     yield return null;
+                 }
              }
- 
-             // Shrink for a few seconds
-             while (this.currentRatio != this.shrinkBound)
-             {
-                 // Determine the new ratio to use
-                 currentRatio = Mathf.MoveTowards( currentRatio, shrinkBound, approachSpeed);
- 
-                 // Update our text element
-                 SR.transform.localScale = Vector3.one * currentRatio;
-                 //SR = "Shrinking!";
- 
-                 //yield return new WaitForEndOfFrame();
-                 yield return null; 
-             }
-         }
      }
  }
  

@@ -16,85 +16,81 @@ using Pixelplacement;
 [RequireComponent (typeof (Spline))]
 public class SplineControlledParticleSystem : MonoBehaviour
 {
-	#region Public Variables
-	public float startRadius;
-	public float endRadius;
-	#endregion
+    //Public Variables:
+    public float startRadius;
+    public float endRadius;
 
-	#region Private Variables
-	[SerializeField] ParticleSystem _particleSystem;
-	Pixelplacement.Spline _spline;
-	ParticleSystem.Particle[] _particles;
-	const float _prviousDiff = .01f;
-	#endregion
+    //Private Variables:
+    [SerializeField] ParticleSystem _particleSystem = null;
+    Pixelplacement.Spline _spline;
+    ParticleSystem.Particle[] _particles;
+    const float _prviousDiff = .01f;
 
-	#region Init
-	void Awake ()
-	{
-		_spline = GetComponent<Pixelplacement.Spline> ();
-	}
-	#endregion
+    //Init:
+    void Awake ()
+    {
+        _spline = GetComponent<Pixelplacement.Spline> ();
+    }
 
-	#region Loops
-	void LateUpdate ()
-	{
-		if (_particleSystem == null) return;
+    //Loops:
+    void LateUpdate ()
+    {
+        if (_particleSystem == null) return;
 
-		if (_particles == null) _particles = new ParticleSystem.Particle[_particleSystem.main.maxParticles];
+        if (_particles == null) _particles = new ParticleSystem.Particle[_particleSystem.main.maxParticles];
 
-		int aliveParticlesCount = _particleSystem.GetParticles (_particles);
+        int aliveParticlesCount = _particleSystem.GetParticles (_particles);
 
-		for (int i = 0; i < aliveParticlesCount; i++)
-		{
-			//get calculation pieces:
-			float seedMax = Mathf.Pow (10, _particles[i].randomSeed.ToString ().Length);
-			float seedAsPercent = _particles[i].randomSeed / seedMax;
-			float travelPercentage = 1 - (_particles [i].remainingLifetime / _particles [i].startLifetime);
+        for (int i = 0; i < aliveParticlesCount; i++)
+        {
+            //get calculation pieces:
+            float seedMax = Mathf.Pow (10, _particles[i].randomSeed.ToString ().Length);
+            float seedAsPercent = _particles[i].randomSeed / seedMax;
+            float travelPercentage = 1 - (_particles [i].remainingLifetime / _particles [i].startLifetime);
 
-			//bypass issue while running at edit time when particles haven't reached the spline end:
-			if (_spline.GetDirection (travelPercentage) == Vector3.zero) continue;
+            //bypass issue while running at edit time when particles haven't reached the spline end:
+            if (_spline.GetDirection (travelPercentage) == Vector3.zero) continue;
 
-			//get a direction off our current point on the path - rotating by 1080 results in better distribution since Unity's randomSeed for particles favors lower numbers:
-			Vector3 offshootDirection = Quaternion.AngleAxis (1080 * seedAsPercent, -_spline.GetDirection (travelPercentage)) * _spline.Up (travelPercentage);
-			Vector3 previousOffshootDirection = Quaternion.AngleAxis (1080 * seedAsPercent, -_spline.GetDirection (travelPercentage - _prviousDiff)) * _spline.Up (travelPercentage - _prviousDiff);
+            //get a direction off our current point on the path - rotating by 1080 results in better distribution since Unity's randomSeed for particles favors lower numbers:
+            Vector3 offshootDirection = Quaternion.AngleAxis (1080 * seedAsPercent, -_spline.GetDirection (travelPercentage)) * _spline.Up (travelPercentage);
+            Vector3 previousOffshootDirection = Quaternion.AngleAxis (1080 * seedAsPercent, -_spline.GetDirection (travelPercentage - _prviousDiff)) * _spline.Up (travelPercentage - _prviousDiff);
 
-			//cache our positions:
-			Vector3 position = _spline.GetPosition (travelPercentage);
+            //cache our positions:
+            Vector3 position = _spline.GetPosition (travelPercentage);
 
-			//cache a previous position for velocity if possible:
-			Vector3 lastPosition = position;
-			if (travelPercentage - .01f >= 0) lastPosition = _spline.GetPosition (travelPercentage - _prviousDiff);
-		
-			//decide how far to offshoot from the spline based on where we are between the start and end radius:
-			float offset = Mathf.Lerp (startRadius, endRadius, travelPercentage);
-			float previousOffset = Mathf.Lerp (startRadius, endRadius, travelPercentage - _prviousDiff);
+            //cache a previous position for velocity if possible:
+            Vector3 lastPosition = position;
+            if (travelPercentage - .01f >= 0) lastPosition = _spline.GetPosition (travelPercentage - _prviousDiff);
+        
+            //decide how far to offshoot from the spline based on where we are between the start and end radius:
+            float offset = Mathf.Lerp (startRadius, endRadius, travelPercentage);
+            float previousOffset = Mathf.Lerp (startRadius, endRadius, travelPercentage - _prviousDiff);
 
-			//place particles depending on simulation space:
-			Vector3 currentPosition = Vector3.zero;
-			Vector3 previousPosition = Vector3.zero;
+            //place particles depending on simulation space:
+            Vector3 currentPosition = Vector3.zero;
+            Vector3 previousPosition = Vector3.zero;
 
-			switch (_particleSystem.main.simulationSpace)
-			{
-			case ParticleSystemSimulationSpace.Local:
-				
-				currentPosition = _particleSystem.transform.InverseTransformPoint (position + offshootDirection * offset);
-				previousPosition = _particleSystem.transform.InverseTransformPoint (lastPosition + previousOffshootDirection * previousOffset);
-				break;
+            switch (_particleSystem.main.simulationSpace)
+            {
+            case ParticleSystemSimulationSpace.Local:
+                
+                currentPosition = _particleSystem.transform.InverseTransformPoint (position + offshootDirection * offset);
+                previousPosition = _particleSystem.transform.InverseTransformPoint (lastPosition + previousOffshootDirection * previousOffset);
+                break;
 
-			case ParticleSystemSimulationSpace.World:
-			case ParticleSystemSimulationSpace.Custom:
-				currentPosition = position + offshootDirection * offset;
-				previousPosition = position + previousOffshootDirection * previousOffset;
-				break;
-			}
+            case ParticleSystemSimulationSpace.World:
+            case ParticleSystemSimulationSpace.Custom:
+                currentPosition = position + offshootDirection * offset;
+                previousPosition = position + previousOffshootDirection * previousOffset;
+                break;
+            }
 
-			//apply:
-			_particles [i].position = currentPosition;
-			_particles [i].velocity = currentPosition - previousPosition;
-		}
+            //apply:
+            _particles [i].position = currentPosition;
+            _particles [i].velocity = currentPosition - previousPosition;
+        }
 
-		//apply the particle changes back to the system:
-		_particleSystem.SetParticles (_particles, _particles.Length);
-	}
-	#endregion
+        //apply the particle changes back to the system:
+        _particleSystem.SetParticles (_particles, _particles.Length);
+    }
 }

@@ -27,6 +27,7 @@ GameObject:
   - component: {fileID: 198586014424051118}
   - component: {fileID: 120495429969772036}
   - component: {fileID: 114342989867484654}
+  - component: {fileID: 114733898898025214}
   m_Layer: 0
   m_Name: whiteball
   m_TagString: Ball
@@ -121,8 +122,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1264550777989538}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.37, y: 10.8, z: -0.21}
-  m_LocalScale: {x: 0.25515, y: 0.25515, z: 0.25515}
+  m_LocalPosition: {x: -2.44, y: 15.29, z: -0.21}
+  m_LocalScale: {x: 0.27683774, y: 0.27683774, z: 0.27683774}
   m_Children:
   - {fileID: 4094568952941030}
   m_Father: {fileID: 0}
@@ -195,7 +196,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 1264550777989538}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 0924049ef154c42e9a042b5b1fb18496, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -247,7 +248,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.33636475
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -339,7 +340,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.33636475
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -438,6 +439,15 @@ TrailRenderer:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.80566806
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -508,6 +518,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
+--- !u!114 &114733898898025214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1264550777989538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2500f8a90064e47bfb1000a7a3c27755, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!120 &120495429969772036
 LineRenderer:
   m_ObjectHideFlags: 1
@@ -618,10 +639,10 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1264550777989538}
   serializedVersion: 5
-  lengthInSec: 5
+  lengthInSec: 3
   simulationSpeed: 1
   stopAction: 0
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -690,7 +711,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 6
+      scalar: 4
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -743,7 +764,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1.51
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -859,7 +880,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10.95
+      scalar: 12.67
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -1234,7 +1255,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 5
     enabled: 1
-    type: 4
+    type: 17
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -1323,7 +1344,7 @@ ParticleSystem:
           m_RotationOrder: 4
     arc:
       value: 360
-      mode: 0
+      mode: 2
       spread: 0
       speed:
         serializedVersion: 2
@@ -5216,7 +5237,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: b49713202f0fc44b39aafab416f5dfa9, type: 2}
+  - {fileID: 2100000, guid: cb98f9914bbdc47cf98e616915649776, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
