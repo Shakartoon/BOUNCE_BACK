@@ -5,10 +5,14 @@ using UnityEngine;
 public class OnCollisionPlaySound : MonoBehaviour
 {
 	private AudioSource AS;
-	public bool changePitch;
+
+	[SerializeField] private bool RandomizeClips; 
+	[SerializeField] bool changePitch;
+	[SerializeField] AudioClip[] audioClips;
+	private AudioClip myClip; 
+
 
 	public GameObject ballToLoad; 
-	
 	
 	private float maxForceForVolume = 10.0f;
 	private float minForceForVolume = 0.1f;
@@ -24,11 +28,14 @@ public class OnCollisionPlaySound : MonoBehaviour
 
 	}
 
-	void Update()
+	/* void PlayRandomClips()
 	{
-		
-
-	}
+		int index = Random.Range(0, audioClips.Length);
+		myClip = audioClips[index];
+		AS.clip = myClip; 
+		AS.Play();
+	}*/ 
+	
 	
 	void OnCollisionEnter2D (Collision2D col) {
 		
@@ -38,13 +45,19 @@ public class OnCollisionPlaySound : MonoBehaviour
 			force = Mathf.Clamp(force, minForceForVolume, maxForceForVolume);
 			force = force / maxForceForVolume;
 			AS.volume = force;
+
+			if (RandomizeClips)
+			{
+				int index = Random.Range(0, audioClips.Length);
+				myClip = audioClips[index];
+				AS.clip = myClip; 
+				AS.Play();			}
 			
-			
-			float pitchFloat = transform.position.y / maxScreenSize;
-			AS.pitch = pitchFloat;
-			
-			AS.Play();
-			
+			else
+			{
+				AS.Play();
+			}
+						
 			if(changePitch)
 			{
 				AS.pitch = Random.Range(0.1f, 2f);
@@ -54,6 +67,10 @@ public class OnCollisionPlaySound : MonoBehaviour
 			
 			ballToLoad.SetActive(true);
 			ballToLoad.transform.localScale += new Vector3(0.1f, 0.1f, 0);
+			
+			
+			float pitchFloat = transform.position.y / maxScreenSize;
+			AS.pitch = pitchFloat;
 
 			
 		}
