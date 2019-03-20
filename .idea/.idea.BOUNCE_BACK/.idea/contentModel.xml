@@ -41,12 +41,15 @@
         <e p="CamRotation.cs" t="Include" />
         <e p="CheckPositionPlayer.cs" t="Include" />
         <e p="CheckSpeed.cs" t="Include" />
+        <e p="circleEffect.cs" t="Include" />
         <e p="CircleScript.cs" t="Include" />
         <e p="ClickAndDrag.cs" t="Include" />
+        <e p="ClickSound.cs" t="Include" />
         <e p="CollisionRotate.cs" t="Include" />
         <e p="ColorLerp.cs" t="Include" />
         <e p="CombineBars.cs" t="Include" />
         <e p="Destroy.cs" t="Include" />
+        <e p="DollyZoom.cs" t="Include" />
         <e p="DragVolume.cs" t="Include" />
         <e p="DrawShapes.cs" t="Include" />
         <e p="DrawVectors.cs" t="Include" />
@@ -229,6 +232,7 @@
         </e>
         <e p="OnCollisionAnimate.cs" t="Include" />
         <e p="OnCollisionBreak.cs" t="Include" />
+        <e p="OnCollisionColorAndDestroy.cs" t="Include" />
         <e p="OnCollisionColorChange.cs" t="Include" />
         <e p="OnCollisionDestroy.cs" t="Include" />
         <e p="OnCollisionPlaySound.cs" t="Include" />
@@ -241,6 +245,7 @@
         <e p="OnTriggerChangeColor.cs" t="Include" />
         <e p="OnTriggerPlaySound.cs" t="Include" />
         <e p="ParticlePlayer.cs" t="Include" />
+        <e p="PathFollow.cs" t="Include" />
         <e p="PatternScales.cs" t="Include" />
         <e p="Pixelplacement" t="Include">
           <e p="Surge" t="Include">

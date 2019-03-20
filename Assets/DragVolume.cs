@@ -11,6 +11,8 @@ public class DragVolume : MonoBehaviour
     private AudioSource myAS;
     private float screenWidthNumber;
 
+    public Color originalColor;
+    public Color newColor; 
     private float minVolume = 0f;
     private float maxVolume = 1f;
 
@@ -28,7 +30,7 @@ public class DragVolume : MonoBehaviour
 
     void OnMouseOver()
     {
-        mySR.color = Color.Lerp(Color.white, Color.black, Mathf.PingPong(Time.time, 2f)); 
+        mySR.color = Color.Lerp(originalColor, newColor, Mathf.PingPong(Time.time, 2f)); 
 
     }
     void OnMouseDown()
@@ -37,7 +39,7 @@ public class DragVolume : MonoBehaviour
 
         offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, 0, screenPoint.z));
         
-        mySR.color = Color.black;
+        mySR.color = newColor;
 
 
     }
@@ -46,15 +48,14 @@ public class DragVolume : MonoBehaviour
     {
         Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, 0, screenPoint.z);
         Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
-                              transform.position = curPosition;
-        
-        mySR.color = Color.black;
+                              transform.position = curPosition; 
+        mySR.color = newColor;
  
     }
 
     void OnMouseExit()
     {
-        mySR.color = Color.white; 
+        mySR.color = originalColor; 
     }
 
     void Update()

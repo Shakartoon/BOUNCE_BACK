@@ -60,7 +60,6 @@ public class SceneChanger : MonoBehaviour
 	{
 
 		timer += Time.deltaTime;
-		Debug.Log(timer);
 		
 		if (timer >= timeToNextScene || Input.GetKey(KeyCode.RightArrow))   
 

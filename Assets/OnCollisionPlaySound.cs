@@ -12,6 +12,9 @@ public class OnCollisionPlaySound : MonoBehaviour
 	
 	private float maxForceForVolume = 10.0f;
 	private float minForceForVolume = 0.1f;
+
+	private float maxScreenSize = 30f;
+	private float minScreenSize = 1f; 
 	
 	void Start ()
 	{
@@ -20,16 +23,28 @@ public class OnCollisionPlaySound : MonoBehaviour
 		ballToLoad.SetActive(false); 
 
 	}
+
+	void Update()
+	{
+		
+
+	}
 	
-	// Update is called once per frame
 	void OnCollisionEnter2D (Collision2D col) {
+		
 		if (col.gameObject.CompareTag("Ball"))
 		{
 			var force = col.relativeVelocity.magnitude;
 			force = Mathf.Clamp(force, minForceForVolume, maxForceForVolume);
 			force = force / maxForceForVolume;
 			AS.volume = force;
+			
+			
+			float pitchFloat = transform.position.y / maxScreenSize;
+			AS.pitch = pitchFloat;
+			
 			AS.Play();
+			
 			if(changePitch)
 			{
 				AS.pitch = Random.Range(0.1f, 2f);
