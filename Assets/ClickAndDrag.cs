@@ -1,9 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-
-//[RequireComponent(typeof(CircleCollider2D))]
-
+using DG.Tweening;
+using UnityEngine; 
+	
 public class ClickAndDrag : MonoBehaviour
 {
 
@@ -11,13 +10,9 @@ public class ClickAndDrag : MonoBehaviour
 	private Vector3 mousePosition; 
 	public float moveSpeed = 0.5f;
 
-	void Start()
-	{
-		//halo = (Behaviour)GetComponent("Halo");
-	}
+
 	void OnMouseDown()
 	{
-		//halo.enabled = true; 
 
 		offset = gameObject.transform.position -
 		         Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f));
@@ -46,5 +41,17 @@ public class ClickAndDrag : MonoBehaviour
 	void OnMouseUp()
 	{
 
+	}
+
+	void OnCollisionEnter2D(Collision2D col)
+	{
+		if (col.gameObject.CompareTag("SoundMakingObject"))
+		{
+			//DOShakePosition(float duration, float/Vector3 strength, int vibrato, float randomness, bool snapping, bool fadeOut)
+			transform.DOShakeScale(0.5f, new Vector2(0.2f, 0.2f), 2, 1, false); 
+			transform.DOMove(new Vector2(Random.Range(-0.5f, 0.5f),Random.Range(-0.5f, 0.5f)), 1);
+			//transform.DOScale(float/Vector3 to, float duration); 
+		}
+		
 	}
 }

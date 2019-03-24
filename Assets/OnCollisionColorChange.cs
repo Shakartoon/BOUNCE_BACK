@@ -27,7 +27,7 @@ public class OnCollisionColorChange : MonoBehaviour
 				SR.color = new Color(colorValue, colorValue, colorValue);
 			else
 				SR.color = Color.black;
-			;
+
 		}
 
 	}
