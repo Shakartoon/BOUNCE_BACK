@@ -6,10 +6,19 @@ using UnityEngine;
 public class ClickAndDrag : MonoBehaviour
 {
 
+	//***NEEDS FIXING*** 
+	
 	private Vector3 offset;
 	private Vector3 mousePosition; 
 	public float moveSpeed = 0.5f;
+	private Vector3 originalScale;
+	private bool onScreen; 
 
+	void Start()
+	{
+		originalScale = new Vector3(transform.localScale.x, transform.localScale.y, transform.localScale.z);
+		
+	}
 
 	void OnMouseDown()
 	{
@@ -38,20 +47,35 @@ public class ClickAndDrag : MonoBehaviour
 		
 	}
 
-	void OnMouseUp()
-	{
-
-	}
 
 	void OnCollisionEnter2D(Collision2D col)
 	{
 		if (col.gameObject.CompareTag("SoundMakingObject"))
 		{
 			//DOShakePosition(float duration, float/Vector3 strength, int vibrato, float randomness, bool snapping, bool fadeOut)
-			transform.DOShakeScale(0.5f, new Vector2(0.2f, 0.2f), 2, 1, false); 
-			transform.DOMove(new Vector2(Random.Range(-0.5f, 0.5f),Random.Range(-0.5f, 0.5f)), 1);
+			transform.DOShakeScale(0.3f, new Vector2(0.1f, 0.1f), 2, 1, false); 
+			//transform.DOMove(new Vector2(0.1f, 0.1f), 1);
 			//transform.DOScale(float/Vector3 to, float duration); 
 		}
+	}
+
+	void OnCollisionExit2D()
+	{
+		transform.localScale = originalScale; 
 		
+	}
+
+	void Update()
+	{
+		Vector3 screenPoint = Camera.main.WorldToViewportPoint(gameObject.transform.position);
+		onScreen = screenPoint.z > 0 && screenPoint.x > 0 && screenPoint.x < 1 && screenPoint.y > 0 && screenPoint.y < 1;
+		
+		//NEED TO FIX 
+		// If game object is outside of camera's field of view, recenter it to the middle
+		if (transform.position.y < Screen.height)
+		{
+			onScreen = true; 
+		}
+	
 	}
 }
