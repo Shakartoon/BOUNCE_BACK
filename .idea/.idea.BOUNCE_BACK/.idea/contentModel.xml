@@ -33,6 +33,7 @@
         <e p="audioVisualizerSineWave.cs" t="Include" />
         <e p="BackgroundScaleObjects.cs" t="Include" />
         <e p="BallCollisionPulse.cs" t="Include" />
+        <e p="BallMovementScript.cs" t="Include" />
         <e p="BarCombinations_SoundPuzzle.cs" t="Include" />
         <e p="BBonCollisionChangeColor.cs" t="Include" />
         <e p="CameraFollow.cs" t="Include" />
@@ -46,7 +47,6 @@
         <e p="CheckSpeed.cs" t="Include" />
         <e p="circleEffect.cs" t="Include" />
         <e p="CircleScript.cs" t="Include" />
-        <e p="ClickAndDrag.cs" t="Include" />
         <e p="ClickSound.cs" t="Include" />
         <e p="CollisionRotate.cs" t="Include" />
         <e p="ColorLerp.cs" t="Include" />
@@ -127,9 +127,11 @@
         <e p="InstantiateObjectsFromFixedPoint.cs" t="Include" />
         <e p="InstantiateObjectsTopOfScreen.cs" t="Include" />
         <e p="InstantiateSoundMakingObjects.cs" t="Include" />
+        <e p="InvokeRepeating.cs" t="Include" />
         <e p="itweentests.cs" t="Include" />
         <e p="L1.cs" t="Include" />
         <e p="LaunchBar.cs" t="Include" />
+        <e p="LevelManager.cs" t="Include" />
         <e p="LineRendererChildren.cs" t="Include" />
         <e p="LineRendererStuff.cs" t="Include" />
         <e p="LineRendererTest.cs" t="Include" />
@@ -249,6 +251,7 @@
           </e>
         </e>
         <e p="OnCollisionAnimate.cs" t="Include" />
+        <e p="OnCollisionBounce.cs" t="Include" />
         <e p="OnCollisionBreak.cs" t="Include" />
         <e p="OnCollisionColorAndDestroy.cs" t="Include" />
         <e p="OnCollisionColorChange.cs" t="Include" />
@@ -261,6 +264,7 @@
         <e p="onCollisionShrinkScale.cs" t="Include" />
         <e p="OnCollsionBall.cs" t="Include" />
         <e p="OnColorDoShit.cs" t="Include" />
+        <e p="ONLYClickAndDrag.cs" t="Include" />
         <e p="OnTriggerChangeColor.cs" t="Include" />
         <e p="OnTriggerPlaySound.cs" t="Include" />
         <e p="ParticlePlayer.cs" t="Include" />

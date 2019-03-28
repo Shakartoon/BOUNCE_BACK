@@ -6,7 +6,7 @@ using UnityEngine;
 public class RotateAroundButton : MonoBehaviour
 {
 
-	public GameObject triangle;
+	//public GameObject triangle;
 	public bool topRightQuadrant = false; 
 		
 #pragma strict
@@ -20,7 +20,6 @@ public class RotateAroundButton : MonoBehaviour
 
 	private void OnMouseDown()
 	{
-		Debug.Log("YAS QUEEN");
 		var ScreenPosition = Camera.main.WorldToScreenPoint(transform.position);
 		var vector = Input.mousePosition - ScreenPosition;
 		StartAngle = Mathf.Atan2(vector.y, vector.x) * Mathf.Rad2Deg;
@@ -38,6 +37,7 @@ public class RotateAroundButton : MonoBehaviour
 
 	}
 
+	/* 
 	void Update()
 	{
 
@@ -47,7 +47,7 @@ public class RotateAroundButton : MonoBehaviour
 
 		}
 	}
-
+	*/ 
 } 
 
 	
