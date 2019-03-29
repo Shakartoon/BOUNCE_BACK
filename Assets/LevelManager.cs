@@ -1,17 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening; 
 
 public class LevelManager : MonoBehaviour
 {
-
+	
+	public ONLYClickAndDrag _clickanddragscript; 
 	public GameObject firstBar;
 	public GameObject[] barArray;
+	public GameObject lineParent; 
 
-	private bool _OnMouseDown; 
+	private bool _OnMouseDown;
+	private float time; 
 	
-	void Start () {
-		
+	void Start ()
+	{
+		_clickanddragscript._OnMouseUp = false;
+		lineParent.SetActive(false);
 	}
 	
 	void Update () {
@@ -20,9 +26,12 @@ public class LevelManager : MonoBehaviour
 		{
 			Debug.Log("HasChanged");
 
-			if (_OnMouseDown)
+			if (_clickanddragscript._OnMouseUp)
 			{
-				firstBar.transform.position = Vector3.zero;
+				Debug.Log("Mose"); 
+				firstBar.transform.DOMove(new Vector3(0, 10.9f), 2, false); 
+				GetMyChildren(); 
+
 			}
 			
 			// Wait 1 second 
@@ -33,9 +42,22 @@ public class LevelManager : MonoBehaviour
 		
 	}
 
-	void OnMouseDown()
+	void GetMyChildren()
 	{
-		_OnMouseDown = true; 
+		foreach (Transform child in lineParent.transform)
+		{
+
+			for (int i = 0; i < barArray.Length; i++)
+			{
+			
+				lineParent.SetActive(true);
+
+			}
+			
+			
+		}
+
+		
 	}
 	
 }
