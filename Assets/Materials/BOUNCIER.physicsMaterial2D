@@ -3,8 +3,8 @@
 --- !u!62 &6200000
 PhysicsMaterial2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: BOUNCIER
-  friction: 0.4
-  bounciness: 0.5
+  friction: 0.58
+  bounciness: 1.22

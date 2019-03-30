@@ -69,7 +69,7 @@ public class BallMovementScript : MonoBehaviour
 		if (col.gameObject.CompareTag("SoundMakingObject"))
 		{
 			OnCollisionEnter = true; 
-			transform.DOShakeScale(0.3f, new Vector2(0.1f, 0.1f), 2, 1, false);
+			//transform.DOShakeScale(0.3f, new Vector2(0.1f, 0.1f), 2, 1, false);
 
 			//DOShakePosition(float duration, float/Vector3 strength, int vibrato, float randomness, bool snapping, bool fadeOut)
 			//transform.DOMove(new Vector2(0.1f, 0.1f), 1);

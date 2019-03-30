@@ -10981,7 +10981,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 308291709b64940108d53f457d1a8904, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triangle: {fileID: 0}
   topRightQuadrant: 1
 --- !u!114 &2082551670
 MonoBehaviour:
@@ -10995,6 +10994,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
+  magnitude: 1000
+  myDrag: 20
 --- !u!50 &2082551671
 Rigidbody2D:
   serializedVersion: 4
