@@ -175,7 +175,9 @@
           </e>
         </e>
         <e p="circleEffect.cs" t="Include" />
+        <e p="CircleFeedback.cs" t="Include" />
         <e p="CircleScript.cs" t="Include" />
+        <e p="CircularInstantiation.cs" t="Include" />
         <e p="ClickSound.cs" t="Include" />
         <e p="CollisionRotate.cs" t="Include" />
         <e p="ColorLerp.cs" t="Include" />
@@ -255,6 +257,7 @@
         <e p="InstantiateManager.cs" t="Include" />
         <e p="InstantiateObjectsFromFixedPoint.cs" t="Include" />
         <e p="InstantiateObjectsTopOfScreen.cs" t="Include" />
+        <e p="InstantiatePrefabs.cs" t="Include" />
         <e p="InstantiateSoundMakingObjects.cs" t="Include" />
         <e p="InvokeRepeating.cs" t="Include" />
         <e p="itweentests.cs" t="Include" />

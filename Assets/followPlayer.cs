@@ -6,16 +6,21 @@ public class followPlayer : MonoBehaviour
 {
 
 
-	public Transform target; 
-	
-	Vector3 tempVec3;
+	public GameObject Player;
+	public float movementSpeed = 4;
 
-	void LateUpdate() {
+	public bool threat; 
+	
+	void Update()
+	{
+		transform.LookAt(Player.transform);
+		transform.position += transform.forward * movementSpeed * Time.deltaTime;
+
+		if (threat)
+		{
+			//fade player value
+		}
 		
-		tempVec3.x = target.position.x;
-		tempVec3.y = transform.position.y;
-		tempVec3.z = transform.position.z;
-		transform.position = tempVec3;
 	}
 
 }
