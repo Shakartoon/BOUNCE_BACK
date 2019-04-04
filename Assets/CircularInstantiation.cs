@@ -8,35 +8,39 @@ public class CircularInstantiation : MonoBehaviour
 	int numObjects = 12;
 	public GameObject prefab;
 	public float _radius = 8f;
-	private float timer, time; 
+	private float timer, time;
+	public float Rotation;
 
 	void Start()
 	{
-		Vector3 center = transform.position;
-		for (int i = 0; i < numObjects; i++)
-		{
-			int a = i * 30;
-			Vector3 pos = RandomCircle(center, 1.0f, a);
-			StartCoroutine(Wait()); //This co-routine isn't working. 
-			Instantiate(prefab, pos, Quaternion.identity);
-		}
+		StartCoroutine(Wait()); //This co-routine isn't working. 
 	}
 
 	IEnumerator Wait()
 	{
-		yield return new WaitForSeconds(1);
-		yield return null; 
+		Vector3 center = transform.position;
+		for (int i = 0; i < numObjects; i++)
+		{
+			int a = i * 360 / numObjects;
+			Vector3 pos = RandomCircle(center, a - transform.eulerAngles.z);
+			Instantiate(prefab, pos, Quaternion.identity, transform);
+			yield return new WaitForSeconds(0.2f);
+		}
+
+		yield return null;
 	}
 	
-	Vector3 RandomCircle(Vector3 center, float radius, int a)
+	Vector3 RandomCircle(Vector3 center, float a)
 	{
-		Debug.Log(a);
-		float ang = a;
 		Vector3 pos;
-		radius = _radius; 
-		pos.x = center.x + radius * Mathf.Sin(ang * Mathf.Deg2Rad);
-		pos.y = center.y + radius * Mathf.Cos(ang * Mathf.Deg2Rad);
+		pos.x = center.x + _radius * Mathf.Sin(a * Mathf.Deg2Rad);
+		pos.y = center.y + _radius * Mathf.Cos(a * Mathf.Deg2Rad);
 		pos.z = center.z;
 		return pos;
+	}
+
+	void Update()
+	{
+		transform.eulerAngles += new Vector3(0, 0, Rotation);
 	}
 } 

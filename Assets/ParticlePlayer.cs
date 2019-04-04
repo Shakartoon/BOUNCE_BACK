@@ -19,21 +19,10 @@ public class ParticlePlayer : MonoBehaviour
 		if (col.gameObject.CompareTag("SoundMakingObject"))
 		{
 
-			Debug.Log("assdsds"); 
 			myPS.Play(); 
 
 		}
 		
 	}
 	
-	void OnMouseDown () {
-
-		/*
-		if (Input.GetMouseButtonDown(0))
-		{
-
-			myPS.Play(); 
-		}
-		*/ 
-	}
 }

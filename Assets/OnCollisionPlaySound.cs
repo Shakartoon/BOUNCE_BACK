@@ -7,6 +7,7 @@ public class OnCollisionPlaySound : MonoBehaviour
 	private AudioSource AS;
 
 	[SerializeField] private bool RandomizeClips; 
+	[SerializeField] private bool UseAudioID; 
 	[SerializeField] bool changePitch;
 	[SerializeField] AudioClip[] audioClips;
 	private AudioClip myClip; 
@@ -18,7 +19,9 @@ public class OnCollisionPlaySound : MonoBehaviour
 	private float minForceForVolume = 0.1f;
 
 	private float maxScreenSize = 30f;
-	private float minScreenSize = 1f; 
+	private float minScreenSize = 1f;
+
+	public int AudioID;
 	
 	void Start ()
 	{
@@ -52,7 +55,13 @@ public class OnCollisionPlaySound : MonoBehaviour
 				myClip = audioClips[index];
 				AS.clip = myClip; 
 				AS.Play();			}
-			
+			else if (UseAudioID)
+			{
+				int index = AudioID % audioClips.Length;
+				myClip = audioClips[index];
+				AS.clip = myClip; 
+				AS.Play();		
+			}
 			else
 			{
 				AS.Play();
