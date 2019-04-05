@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3682ab6-c3bd-4361-8b70-3a026af15fe2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BallMovementScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BallMovementScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/L1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/L1.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Overlay1Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Overlay1Mixer.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RotateAroundButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RotateAroundButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RowInstantiate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RowInstantiate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SceneChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneChanger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 11.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 12.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/circleEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/circleEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/followPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/followPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Maze_Camera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Maze_Camera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Maze_TriggerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Maze_TriggerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 15.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 15.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,13 +32,13 @@
     <session id="1163221535">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="85100" />
+          <entry key="cs" value="85815" />
           <entry key="shader" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="85100" />
+          <entry key="C#" value="85815" />
           <entry key="ShaderLab" value="1" />
         </counts>
       </usages-collector>
@@ -107,14 +96,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Maze_TriggerManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="375">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
-                <marker date="1554498944000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1554498944000" expanded="true" signature="128:381" ph="{...}" />
-                <marker date="1554498944000" expanded="true" signature="207:219" ph="{...}" />
-                <marker date="1554498944000" expanded="true" signature="261:379" ph="{...}" />
-                <marker date="1554498944000" expanded="true" signature="314:376" ph="{...}" />
+                <marker date="1554500883000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1554500883000" expanded="true" signature="128:551" ph="{...}" />
+                <marker date="1554500883000" expanded="true" signature="245:301" ph="{...}" />
+                <marker date="1554500883000" expanded="true" signature="340:549" ph="{...}" />
+                <marker date="1554500883000" expanded="true" signature="393:433" ph="{...}" />
+                <marker date="1554500883000" expanded="true" signature="483:546" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -123,13 +113,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Maze_Camera.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="390">
+              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
               <folding>
-                <marker date="1554499126000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1554499126000" expanded="true" signature="120:268" ph="{...}" />
-                <marker date="1554499126000" expanded="true" signature="182:266" ph="{...}" />
-                <marker date="1554499126000" expanded="true" signature="221:260" ph="{...}" />
+                <marker date="1554500168000" expanded="true" signature="6:92" ph="..." />
+                <marker date="1554500168000" expanded="true" signature="134:636" ph="{...}" />
+                <marker date="1554500168000" expanded="true" signature="282:403" ph="{...}" />
+                <marker date="1554500168000" expanded="true" signature="421:634" ph="{...}" />
+                <marker date="1554500168000" expanded="true" signature="463:628" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -508,8 +499,8 @@
         <option value="$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs" />
         <option value="$PROJECT_DIR$/Assets/BallMovementScript.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraPlayerFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Maze_TriggerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Maze_Camera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Maze_TriggerManager.cs" />
       </list>
     </option>
   </component>
@@ -744,12 +735,12 @@
       <workItem from="1554412388010" duration="1969000" />
       <workItem from="1554424436565" duration="2517000" />
       <workItem from="1554492944746" duration="1768000" />
-      <workItem from="1554498820545" duration="310000" />
+      <workItem from="1554498820545" duration="2027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="419255000" />
+    <option name="totallyTimeSpent" value="420972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1218,27 +1209,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Maze_Camera.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="390">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding>
-            <marker date="1554499126000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554499126000" expanded="true" signature="120:268" ph="{...}" />
-            <marker date="1554499126000" expanded="true" signature="182:266" ph="{...}" />
-            <marker date="1554499126000" expanded="true" signature="221:260" ph="{...}" />
+            <marker date="1554500168000" expanded="true" signature="6:92" ph="..." />
+            <marker date="1554500168000" expanded="true" signature="134:636" ph="{...}" />
+            <marker date="1554500168000" expanded="true" signature="282:403" ph="{...}" />
+            <marker date="1554500168000" expanded="true" signature="421:634" ph="{...}" />
+            <marker date="1554500168000" expanded="true" signature="463:628" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Maze_TriggerManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="375">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding>
-            <marker date="1554498944000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554498944000" expanded="true" signature="128:381" ph="{...}" />
-            <marker date="1554498944000" expanded="true" signature="207:219" ph="{...}" />
-            <marker date="1554498944000" expanded="true" signature="261:379" ph="{...}" />
-            <marker date="1554498944000" expanded="true" signature="314:376" ph="{...}" />
+            <marker date="1554500883000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1554500883000" expanded="true" signature="128:551" ph="{...}" />
+            <marker date="1554500883000" expanded="true" signature="245:301" ph="{...}" />
+            <marker date="1554500883000" expanded="true" signature="340:549" ph="{...}" />
+            <marker date="1554500883000" expanded="true" signature="393:433" ph="{...}" />
+            <marker date="1554500883000" expanded="true" signature="483:546" ph="{...}" />
           </folding>
         </state>
       </provider>
