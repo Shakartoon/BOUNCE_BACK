@@ -16,42 +16,12 @@ public class SceneChanger : MonoBehaviour
 	private bool isShort; 
 	private bool isMedium; 
 	private bool isLong; 
-
-
-	public float shortSceneTime = Random.Range(5, 10); 
-	public float MediumSceneTime = Random.Range(10, 25); 
-	public float LongSceneTime = Random.Range(40, 60);  
+ 
 		
 	void Awake()
 	{
 
 		DontDestroyOnLoad(transform.gameObject); 
-
-	}
-	
-	
-	void Start ()
-	{
-
-		_short = GameObject.FindGameObjectsWithTag("Short"); 
-		
-		if (_short.Length >= 0)
-		{
-			isShort = true; 
-
-		}
-			
-		_medium = GameObject.FindGameObjectsWithTag("Medium"); 
-		{ 
-			isMedium = true; 
-
-		}
-			
-		_long = GameObject.FindGameObjectsWithTag("Medium"); 
-		{ 
-			isLong = true; 
-
-		}
 
 	}
 

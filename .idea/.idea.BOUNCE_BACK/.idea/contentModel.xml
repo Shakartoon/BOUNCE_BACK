@@ -39,6 +39,7 @@
         <e p="CameraFollow.cs" t="Include" />
         <e p="CameraMove.cs" t="Include" />
         <e p="CameraMoveClick.cs" t="Include" />
+        <e p="CameraPlayerFollow.cs" t="Include" />
         <e p="CameraRectangularMovement.cs" t="Include" />
         <e p="CameraRotate.cs" t="Include" />
         <e p="cameraZoomOut.cs" t="Include" />
@@ -248,6 +249,7 @@
         <e p="EnemyScript.cs" t="Include" />
         <e p="FadeImage.cs" t="Include" />
         <e p="FamilyInstantiate.cs" t="Include" />
+        <e p="FamilyLevelManager.cs" t="Include" />
         <e p="FamilyMeets.cs" t="Include" />
         <e p="followPlayer.cs" t="Include" />
         <e p="GameManager.cs" t="Include" />
@@ -261,7 +263,6 @@
         <e p="InstantiateSoundMakingObjects.cs" t="Include" />
         <e p="InvokeRepeating.cs" t="Include" />
         <e p="itweentests.cs" t="Include" />
-        <e p="L1.cs" t="Include" />
         <e p="LaunchBar.cs" t="Include" />
         <e p="LevelManager.cs" t="Include" />
         <e p="LevelManager_RigFringes.cs" t="Include" />
@@ -269,6 +270,8 @@
         <e p="LineRendererStuff.cs" t="Include" />
         <e p="LineRendererTest.cs" t="Include" />
         <e p="LRDRAW.cs" t="Include" />
+        <e p="Maze_Camera.cs" t="Include" />
+        <e p="Maze_TriggerManager.cs" t="Include" />
         <e p="MouseClickRotateEffect.cs" t="Include" />
         <e p="MouseClickScaleEffect.cs" t="Include" />
         <e p="mouseOverHighlight.cs" t="Include" />

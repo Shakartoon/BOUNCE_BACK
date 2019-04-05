@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class RotateAroundButton : MonoBehaviour
 {
-
-	//public GameObject triangle;
 	public bool topRightQuadrant = false; 
 		
 #pragma strict
@@ -37,17 +35,6 @@ public class RotateAroundButton : MonoBehaviour
 
 	}
 
-	/* 
-	void Update()
-	{
-
-		if (triangle.transform.position.y >= 0.31f)
-		{
-			topRightQuadrant = true; 
-
-		}
-	}
-	*/ 
 } 
 
 	

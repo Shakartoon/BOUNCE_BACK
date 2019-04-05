@@ -8,13 +8,16 @@ public class followPlayer : MonoBehaviour
 
 	public GameObject Player;
 	public float movementSpeed = 4;
-
+	private Vector3 moveDirection; 
+	
+	
 	public bool threat; 
 	
 	void Update()
 	{
-		transform.LookAt(Player.transform);
-		transform.position += transform.forward * movementSpeed * Time.deltaTime;
+		//transform.LookAt(Player.transform);
+		moveDirection = Vector3.Normalize(Player.transform.position - transform.position); 
+		transform.position += moveDirection * movementSpeed * Time.deltaTime;
 
 		if (threat)
 		{

@@ -22,7 +22,7 @@ public class BallMovementScript : MonoBehaviour
 
 	void Start()
 	{
-		originalScale = new Vector3(transform.localScale.x, transform.localScale.y, transform.localScale.z);
+		//originalScale = new Vector3(transform.localScale.x, transform.localScale.y, transform.localScale.z);
 		myRB = GetComponent<Rigidbody2D>();
 	}
 
@@ -65,22 +65,15 @@ public class BallMovementScript : MonoBehaviour
 	void OnCollisionEnter2D(Collision2D col)
 	{
 		
-		//always checking and handing lerp-ing / true or false size 
 		if (col.gameObject.CompareTag("SoundMakingObject"))
 		{
 			OnCollisionEnter = true; 
-			//transform.DOShakeScale(0.3f, new Vector2(0.1f, 0.1f), 2, 1, false);
-
-			//DOShakePosition(float duration, float/Vector3 strength, int vibrato, float randomness, bool snapping, bool fadeOut)
-			//transform.DOMove(new Vector2(0.1f, 0.1f), 1);
-			//transform.DOScale(float/Vector3 to, float duration); 
 		}
 	}
 
 	void OnCollisionExit2D()
 	{
 		OnCollisionExit = true; 	
-		transform.localScale = originalScale;
 
 	}
 
@@ -92,11 +85,10 @@ public class BallMovementScript : MonoBehaviour
 
 		if (OnCollisionEnter)
 		{
-			//transform.DOShakeScale(0.3f, new Vector2(0.1f, 0.1f), 2, 1, false);
 
 		}
 
-//NEED TO FIX 
+	     //NEED TO FIX 
 		// If game object is outside of camera's field of view, recenter it to the middle
 		if (transform.position.y < Screen.height)
 		{
@@ -105,7 +97,6 @@ public class BallMovementScript : MonoBehaviour
 
 		if (OnCollisionExit)
 		{
-			//transform.localScale = originalScale;
 
 		}
 	}

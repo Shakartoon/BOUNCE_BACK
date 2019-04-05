@@ -268,9 +268,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83ddbc8f4e83a457fa7434a8f5f9af12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ball1: {fileID: 0}
-  ball2: {fileID: 0}
-  ball3: {fileID: 0}
 --- !u!1 &216964479
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,6 +426,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   expandTime: 0
   loadMe: {fileID: 1156155847150526, guid: f1bc08ffba7064afe888b7e47e820f06, type: 2}
+  inner: 0
+  outer: 0
+  outline1: {fileID: 0}
+  outline2: {fileID: 0}
+  outline3: {fileID: 0}
 --- !u!4 &522880580
 Transform:
   m_ObjectHideFlags: 0
@@ -566,9 +568,6 @@ MonoBehaviour:
   _short: []
   _medium: []
   _long: []
-  shortSceneTime: 0
-  MediumSceneTime: 0
-  LongSceneTime: 0
 --- !u!4 &562861347
 Transform:
   m_ObjectHideFlags: 0
@@ -1229,7 +1228,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1339337488
 MonoBehaviour:
   m_ObjectHideFlags: 0
