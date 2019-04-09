@@ -6,11 +6,17 @@ public class OnTriggerPlaySound : MonoBehaviour
 {
 	private AudioSource AS;
 	public bool DestroyOnCollision; 
+	[SerializeField] bool changePitch;
+	public float TimeToDestroy = 2f;
+	private SpriteRenderer SR; 
+
 	
 	void Start ()
 	{
 
-		AS = GetComponent<AudioSource>(); 
+		AS = GetComponent<AudioSource>();
+		SR = GetComponent<SpriteRenderer>();
+		SR.enabled = true; 
 
 	}
 
@@ -18,12 +24,18 @@ public class OnTriggerPlaySound : MonoBehaviour
 		
 		if (col.gameObject.CompareTag("Ball"))
 		{
-			AS.Play();
+			AS.Play();		
+			if(DestroyOnCollision)
+			{
+				SR.enabled = false; 
+				Destroy(gameObject, TimeToDestroy);
+			}	
 		}
 		
-		if(DestroyOnCollision)
+		if(changePitch)
 		{
-			Destroy(gameObject, 2f);
-		}		
+			AS.pitch = Random.Range(0.5f, 1f);
+				
+		}
 	}
 }

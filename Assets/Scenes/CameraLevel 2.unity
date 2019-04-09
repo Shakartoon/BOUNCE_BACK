@@ -1016,8 +1016,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &9245367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2415,8 +2418,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &30097805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3466,8 +3472,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &51880891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4926,8 +4935,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &80058194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5385,8 +5397,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &86551787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6587,6 +6602,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
+  magnitude: 1000
+  myDrag: 20
 --- !u!50 &101697887
 Rigidbody2D:
   serializedVersion: 4
@@ -7115,8 +7132,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &106415123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7347,8 +7367,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &109585750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8303,8 +8326,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &133915654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9837,6 +9863,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
+  magnitude: 1000
+  myDrag: 20
 --- !u!50 &160349083
 Rigidbody2D:
   serializedVersion: 4
@@ -10103,8 +10131,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &164852176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10223,9 +10254,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83ddbc8f4e83a457fa7434a8f5f9af12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ball1: {fileID: 2137459172}
-  ball2: {fileID: 0}
-  ball3: {fileID: 0}
 --- !u!1 &173267014
 GameObject:
   m_ObjectHideFlags: 0
@@ -11081,8 +11109,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &200209954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11921,8 +11952,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &208709635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12266,6 +12300,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
+  magnitude: 1000
+  myDrag: 20
 --- !u!50 &213688609
 Rigidbody2D:
   serializedVersion: 4
@@ -13021,8 +13057,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &227300590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13830,8 +13869,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &244138840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16243,8 +16285,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &284336754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16903,8 +16948,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &296910255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18096,8 +18144,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &327785319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18868,8 +18919,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &346079039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19781,8 +19835,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &376734019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20613,6 +20670,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
+  magnitude: 1000
+  myDrag: 20
 --- !u!50 &405756509
 Rigidbody2D:
   serializedVersion: 4
@@ -22526,8 +22585,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &447136058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22938,8 +23000,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &459816233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23578,8 +23643,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &469927849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24859,8 +24927,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &494650336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25181,8 +25252,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &503844018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25478,8 +25552,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &510954974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27687,9 +27764,6 @@ MonoBehaviour:
   _short: []
   _medium: []
   _long: []
-  shortSceneTime: 0
-  MediumSceneTime: 0
-  LongSceneTime: 0
 --- !u!4 &562861347
 Transform:
   m_ObjectHideFlags: 0
@@ -27957,8 +28031,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &567586372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28213,8 +28290,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &572172714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30341,8 +30421,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &613375916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30573,8 +30656,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &618311629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31154,8 +31240,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &624800741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31836,8 +31925,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &630551256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32336,8 +32428,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &645190775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32555,8 +32650,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &649168392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32965,8 +33063,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &653324175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33933,8 +34034,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &679143913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34482,8 +34586,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &686277114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34581,6 +34688,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
+  magnitude: 1000
+  myDrag: 20
 --- !u!50 &689936554
 Rigidbody2D:
   serializedVersion: 4
@@ -35383,8 +35492,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &698028220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35941,8 +36053,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &704435982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37343,8 +37458,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &749002483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37565,8 +37683,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &751213897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38088,8 +38209,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &753053520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39305,8 +39429,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &779472163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40279,8 +40406,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &796157346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40588,8 +40718,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &804754270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41125,8 +41258,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &811870541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41347,8 +41483,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &813635736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41666,6 +41805,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
+  magnitude: 1000
+  myDrag: 20
 --- !u!50 &819897347
 Rigidbody2D:
   serializedVersion: 4
@@ -42198,8 +42339,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &828969356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42520,8 +42664,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &835608639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43076,8 +43223,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &851275660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44684,8 +44834,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &889018677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46894,8 +47047,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &927454354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47408,8 +47564,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &938023074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47910,8 +48069,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &948438100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48515,8 +48677,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &964374607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48583,6 +48748,112 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &964773000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 964773003}
+  - component: {fileID: 964773002}
+  - component: {fileID: 964773001}
+  - component: {fileID: 964773005}
+  m_Layer: 0
+  m_Name: pattern1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &964773001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 964773000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21768b063cf8143089298570be4c898d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color1: {r: 0.13725491, g: 0, b: 0, a: 1}
+  color2: {r: 1, g: 0.9963739, b: 0.8915094, a: 1}
+  duration: 30
+--- !u!212 &964773002
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 964773000}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 43e489da4323848a3a1892d79ffc18ad, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 4.62, y: 4.75}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &964773003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 964773000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.8, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &964773005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 964773000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5644f1b55d58b93489995daabedfaff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  rotDirX: 0
+  rotDirY: 0
+  rotDirZ: -1
 --- !u!1 &965777840
 GameObject:
   m_ObjectHideFlags: 0
@@ -49012,8 +49283,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &969667180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49244,8 +49518,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &970891182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49703,8 +49980,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &985352157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51005,8 +51285,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1006437745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51403,8 +51686,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1008149553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51680,8 +51966,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1008597638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52343,8 +52632,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1018224694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52891,8 +53183,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1026374585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53305,8 +53600,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1034983329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53592,8 +53890,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1035403697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54476,8 +54777,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1045112663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55821,8 +56125,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1075733507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56191,8 +56498,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1076948374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56513,8 +56823,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1082813386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57420,8 +57733,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1114202269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57652,8 +57968,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1114474336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58677,8 +58996,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1141282731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58964,8 +59286,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1141990574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60323,8 +60648,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1200827451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60568,8 +60896,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1203951452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60946,8 +61277,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1208838234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62237,8 +62571,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1238982613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62482,8 +62819,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1239078701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63111,8 +63451,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1255898182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64090,8 +64433,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1278187147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64599,6 +64945,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
+  magnitude: 1000
+  myDrag: 20
 --- !u!50 &1303564680
 Rigidbody2D:
   serializedVersion: 4
@@ -65671,8 +66019,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1325324780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66073,8 +66424,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1330056786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66869,8 +67223,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1343202970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67474,8 +67831,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1344919117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69106,8 +69466,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1380135800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70455,8 +70818,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1416432352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70880,8 +71246,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1423845374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71857,8 +72226,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1440129511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72226,8 +72598,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1446395424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72697,8 +73072,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1452978028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73479,6 +73857,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
+  magnitude: 1000
+  myDrag: 20
 --- !u!50 &1481138928
 Rigidbody2D:
   serializedVersion: 4
@@ -73861,8 +74241,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1482114675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74227,8 +74610,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1484507846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75150,8 +75536,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1500357502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76486,8 +76875,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1514276283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77961,8 +78353,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1532530567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78193,8 +78588,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1533883736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78792,8 +79190,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1542294384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79260,8 +79661,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1549573095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79915,6 +80319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a04c5911355014d518c1bb8b91395c2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startRotation: 0
 --- !u!114 &1551923146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80107,8 +80512,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1552044682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80339,8 +80747,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1552516088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81304,8 +81715,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1567845172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81803,8 +82217,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1573378114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82172,8 +82589,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1573715297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83180,8 +83600,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1596219284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84288,8 +84711,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1623318891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85124,8 +85550,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1648260681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85333,8 +85762,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1649249041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86205,8 +86637,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1662469976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87162,8 +87597,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1689631429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88350,8 +88788,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1716407795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89026,8 +89467,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1727730635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89428,8 +89872,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1730953053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90482,8 +90929,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1756281878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91761,8 +92211,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1782410057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92263,8 +92716,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1791403586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93306,8 +93762,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1811305958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94512,8 +94971,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1853780739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94834,8 +95296,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1860873870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95324,8 +95789,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1868125382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95684,8 +96152,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1890230518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95961,8 +96432,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1890387389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97249,8 +97723,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1936683843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97667,8 +98144,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1944885061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97958,8 +98438,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1954257010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99035,8 +99518,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1979825569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99503,8 +99989,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1993744495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99602,6 +100091,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
+  magnitude: 1000
+  myDrag: 20
 --- !u!50 &1994085923
 Rigidbody2D:
   serializedVersion: 4
@@ -99860,8 +100351,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &1998739431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100610,8 +101104,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &2014051843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101237,8 +101734,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &2022173819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102508,8 +103008,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &2065024010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103377,8 +103880,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &2083363803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105653,8 +106159,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &2117235839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105807,6 +106316,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
+  magnitude: 1000
+  myDrag: 20
 --- !u!50 &2123727183
 Rigidbody2D:
   serializedVersion: 4
@@ -106065,8 +106576,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0
 --- !u!114 &2127615054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107345,6 +107859,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
+  magnitude: 1000
+  myDrag: 20
 --- !u!58 &2137459177
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -107853,5 +108369,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RandomizeClips: 0
+  UseAudioID: 0
   changePitch: 0
-  ballToLoad: {fileID: 0}
+  audioClips: []
+  AudioID: 0

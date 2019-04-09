@@ -5,48 +5,60 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Dancing2.unity
     guid: 646fe58ba74e746eb835f4e5ee4faff1
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/RugFringe.unity
     guid: ddae698cb59654203862a14b4e95413e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Microphone6.unity
     guid: 7884a0362411b431d8e0655580d95d73
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Microphone9.unity
     guid: c3b9f01147dc741728f99d869295d134
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MovementTest2.unity
     guid: bd2b3531d56a04b0ebc45f7be0d54c17
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Microphone8.unity
     guid: 43220fe19cda748749617edd233b228e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Poms.unity
     guid: 69a7fa08bf99741cda729602190530a1
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/CameraLevel 11.unity
+    guid: e25b30d3c1624408ca0e73ad8a60ab64
+  - enabled: 1
     path: Assets/Scenes/Microphone3.unity
     guid: 5344e4a042d254108a1f50c06da4e50a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Microphone4.unity
     guid: 16db7815f2c844d4aa6cdf673303b485
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/CameraLevel 8.unity
+    guid: 188f2abfb56a040f0847f3b21ccddf4c
+  - enabled: 1
     path: Assets/Scenes/Microphone13.unity
     guid: f586cc53da041446e915a4eafe83ae85
-  - enabled: 0
-    path: Assets/Scenes/Visuals/SquareShapeEffect 1.unity
-    guid: b0e595f8bc8544b3487b76ee65d34fe5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SquareShapeEffect 3.unity
     guid: c86cd753d1c82422e821983cde12ec98
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SquareShapeEffect 4.unity
     guid: 3502660cd3b9a470f806e1efc34ab423
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/CameraLevel 6.unity
+    guid: 6bef0cdb3d1134cf3849a2acbe784dd1
+  - enabled: 1
+    path: Assets/Scenes/CameraLevel 2.unity
+    guid: ba19eaba58baf4477bada93821c4b0f5
+  - enabled: 1
     path: Assets/Scenes/CameraLevel 10.unity
     guid: e1b68a1f6d4ff4dd08fbfd835bfde637
+  - enabled: 1
+    path: Assets/Scenes/CameraLevel 12.unity
+    guid: 466f112120375432dbfe5f903152a352
   - enabled: 1
     path: Assets/Scenes/CameraLevel 15.unity
     guid: 20caa196d0d9f4ec6b5576119f49d1f1
