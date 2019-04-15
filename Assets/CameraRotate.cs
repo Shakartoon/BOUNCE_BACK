@@ -5,7 +5,8 @@ using DG.Tweening;
 
 public class CameraRotate : MonoBehaviour {
 
-	// Use this for initialization
+	public float timeToRotate = 5f; 
+	
 	void Start () {
 		
 	}
@@ -13,6 +14,6 @@ public class CameraRotate : MonoBehaviour {
 	void Update ()
 	{
 
-		transform.DORotate(new Vector3(0, 0, 0), 2); 
+		transform.DORotate(new Vector3(0, 0, 0f), timeToRotate); 
 	}
 }
