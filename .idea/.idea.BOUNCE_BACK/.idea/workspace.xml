@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3682ab6-c3bd-4361-8b70-3a026af15fe2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/CameraRotate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CameraRotate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EscapeLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EscapeLevelManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/NewEscape.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NewEscape.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,19 +30,19 @@
     <session id="1163221535">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="88387" />
+          <entry key="cs" value="88580" />
           <entry key="shader" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="88387" />
+          <entry key="C#" value="88580" />
           <entry key="ShaderLab" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="140" />
+          <entry key="project.closed" value="141" />
           <entry key="project.open.time.10" value="21" />
           <entry key="project.open.time.11" value="32" />
           <entry key="project.open.time.12" value="20" />
@@ -62,13 +63,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="319" />
+          <entry key="cs" value="320" />
           <entry key="shader" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="319" />
+          <entry key="C#" value="320" />
           <entry key="ShaderLab" value="1" />
         </counts>
       </usages-collector>
@@ -148,11 +149,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CameraRotate.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding>
                 <marker date="1555289611000" expanded="false" signature="6:97" ph="..." />
                 <marker date="1555289611000" expanded="true" signature="142:290" ph="{...}" />
@@ -166,14 +167,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/EscapeLevelManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="405">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
-                <marker date="1555286995000" expanded="false" signature="6:97" ph="..." />
-                <marker date="1555286995000" expanded="true" signature="147:441" ph="{...}" />
-                <marker date="1555286995000" expanded="true" signature="251:258" ph="{...}" />
-                <marker date="1555286995000" expanded="true" signature="283:439" ph="{...}" />
-                <marker date="1555286995000" expanded="true" signature="291:435" ph="/* rect1.transform.DOMove(V31, 1); ... */" />
+                <marker date="1555291392000" expanded="false" signature="6:97" ph="..." />
+                <marker date="1555291392000" expanded="true" signature="147:479" ph="{...}" />
+                <marker date="1555291392000" expanded="true" signature="276:366" ph="{...}" />
+                <marker date="1555291392000" expanded="true" signature="383:477" ph="{...}" />
+                <marker date="1555291392000" expanded="true" signature="433:474" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/FadeImage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1555014195000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555014195000" expanded="true" signature="118:175" ph="{...}" />
+                <marker date="1555014195000" expanded="true" signature="137:146" ph="{...}" />
+                <marker date="1555014195000" expanded="true" signature="165:173" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -501,9 +516,9 @@
         <option value="$PROJECT_DIR$/Assets/circleEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/OnCollisionBreak.cs" />
         <option value="$PROJECT_DIR$/Assets/tempCollision.cs" />
-        <option value="$PROJECT_DIR$/Assets/EscapeLevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/pulsingScale.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraRotate.cs" />
+        <option value="$PROJECT_DIR$/Assets/EscapeLevelManager.cs" />
       </list>
     </option>
   </component>
@@ -737,12 +752,12 @@
       <workItem from="1555274496473" duration="303000" />
       <workItem from="1555275338482" duration="37000" />
       <workItem from="1555283342987" duration="3367000" />
-      <workItem from="1555289342061" duration="150000" />
+      <workItem from="1555289342061" duration="1990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="438693000" />
+    <option name="totallyTimeSpent" value="440533000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -814,13 +829,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/c0/ea48c80e/Boolean.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ReplaceTiles.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1135,20 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EscapeLevelManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <marker date="1555286995000" expanded="false" signature="6:97" ph="..." />
-            <marker date="1555286995000" expanded="true" signature="147:441" ph="{...}" />
-            <marker date="1555286995000" expanded="true" signature="251:258" ph="{...}" />
-            <marker date="1555286995000" expanded="true" signature="283:439" ph="{...}" />
-            <marker date="1555286995000" expanded="true" signature="291:435" ph="/* rect1.transform.DOMove(V31, 1); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/OnCollisionColorChange.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1229,12 +1223,38 @@
     <entry file="file://$PROJECT_DIR$/Assets/CameraRotate.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
             <marker date="1555289611000" expanded="false" signature="6:97" ph="..." />
             <marker date="1555289611000" expanded="true" signature="142:290" ph="{...}" />
             <marker date="1555289611000" expanded="true" signature="196:203" ph="{...}" />
             <marker date="1555289611000" expanded="true" signature="221:288" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/EscapeLevelManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <marker date="1555291392000" expanded="false" signature="6:97" ph="..." />
+            <marker date="1555291392000" expanded="true" signature="147:479" ph="{...}" />
+            <marker date="1555291392000" expanded="true" signature="276:366" ph="{...}" />
+            <marker date="1555291392000" expanded="true" signature="383:477" ph="{...}" />
+            <marker date="1555291392000" expanded="true" signature="433:474" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/FadeImage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1555014195000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555014195000" expanded="true" signature="118:175" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="137:146" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="165:173" ph="{...}" />
           </folding>
         </state>
       </provider>
