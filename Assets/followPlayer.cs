@@ -8,15 +8,22 @@ public class followPlayer : MonoBehaviour
 
 	public GameObject Player;
 	public float movementSpeed = 4;
-	private Vector3 moveDirection; 
+	private Vector3 moveDirection;
+	private Vector3 thing;
+	private Vector3 offset; 
 	
-	
-	public bool threat; 
+	public bool threat;
+
+	void Start()
+	{
+	}
 	
 	void Update()
 	{
 		//transform.LookAt(Player.transform);
-		moveDirection = Vector3.Normalize(Player.transform.position - transform.position); 
+		//thing = transform.position + offset; 
+		offset = new Vector3(Random.Range(4, 10f), Random.Range(4, 10f), 0);
+		moveDirection = Vector3.Normalize(Player.transform.position - transform.position + offset); 
 		transform.position += moveDirection * movementSpeed * Time.deltaTime;
 
 		if (threat)

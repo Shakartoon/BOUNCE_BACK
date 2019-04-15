@@ -4,13 +4,17 @@
     <list default="true" id="b3682ab6-c3bd-4361-8b70-3a026af15fe2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 15.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 15.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RugFringe.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RugFringe.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dynamic Color Curves/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dynamic Color Curves/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scenes/BeatDetection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scenes/BeatDetection.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionBreak.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnCollisionBreak.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RandomMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RandomMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 12.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 16.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 16.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraLevel 8.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/circleEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/circleEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/followPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/followPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/pulsingScale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/pulsingScale.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tempCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tempCollision.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,23 +40,23 @@
     <session id="1163221535">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="86570" />
+          <entry key="cs" value="88338" />
           <entry key="shader" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="86570" />
+          <entry key="C#" value="88338" />
           <entry key="ShaderLab" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="132" />
-          <entry key="project.open.time.10" value="19" />
-          <entry key="project.open.time.11" value="30" />
-          <entry key="project.open.time.12" value="17" />
-          <entry key="project.open.time.13" value="15" />
+          <entry key="project.closed" value="140" />
+          <entry key="project.open.time.10" value="21" />
+          <entry key="project.open.time.11" value="31" />
+          <entry key="project.open.time.12" value="20" />
+          <entry key="project.open.time.13" value="16" />
           <entry key="project.open.time.14" value="15" />
           <entry key="project.open.time.15" value="7" />
           <entry key="project.open.time.16" value="3" />
@@ -64,18 +68,18 @@
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="137" />
+          <entry key="project.opened" value="144" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="311" />
+          <entry key="cs" value="318" />
           <entry key="shader" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="311" />
+          <entry key="C#" value="318" />
           <entry key="ShaderLab" value="1" />
         </counts>
       </usages-collector>
@@ -84,173 +88,156 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/OnCollisionWorldFeedback.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/RandomMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+            <state relative-caret-position="675">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
-                <marker date="1553987565000" expanded="false" signature="6:121" ph="..." />
-                <marker date="1553987565000" expanded="true" signature="176:826" ph="{...}" />
-                <marker date="1553987565000" expanded="true" signature="232:239" ph="{...}" />
-                <marker date="1553987565000" expanded="true" signature="329:537" ph="{...}" />
-                <marker date="1553987565000" expanded="true" signature="582:824" ph="{...}" />
-                <marker date="1553987565000" expanded="true" signature="638:821" ph="{...}" />
+                <marker date="1555121617000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555121617000" expanded="true" signature="313:395" ph="{...}" />
+                <marker date="1555121617000" expanded="true" signature="413:556" ph="{...}" />
+                <marker date="1555121617000" expanded="true" signature="574:1500" ph="{...}" />
+                <marker date="1555121617000" expanded="true" signature="670:842" ph="{...}" />
+                <marker date="1555121617000" expanded="true" signature="1530:1766" ph="{...}" />
+                <marker date="1555121617000" expanded="true" signature="1795:1851" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/TemporarySMObjects.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/OnCollisionBreak.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="137">
+              <caret line="22" selection-start-line="22" selection-end-line="23" />
               <folding>
-                <marker date="1548973675000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1548973675000" expanded="true" signature="127:1128" ph="{...}" />
-                <marker date="1548973675000" expanded="true" signature="348:531" ph="{...}" />
-                <marker date="1548973675000" expanded="true" signature="617:625" ph="{...}" />
-                <marker date="1548973675000" expanded="true" signature="676:1126" ph="{...}" />
-                <marker date="1548973675000" expanded="true" signature="728:1048" ph="{...}" />
-                <marker date="1548973675000" expanded="true" signature="856:939" ph="/* fuck! doesn't play because it's destroying itself ... */" />
-                <marker date="1548973675000" expanded="true" signature="1007:1040" ph="{...}" />
-                <marker date="1548973675000" expanded="true" signature="1062:1116" ph="{...}" />
+                <marker date="1555284167000" expanded="false" signature="6:97" ph="..." />
+                <marker date="1555284167000" expanded="true" signature="144:1317" ph="{...}" />
+                <marker date="1555284167000" expanded="true" signature="297:391" ph="{...}" />
+                <marker date="1555284167000" expanded="true" signature="408:1314" ph="{...}" />
+                <marker date="1555284167000" expanded="true" signature="487:672" ph="{...}" />
+                <marker date="1555284167000" expanded="true" signature="557:668" ph="{...}" />
+                <marker date="1555284167000" expanded="true" signature="700:1311" ph="{...}" />
+                <marker date="1555284167000" expanded="true" signature="789:947" ph="{...}" />
+                <marker date="1555284167000" expanded="true" signature="1145:1184" ph="{...}" />
+                <marker date="1555284167000" expanded="true" signature="1190:1304" ph="/* middleSquare.transform.Rotate(0, 0, 90 * 20); ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/followPlayer.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/tempCollision.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="300">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
-                <marker date="1554405674000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1554405674000" expanded="true" signature="121:517" ph="{...}" />
-                <marker date="1554405674000" expanded="true" signature="261:514" ph="{...}" />
-                <marker date="1554405674000" expanded="true" signature="477:508" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-              <folding>
-                <marker date="1554760501000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1554760501000" expanded="true" signature="129:1505" ph="{...}" />
-                <marker date="1554760501000" expanded="true" signature="594:638" ph="{...}" />
-                <marker date="1554760501000" expanded="true" signature="683:1503" ph="{...}" />
-                <marker date="1554760501000" expanded="true" signature="728:1499" ph="{...}" />
-                <marker date="1554760501000" expanded="true" signature="773:908" ph="{...}" />
-                <marker date="1554760501000" expanded="true" signature="929:1120" ph="{...}" />
-                <marker date="1554760501000" expanded="true" signature="1124:1316" ph="/* else if (UseAudioID) ... */" />
-                <marker date="1554760501000" expanded="true" signature="1339:1483" ph="{...}" />
-                <marker date="1554760501000" expanded="true" signature="1390:1477" ph="/* float pitchFloat = transform.position.y / maxScreenSize; ... */" />
+                <marker date="1555286214000" expanded="false" signature="6:99" ph="..." />
+                <marker date="1555286214000" expanded="true" signature="143:1140" ph="{...}" />
+                <marker date="1555286214000" expanded="true" signature="431:475" ph="{...}" />
+                <marker date="1555286214000" expanded="true" signature="557:1138" ph="{...}" />
+                <marker date="1555286214000" expanded="true" signature="600:1132" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/LevelManager15.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/pulsingScale.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="75">
+              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding>
-                <marker date="1554775949000" expanded="false" signature="6:114" ph="..." />
-                <marker date="1554775949000" expanded="true" signature="160:941" ph="{...}" />
-                <marker date="1554775949000" expanded="true" signature="329:364" ph="{...}" />
-                <marker date="1554775949000" expanded="true" signature="383:822" ph="{...}" />
-                <marker date="1554775949000" expanded="true" signature="401:819" ph="{...}" />
-                <marker date="1554775949000" expanded="true" signature="596:813" ph="/* float x = Vector3.Distance(Vector3.zero, Camera.main.transform.position); ... */" />
-                <marker date="1554775949000" expanded="true" signature="862:939" ph="{...}" />
-                <marker date="1554775949000" expanded="true" signature="906:936" ph="{...}" />
+                <marker date="1555287082000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555287082000" expanded="true" signature="121:747" ph="{...}" />
+                <marker date="1555287082000" expanded="true" signature="235:280" ph="{...}" />
+                <marker date="1555287082000" expanded="true" signature="296:463" ph="{...}" />
+                <marker date="1555287082000" expanded="true" signature="321:460" ph="{...}" />
+                <marker date="1555287082000" expanded="true" signature="508:744" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/EscapeLevelManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="60">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <marker date="1554757482000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1554757482000" expanded="true" signature="127:700" ph="{...}" />
-                <marker date="1554757482000" expanded="true" signature="305:410" ph="{...}" />
-                <marker date="1554757482000" expanded="true" signature="452:698" ph="{...}" />
-                <marker date="1554757482000" expanded="true" signature="497:623" ph="{...}" />
-                <marker date="1554757482000" expanded="true" signature="543:618" ph="{...}" />
-                <marker date="1554757482000" expanded="true" signature="644:695" ph="{...}" />
+                <marker date="1555286995000" expanded="false" signature="6:97" ph="..." />
+                <marker date="1555286995000" expanded="true" signature="147:441" ph="{...}" />
+                <marker date="1555286995000" expanded="true" signature="251:258" ph="{...}" />
+                <marker date="1555286995000" expanded="true" signature="283:439" ph="{...}" />
+                <marker date="1555286995000" expanded="true" signature="291:435" ph="/* rect1.transform.DOMove(V31, 1); ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/Sample/MoveSample.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/OnCollisionColorChange.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state>
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding>
-                <marker date="1517359817000" expanded="false" signature="6:44" ph="..." />
-                <marker date="1517359817000" expanded="true" signature="85:224" ph="{...}" />
-                <marker date="1517359817000" expanded="true" signature="102:222" ph="{...}" />
+                <marker date="1555014195000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555014195000" expanded="true" signature="131:544" ph="{...}" />
+                <marker date="1555014195000" expanded="true" signature="236:282" ph="{...}" />
+                <marker date="1555014195000" expanded="true" signature="328:541" ph="{...}" />
+                <marker date="1555014195000" expanded="true" signature="374:537" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/SceneChanger.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/circleEffect.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="1095">
+              <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+              <folding>
+                <marker date="1555268111000" expanded="false" signature="6:97" ph="..." />
+                <marker date="1555268111000" expanded="true" signature="141:2482" ph="{...}" />
+                <marker date="1555268111000" expanded="true" signature="528:796" ph="{...}" />
+                <marker date="1555268111000" expanded="true" signature="817:866" ph="{...}" />
+                <marker date="1555268111000" expanded="true" signature="969:1195" ph="{...}" />
+                <marker date="1555268111000" expanded="true" signature="1028:1192" ph="{...}" />
+                <marker date="1555268111000" expanded="true" signature="1219:1535" ph="{...}" />
+                <marker date="1555268111000" expanded="true" signature="1552:2480" ph="{...}" />
+                <marker date="1555268111000" expanded="true" signature="1593:2398" ph="{...}" />
+                <marker date="1555268111000" expanded="true" signature="1641:2394" ph="{...}" />
+                <marker date="1555268111000" expanded="true" signature="2414:2476" ph="{...}" />
+                <marker date="1555268111000" expanded="true" signature="2486:3258" ph="/* if (loadMe != null) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Dynamic Color Curves/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <marker date="1554403532000" expanded="false" signature="6:114" ph="..." />
-                <marker date="1554403532000" expanded="true" signature="158:1293" ph="{...}" />
-                <marker date="1554403532000" expanded="true" signature="405:457" ph="{...}" />
-                <marker date="1554403532000" expanded="true" signature="474:1289" ph="{...}" />
-                <marker date="1554403532000" expanded="true" signature="580:681" ph="{...}" />
-                <marker date="1554403532000" expanded="true" signature="727:827" ph="{...}" />
-                <marker date="1554403532000" expanded="true" signature="836:1284" ph="/* if (isShort = true) ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/InvokeRepeating.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <marker date="1554328643000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1554328643000" expanded="true" signature="124:1179" ph="{...}" />
-                <marker date="1554328643000" expanded="true" signature="213:270" ph="{...}" />
-                <marker date="1554328643000" expanded="true" signature="294:1177" ph="{...}" />
-                <marker date="1554328643000" expanded="true" signature="868:1174" ph="/* Instantiate(myObjects[i], new Vector3(8.21f, Random.Range(7, 8.98f), 0), Quaternion.identity); ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/CameraRotate.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-              <folding>
-                <marker date="1553388943000" expanded="false" signature="6:97" ph="..." />
-                <marker date="1553388943000" expanded="true" signature="142:274" ph="{...}" />
-                <marker date="1553388943000" expanded="true" signature="192:199" ph="{...}" />
-                <marker date="1553388943000" expanded="true" signature="217:272" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="6:75" ph="..." />
+                <marker date="1555121152000" expanded="true" signature="119:5869" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="289:5866" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="326:365" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="1827:1888" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="1904:1912" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="1953:2995" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="3029:4459" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="3198:4455" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="3259:4367" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="4484:4515" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="4586:5863" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="4624:4686" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="4719:4790" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="4960:5050" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="5078:5388" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="5396:5569" ph="{...}" />
+                <marker date="1555121152000" expanded="true" signature="5590:5859" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -292,181 +279,176 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/InstantiateLittleBalls.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/PitchControlSlider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/mouseoverselect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/SinWaveMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InstantiateManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/menu_button.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/instantiateOnDrag.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GlitchEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionBreak.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/followPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/pitchshift.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/moveTowards.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ScaleRectIllusion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnTriggerChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CombineBars.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/itweentests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tempCollision.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BallCollisionPulse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SquareScaleEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ONLYClickAndDrag.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/mouseOverHighlight.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MouseOverScale.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/audioVisualizerSineWave.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OnCollsionBall.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RTS_Camera/Scripts/Editor/RTS_CameraEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Clock.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/pulse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionFadeDestroy_Mom.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RotationScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/funnymovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MouseClickRotateEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/triangleTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Core/PadWaveform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FamilyInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RotateBackandForth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Core/CurveWaveform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/InstantiateBeatBall.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Drag.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LevelManager_RigFringes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AnimationController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BarCombinations_SoundPuzzle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Clickdragobject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionColorAndDestroy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/cameramovecoroutine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/hitboxeffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/PlayerCollision.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SineWaveMovements.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Maze_Camera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/onCollisionShrinkScale.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionShapeAppearRotate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/dragToAimLoop.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ParticlePlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LineRendererTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraRotate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/c0/ea48c80e/Boolean.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/timerLoad.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FamilyMeets.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LevelManager15.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/verticalmovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/rectangularMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/SoundMakingObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DrawVectors.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Miscellaneous/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6BD1705A-2945-4650-8350-664111FC363B/f5/50a81f0f/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Maze_TriggerManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MouseClickScaleEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraMoveClick.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LaunchBar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/DragBall.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PathFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionAnimate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Flick.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ScaleBasedOnVolume.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EchoEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/2DSoftBody/Code/Shaders/VertexColor.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TextFadeIn.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SceneChanger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/ySize.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CircleScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InstantiatePrefabs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/inputMGMT.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InstantiateObjectsFromFixedPoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/cameraZoomOut.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/clickToActivateImage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/sliderdragmovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NotMine/EZ Camera Shake/Scripts/CameraShaker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/2DSoftBody/Demo/Scripts/BackgroundScaler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/circleEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/bg_load.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LRDRAW.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Pixelplacement/SurgeExamples/Code/Utilities/AnimateToCameraPose.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ColorLerp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/InstantiateObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/CollisionAnimations.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ShapeMaker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionDestroy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DuplicateObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TestShader.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionRandomShapes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionShrink.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Pixelplacement/Surge/Tween/TweenActions/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CamRotation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnColorDoShit.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EnemyScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Dynamic Color Curves/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraRectangularMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DrawShapes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InstantiateSoundMakingObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BallMovementScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionWorldFeedback.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/iTween.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D569CB30-37DD-4660-A175-BF2FB519BD4D/c0/de3ef7cb/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TemporarySMObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RowInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StopGravity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/Sample/RotateSample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/Sample/MoveSample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RandomMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CircleFeedback.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MoveWithTrig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayAnimationOnCollision.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LineRendererChildren.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionBounce.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MousePressed.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RotateAroundButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DollyZoom.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickSound.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tempScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BBonCollisionChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LineRendererStuff.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CollisionRotate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/moveAcrossScreen.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FamilyLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RandomVectorAndScale.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BackgroundScaleObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionColorChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/pulsingScale.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/touchTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FadeImage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CheckSpeed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/itweentests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/2DSoftBody/Code/Shaders/VertexColor.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GlitchEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CameraRotate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CameraPlayerFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/timerLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/bg_load.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RandomVectorAndScale.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/instantiateOnDrag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FamilyInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/onCollisionShrinkScale.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextFadeIn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FamilyLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LaunchBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionBounce.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnColorDoShit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ParticlePlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/moveTowards.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DollyZoom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnTriggerChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/pitchshift.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CircularInstantiation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MvmntTest2Script.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DragVolume.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ReplaceTiles.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraPlayerFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InstantiateObjectsTopOfScreen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/followPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BallCollisionPulse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RandomMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/hitboxeffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScaleRectIllusion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/audioVisualizerSineWave.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionColorAndDestroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RotateBackandForth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DrawShapes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionBreak.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SquareScaleEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SineWaveMovements.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LevelManager15.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/mouseOverHighlight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/menu_button.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/SinWaveMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/c0/ea48c80e/Boolean.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RowInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InvokeRepeating.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RotateUpAndDown.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CheckPositionPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6BD1705A-2945-4650-8350-664111FC363B/f5/50a81f0f/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MoveWithTrig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MousePressed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/CollisionAnimations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CamRotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/InstantiateObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DrawVectors.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NotMine/EZ Camera Shake/Scripts/CameraShaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/2DSoftBody/Demo/Scripts/BackgroundScaler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Maze_TriggerManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/sliderdragmovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EnemyScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StopGravity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CircleFeedback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PatternScales.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CircularInstantiation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/inputMGMT.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RTS_Camera/Scripts/Editor/RTS_CameraEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LevelManager_RigFringes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/mouseoverselect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/ySize.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RotateAroundButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DuplicateObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Flick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Pixelplacement/SurgeExamples/Code/Utilities/AnimateToCameraPose.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionShapeAppearRotate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CheckPositionPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CheckSpeed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/DragBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionDestroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CameraRectangularMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CameraMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FadeImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LineRendererTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionColorChange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/SoundMakingObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/verticalmovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Clock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ReplaceTiles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LineRendererChildren.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/dragToAimLoop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TemporarySMObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/rectangularMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/InstantiateObjectsFromFixedPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Pixelplacement/Surge/Tween/TweenActions/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/InstantiateSoundMakingObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionAnimate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BarCombinations_SoundPuzzle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DragVolume.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/PlayerCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EchoEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayAnimationOnCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BBonCollisionChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MouseClickScaleEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/cameramovecoroutine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Clickdragobject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/iTween.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D569CB30-37DD-4660-A175-BF2FB519BD4D/c0/de3ef7cb/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ONLYClickAndDrag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionShrink.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Drag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/Sample/RotateSample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/InstantiateObjectsTopOfScreen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/Sample/MoveSample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/InstantiateBeatBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RotateUpAndDown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionRandomShapes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/triangleTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Maze_Camera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BallMovementScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/circleEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/moveAcrossScreen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/funnymovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/PitchControlSlider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BackgroundScaleObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/touchTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/clickToActivateImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CombineBars.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RotationScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LRDRAW.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScaleBasedOnVolume.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PathFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AnimationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/InstantiatePrefabs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tempScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ColorLerp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Miscellaneous/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/newSoundMakingObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MouseOverScale.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SceneChanger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionFadeDestroy_Mom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EscapeLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionWorldFeedback.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickSound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheCodes/GameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MouseClickRotateEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CircleScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FamilyMeets.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CameraMoveClick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tempCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LineRendererStuff.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/InstantiateLittleBalls.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Core/CurveWaveform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CollisionRotate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ShapeMaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TestShader.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Core/PadWaveform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/InstantiateManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/cameraZoomOut.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/pulse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Dynamic Color Curves/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/UweenExample.cs" />
-        <option value="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
-        <option value="$PROJECT_DIR$/Assets/L1.cs" />
-        <option value="$PROJECT_DIR$/Assets/pulse.cs" />
-        <option value="$PROJECT_DIR$/Assets/BallCollisionPulse.cs" />
-        <option value="$PROJECT_DIR$/Assets/FamilyInstantiate.cs" />
         <option value="$PROJECT_DIR$/Assets/FamilyMeets.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraRectangularMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/ColorLerp.cs" />
@@ -501,8 +483,6 @@
         <option value="$PROJECT_DIR$/Assets/InvokeRepeating.cs" />
         <option value="$PROJECT_DIR$/Assets/RowInstantiate.cs" />
         <option value="$PROJECT_DIR$/Assets/SceneChanger.cs" />
-        <option value="$PROJECT_DIR$/Assets/followPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/circleEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/FamilyLevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/RotateAroundButton.cs" />
         <option value="$PROJECT_DIR$/Assets/BallMovementScript.cs" />
@@ -512,6 +492,14 @@
         <option value="$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs" />
         <option value="$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs" />
         <option value="$PROJECT_DIR$/Assets/LevelManager15.cs" />
+        <option value="$PROJECT_DIR$/Assets/followPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dynamic Color Curves/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" />
+        <option value="$PROJECT_DIR$/Assets/RandomMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/circleEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/OnCollisionBreak.cs" />
+        <option value="$PROJECT_DIR$/Assets/tempCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/EscapeLevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/pulsingScale.cs" />
       </list>
     </option>
   </component>
@@ -532,31 +520,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Animations" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Dynamic Color Curves" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="GoogleVR" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -568,6 +537,10 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -753,11 +726,18 @@
       <workItem from="1554757271627" duration="2146000" />
       <workItem from="1554762242014" duration="1386000" />
       <workItem from="1554775513760" duration="630000" />
+      <workItem from="1555120081363" duration="1628000" />
+      <workItem from="1555211830287" duration="1455000" />
+      <workItem from="1555265471162" duration="2162000" />
+      <workItem from="1555273880546" duration="486000" />
+      <workItem from="1555274496473" duration="303000" />
+      <workItem from="1555275338482" duration="37000" />
+      <workItem from="1555283342987" duration="3367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="427365000" />
+    <option name="totallyTimeSpent" value="438543000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -772,7 +752,7 @@
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48108107" visible="true" weight="0.24892704" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48108107" visible="true" weight="0.27753934" />
       <window_info id="Structure" order="1" sideWeight="0.51891893" side_tool="true" weight="0.32381728" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -829,54 +809,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnCollisionColorAndDestroy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D569CB30-37DD-4660-A175-BF2FB519BD4D/c0/de3ef7cb/Transform.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/2DSoftBody/Demo/Scripts/BackgroundScaler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BackgroundScaleObjects.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PathFollow.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CameraMoveClick.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ScaleRectIllusion.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/c0/ea48c80e/Boolean.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -895,13 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OnCollisionColorChange.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" selection-start-line="24" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -1016,13 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/circleEffect.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1090,14 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding>
-            <marker date="1553987565000" expanded="false" signature="6:121" ph="..." />
-            <marker date="1553987565000" expanded="true" signature="176:826" ph="{...}" />
-            <marker date="1553987565000" expanded="true" signature="232:239" ph="{...}" />
-            <marker date="1553987565000" expanded="true" signature="329:537" ph="{...}" />
-            <marker date="1553987565000" expanded="true" signature="582:824" ph="{...}" />
-            <marker date="1553987565000" expanded="true" signature="638:821" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,30 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding>
-            <marker date="1548973675000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548973675000" expanded="true" signature="127:1128" ph="{...}" />
-            <marker date="1548973675000" expanded="true" signature="348:531" ph="{...}" />
-            <marker date="1548973675000" expanded="true" signature="617:625" ph="{...}" />
-            <marker date="1548973675000" expanded="true" signature="676:1126" ph="{...}" />
-            <marker date="1548973675000" expanded="true" signature="728:1048" ph="{...}" />
-            <marker date="1548973675000" expanded="true" signature="856:939" ph="/* fuck! doesn't play because it's destroying itself ... */" />
-            <marker date="1548973675000" expanded="true" signature="1007:1040" ph="{...}" />
-            <marker date="1548973675000" expanded="true" signature="1062:1116" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/followPlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <marker date="1554405674000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554405674000" expanded="true" signature="121:517" ph="{...}" />
-            <marker date="1554405674000" expanded="true" signature="261:514" ph="{...}" />
-            <marker date="1554405674000" expanded="true" signature="477:508" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1136,18 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding>
-            <marker date="1554760501000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554760501000" expanded="true" signature="129:1505" ph="{...}" />
-            <marker date="1554760501000" expanded="true" signature="594:638" ph="{...}" />
-            <marker date="1554760501000" expanded="true" signature="683:1503" ph="{...}" />
-            <marker date="1554760501000" expanded="true" signature="728:1499" ph="{...}" />
-            <marker date="1554760501000" expanded="true" signature="773:908" ph="{...}" />
-            <marker date="1554760501000" expanded="true" signature="929:1120" ph="{...}" />
-            <marker date="1554760501000" expanded="true" signature="1124:1316" ph="/* else if (UseAudioID) ... */" />
-            <marker date="1554760501000" expanded="true" signature="1339:1483" ph="{...}" />
-            <marker date="1554760501000" expanded="true" signature="1390:1477" ph="/* float pitchFloat = transform.position.y / maxScreenSize; ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1155,27 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <marker date="1554757482000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554757482000" expanded="true" signature="127:700" ph="{...}" />
-            <marker date="1554757482000" expanded="true" signature="305:410" ph="{...}" />
-            <marker date="1554757482000" expanded="true" signature="452:698" ph="{...}" />
-            <marker date="1554757482000" expanded="true" signature="497:623" ph="{...}" />
-            <marker date="1554757482000" expanded="true" signature="543:618" ph="{...}" />
-            <marker date="1554757482000" expanded="true" signature="644:695" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/Sample/MoveSample.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <marker date="1517359817000" expanded="false" signature="6:44" ph="..." />
-            <marker date="1517359817000" expanded="true" signature="85:224" ph="{...}" />
-            <marker date="1517359817000" expanded="true" signature="102:222" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1183,15 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <marker date="1554403532000" expanded="false" signature="6:114" ph="..." />
-            <marker date="1554403532000" expanded="true" signature="158:1293" ph="{...}" />
-            <marker date="1554403532000" expanded="true" signature="405:457" ph="{...}" />
-            <marker date="1554403532000" expanded="true" signature="474:1289" ph="{...}" />
-            <marker date="1554403532000" expanded="true" signature="580:681" ph="{...}" />
-            <marker date="1554403532000" expanded="true" signature="727:827" ph="{...}" />
-            <marker date="1554403532000" expanded="true" signature="836:1284" ph="/* if (isShort = true) ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1199,13 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <marker date="1554328643000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554328643000" expanded="true" signature="124:1179" ph="{...}" />
-            <marker date="1554328643000" expanded="true" signature="213:270" ph="{...}" />
-            <marker date="1554328643000" expanded="true" signature="294:1177" ph="{...}" />
-            <marker date="1554328643000" expanded="true" signature="868:1174" ph="/* Instantiate(myObjects[i], new Vector3(8.21f, Random.Range(7, 8.98f), 0), Quaternion.identity); ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,28 +1050,213 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <marker date="1553388943000" expanded="false" signature="6:97" ph="..." />
-            <marker date="1553388943000" expanded="true" signature="142:274" ph="{...}" />
-            <marker date="1553388943000" expanded="true" signature="192:199" ph="{...}" />
-            <marker date="1553388943000" expanded="true" signature="217:272" ph="{...}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/Sample/MoveSample.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LevelManager15.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="345">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
           <folding>
-            <marker date="1554775949000" expanded="false" signature="6:114" ph="..." />
-            <marker date="1554775949000" expanded="true" signature="160:941" ph="{...}" />
-            <marker date="1554775949000" expanded="true" signature="329:364" ph="{...}" />
-            <marker date="1554775949000" expanded="true" signature="383:822" ph="{...}" />
-            <marker date="1554775949000" expanded="true" signature="401:819" ph="{...}" />
-            <marker date="1554775949000" expanded="true" signature="596:813" ph="/* float x = Vector3.Distance(Vector3.zero, Camera.main.transform.position); ... */" />
-            <marker date="1554775949000" expanded="true" signature="862:939" ph="{...}" />
-            <marker date="1554775949000" expanded="true" signature="906:936" ph="{...}" />
+            <marker date="1555091422000" expanded="false" signature="6:114" ph="..." />
+            <marker date="1555091422000" expanded="true" signature="160:941" ph="{...}" />
+            <marker date="1555091422000" expanded="true" signature="329:364" ph="{...}" />
+            <marker date="1555091422000" expanded="true" signature="383:822" ph="{...}" />
+            <marker date="1555091422000" expanded="true" signature="401:819" ph="{...}" />
+            <marker date="1555091422000" expanded="true" signature="596:813" ph="/* float x = Vector3.Distance(Vector3.zero, Camera.main.transform.position); ... */" />
+            <marker date="1555091422000" expanded="true" signature="862:939" ph="{...}" />
+            <marker date="1555091422000" expanded="true" signature="906:936" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/followPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <marker date="1555115270000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555115270000" expanded="true" signature="121:706" ph="{...}" />
+            <marker date="1555115270000" expanded="true" signature="305:311" ph="{...}" />
+            <marker date="1555115270000" expanded="true" signature="328:703" ph="{...}" />
+            <marker date="1555115270000" expanded="true" signature="334:413" ph="/* transform.LookAt(Player.transform); ... */" />
+            <marker date="1555115270000" expanded="true" signature="666:697" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/RandomMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <marker date="1555121617000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555121617000" expanded="true" signature="313:395" ph="{...}" />
+            <marker date="1555121617000" expanded="true" signature="413:556" ph="{...}" />
+            <marker date="1555121617000" expanded="true" signature="574:1500" ph="{...}" />
+            <marker date="1555121617000" expanded="true" signature="670:842" ph="{...}" />
+            <marker date="1555121617000" expanded="true" signature="1530:1766" ph="{...}" />
+            <marker date="1555121617000" expanded="true" signature="1795:1851" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/circleEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+          <folding>
+            <marker date="1555268111000" expanded="false" signature="6:97" ph="..." />
+            <marker date="1555268111000" expanded="true" signature="141:2482" ph="{...}" />
+            <marker date="1555268111000" expanded="true" signature="528:796" ph="{...}" />
+            <marker date="1555268111000" expanded="true" signature="817:866" ph="{...}" />
+            <marker date="1555268111000" expanded="true" signature="969:1195" ph="{...}" />
+            <marker date="1555268111000" expanded="true" signature="1028:1192" ph="{...}" />
+            <marker date="1555268111000" expanded="true" signature="1219:1535" ph="{...}" />
+            <marker date="1555268111000" expanded="true" signature="1552:2480" ph="{...}" />
+            <marker date="1555268111000" expanded="true" signature="1593:2398" ph="{...}" />
+            <marker date="1555268111000" expanded="true" signature="1641:2394" ph="{...}" />
+            <marker date="1555268111000" expanded="true" signature="2414:2476" ph="{...}" />
+            <marker date="1555268111000" expanded="true" signature="2486:3258" ph="/* if (loadMe != null) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Dynamic Color Curves/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <marker date="1555121152000" expanded="true" signature="6:75" ph="..." />
+            <marker date="1555121152000" expanded="true" signature="119:5869" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="289:5866" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="326:365" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="1827:1888" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="1904:1912" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="1953:2995" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="3029:4459" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="3198:4455" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="3259:4367" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="4484:4515" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="4586:5863" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="4624:4686" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="4719:4790" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="4960:5050" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="5078:5388" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="5396:5569" ph="{...}" />
+            <marker date="1555121152000" expanded="true" signature="5590:5859" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OnCollisionRandomShapes.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <marker date="1555014195000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555014195000" expanded="true" signature="132:564" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="212:261" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="283:471" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="488:561" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="530:558" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ScaleRectIllusion.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <marker date="1555014195000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555014195000" expanded="true" signature="126:691" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="235:331" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="385:689" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="436:685" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OnCollisionBreak.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="22" selection-start-line="22" selection-end-line="23" />
+          <folding>
+            <marker date="1555284167000" expanded="false" signature="6:97" ph="..." />
+            <marker date="1555284167000" expanded="true" signature="144:1317" ph="{...}" />
+            <marker date="1555284167000" expanded="true" signature="297:391" ph="{...}" />
+            <marker date="1555284167000" expanded="true" signature="408:1314" ph="{...}" />
+            <marker date="1555284167000" expanded="true" signature="487:672" ph="{...}" />
+            <marker date="1555284167000" expanded="true" signature="557:668" ph="{...}" />
+            <marker date="1555284167000" expanded="true" signature="700:1311" ph="{...}" />
+            <marker date="1555284167000" expanded="true" signature="789:947" ph="{...}" />
+            <marker date="1555284167000" expanded="true" signature="1145:1184" ph="{...}" />
+            <marker date="1555284167000" expanded="true" signature="1190:1304" ph="/* middleSquare.transform.Rotate(0, 0, 90 * 20); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/tempCollision.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <marker date="1555286214000" expanded="false" signature="6:99" ph="..." />
+            <marker date="1555286214000" expanded="true" signature="143:1140" ph="{...}" />
+            <marker date="1555286214000" expanded="true" signature="431:475" ph="{...}" />
+            <marker date="1555286214000" expanded="true" signature="557:1138" ph="{...}" />
+            <marker date="1555286214000" expanded="true" signature="600:1132" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OnCollisionColorChange.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <marker date="1555014195000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555014195000" expanded="true" signature="131:544" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="236:282" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="328:541" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="374:537" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/EscapeLevelManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <marker date="1555286995000" expanded="false" signature="6:97" ph="..." />
+            <marker date="1555286995000" expanded="true" signature="147:441" ph="{...}" />
+            <marker date="1555286995000" expanded="true" signature="251:258" ph="{...}" />
+            <marker date="1555286995000" expanded="true" signature="283:439" ph="{...}" />
+            <marker date="1555286995000" expanded="true" signature="291:435" ph="/* rect1.transform.DOMove(V31, 1); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/pulsingScale.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <marker date="1555287082000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555287082000" expanded="true" signature="121:747" ph="{...}" />
+            <marker date="1555287082000" expanded="true" signature="235:280" ph="{...}" />
+            <marker date="1555287082000" expanded="true" signature="296:463" ph="{...}" />
+            <marker date="1555287082000" expanded="true" signature="321:460" ph="{...}" />
+            <marker date="1555287082000" expanded="true" signature="508:744" ph="{...}" />
           </folding>
         </state>
       </provider>

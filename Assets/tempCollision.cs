@@ -28,8 +28,9 @@ public class tempCollision : MonoBehaviour
 
 		if (col.gameObject.CompareTag("Ball"))
 		{
-//			AS.volume = speedCheck.speed;
+			collisionOccured = true; 
 			AS.Play();
+			//AS.volume = speedCheck.speed;
 			Debug.Log("Volume: " + AS.volume);
 
 			var force = col.relativeVelocity.magnitude;

@@ -74,7 +74,7 @@ public class circleEffect : MonoBehaviour
 	
 	void Update()
 	{
-Debug.Log("In Update");
+	Debug.Log("In Update");
 		if (outer)
 		{
 			Debug.Log("Is Outer");

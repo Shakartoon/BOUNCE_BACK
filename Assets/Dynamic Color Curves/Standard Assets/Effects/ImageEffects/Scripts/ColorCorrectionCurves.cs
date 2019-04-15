@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Experimental.PlayerLoop;
 
 namespace UnityStandardAssets.ImageEffects
 {
@@ -23,7 +24,7 @@ namespace UnityStandardAssets.ImageEffects
 		public AnimationCurve depthRedChannel = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 1f));
 		public AnimationCurve depthGreenChannel = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 1f));
 		public AnimationCurve depthBlueChannel = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 1f));
-
+		
 		private Material ccMaterial;
 		private Material ccDepthMaterial;
 		private Material selectiveCcMaterial;
@@ -59,7 +60,6 @@ namespace UnityStandardAssets.ImageEffects
 		void Awake()
 		{
 		}
-
 
 		public override bool CheckResources()
 		{

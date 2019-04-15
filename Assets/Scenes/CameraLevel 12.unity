@@ -11567,6 +11567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 1
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips:
   - {fileID: 8300000, guid: 58b6a5bcfe9b844148e4c7a26edbc310, type: 3}
@@ -24297,6 +24298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 1
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips:
   - {fileID: 8300000, guid: 58b6a5bcfe9b844148e4c7a26edbc310, type: 3}
