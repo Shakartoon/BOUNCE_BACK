@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayAnimationOnCollision : MonoBehaviour
 {
 
+	public bool SMAnimation;
+	public bool ballAnimation; 
 	public GameObject blueSquare;
 	public bool CollidedWithBall = false;
 	private Animator anim; 
@@ -18,17 +20,27 @@ public class PlayAnimationOnCollision : MonoBehaviour
 	// Update is called once per frame
 	void OnCollisionEnter2D (Collision2D col) {
 
-		if (col.gameObject.CompareTag("Ball"))
+		if (SMAnimation)
 		{
+			if (col.gameObject.CompareTag("Ball"))
+			{
 
-			CollidedWithBall = true; 
+				CollidedWithBall = true;
+				anim.Play("BlueSquareAnimation");
+			}
 		}
 
-		if (CollidedWithBall)
+		if (ballAnimation)
 		{
-			anim.Play("BlueSquareAnimation");
+			if (col.gameObject.CompareTag("SoundMakingObject"))
+			{
+				anim.Play("flair4");
+	
+			}
+		}
+
 
 		}
 		
-	}
 }
+
