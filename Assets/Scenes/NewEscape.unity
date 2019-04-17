@@ -391,7 +391,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &98695206
 AudioSource:
   m_ObjectHideFlags: 0
@@ -999,7 +998,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &185932126
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1791,7 +1789,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &205882120
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2364,7 +2361,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &259043168
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3155,7 +3151,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &411127095
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3433,7 +3428,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &431897195
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4160,7 +4154,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &537645759
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5465,7 +5458,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &702376238
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7472,7 +7464,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &880744532
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8425,7 +8416,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &1025243292
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8753,7 +8743,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &1035420956
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10059,7 +10048,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &1128961430
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10642,25 +10630,23 @@ GameObject:
   - component: {fileID: 1166368189}
   - component: {fileID: 1166368188}
   m_Layer: 0
-  m_Name: Main Camera (1)
-  m_TagString: MainCamera
+  m_Name: AlternativeCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1166368188
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1166368187}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ab8353b5ebd32545867da143199a814, type: 3}
+  m_Script: {fileID: 11500000, guid: 7f49fa279eb6f428da4b28c483c57a0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DefaultPosInfluence: {x: 0, y: 0.9, z: -10}
-  DefaultRotInfluence: {x: 0, y: 0, z: 0}
 --- !u!114 &1166368189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11034,7 +11020,7 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1166368187}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
@@ -11390,7 +11376,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &1239434535
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11923,7 +11908,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &1338943400
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12400,7 +12384,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &1401150035
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17718,7 +17701,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &1518993738
 AudioSource:
   m_ObjectHideFlags: 0
@@ -18776,7 +18758,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &1657903448
 AudioSource:
   m_ObjectHideFlags: 0
@@ -19643,7 +19624,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &1715607778
 AudioSource:
   m_ObjectHideFlags: 0
@@ -20158,7 +20138,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &1744280364
 AudioSource:
   m_ObjectHideFlags: 0
@@ -20578,7 +20557,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &1758585203
 AudioSource:
   m_ObjectHideFlags: 0
@@ -21583,7 +21561,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1874532225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 43.1, z: -1.04}
+  m_LocalPosition: {x: 0.44, y: 44.41, z: -1.04}
   m_LocalScale: {x: 0.8135, y: 0.8135, z: 0.8135}
   m_Children: []
   m_Father: {fileID: 0}
@@ -21770,7 +21748,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &1890302210
 AudioSource:
   m_ObjectHideFlags: 0
@@ -22380,7 +22357,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &1940461582
 AudioSource:
   m_ObjectHideFlags: 0
@@ -23255,7 +23231,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &2063827858
 AudioSource:
   m_ObjectHideFlags: 0
@@ -23906,7 +23881,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionOccured: 0
-  circleToExpand: {fileID: 0}
 --- !u!82 &2113946817
 AudioSource:
   m_ObjectHideFlags: 0

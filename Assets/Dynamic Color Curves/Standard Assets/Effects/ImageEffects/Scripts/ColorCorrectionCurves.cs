@@ -100,6 +100,7 @@ namespace UnityStandardAssets.ImageEffects
 					float rCh = Mathf.Clamp(redChannel.Evaluate(i), 0.0f, 1.0f);
 					float gCh = Mathf.Clamp(greenChannel.Evaluate(i), 0.0f, 1.0f);
 					float bCh = Mathf.Clamp(blueChannel.Evaluate(i), 0.0f, 1.0f);
+					//blueChannel.keys[0].inWeight; 
 
 					rgbChannelTex.SetPixel((int) Mathf.Floor(i * 255.0f), 0, new Color(rCh, rCh, rCh));
 					rgbChannelTex.SetPixel((int) Mathf.Floor(i * 255.0f), 1, new Color(gCh, gCh, gCh));

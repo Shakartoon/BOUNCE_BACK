@@ -7,9 +7,8 @@ public class tempCollision : MonoBehaviour
 {
 
 	private AudioSource AS;
-	[HideInInspector] public bool collisionOccured = false;
+	public bool collisionOccured = false;
 	private CameraShaker CamShake;
-	public GameObject circleToExpand;
 
 	private float maxForceForVolume = 18.0f;
 	private float minForceForVolume = 1.0f;
@@ -38,12 +37,9 @@ public class tempCollision : MonoBehaviour
 			force = force / maxForceForVolume;
 
 			AS.volume = force;
-			
-			collisionOccured = true; 
-			
-			//What is all this stuff? 
-			CameraShaker.Instance.ShakeOnce (1f, 2f, 0f, 2f);
-			circleToExpand.transform.localScale += new Vector3(transform.localScale.x * 20f, 50, 0) * Time.deltaTime; 
+
+			CameraSwitch._CollisionHappened = true; 
+			//any object using this script 
 		}
 		
 	}
