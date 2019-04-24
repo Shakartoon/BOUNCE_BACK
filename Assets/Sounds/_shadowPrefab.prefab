@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4625344785338314}
   - component: {fileID: 212699062940776694}
+  - component: {fileID: 114710165000927108}
   m_Layer: 0
   m_Name: _shadowPrefab
   m_TagString: Untagged
@@ -40,6 +41,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114710165000927108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081823670086948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21768b063cf8143089298570be4c898d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color1: {r: 0.84705883, g: 0.6509804, b: 0.56078434, a: 0.54509807}
+  color2: {r: 0.31132078, g: 0.20298028, b: 0.17181383, a: 0.7411765}
+  duration: 10
 --- !u!212 &212699062940776694
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -76,7 +91,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f5df1b56e40ef4ceb983e02b74cd840a, type: 3}
-  m_Color: {r: 0.64705884, g: 0.8196079, b: 0.60784316, a: 1}
+  m_Color: {r: 0.45882356, g: 0.6509804, b: 0.56078434, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

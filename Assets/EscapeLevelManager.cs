@@ -7,8 +7,8 @@ public class EscapeLevelManager : MonoBehaviour
 {
 
 	public GameObject player;
+	public float timer = 5f;
 	private Rigidbody2D playerRB;
-	private float timer = 10f;
 	private float time; 
 		
 	void Start ()

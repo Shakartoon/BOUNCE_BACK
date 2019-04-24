@@ -20,7 +20,7 @@ public class ShadowEffect : MonoBehaviour
 			balls.Add(Instantiate(prefab));
 			SpriteRenderer ballSpriteRenderer =  balls[balls.Count - 1].GetComponent<SpriteRenderer>();  // Getting index of last element in it 
 			print((float)(numberofBalls - i) / (numberofBalls + 1));
-			ballSpriteRenderer.color = new Color(ballSpriteRenderer.color.r, ballSpriteRenderer.color.g, ballSpriteRenderer.color.b, (float)(numberofBalls - i) / (numberofBalls + 1)); // alpha value calculated as i value  
+			//ballSpriteRenderer.color = new Color(ballSpriteRenderer.color.r, ballSpriteRenderer.color.g, ballSpriteRenderer.color.b, (float)(numberofBalls - i) / (numberofBalls + 1)); // alpha value calculated as i value  
 			positions.Add(player.transform.position); 
 		}
 				
