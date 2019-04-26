@@ -9,8 +9,8 @@ public class circleEffect : MonoBehaviour
 	//How to reloop outline 
 	
 
-	public bool inner; 
-
+	public bool inner;
+	public float speed; 
 	//outline 
 	public bool outer;
 	private bool Collision; 
@@ -36,7 +36,7 @@ public class circleEffect : MonoBehaviour
 
 	IEnumerator Wait()
 	{
-		yield return new WaitForSeconds(1.5f); 
+		yield return new WaitForSeconds(0.5f); 
 
 	}
 
@@ -81,23 +81,23 @@ public class circleEffect : MonoBehaviour
 			if (Collision)
 			{
 				Debug.Log("Is Collision");
-				alpha -= Time.deltaTime / 3; //takes 3 seconds
+				alpha -= Time.deltaTime / 0.3f; //takes 3 seconds
 
 				Debug.Log(alpha);
 				
 			    outline1.transform.position = transform.position; 
 				outline1.SetActive(true);
-				outline1.transform.localScale += Vector3.one * Time.deltaTime;
+				outline1.transform.localScale += Vector3.one * Time.deltaTime * speed;
 				outline1SR.color  = new Color(1, 1, 1, alpha);
 				
 				outline2.transform.position = transform.position; 
 				outline2.SetActive(true);
-				outline2.transform.localScale += Vector3.one * Time.deltaTime * 1.5f;
+				outline2.transform.localScale += Vector3.one * Time.deltaTime * 1.5f * speed;
 				outline2SR.color  = new Color(1, 1, 1, alpha);
 
 				outline3.transform.position = transform.position; 
 				outline3.SetActive(true);
-				outline3.transform.localScale += Vector3.one * Time.deltaTime * 1.2f;
+				outline3.transform.localScale += Vector3.one * Time.deltaTime * 1.2f * speed;
 				outline3SR.color  = new Color(1, 1, 1, alpha);
 
 			}
