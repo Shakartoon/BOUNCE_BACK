@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class SinWaveMovement : MonoBehaviour {
 
-		float amplitudeX = 10.0f;
-		float amplitudeY = 5.0f;
-		float omegaX = 1.0f;
-		float omegaY = 5.0f;
+		public float amplitudeX = 10.0f;
+		public float amplitudeY = 5.0f;
+		public float omegaX = 1.0f;
+		public float omegaY = 5.0f;
 		float index;
 
 
