@@ -12,6 +12,7 @@ public class ImmigrationLevelManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+		//Start by placing tiles 
 		//if collision count is a certain number 
 		// make snake move more 
 		// move camera 
