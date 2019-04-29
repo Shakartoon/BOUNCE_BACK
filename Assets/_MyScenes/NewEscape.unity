@@ -699,6 +699,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &142930047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1279,6 +1283,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &186072910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1384,6 +1392,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &193358716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2118,6 +2130,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &240174170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2594,6 +2610,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &263771015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2699,6 +2719,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &314861144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2851,6 +2875,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &375781047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3002,6 +3030,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &401692231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3793,6 +3825,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &460188535
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3987,6 +4023,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &477479715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4455,6 +4495,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!1 &572360421
 GameObject:
   m_ObjectHideFlags: 0
@@ -4775,6 +4819,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &607869854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5117,6 +5165,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &629414105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5297,6 +5349,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &685188252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5918,6 +5974,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &724431602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6186,7 +6246,7 @@ SpriteRenderer:
   m_Size: {x: 6.18, y: 5.59}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &754940575
@@ -6248,6 +6308,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &813944691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6353,6 +6417,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &824437032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7079,6 +7147,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &848255772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7301,6 +7373,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &859548424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7406,6 +7482,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &862144418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7788,6 +7868,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &897787315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8010,6 +8094,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &962191400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8297,6 +8385,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &988281600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8415,7 +8507,7 @@ SpriteRenderer:
   m_Size: {x: 6.18, y: 5.59}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1011510856
@@ -9549,6 +9641,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1045900174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10644,6 +10740,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1160813682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10738,6 +10838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f49fa279eb6f428da4b28c483c57a0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 0.1
 --- !u!114 &1166368189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11700,6 +11801,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1241842051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12326,6 +12431,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1386796513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12708,6 +12817,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1406558282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18318,6 +18431,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1578576316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18611,6 +18728,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1613603487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19550,6 +19671,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1676577835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19655,6 +19780,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1705804603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20075,6 +20204,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1720436365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21031,6 +21164,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1777168072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21345,6 +21482,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1833678973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21450,6 +21591,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1860222011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21541,6 +21686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inner: 0
+  speed: 0
   outer: 1
   outline1: {fileID: 1880308464}
   outline2: {fileID: 460188533}
@@ -22288,6 +22434,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1928867883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22670,6 +22820,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1959690967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22761,6 +22915,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &1970772908
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22984,6 +23142,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!1 &2032202720
 GameObject:
   m_ObjectHideFlags: 0
@@ -23648,6 +23810,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &2105593093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24364,6 +24530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inner: 0
+  speed: 0
   outer: 1
   outline1: {fileID: 1880308464}
   outline2: {fileID: 460188533}
@@ -24419,6 +24586,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &2139395205
 MonoBehaviour:
   m_ObjectHideFlags: 0

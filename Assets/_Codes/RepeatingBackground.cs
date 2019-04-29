@@ -5,25 +5,45 @@ using UnityEngine;
 public class RepeatingBackground : MonoBehaviour
 {
 	private BoxCollider2D collider;
-	private float length; 
-	void Start ()
+	private float length;
+	public float xMaxPos;
+	public float newxPosition;
+	public float xSpeed; 
+	
+
+	void Start()
 	{
 		collider = GetComponent<BoxCollider2D>();
-		length = collider.size.x; 
+		length = collider.size.x;
 	}
-	
-	void Update () {
 
-		if (transform.position.x < -length * 0.4f)
+	void Update()
+	{
+		print(transform.name + (transform.position.x - xMaxPos).ToString());
+
+		if (transform.localPosition.x <= xMaxPos)
 		{
-			RepositionBackground();
+			transform.localPosition = new Vector3(newxPosition, transform.localPosition.y, transform.localPosition.z); 
 		}
 		
+		transform.Translate(xSpeed, 0, 0);
 	}
 
-	void RepositionBackground() //calculates how far it has to move and moves it 
-	{
-		Vector3 offset = new Vector3(length * 0.5f, 0, transform.position.z); // double the length of the collider and jump our object past the visible one 
-		transform.position = (Vector3) transform.position + offset; 
-	}
+} 
+
+/*
+if (transform.position.x < -length * 2f)
+{
+	RepositionBackground();
 }
+
+}
+
+void RepositionBackground() //calculates how far it has to move and moves it 
+{
+Vector2 offset = new Vector2(length * 0.5f, 0); // double the length of the collider and jump our object past the visible one 
+transform.position = (Vector2) transform.position + offset; 
+}
+} 
+*/ 
+

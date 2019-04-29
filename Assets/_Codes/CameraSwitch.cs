@@ -7,7 +7,7 @@ public class CameraSwitch : MonoBehaviour
 
 	public static bool _CollisionHappened; //Static --> belongs to the static class instead of any instance of the original class - only 1 static variable existing in the whole game 
 	private Camera myCamera;
-	private float timer = 2f;
+	public float timer = 2f;
 	private float time = -1; 
 
 	void Start () {
