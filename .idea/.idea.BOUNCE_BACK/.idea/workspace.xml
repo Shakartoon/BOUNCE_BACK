@@ -4,9 +4,570 @@
     <list default="true" id="b3682ab6-c3bd-4361-8b70-3a026af15fe2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GlitchEffect.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GlitchEffect.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/--bar 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/--bar 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/--bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/--bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/61cddf9cfe50f4baaa8f472c253d1cb4-basic-square-outline-by-vexels.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/61cddf9cfe50f4baaa8f472c253d1cb4-basic-square-outline-by-vexels.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimalAnimation1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimalAnimation1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimalAnimationParent.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimalAnimationParent.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimationController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimationController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 17.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 18.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 19.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 20.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 5@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 5@3x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset 9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BBonCollisionChangeColor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BBonCollisionChangeColor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BG1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BG1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BG_Repeat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BG_Repeat.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BackgroundBalls.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BackgroundBalls.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BackgroundScaleObjects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BackgroundScaleObjects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ball2 (6).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ball2 (6).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BallCollisionPulse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BallCollisionPulse.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BallMovementScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BallMovementScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BarCombinations_SoundPuzzle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BarCombinations_SoundPuzzle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BarOutline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BarOutline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlueSquareAnimation.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlueSquareAnimation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BugAnimation.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BugAnimation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CIRCLE_OUTLINE.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CIRCLE_OUTLINE.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamRotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamRotation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraMove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraMove.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraMoveClick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraMoveClick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraPlayerFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraPlayerFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraRectangularMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraRectangularMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraRotate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraRotate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraSwitch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraSwitch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CheckPositionPlayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CheckPositionPlayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CheckSpeed.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CheckSpeed.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CircleFeedback.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CircleFeedback.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CircleScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CircleScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CircularInstantiation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CircularInstantiation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickSound.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickSound.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CollisionRotate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CollisionRotate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ColorLerp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ColorLerp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Colorful.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Colorful.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CombineBars.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CombineBars.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Destroy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Destroy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DiamondPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DiamondPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DollyZoom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DollyZoom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DragVolume.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DragVolume.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DrawShapes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DrawShapes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DrawVectors.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DrawVectors.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DuplicateObjects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DuplicateObjects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EchoEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EchoEffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EscapeLevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EscapeLevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FLR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FLR.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FadeImage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FadeImage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fam1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fam1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FamilyInstantiate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FamilyInstantiate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FamilyLevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FamilyLevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FamilyMeets.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FamilyMeets.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gradient-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gradient-14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gradient-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gradient-15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gradient-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gradient-16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InstantiateLittleBalls.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InstantiateLittleBalls.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InstantiateManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InstantiateManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InstantiateObjectsFromFixedPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InstantiateObjectsFromFixedPoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InstantiateObjectsTopOfScreen.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InstantiateObjectsTopOfScreen.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InstantiatePrefabs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InstantiatePrefabs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InstantiateSoundMakingObjects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InstantiateSoundMakingObjects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvokeRepeating.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvokeRepeating.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LRDRAW.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LRDRAW.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR_RECT 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR_RECT 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR_RECT 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR_RECT 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR_RECT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR_RECT.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR_SQUARE 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR_SQUARE 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR_SQUARE 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR_SQUARE 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR_SQUARE 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR_SQUARE 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR_SQUARE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LR_SQUARE.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LaunchBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LaunchBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelManager15.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelManager15.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelManager_RigFringes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelManager_RigFringes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LineRendererChildren.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LineRendererChildren.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LineRendererStuff.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LineRendererStuff.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LineRendererTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LineRendererTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Asset 5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Asset 5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials/Triangle.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials/Triangle.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials/yellow-rectangle-hi.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials/yellow-rectangle-hi.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/NewBall.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/NewBall.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/R-5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/R-5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/R-7.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/R-7.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Vertical invisible wall.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Vertical invisible wall.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/darkgreen_block.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/darkgreen_block.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/green-footer-header_block.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/green-footer-header_block.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/menucube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/menucube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/newBall1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/newBall1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/particle1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/particle1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/whitesquare.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/whitesquare.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Maze_Camera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Maze_Camera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Maze_TriggerManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Maze_TriggerManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MouseClickRotateEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MouseClickRotateEffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MouseClickScaleEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MouseClickScaleEffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MouseOverScale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MouseOverScale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MousePressed.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MousePressed.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MoveWithTrig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MoveWithTrig.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MvmntTest2Script.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MvmntTest2Script.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ONLYClickAndDrag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ONLYClickAndDrag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionAnimate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionAnimate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionBounce.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionBounce.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionBreak.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionBreak.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionColorAndDestroy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionColorAndDestroy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionColorChange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionColorChange.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionDestroy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionDestroy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionFadeDestroy_Mom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionFadeDestroy_Mom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionRandomShapes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionRandomShapes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionShapeAppearRotate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionShapeAppearRotate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionShrink.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionShrink.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionWorldFeedback.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollisionWorldFeedback.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollsionBall.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnCollsionBall.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnColorDoShit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnColorDoShit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnTriggerChangeColor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnTriggerChangeColor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OverlayMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OverlayMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PSRECT.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PSRECT.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticlePlayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticlePlayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PathFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PathFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PatternScales.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PatternScales.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PerlinNoise.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PerlinNoise.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayAnimationOnCollision.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayAnimationOnCollision.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RandomMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RandomMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RandomVectorAndScale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RandomVectorAndScale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RepeatingBackground.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RepeatingBackground.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ReplaceTiles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ReplaceTiles.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RotateAroundButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RotateAroundButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RotateBackandForth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RotateBackandForth.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RotateUpAndDown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RotateUpAndDown.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RotationScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RotationScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RowInstantiate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RowInstantiate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScaleBasedOnVolume.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScaleBasedOnVolume.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScaleRectIllusion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScaleRectIllusion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SceneChanger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SceneChanger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CirclePrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CirclePrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstBar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstBar.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Immigration 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Immigration 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TheCodes/SinWaveMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TheCodes/SinWaveMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LR_SQUARE.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LR_SQUARE.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PetalPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PetalPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ShadowBall.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ShadowBall.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Square (38).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Square (38).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/__Triangle (8).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/__Triangle (8).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/moonball.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/moonball.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Screen Shot 2019-04-14 at 3.02.55 PM 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Screen Shot 2019-04-14 at 3.02.55 PM 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Screen Shot 2019-04-14 at 3.02.55 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Screen Shot 2019-04-14 at 3.02.55 PM.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Screen Shot 2019-04-14 at 8.38.54 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Screen Shot 2019-04-14 at 8.38.54 PM.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScrollingObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScrollingObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShadowEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShadowEffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShapeMaker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShapeMaker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SineWave.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SineWave.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SineWaveMovements.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SineWaveMovements.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SquareScaleEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SquareScaleEffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StopGravity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StopGravity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TemporarySMObjects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TemporarySMObjects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextFadeIn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextFadeIn.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheCodes/Materials/whitecirc.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheCodes/Materials/whitecirc.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Trali1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Trali1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Trali2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Trali2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Trali3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Trali3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/Images/RugPieces.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Objects/Images/RugPieces/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_liqRug.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_liqRug.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_liqRug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_liqRug.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_runner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_runner.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_test 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_test 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_test.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/allbars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/allbars.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/animalTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/animalTest.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/audioVisualizerSineWave.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/audioVisualizerSineWave.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ball.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ball.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/balltest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/balltest.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/barGlow1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/barGlow1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bg 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bg 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bg.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bg2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bg_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bg_.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bgelement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bgelement.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bird.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/blackball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/blackball.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/blackcircle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/blackcircle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bloating.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/bloating.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/blueSquare2.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/blueSquare2.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/blueSquare4.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/blueSquare4.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/border 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/border 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/border1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/border1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/button1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/button1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/button2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/button2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/button3.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/button3.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/button3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/button3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cameraZoomOut.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cameraZoomOut.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ce1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ce1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ce2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ce2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ce3.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ce3.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ce3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ce3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ce4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/circleEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/circleEffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/circleMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/circleMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/circlebackground.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/circlebackground.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/colorball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/colorball.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/colorrug 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/colorrug 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/colorrug 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/colorrug 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/colorrug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/colorrug.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/colorwheel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/colorwheel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/denim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/denim.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/dial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/dial.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/div-div-class.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/div-div-class.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/drect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/drect.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/drect2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/drect2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/exchar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/exchar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/filled circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/filled circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/film-grain-dust-flicker-med-bw_njtkssmz__F0000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/film-grain-dust-flicker-med-bw_njtkssmz__F0000.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/flair4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/flair4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/flare1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/flare1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/flare2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/flare2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/flare3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/flare3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/flower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/flower.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fur-texture-purple.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fur-texture-purple.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/gold.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/gold.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/gold2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/gold2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/gradient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/gradient.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/gradient1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/gradient1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/gradient2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/gradient2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/green_flower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/green_flower.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ground.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ground.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/halfCircle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/halfCircle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hate.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hi 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hi 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hi.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hitboxeffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hitboxeffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hole 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hole 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hole.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/images (1) 1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/images (1) 1.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/images (1) 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/images (1) 2.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/images (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/images (1).jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/imgp1271.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/imgp1271.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/itweentests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/itweentests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/mouseOverHighlight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/mouseOverHighlight.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/moveAcrossScreen.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/moveAcrossScreen.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/newbackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/newbackground.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/noise4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/noise4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/norm_05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/norm_05.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/onCollisionShrinkScale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/onCollisionShrinkScale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ooh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ooh.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/particlemat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/particlemat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/pedalPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/pedalPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/psMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/psMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/pulse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/pulse.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/pulsingScale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/pulsingScale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/rectangularMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/rectangularMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/roots.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/roots.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/rugtest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/rugtest.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tempCollision.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tempCollision.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tempScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tempScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/testt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/testt.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/timerLoad.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/timerLoad.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/touchTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/touchTest.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +593,13 @@
     <session id="1163221535">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="91333" />
+          <entry key="cs" value="91450" />
           <entry key="shader" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="91333" />
+          <entry key="C#" value="91450" />
           <entry key="ShaderLab" value="1" />
         </counts>
       </usages-collector>
@@ -65,13 +626,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="328" />
+          <entry key="cs" value="331" />
           <entry key="shader" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="328" />
+          <entry key="C#" value="331" />
           <entry key="ShaderLab" value="1" />
         </counts>
       </usages-collector>
@@ -80,31 +641,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/RepeatingBackground.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/TheCodes/SinWaveMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="285">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <marker date="1556405902000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556405902000" expanded="true" signature="128:690" ph="{...}" />
-                <marker date="1556405902000" expanded="true" signature="202:281" ph="{...}" />
-                <marker date="1556405902000" expanded="true" signature="300:388" ph="{...}" />
-                <marker date="1556405902000" expanded="true" signature="347:382" ph="{...}" />
-                <marker date="1556405902000" expanded="true" signature="468:688" ph="{...}" />
+                <marker date="1556486204000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556486204000" expanded="true" signature="125:494" ph="{...}" />
+                <marker date="1556486204000" expanded="true" signature="296:489" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/TheCodes/SinWaveMovement.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/_Codes/circleEffect.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="-48">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding>
-                <marker date="1556486204000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556486204000" expanded="true" signature="125:494" ph="{...}" />
-                <marker date="1556486204000" expanded="true" signature="296:489" ph="{...}" />
+                <marker date="1556253237000" expanded="false" signature="6:97" ph="..." />
+                <marker date="1556253237000" expanded="true" signature="141:2529" ph="{...}" />
+                <marker date="1556253237000" expanded="true" signature="548:816" ph="{...}" />
+                <marker date="1556253237000" expanded="true" signature="837:886" ph="{...}" />
+                <marker date="1556253237000" expanded="true" signature="989:1215" ph="{...}" />
+                <marker date="1556253237000" expanded="true" signature="1048:1212" ph="{...}" />
+                <marker date="1556253237000" expanded="true" signature="1239:1555" ph="{...}" />
+                <marker date="1556253237000" expanded="true" signature="1572:2527" ph="{...}" />
+                <marker date="1556253237000" expanded="true" signature="1613:2445" ph="{...}" />
+                <marker date="1556253237000" expanded="true" signature="1661:2441" ph="{...}" />
+                <marker date="1556253237000" expanded="true" signature="2461:2523" ph="{...}" />
+                <marker date="1556253237000" expanded="true" signature="2533:3305" ph="/* if (loadMe != null) ... */" />
               </folding>
             </state>
           </provider>
@@ -140,55 +707,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ShadowEffect.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding>
-                <marker date="1555550595000" expanded="false" signature="6:97" ph="..." />
-                <marker date="1555550595000" expanded="true" signature="140:1259" ph="{...}" />
-                <marker date="1555550595000" expanded="true" signature="358:911" ph="{...}" />
-                <marker date="1555550595000" expanded="true" signature="402:903" ph="{...}" />
-                <marker date="1555550595000" expanded="true" signature="965:1257" ph="{...}" />
-                <marker date="1555550595000" expanded="true" signature="1046:1141" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/EscapeLevelManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding>
-                <marker date="1555615135000" expanded="false" signature="6:97" ph="..." />
-                <marker date="1555615135000" expanded="true" signature="147:477" ph="{...}" />
-                <marker date="1555615135000" expanded="true" signature="274:364" ph="{...}" />
-                <marker date="1555615135000" expanded="true" signature="381:475" ph="{...}" />
-                <marker date="1555615135000" expanded="true" signature="431:472" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/followPlayer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1555115270000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1555115270000" expanded="true" signature="121:706" ph="{...}" />
-                <marker date="1555115270000" expanded="true" signature="305:311" ph="{...}" />
-                <marker date="1555115270000" expanded="true" signature="328:703" ph="{...}" />
-                <marker date="1555115270000" expanded="true" signature="334:413" ph="/* transform.LookAt(Player.transform); ... */" />
-                <marker date="1555115270000" expanded="true" signature="666:697" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Miscellaneous/Rotate.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -200,53 +718,6 @@
                 <marker date="1556054323000" expanded="true" signature="535:764" ph="{...}" />
                 <marker date="1556054323000" expanded="true" signature="802:1114" ph="{...}" />
                 <marker date="1556054323000" expanded="true" signature="833:1110" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/moveAcrossScreen.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <marker date="1556059590000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556059590000" expanded="true" signature="125:1024" ph="{...}" />
-                <marker date="1556059590000" expanded="true" signature="457:464" ph="{...}" />
-                <marker date="1556059590000" expanded="true" signature="517:1021" ph="{...}" />
-                <marker date="1556059590000" expanded="true" signature="537:816" ph="{...}" />
-                <marker date="1556059590000" expanded="true" signature="724:812" ph="{...}" />
-                <marker date="1556059590000" expanded="true" signature="828:1018" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/pulsingScale.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1555287082000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1555287082000" expanded="true" signature="121:747" ph="{...}" />
-                <marker date="1555287082000" expanded="true" signature="235:280" ph="{...}" />
-                <marker date="1555287082000" expanded="true" signature="296:463" ph="{...}" />
-                <marker date="1555287082000" expanded="true" signature="321:460" ph="{...}" />
-                <marker date="1555287082000" expanded="true" signature="508:744" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/PerlinNoise.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding>
-                <marker date="1556252479000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556252479000" expanded="true" signature="252:416" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -289,182 +760,63 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollsionBall.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/pulsingScale.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraSwitch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/itweentests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/2DSoftBody/Code/Shaders/VertexColor.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GlitchEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraRotate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraPlayerFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/timerLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/bg_load.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RandomVectorAndScale.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/instantiateOnDrag.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FamilyInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/onCollisionShrinkScale.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TextFadeIn.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FamilyLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LaunchBar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionBounce.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnColorDoShit.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ParticlePlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/moveTowards.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DollyZoom.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnTriggerChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/pitchshift.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CircularInstantiation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MvmntTest2Script.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/followPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BallCollisionPulse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RandomMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/hitboxeffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ScaleRectIllusion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/audioVisualizerSineWave.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionColorAndDestroy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RotateBackandForth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DrawShapes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionBreak.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SquareScaleEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SineWaveMovements.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LevelManager15.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ScrollingObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/mouseOverHighlight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/menu_button.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/SinWaveMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/c0/ea48c80e/Boolean.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RowInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InvokeRepeating.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6BD1705A-2945-4650-8350-664111FC363B/f5/50a81f0f/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MoveWithTrig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MousePressed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/CollisionAnimations.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CamRotation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/InstantiateObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DrawVectors.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NotMine/EZ Camera Shake/Scripts/CameraShaker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/2DSoftBody/Demo/Scripts/BackgroundScaler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Maze_TriggerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/sliderdragmovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EnemyScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StopGravity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CircleFeedback.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PatternScales.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/inputMGMT.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RTS_Camera/Scripts/Editor/RTS_CameraEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LevelManager_RigFringes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/mouseoverselect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/ySize.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RotateAroundButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DuplicateObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Flick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Pixelplacement/SurgeExamples/Code/Utilities/AnimateToCameraPose.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionShapeAppearRotate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CheckPositionPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CheckSpeed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/DragBall.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionDestroy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraRectangularMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FadeImage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LineRendererTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionColorChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/SoundMakingObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/verticalmovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Clock.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ReplaceTiles.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LineRendererChildren.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/dragToAimLoop.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RepeatingBackground.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TemporarySMObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/rectangularMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InstantiateObjectsFromFixedPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Pixelplacement/Surge/Tween/TweenActions/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InstantiateSoundMakingObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionAnimate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BarCombinations_SoundPuzzle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DragVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/PlayerCollision.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EchoEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayAnimationOnCollision.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BBonCollisionChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MouseClickScaleEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/cameramovecoroutine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PerlinNoise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Clickdragobject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/iTween.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D569CB30-37DD-4660-A175-BF2FB519BD4D/c0/de3ef7cb/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ONLYClickAndDrag.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionShrink.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/Drag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/Sample/RotateSample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InstantiateObjectsTopOfScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/Sample/MoveSample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/InstantiateBeatBall.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RotateUpAndDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionRandomShapes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/triangleTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Maze_Camera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BallMovementScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/circleEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/moveAcrossScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/funnymovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/PitchControlSlider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BackgroundScaleObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnTriggerPlaySound.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/touchTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/clickToActivateImage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CombineBars.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RotationScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LRDRAW.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ScaleBasedOnVolume.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PathFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AnimationController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InstantiatePrefabs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tempScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ColorLerp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Codes/circleEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Miscellaneous/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/newSoundMakingObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MouseOverScale.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SceneChanger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionFadeDestroy_Mom.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EscapeLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionWorldFeedback.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickSound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheCodes/GameController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MouseClickRotateEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CircleScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FamilyMeets.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraMoveClick.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tempCollision.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LineRendererStuff.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InstantiateLittleBalls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Core/CurveWaveform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CollisionRotate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ShadowEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ShapeMaker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TestShader.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Core/PadWaveform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OnCollisionPlaySound.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InstantiateManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/cameraZoomOut.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/pulse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Dynamic Color Curves/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/TheCodes/pitchshift.cs" />
         <option value="$PROJECT_DIR$/Assets/PathFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/BackgroundScaleObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/OnCollisionColorChange.cs" />
@@ -515,6 +867,7 @@
         <option value="$PROJECT_DIR$/Assets/ScrollingObject.cs" />
         <option value="$PROJECT_DIR$/Assets/RepeatingBackground.cs" />
         <option value="$PROJECT_DIR$/Assets/TheCodes/SinWaveMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/ImmigrationLevelManager.cs" />
       </list>
     </option>
   </component>
@@ -759,12 +1112,12 @@
       <workItem from="1556257196442" duration="130000" />
       <workItem from="1556292605759" duration="638000" />
       <workItem from="1556304033464" duration="4350000" />
-      <workItem from="1556486193667" duration="398000" />
+      <workItem from="1556486193667" duration="2823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="458385000" />
+    <option name="totallyTimeSpent" value="460810000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -862,21 +1215,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/LevelManager_RigFringes.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/InstantiatePrefabs.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/L1.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/CircularInstantiation.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -1122,14 +1460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="50" />
-          <folding>
-            <marker date="1556405902000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556405902000" expanded="true" signature="128:690" ph="{...}" />
-            <marker date="1556405902000" expanded="true" signature="202:281" ph="{...}" />
-            <marker date="1556405902000" expanded="true" signature="300:388" ph="{...}" />
-            <marker date="1556405902000" expanded="true" signature="347:382" ph="{...}" />
-            <marker date="1556405902000" expanded="true" signature="468:688" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1137,12 +1467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <marker date="1556305272000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556305272000" expanded="true" signature="124:280" ph="{...}" />
-            <marker date="1556305272000" expanded="true" signature="169:254" ph="{...}" />
-            <marker date="1556305272000" expanded="true" signature="273:278" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,14 +1501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <marker date="1555550595000" expanded="false" signature="6:97" ph="..." />
-            <marker date="1555550595000" expanded="true" signature="140:1259" ph="{...}" />
-            <marker date="1555550595000" expanded="true" signature="358:911" ph="{...}" />
-            <marker date="1555550595000" expanded="true" signature="402:903" ph="{...}" />
-            <marker date="1555550595000" expanded="true" signature="965:1257" ph="{...}" />
-            <marker date="1555550595000" expanded="true" signature="1046:1141" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,29 +1508,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <marker date="1555615135000" expanded="false" signature="6:97" ph="..." />
-            <marker date="1555615135000" expanded="true" signature="147:477" ph="{...}" />
-            <marker date="1555615135000" expanded="true" signature="274:364" ph="{...}" />
-            <marker date="1555615135000" expanded="true" signature="381:475" ph="{...}" />
-            <marker date="1555615135000" expanded="true" signature="431:472" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/followPlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1555115270000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1555115270000" expanded="true" signature="121:706" ph="{...}" />
-            <marker date="1555115270000" expanded="true" signature="305:311" ph="{...}" />
-            <marker date="1555115270000" expanded="true" signature="328:703" ph="{...}" />
-            <marker date="1555115270000" expanded="true" signature="334:413" ph="/* transform.LookAt(Player.transform); ... */" />
-            <marker date="1555115270000" expanded="true" signature="666:697" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/NotMine/AudioVisualizer/Scripts/Miscellaneous/Rotate.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -1235,51 +1533,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <marker date="1556059590000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556059590000" expanded="true" signature="125:1024" ph="{...}" />
-            <marker date="1556059590000" expanded="true" signature="457:464" ph="{...}" />
-            <marker date="1556059590000" expanded="true" signature="517:1021" ph="{...}" />
-            <marker date="1556059590000" expanded="true" signature="537:816" ph="{...}" />
-            <marker date="1556059590000" expanded="true" signature="724:812" ph="{...}" />
-            <marker date="1556059590000" expanded="true" signature="828:1018" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/pulsingScale.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1555287082000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1555287082000" expanded="true" signature="121:747" ph="{...}" />
-            <marker date="1555287082000" expanded="true" signature="235:280" ph="{...}" />
-            <marker date="1555287082000" expanded="true" signature="296:463" ph="{...}" />
-            <marker date="1555287082000" expanded="true" signature="321:460" ph="{...}" />
-            <marker date="1555287082000" expanded="true" signature="508:744" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/PerlinNoise.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <marker date="1556252479000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556252479000" expanded="true" signature="252:416" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Codes/BG_Repeat.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TheCodes/SinWaveMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="285">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <marker date="1556486204000" expanded="false" signature="6:78" ph="..." />
             <marker date="1556486204000" expanded="true" signature="125:494" ph="{...}" />
             <marker date="1556486204000" expanded="true" signature="296:489" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ImmigrationLevelManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Codes/circleEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <marker date="1556253237000" expanded="false" signature="6:97" ph="..." />
+            <marker date="1556253237000" expanded="true" signature="141:2529" ph="{...}" />
+            <marker date="1556253237000" expanded="true" signature="548:816" ph="{...}" />
+            <marker date="1556253237000" expanded="true" signature="837:886" ph="{...}" />
+            <marker date="1556253237000" expanded="true" signature="989:1215" ph="{...}" />
+            <marker date="1556253237000" expanded="true" signature="1048:1212" ph="{...}" />
+            <marker date="1556253237000" expanded="true" signature="1239:1555" ph="{...}" />
+            <marker date="1556253237000" expanded="true" signature="1572:2527" ph="{...}" />
+            <marker date="1556253237000" expanded="true" signature="1613:2445" ph="{...}" />
+            <marker date="1556253237000" expanded="true" signature="1661:2441" ph="{...}" />
+            <marker date="1556253237000" expanded="true" signature="2461:2523" ph="{...}" />
+            <marker date="1556253237000" expanded="true" signature="2533:3305" ph="/* if (loadMe != null) ... */" />
           </folding>
         </state>
       </provider>
