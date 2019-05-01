@@ -5,7 +5,7 @@ using UnityEngine;
 public class OnCollisionColorChange : MonoBehaviour
 {
 
-	float decrementValue = 0.1f;
+	public float decrementValue = 0.1f;
 	float colorValue = 1;
 
 	private SpriteRenderer SR;  

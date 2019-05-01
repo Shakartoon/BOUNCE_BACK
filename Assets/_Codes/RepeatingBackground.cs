@@ -19,8 +19,6 @@ public class RepeatingBackground : MonoBehaviour
 
 	void Update()
 	{
-		print(transform.name + (transform.position.x - xMaxPos).ToString());
-
 		if (transform.localPosition.x <= xMaxPos)
 		{
 			transform.localPosition = new Vector3(newxPosition, transform.localPosition.y, transform.localPosition.z); 
