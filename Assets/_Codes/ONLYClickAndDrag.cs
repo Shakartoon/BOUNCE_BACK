@@ -10,7 +10,7 @@ public class ONLYClickAndDrag : MonoBehaviour
 	public bool _OnMouseDrag;
 	public bool _OnMouseUp; 
 	private Vector3 offset;
-
+	
 	void OnMouseDown()
 	{
 		offset = gameObject.transform.position -

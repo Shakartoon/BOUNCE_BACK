@@ -99,7 +99,6 @@
           <e p="itweentests.cs" t="Include" />
           <e p="LaunchBar.cs" t="Include" />
           <e p="LevelManager.cs" t="Include" />
-          <e p="LevelManager15.cs" t="Include" />
           <e p="LevelManager_RigFringes.cs" t="Include" />
           <e p="LineRendererChildren.cs" t="Include" />
           <e p="LineRendererStuff.cs" t="Include" />
@@ -203,7 +202,9 @@
           <e p="xButtonClick.cs" t="Include" />
           <e p="ySize.cs" t="Include" />
         </e>
+        <e p="CollisionsForScenes.cs" t="Include" />
         <e p="HubWorldLevelManager.cs" t="Include" />
+        <e p="LoadChildrenOnCollision.cs" t="Include" />
         <e p="NotMine" t="Include">
           <e p="2DSoftBody" t="Include">
             <e p="Code" t="Include">

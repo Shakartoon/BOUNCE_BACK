@@ -1,22 +1,42 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
 
 public class SceneChangeButtonTest : MonoBehaviour
 {
+	public float timer; 
+	private float time;
+	private SpriteRenderer mySR;
+	private PolygonCollider2D collider; 
 
-	void Start () {
-		
+	void Start()
+	{
+		collider = GetComponent<PolygonCollider2D>(); 
+		mySR = GetComponent<SpriteRenderer>();
+
+		collider.enabled = false; 
+		mySR.enabled = false; 
+
 	}
-	
-	void Update () {
-		
-		if (Input.GetMouseButtonDown(0))
+
+	void Update()
+	{
+		time += Time.deltaTime;
+		if (time >= timer)
 		{
-			Debug.Log("Pressed primary button.");
-			SceneManager.LoadScene("Hub World");
-		}		
+			collider.enabled = true; 
+			mySR.enabled = true; 			
+			//time -= Time.deltaTime;
+		}
 	}
-}
- 
+
+	void OnMouseDown()
+	{
+		Debug.Log("Literally"); 
+		SceneManager.LoadScene("Hub World");
+
+	}
+
+} 
+	

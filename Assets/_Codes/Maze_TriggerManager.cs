@@ -9,12 +9,17 @@ public class Maze_TriggerManager : MonoBehaviour
 	private SpriteRenderer MT2SR; 
 	public bool MazeTrigger1Entered;
 
+	public bool FringeCollision; 
+	public bool ImmigrationCollision; 
+	public bool EscapeCollision; 
+	
+
 	void Start()
 	{
 		MT2SR = MazeTrigger2.GetComponent<SpriteRenderer>(); 
 
 	}
-	void OnTriggerEnter2D(Collider2D col)
+	public void OnTriggerEnter2D(Collider2D col)
 	{
 
 		if (col.gameObject.CompareTag("MazeTrigger1"))
@@ -27,6 +32,24 @@ public class Maze_TriggerManager : MonoBehaviour
 		{
 			Debug.Log(MT2SR.color); 
 			MT2SR.color = Color.white; 
+		}
+
+		//COLLISION CHECKS LEVELS
+		
+		if (col.gameObject.CompareTag("ImmigrationButton"))
+		{
+			ImmigrationCollision = true; 
+		}
+		
+		if (col.gameObject.CompareTag("RugFringeButton"))
+		{
+			FringeCollision = true; 
+
+		}
+		if (col.gameObject.CompareTag("EscapeButton"))
+		{
+			Debug.Log("ARGGGGGG");
+			EscapeCollision = true; 
 		}
 	}
 }
