@@ -33,7 +33,6 @@ public class LevelManager15 : MonoBehaviour {
 					
 			//Camera.main.transform.position = new Vector3(149f, 100f, -23.8f);
 			//Camera.main.fieldOfView = m_FieldOfView;
-
 			//SceneTracker.sceneTracker.lastLevelPlayer = 1;
  
 			if (SceneTracker.me.TimesPlayedLevel1 > 0)

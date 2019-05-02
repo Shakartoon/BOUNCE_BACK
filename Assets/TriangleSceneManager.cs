@@ -16,5 +16,11 @@ public class TriangleSceneManager : MonoBehaviour {
 			Camera.main.backgroundColor = Color.black; 
 		}
 
+		if (SceneTracker.me.TimesPlayedLevel1 > 2)
+		{
+			Camera.main.backgroundColor = Color.green; 
+
+		}
+
 	}
 }
