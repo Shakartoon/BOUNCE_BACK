@@ -204,6 +204,7 @@
         </e>
         <e p="CollisionsForScenes.cs" t="Include" />
         <e p="HubWorldLevelManager.cs" t="Include" />
+        <e p="ImmigrationAudioMixer.cs" t="Include" />
         <e p="LoadChildrenOnCollision.cs" t="Include" />
         <e p="NotMine" t="Include">
           <e p="2DSoftBody" t="Include">
@@ -823,6 +824,7 @@
             </e>
           </e>
         </e>
+        <e p="PapirosLevelManager.cs" t="Include" />
         <e p="SceneChangeButtonTest.cs" t="Include" />
         <e p="SceneTracker.cs" t="Include" />
         <e p="TriangleSceneManager.cs" t="Include" />
