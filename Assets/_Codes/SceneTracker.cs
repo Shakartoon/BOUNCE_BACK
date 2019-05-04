@@ -6,11 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class SceneTracker : MonoBehaviour {
 
-	public int lastLevelPlayer = 0;
-	public int TimesPlayedLevel1 = 0; 
-
 	public static SceneTracker me;
 
+	//public int lastLevelPlayer = 0;
+	public int TimesPlayedLevel1 = 0;
+	public int TimesEnteredHubWorld; 
+	public int TimesPlayedImmigration; 
+	public int TimesPlayedRugFringe; 
+	
 	//Keep track with an int 
 	// each level needs it's own integer for how many times it's been played 
 	//Start at hub world //set int and increase 

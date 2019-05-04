@@ -48,7 +48,6 @@ public class Maze_TriggerManager : MonoBehaviour
 		}
 		if (col.gameObject.CompareTag("EscapeButton"))
 		{
-			Debug.Log("ARGGGGGG");
 			EscapeCollision = true; 
 		}
 	}

@@ -3,17 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class HubWorldLevelManager : MonoBehaviour {
 	
-	public Maze_TriggerManager MTM; 
+	public Maze_TriggerManager MTM;
+	[HideInInspector] public bool ExitingLevel; 
 	
+	public GameObject player;
+	private Rigidbody2D playerRB;
+
+	private float timer  = 2f;
+	private float time; 
+	
+	public float m_Hue;
+	public float m_Saturation;
+	public float m_Value;
+
+	//public CameraShaker cameraShakeScript; ??????? 
+	//ShakeOnce
+ 
 	void Start ()
 	{
-
+		playerRB = player.GetComponent<Rigidbody2D>(); 
 	}
 	
-	void Update () {
-			
+	void Update ()
+	{
+		Camera.main.backgroundColor = Color.HSVToRGB(m_Hue, m_Saturation, m_Value);
+
+			//CameraSaturationValue(); 
 			//SceneTracker.me.TimesPlayedLevel1++;
 					
 			//Camera.main.transform.position = new Vector3(149f, 100f, -23.8f);
@@ -39,21 +57,47 @@ public class HubWorldLevelManager : MonoBehaviour {
 
 		if (MTM.FringeCollision)
 		{
-			SceneManager.LoadScene("RugFringe");
+			playerRB.isKinematic = true;
+			ExitingLevel = true; //to access color correction curves script //need one for entering level 
+			time += Time.deltaTime; 
 			
+			if(time >= timer) 
+			{
+				SceneManager.LoadScene("RugFringe");
+				time = 0; 
+			}			
 		}
 
 		if (MTM.ImmigrationCollision)
 		{
-			SceneManager.LoadScene("Immigration1");
-
+			ExitingLevel = true; 
+			playerRB.isKinematic = true;
+			time += Time.deltaTime; 
+			
+			if(time >= timer)
+			{
+				SceneManager.LoadScene("Immigration1");
+			}
 		}
 
 		if (MTM.EscapeCollision)
 		{
-
-			SceneManager.LoadScene("NewEscape");
+			ExitingLevel = true; 
+			playerRB.isKinematic = true;
+			time += Time.deltaTime; 
+			
+			if(time >= timer)
+			{
+				SceneManager.LoadScene("NewEscape");
+			}
 
 		}
+	}
+
+	void CameraSaturationValue()
+	{
+		Camera.main.backgroundColor = Color.HSVToRGB(m_Hue, m_Saturation, m_Value);
+
+
 	}
 }
