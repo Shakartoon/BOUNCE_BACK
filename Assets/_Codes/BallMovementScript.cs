@@ -20,12 +20,18 @@ public class BallMovementScript : MonoBehaviour
 	private bool OnCollisionEnter;
 	private bool OnCollisionExit;
 
-	public int PapirosCollisionCount; 
+	//For Papiros Level Only 
+	public int PapirosCollisionCount;
+	public GameObject Reaction;
+	public GameObject ReactionSprite1; 
+	public GameObject ReactionSprite12; 
 
 	void Start()
 	{
 		//originalScale = new Vector3(transform.localScale.x, transform.localScale.y, transform.localScale.z);
 		myRB = GetComponent<Rigidbody2D>();
+		
+		Reaction.SetActive(false);
 	}
 
 	void OnMouseDown()
@@ -77,6 +83,8 @@ public class BallMovementScript : MonoBehaviour
 		{
 			Debug.Log(PapirosCollisionCount);
 			PapirosCollisionCount++; 
+			
+			Reaction.SetActive(true);
 			
 		}
 	

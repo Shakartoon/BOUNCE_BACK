@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using DG.Tweening; 
 
 
 public class HubWorldLevelManager : MonoBehaviour {
@@ -12,6 +13,9 @@ public class HubWorldLevelManager : MonoBehaviour {
 	public GameObject player;
 	private Rigidbody2D playerRB;
 
+	public GameObject overlayScreen;
+	private SpriteRenderer overlaySR; 
+	
 	private float timer  = 2f;
 	private float time; 
 	
@@ -24,12 +28,14 @@ public class HubWorldLevelManager : MonoBehaviour {
  
 	void Start ()
 	{
-		playerRB = player.GetComponent<Rigidbody2D>(); 
+		playerRB = player.GetComponent<Rigidbody2D>();
+		overlaySR = overlayScreen.GetComponent<SpriteRenderer>(); 
+		overlayScreen.SetActive(false);
 	}
 	
 	void Update ()
 	{
-		Camera.main.backgroundColor = Color.HSVToRGB(m_Hue, m_Saturation, m_Value);
+		//Camera.main.backgroundColor = Color.HSVToRGB(m_Hue, m_Saturation, m_Value);
 
 			//CameraSaturationValue(); 
 			//SceneTracker.me.TimesPlayedLevel1++;
@@ -59,6 +65,7 @@ public class HubWorldLevelManager : MonoBehaviour {
 		{
 			playerRB.isKinematic = true;
 			ExitingLevel = true; //to access color correction curves script //need one for entering level 
+			overlayScreen.SetActive(true);
 			time += Time.deltaTime; 
 			
 			if(time >= timer) 
@@ -72,8 +79,11 @@ public class HubWorldLevelManager : MonoBehaviour {
 		{
 			ExitingLevel = true; 
 			playerRB.isKinematic = true;
-			time += Time.deltaTime; 
+			overlayScreen.SetActive(true);
 			
+			overlaySR.DOColor(new Color(1, 1, 1, 1), 2); 
+			
+			time += Time.deltaTime; 
 			if(time >= timer)
 			{
 				SceneManager.LoadScene("Immigration1");
@@ -85,6 +95,8 @@ public class HubWorldLevelManager : MonoBehaviour {
 			ExitingLevel = true; 
 			playerRB.isKinematic = true;
 			time += Time.deltaTime; 
+			overlayScreen.SetActive(true);
+
 			
 			if(time >= timer)
 			{

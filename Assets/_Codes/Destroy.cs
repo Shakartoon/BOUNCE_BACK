@@ -1,19 +1,36 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening; 
 
 public class Destroy : MonoBehaviour
 {
+	public bool justDestroy;
+	public bool fade;
+	public float timeToKill;
+	public float fadeTime;
+	public Color newColor; 
 
-	public float timeToKill; 
+	private SpriteRenderer SR; 
 	
-	void Start () {
-		
+	void Start ()
+	{
+
+		SR = GetComponent<SpriteRenderer>();
+
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		
-		Destroy(gameObject, timeToKill);		
+		if(justDestroy)
+		{
+			Destroy(gameObject, timeToKill);
+		}
+
+		if (fade)
+		{
+			SR.DOColor(newColor, fadeTime); 
+
+		}
 	}
 }
