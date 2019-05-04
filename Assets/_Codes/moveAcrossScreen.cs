@@ -18,7 +18,12 @@ public class moveAcrossScreen : MonoBehaviour
 	public float maxPosY;
 
 	public bool loop;
-	public float maxPosition = 0.5f; 
+	public float maxPosition = 0.5f;
+
+	public bool destroy;
+	public float timetodestroy;
+	private float _time; 
+	
 	void Start ()
 	{
 
@@ -35,6 +40,15 @@ public class moveAcrossScreen : MonoBehaviour
 			{
 
 				transform.Translate(new Vector3(xtranslate2, ytranslate2, ztranslate2));
+			}
+
+			if (destroy)
+			{
+				_time += Time.deltaTime;
+				if (_time >= timetodestroy)
+				{
+					Destroy(gameObject);
+				}
 			}
 		}
 		if (loop)
