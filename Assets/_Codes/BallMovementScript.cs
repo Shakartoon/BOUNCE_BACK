@@ -18,7 +18,9 @@ public class BallMovementScript : MonoBehaviour
 	public float myDrag = 20f;
 
 	private bool OnCollisionEnter;
-	private bool OnCollisionExit; 
+	private bool OnCollisionExit;
+
+	public int PapirosCollisionCount; 
 
 	void Start()
 	{
@@ -69,6 +71,15 @@ public class BallMovementScript : MonoBehaviour
 		{
 			OnCollisionEnter = true; 
 		}
+		
+		//This is for the PapirosPoem Level Only 
+		if (col.gameObject.CompareTag("PapirosObject"))
+		{
+			Debug.Log(PapirosCollisionCount);
+			PapirosCollisionCount++; 
+			
+		}
+	
 	}
 
 	void OnCollisionExit2D()
@@ -99,5 +110,6 @@ public class BallMovementScript : MonoBehaviour
 		{
 
 		}
+		
 	}
 }
