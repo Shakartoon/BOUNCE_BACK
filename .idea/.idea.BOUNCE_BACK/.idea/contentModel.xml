@@ -56,6 +56,7 @@
           <e p="CollisionAnimations.cs" t="Include" />
           <e p="collisioncheck.cs" t="Include" />
           <e p="CollisionRotate.cs" t="Include" />
+          <e p="CollisionsForScenes.cs" t="Include" />
           <e p="ColorLerp.cs" t="Include" />
           <e p="colortest.cs" t="Include" />
           <e p="CombineBars.cs" t="Include" />
@@ -84,6 +85,8 @@
           <e p="GameManager.cs" t="Include" />
           <e p="GlitchEffect.cs" t="Include" />
           <e p="hitboxeffect.cs" t="Include" />
+          <e p="HubWorldLevelManager.cs" t="Include" />
+          <e p="ImmigrationAudioMixer.cs" t="Include" />
           <e p="ImmigrationLevelManager.cs" t="Include" />
           <e p="inputMGMT.cs" t="Include" />
           <e p="InstantiateBeatBall.cs" t="Include" />
@@ -103,6 +106,7 @@
           <e p="LineRendererChildren.cs" t="Include" />
           <e p="LineRendererStuff.cs" t="Include" />
           <e p="LineRendererTest.cs" t="Include" />
+          <e p="LoadChildrenOnCollision.cs" t="Include" />
           <e p="LRDRAW.cs" t="Include" />
           <e p="Maze_Camera.cs" t="Include" />
           <e p="Maze_TriggerManager.cs" t="Include" />
@@ -145,6 +149,7 @@
           <e p="OnTriggerChangeColor.cs" t="Include" />
           <e p="OnTriggerPlaySound.cs" t="Include" />
           <e p="Osclillator.cs" t="Include" />
+          <e p="PapirosLevelManager.cs" t="Include" />
           <e p="ParticlePlayer.cs" t="Include" />
           <e p="ParticleTrigger.cs" t="Include" />
           <e p="PathFollow.cs" t="Include" />
@@ -172,7 +177,9 @@
           <e p="ScaleBasedOnVolume.cs" t="Include" />
           <e p="ScaleRectIllusion.cs" t="Include" />
           <e p="scalingAnimations.cs" t="Include" />
+          <e p="SceneChangeButtonTest.cs" t="Include" />
           <e p="SceneChanger.cs" t="Include" />
+          <e p="SceneTracker.cs" t="Include" />
           <e p="ScrollingObject.cs" t="Include" />
           <e p="Services.cs" t="Include" />
           <e p="ShadowEffect.cs" t="Include" />
@@ -191,6 +198,7 @@
           <e p="TextFadeIn.cs" t="Include" />
           <e p="timerLoad.cs" t="Include" />
           <e p="touchTest.cs" t="Include" />
+          <e p="TriangleSceneManager.cs" t="Include" />
           <e p="triangleTrigger.cs" t="Include" />
           <e p="triangleTriggerLoop.cs" t="Include" />
           <e p="TrigExample.cs" t="Include" />
@@ -202,10 +210,6 @@
           <e p="xButtonClick.cs" t="Include" />
           <e p="ySize.cs" t="Include" />
         </e>
-        <e p="CollisionsForScenes.cs" t="Include" />
-        <e p="HubWorldLevelManager.cs" t="Include" />
-        <e p="ImmigrationAudioMixer.cs" t="Include" />
-        <e p="LoadChildrenOnCollision.cs" t="Include" />
         <e p="NotMine" t="Include">
           <e p="2DSoftBody" t="Include">
             <e p="Code" t="Include">
@@ -824,10 +828,6 @@
             </e>
           </e>
         </e>
-        <e p="PapirosLevelManager.cs" t="Include" />
-        <e p="SceneChangeButtonTest.cs" t="Include" />
-        <e p="SceneTracker.cs" t="Include" />
-        <e p="TriangleSceneManager.cs" t="Include" />
       </e>
       <e p="BOUNCE_BACK.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
