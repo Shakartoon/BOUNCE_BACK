@@ -23,6 +23,10 @@ public class HubWorldLevelManager : MonoBehaviour {
 	public float m_Saturation;
 	public float m_Value;
 
+	public GameObject noise; 
+	public GameObject upperBG; 
+	public GameObject lowerBG; 
+
 	//public CameraShaker cameraShakeScript; ??????? 
 	//ShakeOnce
  
@@ -31,6 +35,8 @@ public class HubWorldLevelManager : MonoBehaviour {
 		playerRB = player.GetComponent<Rigidbody2D>();
 		overlaySR = overlayScreen.GetComponent<SpriteRenderer>(); 
 		overlayScreen.SetActive(false);
+		noise.SetActive(false);
+
 	}
 	
 	void Update ()
@@ -81,12 +87,18 @@ public class HubWorldLevelManager : MonoBehaviour {
 			playerRB.isKinematic = true;
 			overlayScreen.SetActive(true);
 			
-			overlaySR.DOColor(new Color(1, 1, 1, 1), 2); 
+			//overlaySR.DOColor(new Color(1, 1, 1, 1), 2);
+			
+			SceneTracker.me.TimesPlayedTriangle++;
+			SceneTracker.me.TimesEnteredHubWorld = 1; 
 			
 			time += Time.deltaTime; 
 			if(time >= timer)
 			{
-				SceneManager.LoadScene("Immigration1");
+				upperBG.transform.DOMoveX(100, 1);
+				lowerBG.transform.DOMoveX(100, 1);
+				SceneManager.LoadScene("Triangles");
+				
 			}
 		}
 
@@ -103,6 +115,14 @@ public class HubWorldLevelManager : MonoBehaviour {
 				SceneManager.LoadScene("NewEscape");
 			}
 
+		}
+
+
+		if (SceneTracker.me.TimesEnteredHubWorld == 1)
+		{
+		
+			noise.SetActive(true);
+			Debug.Log("problems");
 		}
 	}
 

@@ -19,12 +19,12 @@ public class RepeatingBackground : MonoBehaviour
 
 	void Update()
 	{
+		transform.Translate(xSpeed, 0, 0);
+		
 		if (transform.localPosition.x <= xMaxPos)
 		{
 			transform.localPosition = new Vector3(newxPosition, transform.localPosition.y, transform.localPosition.z); 
 		}
-		
-		transform.Translate(xSpeed, 0, 0);
 	}
 
 } 

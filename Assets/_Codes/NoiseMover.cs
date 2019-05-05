@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class NoiseMover : MonoBehaviour {
 
+	public float minx, maxX, minY, maxY; 
     public float timer; 
-    float time; 
+    float time;
 
 	void Start () {
 		
@@ -17,7 +18,8 @@ public class NoiseMover : MonoBehaviour {
 		time += Time.deltaTime; 
 		if (time >= timer)
 		{
-			transform.localPosition = new Vector2(Random.Range(-4.3f, 2f), Random.Range(2.3f, 5.6f));
+			//transform.localPosition = new Vector2(Random.Range(-4.3f, 2f), Random.Range(2.3f, 5.6f));
+			transform.localPosition = new Vector2(Random.Range(minx, maxX), Random.Range(minY, maxY));
 			time = 0; 
 		} 
 

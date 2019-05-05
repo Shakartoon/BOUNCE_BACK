@@ -10,9 +10,10 @@ public class SceneTracker : MonoBehaviour {
 
 	//public int lastLevelPlayer = 0;
 	public int TimesPlayedLevel1 = 0;
-	public int TimesEnteredHubWorld; 
+	public int TimesEnteredHubWorld = 0; 
 	public int TimesPlayedImmigration; 
 	public int TimesPlayedRugFringe; 
+	public int TimesPlayedTriangle = 0; 
 	
 	//Keep track with an int 
 	// each level needs it's own integer for how many times it's been played 
