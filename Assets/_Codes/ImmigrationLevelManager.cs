@@ -31,7 +31,6 @@ public class ImmigrationLevelManager : MonoBehaviour {
 		{
 			playerRigidBody.isKinematic = false; 
 			//playerSpriteRenderer.color = new Color (1, 1, 1, 1); 
-
 		}
 		
 		if (player.transform.position.x >= 24f)
@@ -39,6 +38,11 @@ public class ImmigrationLevelManager : MonoBehaviour {
 			PlayerIsOnTheRight = true; 
 		}
 
+		if (SceneTracker.me.TimesPlayedImmigration == 0)
+		{
+			Debug.Log("FirstTime");
+		}
+		
 		
 		//Start by placing tiles 
 		//if collision count is a certain number 

@@ -22,9 +22,6 @@ public class BallMovementScript : MonoBehaviour
 
 	//For Papiros Level Only 
 	public int PapirosCollisionCount;
-	public GameObject Reaction;
-	public GameObject ReactionSprite1; 
-	public GameObject ReactionSprite12;
 
 	private Vector3 newMousePos;
 	private Vector2 direction;
@@ -36,7 +33,7 @@ public class BallMovementScript : MonoBehaviour
 		//originalScale = new Vector3(transform.localScale.x, transform.localScale.y, transform.localScale.z);
 		myRB = GetComponent<Rigidbody2D>();
 		
-		Reaction.SetActive(false);
+		//Reaction.SetActive(false);
 	}
 
 	/* 
@@ -103,7 +100,7 @@ public class BallMovementScript : MonoBehaviour
 			Debug.Log(PapirosCollisionCount);
 			PapirosCollisionCount++; 
 			
-			Reaction.SetActive(true);
+			//Reaction.SetActive(true);
 			
 		}
 	

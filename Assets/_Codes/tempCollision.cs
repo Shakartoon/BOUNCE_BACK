@@ -30,7 +30,7 @@ public class tempCollision : MonoBehaviour
 			collisionOccured = true; 
 			AS.Play();
 			//AS.volume = speedCheck.speed;
-			Debug.Log("Volume: " + AS.volume);
+//			Debug.Log("Volume: " + AS.volume);
 
 			var force = col.relativeVelocity.magnitude;
 			force = Mathf.Clamp(force, minForceForVolume, maxForceForVolume);

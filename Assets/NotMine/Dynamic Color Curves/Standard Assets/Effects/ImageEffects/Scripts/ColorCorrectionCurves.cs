@@ -14,12 +14,6 @@ namespace UnityStandardAssets.ImageEffects
 			Advanced = 1
 		}
 
-		//****MINE****//							//****MINE****//
-		public HubWorldLevelManager HubWorldManager;
-		public float SaturationLevel = 20; 
-		//****MINE****//							//****MINE****//
-
-
 		public AnimationCurve redChannel = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 1f));
 		public AnimationCurve greenChannel = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 1f));
 		public AnimationCurve blueChannel = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 1f));
@@ -69,10 +63,7 @@ namespace UnityStandardAssets.ImageEffects
 
 		public void Update()
 		{
-			if(HubWorldManager.ExitingLevel)
-			{
-				saturation = 0;
-			}		
+		
 		}	
 		
 		public override bool CheckResources()

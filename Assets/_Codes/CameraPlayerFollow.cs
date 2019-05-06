@@ -9,7 +9,7 @@ public class CameraPlayerFollow : MonoBehaviour {
 	public float smoothSpeed = 0.125f;
 	public Vector3 offset;
 	private Vector3 smoothedPosition;
-	private Transform smoothedTarget;
+	public Transform smoothedTarget;
 	void Start()
 	{
 		smoothedPosition = transform.position;

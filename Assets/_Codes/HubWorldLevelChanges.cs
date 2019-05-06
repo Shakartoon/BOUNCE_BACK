@@ -15,18 +15,23 @@ public class HubWorldLevelChanges : MonoBehaviour {
 	void Update () {
 
 		//AFTER IMMIGRATION #1 
+	
 		
+		/* 
 		if (SceneTracker.me.TimesPlayedTriangle == 1)
+		{
+			backgroundFlower.SetActive(true);
+
+		}*/ 
+		
+
+		if (SceneTracker.me.TimesEnteredHubWorld == 1)
 		{
 			backgroundFlower.SetActive(true);
 
 		}
 
-		if (SceneTracker.me.TimesPlayedTriangle == 2)
-		{
-			backgroundFlower.SetActive(false);
 
-		}
 		
 		//AFTER IMMIGRATION #2
 		

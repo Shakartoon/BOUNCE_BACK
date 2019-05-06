@@ -18028,9 +18028,6 @@ MonoBehaviour:
   magnitude: 100
   myDrag: 3
   PapirosCollisionCount: 0
-  Reaction: {fileID: 0}
-  ReactionSprite1: {fileID: 0}
-  ReactionSprite12: {fileID: 0}
 --- !u!50 &382235294
 Rigidbody2D:
   serializedVersion: 4
@@ -49622,7 +49619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a7327787e4543cb8111e01ffe5a760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 15
+  timer: 1
 --- !u!60 &912977251
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -49701,7 +49698,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 29
+  m_SortingOrder: 100
   m_Sprite: {fileID: 21300000, guid: fc51b9276729b4662817c85bc409da87, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -49720,8 +49717,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 912977249}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.2, y: -15.5, z: 10.52}
-  m_LocalScale: {x: 1.1855623, y: 1.1855623, z: 1.1855623}
+  m_LocalPosition: {x: 30.44, y: -14.55, z: 10.52}
+  m_LocalScale: {x: 3.0978742, y: 3.0978742, z: 3.0978742}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 52
@@ -56881,6 +56878,65 @@ Transform:
   m_Father: {fileID: 360726825}
   m_RootOrder: 161
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1095108956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1095108959}
+  - component: {fileID: 1095108958}
+  - component: {fileID: 1095108957}
+  m_Layer: 0
+  m_Name: ScenePappy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1095108957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1095108956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43373416e60094b018861364816eff04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1095108958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1095108956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952c5dde1c83a45fd9091d09ea39d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimesPlayedLevel1: 0
+  TimesEnteredHubWorld: 0
+  TimesPlayedImmigration: 0
+  TimesPlayedPapiros: 0
+  TimesPlayedRugFringe: 0
+  TimesPlayedTriangle: 0
+  TimesPlayedEscape: 0
+--- !u!4 &1095108959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1095108956}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.3441153, y: -0.70939255, z: -0.5790901}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 61
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1101833802
 GameObject:
   m_ObjectHideFlags: 0
@@ -57423,9 +57479,6 @@ MonoBehaviour:
   magnitude: 0.1
   myDrag: 10
   PapirosCollisionCount: 0
-  Reaction: {fileID: 0}
-  ReactionSprite1: {fileID: 0}
-  ReactionSprite12: {fileID: 0}
 --- !u!50 &1122448227
 Rigidbody2D:
   serializedVersion: 4
@@ -58686,9 +58739,6 @@ MonoBehaviour:
   magnitude: 200
   myDrag: 5
   PapirosCollisionCount: 0
-  Reaction: {fileID: 0}
-  ReactionSprite1: {fileID: 0}
-  ReactionSprite12: {fileID: 0}
 --- !u!50 &1143135464
 Rigidbody2D:
   serializedVersion: 4
@@ -97814,8 +97864,10 @@ MonoBehaviour:
   TimesPlayedLevel1: 0
   TimesEnteredHubWorld: 0
   TimesPlayedImmigration: 0
+  TimesPlayedPapiros: 0
   TimesPlayedRugFringe: 0
   TimesPlayedTriangle: 0
+  TimesPlayedEscape: 0
 --- !u!114 &2034651857
 MonoBehaviour:
   m_ObjectHideFlags: 0

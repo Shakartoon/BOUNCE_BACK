@@ -1354,7 +1354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &98695205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4168,7 +4168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &259043167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5857,7 +5857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &411127094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6210,7 +6210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &431897194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13058,7 +13058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &880744531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15253,7 +15253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &1035420955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17142,7 +17142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &1128961429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18995,7 +18995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &1239434534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20057,7 +20057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &1338943399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20688,7 +20688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &1401150034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27022,7 +27022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &1518993737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29301,7 +29301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &1657903447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31631,7 +31631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &1758585202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32180,7 +32180,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1779695079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33729,7 +33729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &1890302209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33938,7 +33938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1891215827}
   m_Layer: 0
-  m_Name: Scale
+  m_Name: FourDiamonds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34568,7 +34568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &1940461581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36588,6 +36588,7 @@ GameObject:
   - component: {fileID: 2074579933}
   - component: {fileID: 2074579934}
   - component: {fileID: 2074579935}
+  - component: {fileID: 2074579936}
   m_Layer: 0
   m_Name: GameManager*
   m_TagString: Untagged
@@ -36658,7 +36659,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2129035798}
-  timer: 10
+  secondDiamond: {fileID: 396702224}
+  fourDiamonds: {fileID: 1891215826}
+  timer: 5
+--- !u!114 &2074579936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2074579930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9294aac85f7452fbaafc294ebf9acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MTM: {fileID: 0}
+  ExitingLevel: 0
+  player: {fileID: 0}
+  overlayScreen: {fileID: 0}
+  m_Hue: 0
+  m_Saturation: 0
+  m_Value: 0
+  noise: {fileID: 0}
+  upperBG: {fileID: 0}
+  lowerBG: {fileID: 0}
 --- !u!1 &2081066103
 GameObject:
   m_ObjectHideFlags: 0
@@ -37311,7 +37335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9156e2326eac443aa66890e871df24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decrementValue: 0.1
+  decrementValue: 1
 --- !u!114 &2113946816
 MonoBehaviour:
   m_ObjectHideFlags: 0
