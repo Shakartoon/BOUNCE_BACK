@@ -57420,8 +57420,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
-  magnitude: 200
-  myDrag: 5
+  magnitude: 0.1
+  myDrag: 10
   PapirosCollisionCount: 0
   Reaction: {fileID: 0}
   ReactionSprite1: {fileID: 0}
@@ -97815,6 +97815,7 @@ MonoBehaviour:
   TimesEnteredHubWorld: 0
   TimesPlayedImmigration: 0
   TimesPlayedRugFringe: 0
+  TimesPlayedTriangle: 0
 --- !u!114 &2034651857
 MonoBehaviour:
   m_ObjectHideFlags: 0

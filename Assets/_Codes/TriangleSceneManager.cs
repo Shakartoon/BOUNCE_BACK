@@ -11,15 +11,20 @@ public class TriangleSceneManager : MonoBehaviour {
 	void Update ()
 	{
 
-		if (SceneTracker.me.TimesPlayedTriangle > 1) //LevelManager15.Level1Played2)
+		if (SceneTracker.me.TimesPlayedTriangle == 0) //LevelManager15.Level1Played2)
 		{
-			Debug.Log("Number Two");
 			Camera.main.backgroundColor = Color.black; 
 		}
 
-		if (SceneTracker.me.TimesPlayedTriangle > 2)
+		if (SceneTracker.me.TimesPlayedTriangle == 1)
 		{
 			Camera.main.backgroundColor = Color.green; 
+
+		}
+		
+		if (SceneTracker.me.TimesPlayedTriangle == 2)
+		{
+			Camera.main.backgroundColor = Color.red; 
 
 		}
 		

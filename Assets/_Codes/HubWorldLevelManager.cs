@@ -88,16 +88,14 @@ public class HubWorldLevelManager : MonoBehaviour {
 			overlayScreen.SetActive(true);
 			
 			overlaySR.DOColor(new Color(1, 1, 1, 1), 2);
-			//the other one didn't work because the camera position always changes / anyways -- 
-			
-			SceneTracker.me.TimesPlayedTriangle++;
-			SceneTracker.me.TimesEnteredHubWorld = 1; 
+			//the other one didn't work because the camera position always changes / anyways -- 			
 			
 			time += Time.deltaTime; 
 			if(time >= timer)
 			{
+				SceneTracker.me.TimesPlayedTriangle++;
+				SceneTracker.me.TimesEnteredHubWorld++; 
 				SceneManager.LoadScene("Triangles");
-				
 			}
 		}
 
@@ -112,6 +110,8 @@ public class HubWorldLevelManager : MonoBehaviour {
 			if(time >= timer)
 			{
 				SceneManager.LoadScene("NewEscape");
+				// 
+				//
 			}
 
 		}

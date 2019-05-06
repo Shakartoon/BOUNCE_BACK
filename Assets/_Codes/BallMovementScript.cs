@@ -24,7 +24,12 @@ public class BallMovementScript : MonoBehaviour
 	public int PapirosCollisionCount;
 	public GameObject Reaction;
 	public GameObject ReactionSprite1; 
-	public GameObject ReactionSprite12; 
+	public GameObject ReactionSprite12;
+
+	private Vector3 newMousePos;
+	private Vector2 direction;
+
+	private bool mouseIsOver; 
 
 	void Start()
 	{
@@ -56,18 +61,25 @@ public class BallMovementScript : MonoBehaviour
 
 	void OnMouseOver()
 	{
-		//
+
+		//mouseIsOver = true; 
+		
+
+		/* 
+		
+		//move to the position with force
+		//apply drag to tell it to stop 
+		//drag increases faster you go //higher your force and higher drag you get equilibrium 
+		
+		
 		offset = gameObject.transform.position -
 		         Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f));
 		
-		// 
 		Vector3 newPosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f);
 		Vector3 projectedMousePos = Camera.main.ScreenToWorldPoint(newPosition);
-		//transform.position = Camera.main.ScreenToWorldPoint(newPosition) + offset;
-		//move to the position with forceeeeeee
 		myRB.AddForce(Vector3.Normalize(projectedMousePos - transform.position) * magnitude, ForceMode2D.Force); //reduce to direction
-		//apply drag to tell it to stop 
-		//drag increases faster you go //higher your force and higher drag you get equilibrium 
+
+		*/
 		
 	}
 
@@ -105,6 +117,11 @@ public class BallMovementScript : MonoBehaviour
 
 	void Update()
 	{
+		newMousePos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f));
+		direction = newMousePos - transform.position.normalized; 
+		myRB.AddForce(Vector3.Normalize(newMousePos - transform.position) * magnitude, ForceMode2D.Force); //reduce to direction
+		
+		/* 
 		Vector3 screenPoint = Camera.main.WorldToViewportPoint(gameObject.transform.position);
 		onScreen = screenPoint.z > 0 && screenPoint.x > 0 && screenPoint.x < 1 && screenPoint.y > 0 &&
 		           screenPoint.y < 1;
@@ -124,7 +141,8 @@ public class BallMovementScript : MonoBehaviour
 		if (OnCollisionExit)
 		{
 
-		}
+		} 
+		*/ 
 		
 	}
 }

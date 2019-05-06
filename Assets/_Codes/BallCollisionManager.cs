@@ -28,7 +28,8 @@ public class BallCollisionManager : MonoBehaviour {
 		{
 			CollisionCount++; 
 			//myCollider.enabled = false; 
-			Destroy(myCollider);
+			//Destroy(myCollider);
+			Destroy(gameObject);
 			Debug.Log(CollisionCount);
 		}
 		

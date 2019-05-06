@@ -30,6 +30,8 @@ public class SceneTracker : MonoBehaviour {
 
 		me = this;
 		DontDestroyOnLoad(gameObject);
+		
+		Debug.Log("Don't Destroy Called");
 	}
 	
 }
