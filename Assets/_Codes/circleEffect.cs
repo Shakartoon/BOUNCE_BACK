@@ -77,13 +77,13 @@ public class circleEffect : MonoBehaviour
 	//Debug.Log("In Update");
 		if (outer)
 		{
-			Debug.Log("Is Outer");
+//			Debug.Log("Is Outer");
 			if (Collision)
 			{
 				Debug.Log("Is Collision");
 				alpha -= Time.deltaTime / 0.3f; //takes 3 seconds
 
-				Debug.Log(alpha);
+//				Debug.Log(alpha);
 				
 			    outline1.transform.position = transform.position; 
 				outline1.SetActive(true);

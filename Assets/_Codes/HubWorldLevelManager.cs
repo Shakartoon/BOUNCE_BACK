@@ -87,7 +87,8 @@ public class HubWorldLevelManager : MonoBehaviour {
 			playerRB.isKinematic = true;
 			overlayScreen.SetActive(true);
 			
-			//overlaySR.DOColor(new Color(1, 1, 1, 1), 2);
+			overlaySR.DOColor(new Color(1, 1, 1, 1), 2);
+			//the other one didn't work because the camera position always changes / anyways -- 
 			
 			SceneTracker.me.TimesPlayedTriangle++;
 			SceneTracker.me.TimesEnteredHubWorld = 1; 
@@ -95,8 +96,6 @@ public class HubWorldLevelManager : MonoBehaviour {
 			time += Time.deltaTime; 
 			if(time >= timer)
 			{
-				upperBG.transform.DOMoveX(100, 1);
-				lowerBG.transform.DOMoveX(100, 1);
 				SceneManager.LoadScene("Triangles");
 				
 			}
@@ -117,13 +116,13 @@ public class HubWorldLevelManager : MonoBehaviour {
 
 		}
 
-
+		/* 
 		if (SceneTracker.me.TimesEnteredHubWorld == 1)
 		{
 		
 			noise.SetActive(true);
 			Debug.Log("problems");
-		}
+		} */ 
 	}
 
 	void CameraSaturationValue()
