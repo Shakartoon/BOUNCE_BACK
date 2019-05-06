@@ -6,10 +6,11 @@ using UnityEngine;
 public class OnCollisionBreak : MonoBehaviour
 {
 
-	public GameObject squares, middleEffect;
+	public GameObject squares, middleEffect, player, moonball;
 	private Component[] sprites;
 	private float decrementValue;
-	private float alphaValue = 1; 
+	private float alphaValue = 1;
+	public bool firstEscape; 
 
 	void Start()
 	{
@@ -38,6 +39,7 @@ public class OnCollisionBreak : MonoBehaviour
 				Color newColor = new Color(0, 0, 0, alphaValue);
 				sprites[i].GetComponent<SpriteRenderer>().color = newColor; 
 			}
+			
 			Destroy(gameObject, 1);
 			Destroy(squares, 0.5f);
 			middleEffect.SetActive(true);
@@ -46,6 +48,12 @@ public class OnCollisionBreak : MonoBehaviour
 			{
 
 				Destroy(middleEffect); 
+			}
+
+			if (firstEscape)
+			{
+				player.transform.DOScale(new Vector3(0.12f, 0.12f, transform.localScale.z), 2f); 
+				moonball.transform.DOScale(new Vector3(0.12f, 0.12f, transform.localScale.z), 2.5f); 
 			}
 
 

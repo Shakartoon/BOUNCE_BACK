@@ -11,6 +11,7 @@
           <e p="AudioManager.cs" t="Include" />
           <e p="audioVisualizerSineWave.cs" t="Include" />
           <e p="BackgroundScaleObjects.cs" t="Include" />
+          <e p="BallCollisionManager.cs" t="Include" />
           <e p="BallCollisionPulse.cs" t="Include" />
           <e p="BallMovementScript.cs" t="Include" />
           <e p="ballScript.cs" t="Include" />
@@ -85,6 +86,7 @@
           <e p="GameManager.cs" t="Include" />
           <e p="GlitchEffect.cs" t="Include" />
           <e p="hitboxeffect.cs" t="Include" />
+          <e p="HubWorldLevelChanges.cs" t="Include" />
           <e p="HubWorldLevelManager.cs" t="Include" />
           <e p="ImmigrationAudioMixer.cs" t="Include" />
           <e p="ImmigrationLevelManager.cs" t="Include" />
@@ -212,8 +214,6 @@
           <e p="xButtonClick.cs" t="Include" />
           <e p="ySize.cs" t="Include" />
         </e>
-        <e p="BallCollisionManager.cs" t="Include" />
-        <e p="HubWorldLevelChanges.cs" t="Include" />
         <e p="NotMine" t="Include">
           <e p="2DSoftBody" t="Include">
             <e p="Code" t="Include">

@@ -34,11 +34,14 @@ public class BallMovementScript : MonoBehaviour
 		Reaction.SetActive(false);
 	}
 
+	/* 
 	void OnMouseDown()
 	{
 		offset = gameObject.transform.position -
 		         Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f));
 		myRB.drag = myDrag; 
+		
+		
 		//Camera.main.WorldToViewportPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f));
 		//Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f));
 
@@ -49,11 +52,15 @@ public class BallMovementScript : MonoBehaviour
 		//commented temporarily for simplicity
 		//transform.rotation = Quaternion.Euler(Mathf.Sin(Time.realtimeSinceStartup) * 3f, Mathf.Sin(Time.realtimeSinceStartup) * 3f, Mathf.Sin(Time.realtimeSinceStartup) * 3f); 
 		//set the drag value high / on mouse down lower it to 0 
-	}
+	} */ 
 
-	void OnMouseDrag()
+	void OnMouseOver()
 	{
+		//
+		offset = gameObject.transform.position -
+		         Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f));
 		
+		// 
 		Vector3 newPosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f);
 		Vector3 projectedMousePos = Camera.main.ScreenToWorldPoint(newPosition);
 		//transform.position = Camera.main.ScreenToWorldPoint(newPosition) + offset;
@@ -64,10 +71,10 @@ public class BallMovementScript : MonoBehaviour
 		
 	}
 
-	void OnMouseUp()
+	void OnMouseExit()
 	{
 
-		myRB.drag = 0; 
+		//myRB.drag = 0; 
 	}
 
 	void OnCollisionEnter2D(Collision2D col)
