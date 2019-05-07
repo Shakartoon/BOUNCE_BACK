@@ -51,16 +51,16 @@ public class HubWorldLevelManager : MonoBehaviour
 	{
 		
 		//Immigration Level
-		if (MTM.ImmigrationCollision)
+		if (MTM.ImmigrationCollision1)
 		{
 			Debug.Log("String");
-			CollidedWithLevelChanger();
+			//CollidedWithLevelChanger();
 			time += Time.deltaTime;
 
 			if (time >= timer)
 			{
-				SceneTracker.me.TimesPlayedImmigration++;
-				SceneManager.LoadScene("Immigration1");
+			//	SceneTracker.me.TimesPlayedImmigration++;
+			//	SceneManager.LoadScene("Immigration1");
 				
 				time = 0;
 			}
@@ -69,13 +69,13 @@ public class HubWorldLevelManager : MonoBehaviour
 		//Rug Fringe Level
 		if (MTM.FringeCollision)
 		{
-			CollidedWithLevelChanger();
+			//CollidedWithLevelChanger();
 
 			if (time >= timer)
 			{
-				SceneTracker.me.TimesPlayedRugFringe++;
-				SceneManager.LoadScene("RugFringe");
-				time = 0;
+				//SceneTracker.me.TimesPlayedRugFringe++;
+				//SceneManager.LoadScene("RugFringe");
+				//time = 0;
 			}
 		}
 

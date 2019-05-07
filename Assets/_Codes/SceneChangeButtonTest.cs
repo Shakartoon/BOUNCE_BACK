@@ -34,6 +34,7 @@ public class SceneChangeButtonTest : MonoBehaviour
 	void OnMouseDown()
 	{
 		Debug.Log("Literally"); 
+		//SceneTracker.me.TimesEnteredHubWorld++; 
 		SceneManager.LoadScene("Hub World");
 
 	}

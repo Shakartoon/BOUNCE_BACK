@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Maze_TriggerManager : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class Maze_TriggerManager : MonoBehaviour
 	public bool MazeTrigger1Entered;
 
 	public bool FringeCollision; 
-	public bool ImmigrationCollision; 
+	public bool ImmigrationCollision1; 
 	public bool EscapeCollision; 
 	public bool PapirosCollision;
 	public bool TriangleCollision; 
@@ -27,6 +28,7 @@ public class Maze_TriggerManager : MonoBehaviour
 		if (col.gameObject.CompareTag("MazeTrigger1"))
 		{
 			MazeTrigger1Entered = true;
+						
 
 		}
 
@@ -40,13 +42,20 @@ public class Maze_TriggerManager : MonoBehaviour
 		//IMMIGRATION 
 		if (col.gameObject.CompareTag("ImmigrationButton"))
 		{
-			ImmigrationCollision = true; 
+			ImmigrationCollision1 = true; 
+			//SceneTracker.me.TimesEnteredHubWorld++; 
+			//SceneTracker.me.TimesPlayedImmigration++;
+			//SceneManager.LoadScene("Immigration1");
+
 		}
 	
 		//RUG FRINGE  
 		if (col.gameObject.CompareTag("RugFringeButton"))
 		{
 			FringeCollision = true; 
+//			SceneTracker.me.TimesPlayedRugFringe++;
+//			SceneManager.LoadScene("RugFringe");
+
 		}
 		
 		//PAPIROS  

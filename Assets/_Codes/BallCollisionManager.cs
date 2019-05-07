@@ -9,15 +9,14 @@ public class BallCollisionManager : MonoBehaviour {
 	//I hope this will apply to all 2D collider-s so I don't have to specify 
 	
 	private Collider2D myCollider;
-	private int CollisionCount; 
+	private int CollisionCount;
+	public bool destroyMeOnCollision; 
 		
 	void Start ()
 	{
 		myCollider = GetComponent<Collider2D>(); 
-		//myCollider.enabled = true; 
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		
 	}
@@ -26,11 +25,12 @@ public class BallCollisionManager : MonoBehaviour {
 	{
 		if (col.gameObject.CompareTag("Ball"))
 		{
-			CollisionCount++; 
-			//myCollider.enabled = false; 
-			//Destroy(myCollider);
-			Destroy(gameObject);
-			Debug.Log(CollisionCount);
+			//CollisionCount++; 
+			
+			//if (destroyMeOnCollision)
+			//{
+			//	Destroy(gameObject);
+			//}			
 		}
 		
 	}

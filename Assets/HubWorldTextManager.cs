@@ -22,7 +22,7 @@ public class HubWorldTextManager : MonoBehaviour
 		//This Doesn't Work 
 		DontDestroyOnLoad(ImmigrationText1);
 
-		if (mtm.ImmigrationCollision)
+		if (mtm.ImmigrationCollision1)
 		{
 			ImmigrationText1.enabled = true; 
 			

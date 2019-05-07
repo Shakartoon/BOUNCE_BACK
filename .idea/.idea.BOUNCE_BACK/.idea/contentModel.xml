@@ -215,6 +215,7 @@
           <e p="ySize.cs" t="Include" />
         </e>
         <e p="HubWorldTextManager.cs" t="Include" />
+        <e p="NewLevelManagement.cs" t="Include" />
         <e p="NotMine" t="Include">
           <e p="2DSoftBody" t="Include">
             <e p="Code" t="Include">
@@ -833,6 +834,7 @@
             </e>
           </e>
         </e>
+        <e p="RugFringeLevelManager.cs" t="Include" />
         <e p="TestDontDestroy.cs" t="Include" />
       </e>
       <e p="BOUNCE_BACK.sln" t="IncludeFlat" />

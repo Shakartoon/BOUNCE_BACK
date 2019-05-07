@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ImmigrationLevelManager : MonoBehaviour {
 
     public GameObject player;
 	private Rigidbody2D playerRigidBody;
-	private SpriteRenderer playerSpriteRenderer; 
 
 	public float timer = 1;
 	private float time;
@@ -15,16 +15,23 @@ public class ImmigrationLevelManager : MonoBehaviour {
 
 	void Start ()
 	{
-		playerRigidBody = player.GetComponent<Rigidbody2D>(); 
-		playerSpriteRenderer = player.GetComponent<SpriteRenderer>();
-		
+		playerRigidBody = player.GetComponent<Rigidbody2D>(); 		
 		playerRigidBody.isKinematic = true;
+
 		//playerSpriteRenderer.color = new Color (1, 0, 0, 0); 
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
+		time += Time.deltaTime;
+		if (time >= timer)
+		{
+			playerRigidBody.isKinematic = false; 
+		}
+
+		
+		/* Original Level Manager 
 		//Any way to make this more efficient? 
 		time += Time.deltaTime;
 		if (time >= timer)
@@ -41,7 +48,8 @@ public class ImmigrationLevelManager : MonoBehaviour {
 		if (SceneTracker.me.TimesPlayedImmigration == 0)
 		{
 			Debug.Log("FirstTime");
-		}
+			roots.SetActive(false);
+		*/ 
 		
 		
 		//Start by placing tiles 

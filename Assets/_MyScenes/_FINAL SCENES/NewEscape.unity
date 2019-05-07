@@ -3108,7 +3108,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0.39931878, w: 0.9168122}
   m_LocalPosition: {x: 1.005, y: -0.09499991, z: 0}
   m_LocalScale: {x: 0.4767387, y: 0.4657256, z: 0.8279567}
-  m_Children: []
+  m_Children:
+  - {fileID: 1341110777}
   m_Father: {fileID: 564230609}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -47.071003}
@@ -7106,6 +7107,60 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &531536211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 531536212}
+  - component: {fileID: 531536213}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &531536212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531536211}
+  m_LocalRotation: {x: -0, y: -0, z: -0.3711251, w: 0.9285829}
+  m_LocalPosition: {x: -0.09742749, y: -0.1797165, z: -22.96089}
+  m_LocalScale: {x: 4.4461093, y: 1.1713936, z: 1.5227889}
+  m_Children: []
+  m_Father: {fileID: 537645755}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -43.570004}
+--- !u!61 &531536213
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531536211}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &537645754
 GameObject:
   m_ObjectHideFlags: 0
@@ -7137,7 +7192,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0.38268343, w: 0.92387956}
   m_LocalPosition: {x: -0.9950002, y: 0.013000131, z: 0}
   m_LocalScale: {x: 0.48150614, y: 0.47038293, z: 0.83623624}
-  m_Children: []
+  m_Children:
+  - {fileID: 531536212}
   m_Father: {fileID: 564230609}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
@@ -9584,7 +9640,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.011915088, y: -0.106220365}
+  m_Offset: {x: -0.025099993, y: -0.1178838}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9595,7 +9651,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.93993306, y: 3.4489686}
+  m_Size: {x: 1.0139635, y: 5.0380144}
   m_EdgeRadius: 0
 --- !u!212 &702376241
 SpriteRenderer:
@@ -12182,8 +12238,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fd999d1b2cf94a45a5b0a47ce074bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HubWorldManager: {fileID: 0}
-  SaturationLevel: 20
   redChannel:
     serializedVersion: 2
     m_Curve:
@@ -17919,8 +17973,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fd999d1b2cf94a45a5b0a47ce074bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HubWorldManager: {fileID: 0}
-  SaturationLevel: 20
   redChannel:
     serializedVersion: 2
     m_Curve:
@@ -20332,6 +20384,60 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1341110776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1341110777}
+  - component: {fileID: 1341110778}
+  m_Layer: 0
+  m_Name: Collider (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1341110777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1341110776}
+  m_LocalRotation: {x: -0, y: -0, z: 0.92785335, w: 0.37294522}
+  m_LocalPosition: {x: 0.010102023, y: 0.2904341, z: -23.1905}
+  m_LocalScale: {x: 4.492834, y: 1.1834848, z: 1.5380168}
+  m_Children: []
+  m_Father: {fileID: 205882116}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 134.134}
+--- !u!61 &1341110778
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1341110776}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1351456551
 GameObject:
   m_ObjectHideFlags: 0
@@ -31178,7 +31284,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0.38268343, w: 0.92387956}
   m_LocalPosition: {x: 0.07099995, y: -1.061, z: 0}
   m_LocalScale: {x: 0.46046156, y: 0.44982958, z: 0.79968995}
-  m_Children: []
+  m_Children:
+  - {fileID: 1746051571}
   m_Father: {fileID: 564230609}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
@@ -31459,6 +31566,60 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1746051570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1746051571}
+  - component: {fileID: 1746051572}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1746051571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1746051570}
+  m_LocalRotation: {x: -0, y: -0, z: 0.3648368, w: 0.93107146}
+  m_LocalPosition: {x: 0.110203676, y: -0.19516867, z: -24.010218}
+  m_LocalScale: {x: 4.648461, y: 1.2254769, z: 1.5923814}
+  m_Children: []
+  m_Father: {fileID: 1744280360}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 42.795002}
+--- !u!61 &1746051572
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1746051570}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1757728685
 GameObject:
   m_ObjectHideFlags: 0
@@ -33174,9 +33335,6 @@ MonoBehaviour:
   magnitude: 800
   myDrag: 18
   PapirosCollisionCount: 0
-  Reaction: {fileID: 0}
-  ReactionSprite1: {fileID: 0}
-  ReactionSprite12: {fileID: 0}
 --- !u!58 &1860846641
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -36662,13 +36820,14 @@ MonoBehaviour:
   secondDiamond: {fileID: 396702224}
   fourDiamonds: {fileID: 1891215826}
   timer: 5
+  thisWorls: 0
 --- !u!114 &2074579936
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2074579930}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d9294aac85f7452fbaafc294ebf9acb, type: 3}
   m_Name: 
@@ -36677,12 +36836,12 @@ MonoBehaviour:
   ExitingLevel: 0
   player: {fileID: 0}
   overlayScreen: {fileID: 0}
-  m_Hue: 0
-  m_Saturation: 0
-  m_Value: 0
   noise: {fileID: 0}
   upperBG: {fileID: 0}
   lowerBG: {fileID: 0}
+  m_Hue: 0
+  m_Saturation: 0
+  m_Value: 0
 --- !u!1 &2081066103
 GameObject:
   m_ObjectHideFlags: 0
@@ -37830,9 +37989,6 @@ MonoBehaviour:
   magnitude: 800
   myDrag: 18
   PapirosCollisionCount: 0
-  Reaction: {fileID: 0}
-  ReactionSprite1: {fileID: 0}
-  ReactionSprite12: {fileID: 0}
 --- !u!212 &2129035802
 SpriteRenderer:
   m_ObjectHideFlags: 0
