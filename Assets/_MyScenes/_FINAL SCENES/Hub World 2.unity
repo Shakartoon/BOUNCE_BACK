@@ -4865,6 +4865,47 @@ Transform:
   m_Father: {fileID: 86595740}
   m_RootOrder: 210
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &76406294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 76406296}
+  - component: {fileID: 76406295}
+  m_Layer: 0
+  m_Name: NewLevelManagement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &76406295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 76406294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91fd137f6e88c4c56a94508bbaae6fe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConditionReached: 0
+--- !u!4 &76406296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 76406294}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.3441153, y: -0.70939255, z: -0.5790901}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &77149425
 GameObject:
   m_ObjectHideFlags: 0
@@ -23685,6 +23726,7 @@ MonoBehaviour:
   inHubWorld2: 0
   inHubWorld3: 0
   inHubWorld4: 0
+  timer: 5
 --- !u!4 &351977221
 Transform:
   m_ObjectHideFlags: 0
@@ -54227,6 +54269,8 @@ MonoBehaviour:
   maxX: 0
   minY: 0
   maxY: 0
+  zValMin: 0
+  zValMax: 0
   timer: 0.12
 --- !u!4 &891407520
 Transform:

@@ -10,8 +10,12 @@ public class NewLevelManagement : MonoBehaviour
 	
 	void Start ()
 	{
-
-		lvlManagement = this;
+		if (lvlManagement == null) {
+			DontDestroyOnLoad (gameObject);
+			lvlManagement = this;
+		} else if (lvlManagement != this) {
+			Destroy (gameObject);
+		}
 
 	}
 
@@ -28,15 +32,34 @@ public class NewLevelManagement : MonoBehaviour
 		// Rug Fringe 2 
 		// Phone 
 		
-		if (isConditionReached == true)
+		if (isConditionReached == true) 
 		{
+			isConditionReached = false;
 			int indexOfSceneToLoad = SceneManager.GetActiveScene().buildIndex + 1;
 			SceneManager.LoadScene(indexOfSceneToLoad);
-			isConditionReached = false;
+			
 			Debug.Log((SceneManager.GetActiveScene().buildIndex+1f) + "is the current active scene");
 		}
 		
-		DontDestroyOnLoad(gameObject);
 
 	}
+
+	public void LoadNextLevel()
+	{
+		int indexOfSceneToLoad = SceneManager.GetActiveScene().buildIndex + 1;
+		SceneManager.LoadScene(indexOfSceneToLoad);
+			
+		Debug.Log((SceneManager.GetActiveScene().buildIndex+1f) + "is the current active scene");
+		
+	}
+
+	public void LoadLevel(string levelName)
+	{
+		SceneManager.LoadScene(levelName);
+		Debug.Log((SceneManager.GetActiveScene().buildIndex+1f) + "is the current active scene");
+	}
+
+
+
+
 }
