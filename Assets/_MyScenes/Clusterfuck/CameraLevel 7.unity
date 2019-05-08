@@ -139,7 +139,7 @@ Transform:
   m_LocalScale: {x: 3.1669157, y: 0.07187009, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &21957321
 GameObject:
@@ -173,9 +173,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &21957323
 AudioSource:
   m_ObjectHideFlags: 0
@@ -373,7 +375,7 @@ Transform:
   m_LocalScale: {x: 4.4846463, y: 0.9056543, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &47849614
 GameObject:
@@ -553,7 +555,7 @@ Transform:
   m_LocalScale: {x: 0.6592377, y: 0.07186963, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &77611514
 GameObject:
@@ -587,9 +589,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &77611516
 AudioSource:
   m_ObjectHideFlags: 0
@@ -787,7 +791,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &111356753
 GameObject:
@@ -821,9 +825,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &111356755
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1021,7 +1027,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &135357611
 GameObject:
@@ -1055,9 +1061,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &135357613
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1255,7 +1263,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &175884298
 GameObject:
@@ -1286,7 +1294,7 @@ Transform:
   - {fileID: 1496376074}
   - {fileID: 1080137895}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &175884300
 MonoBehaviour:
@@ -1303,6 +1311,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!1 &232737725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1379,9 +1391,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &235215669
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1579,7 +1593,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &289167378
 GameObject:
@@ -1612,7 +1626,7 @@ Transform:
   m_LocalScale: {x: 3.1669137, y: 0.2124659, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &289167380
 MonoBehaviour:
@@ -1626,9 +1640,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &289167381
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1993,7 +2009,7 @@ Transform:
   m_LocalScale: {x: 0.6592377, y: 0.07186963, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &403541852
 GameObject:
@@ -2102,9 +2118,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &451054543
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2302,7 +2320,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &485903625
 GameObject:
@@ -2336,9 +2354,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &485903627
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2536,47 +2556,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &512813832
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 512813834}
-  - component: {fileID: 512813833}
-  m_Layer: 0
-  m_Name: InputManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &512813833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 512813832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf94ebf6329bb4276919e6528804a2c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &512813834
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 512813832}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 96.1, y: 0.9000001, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &515564723
 GameObject:
@@ -2610,9 +2590,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &515564725
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2810,7 +2792,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &586977641
 GameObject:
@@ -3024,9 +3006,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &617876050
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3224,7 +3208,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &632168333
 GameObject:
@@ -3407,7 +3391,7 @@ Transform:
   m_LocalScale: {x: 4.4846463, y: 0.9056543, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &684199031
 MonoBehaviour:
@@ -3421,9 +3405,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &684199032
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3642,9 +3628,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &684413111
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3842,7 +3830,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &740138246
 GameObject:
@@ -3875,7 +3863,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &740138248
 MonoBehaviour:
@@ -3889,9 +3877,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &740138249
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4109,7 +4099,7 @@ Transform:
   m_LocalScale: {x: 3.1669137, y: 0.21247023, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &863669597
 MonoBehaviour:
@@ -4123,9 +4113,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &863669598
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4344,9 +4336,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &878883248
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4544,7 +4538,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &899397974
 GameObject:
@@ -4653,9 +4647,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &992782080
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4853,7 +4849,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1040055480
 GameObject:
@@ -5033,7 +5029,7 @@ Transform:
   m_LocalScale: {x: 0.6592377, y: 0.07186963, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1062842765
 GameObject:
@@ -5066,7 +5062,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &1062842767
 MonoBehaviour:
@@ -5080,9 +5076,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1062842768
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5300,7 +5298,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &1069612360
 MonoBehaviour:
@@ -5314,9 +5312,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1069612361
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5657,9 +5657,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1104091381
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5857,7 +5859,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1228838029
 GameObject:
@@ -5890,7 +5892,7 @@ Transform:
   m_LocalScale: {x: 3.1669004, y: 0.07187, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -52.257004}
 --- !u!114 &1228838031
 MonoBehaviour:
@@ -5904,9 +5906,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1228838032
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6125,9 +6129,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1234180056
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6325,7 +6331,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1244550231
 GameObject:
@@ -6359,9 +6365,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1244550233
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6559,7 +6567,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1246776319
 GameObject:
@@ -6667,7 +6675,7 @@ Transform:
   m_LocalScale: {x: 3.1669137, y: 0.21247023, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &1293169726
 MonoBehaviour:
@@ -6681,9 +6689,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1293169727
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7048,7 +7058,7 @@ Transform:
   m_LocalScale: {x: 0.6592377, y: 0.07186963, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1394223184
 GameObject:
@@ -7137,6 +7147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 50
   xtranslate: 2
   ytranslate: 0
@@ -7146,6 +7157,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!1 &1402899301
 GameObject:
   m_ObjectHideFlags: 0
@@ -7177,7 +7192,7 @@ Transform:
   m_LocalScale: {x: 3.1669176, y: 0.21247047, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &1402899303
 MonoBehaviour:
@@ -7191,9 +7206,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1402899304
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7412,9 +7429,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1437803972
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7612,7 +7631,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1448359937
 GameObject:
@@ -7646,9 +7665,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1448359939
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7846,7 +7867,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1454586348
 GameObject:
@@ -7880,9 +7901,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1454586350
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8080,7 +8103,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1496376073
 GameObject:
@@ -8236,9 +8259,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1509692854
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8436,7 +8461,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1551923140
 GameObject:
@@ -8779,7 +8804,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 099f00bef6c274789a828c4629a675cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  Player: {fileID: 0}
+  movementSpeed: 4
+  threat: 0
 --- !u!114 &1551923148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8791,6 +8818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 30
   xtranslate: 0
   ytranslate: -0.15
@@ -8800,6 +8828,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!114 &1551923149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8811,6 +8843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d62dcafd6c9541459ace6e5e58a32fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeToRotate: 5
 --- !u!1 &1567088632
 GameObject:
   m_ObjectHideFlags: 0
@@ -8844,7 +8877,7 @@ Transform:
   - {fileID: 1955394856}
   - {fileID: 2061136945}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1577235368
 GameObject:
@@ -9027,7 +9060,7 @@ Transform:
   m_LocalScale: {x: 3.1669137, y: 0.21247023, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &1670922131
 MonoBehaviour:
@@ -9041,9 +9074,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1670922132
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9261,7 +9296,7 @@ Transform:
   m_LocalScale: {x: 3.1669176, y: 0.21247047, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &1709672021
 MonoBehaviour:
@@ -9275,9 +9310,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1709672022
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9496,9 +9533,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1750472639
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9696,7 +9735,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1786141528
 GameObject:
@@ -9729,7 +9768,7 @@ Transform:
   m_LocalScale: {x: 3.1669137, y: 0.21247023, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &1786141530
 MonoBehaviour:
@@ -9743,9 +9782,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1786141531
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9964,9 +10005,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1817445999
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10164,7 +10207,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1847554479
 GameObject:
@@ -10348,9 +10391,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &1951195585
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10548,7 +10593,7 @@ Transform:
   m_LocalScale: {x: 4.4846535, y: 0.9056509, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1955394854
 GameObject:
@@ -10657,7 +10702,7 @@ Transform:
   m_LocalScale: {x: 3.1669, y: 0.07187, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
 --- !u!114 &2038602222
 MonoBehaviour:
@@ -10686,9 +10731,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &2038602224
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10993,9 +11040,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 1000
   myDrag: 20
+  PapirosCollisionCount: 0
 --- !u!50 &2082551671
 Rigidbody2D:
   serializedVersion: 4
@@ -11121,7 +11168,7 @@ Transform:
   m_LocalScale: {x: 3.1669137, y: 0.2124659, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &2103786463
 MonoBehaviour:
@@ -11135,9 +11182,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RandomizeClips: 0
+  UseAudioID: 0
+  volumeForce: 0
   changePitch: 1
   audioClips: []
-  ballToLoad: {fileID: 0}
+  AudioID: 0
 --- !u!82 &2103786464
 AudioSource:
   m_ObjectHideFlags: 0

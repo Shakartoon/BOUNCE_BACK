@@ -11,8 +11,11 @@ public class ImmigrationLevelManager : MonoBehaviour {
 	public float timer = 1;
 	private float time;
 
-	public bool PlayerIsOnTheRight; 
+	public bool PlayerIsOnTheRight;
 
+	public bool immigration1; 
+	public bool immigration2;
+	
 	void Start ()
 	{
 		playerRigidBody = player.GetComponent<Rigidbody2D>(); 		
@@ -21,9 +24,9 @@ public class ImmigrationLevelManager : MonoBehaviour {
 		//playerSpriteRenderer.color = new Color (1, 0, 0, 0); 
 	}
 	
-	// Update is called once per frame
 	void Update ()
 	{
+			
 		time += Time.deltaTime;
 		if (time >= timer)
 		{
@@ -31,32 +34,10 @@ public class ImmigrationLevelManager : MonoBehaviour {
 		}
 
 		
-		/* Original Level Manager 
-		//Any way to make this more efficient? 
-		time += Time.deltaTime;
-		if (time >= timer)
+		if (time >= 10)
 		{
-			playerRigidBody.isKinematic = false; 
-			//playerSpriteRenderer.color = new Color (1, 1, 1, 1); 
+			NewLevelManagement.lvlManagement.isConditionReached = true;
 		}
-		
-		if (player.transform.position.x >= 24f)
-		{
-			PlayerIsOnTheRight = true; 
-		}
-
-		if (SceneTracker.me.TimesPlayedImmigration == 0)
-		{
-			Debug.Log("FirstTime");
-			roots.SetActive(false);
-		*/ 
-		
-		
-		//Start by placing tiles 
-		//if collision count is a certain number 
-		// make snake move more 
-		// move camera 
-		// move objects to camera 
 
 	}
 }

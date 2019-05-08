@@ -20,15 +20,7 @@ public class AnimationManager_Immigration : MonoBehaviour
 	{
 
 		player2.transform.position = Vector3.Lerp(new Vector3(24.1f, -10f, -15.8f), new Vector3(24f, -11f, 10.1f), 2f);  
-			
-
-		//player2.transform.DOMove(new Vector3(24f, -11f, 10.1f), 3f);
-		/* 
-		if (player2Animator.GetCurrentAnimatorStateInfo(0).IsName("Finished"))
-		{
-			player2Animator.enabled = false; 
-		}
-		*/
+	
 
 	}
 }

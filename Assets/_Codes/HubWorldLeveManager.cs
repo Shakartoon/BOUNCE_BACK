@@ -3,78 +3,49 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening; 
 
-public class HubWorldLevelChanges : MonoBehaviour {
+public class HubWorldLeveManager : MonoBehaviour {
 
 	//This script alters the hub world only, before and after it changes scenes 
 
-	public GameObject player, backgroundFlower, random1, random2; 
-	float timer = 4;
-	private float time; 
+	public GameObject player, backgroundFlower, random1; 
 
-	void Start () {
-		
+
+	public CameraPlayerFollow CameraFollowScript;
+	public Rotate cameraRotateScript; 
+	public GameObject TitleScreen1; 
+
+	//Temporary Timer to change scene 
+	float timer = 4;
+	private float time;
+	
+	void Start ()
+	{
+
+		CameraFollowScript.enabled = true; 
+		cameraRotateScript.enabled = true; 
+		TitleScreen1.SetActive(false);
 		backgroundFlower.SetActive(false);
-		//random1.SetActive(false);
-		//random2.SetActive(false);
-		float time;
 	}
 	
 	void Update ()
 	{
 		time += Time.deltaTime;
+		backgroundFlower.SetActive(true);
+
+		if (time > 2f)
+		{
+			CameraFollowScript.enabled = false;
+			cameraRotateScript.enabled = false; 
+			Camera.main.transform.position = new Vector3(58, 6.6f, -25.9f);
+			TitleScreen1.SetActive(true);
+			//DontDestroyOnLoad(TitleScreen1);
+		}
 		
 		if (time > timer)
 		{
 			NewLevelManagement.lvlManagement.isConditionReached = true;
 			time = 0; 
-
 		}
-		
-		//AFTER IMMIGRATION #1 
-	
-		
-		/* 
-		if (SceneTracker.me.TimesPlayedTriangle == 1)
-		{
-			backgroundFlower.SetActive(true);
-
-		}*/ 
-		
-		/*
-
-		if (SceneTracker.me.TimesEnteredHubWorld == 1)
-		{
-			backgroundFlower.SetActive(true);
-			player.transform.DOMove(new Vector3(90, 11, 0), 3); 
-
-		}
-
-		if (SceneTracker.me.TimesEnteredHubWorld == 2)
-		{
-			Camera.main.backgroundColor = Color.white;
-			//random1.SetActive(true);
-
-
-		}
-		
-		if (SceneTracker.me.TimesEnteredHubWorld == 3)
-		{
-			Camera.main.backgroundColor = Color.yellow;
-			//random2.SetActive(true);
-			//random1.SetActive(false);
-
-
-
-		}
-
-		
-		//AFTER IMMIGRATION #2
-		
-		
-		//AFTER RUG FRINGE #1
-		
-		
-*/ 
-		
+								
 	}
 }

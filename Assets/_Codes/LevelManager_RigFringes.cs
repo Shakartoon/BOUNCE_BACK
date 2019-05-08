@@ -15,13 +15,5 @@ public class LevelManager_RigFringes : MonoBehaviour
 	
 	void Update ()
 	{
-
-		time += Time.deltaTime;
-		if (time >= 5f)
-		{
-			obj.transform.DOScale(new Vector3(90f, 100f), 5f);
-			//obj.transform.localScale += new Vector3(0.1f, 0.1f, 0) * Time.time;
-		}
-
 	}
 }

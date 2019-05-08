@@ -1033,8 +1033,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fd999d1b2cf94a45a5b0a47ce074bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HubWorldManager: {fileID: 0}
-  SaturationLevel: 20
   redChannel:
     serializedVersion: 2
     m_Curve:
@@ -1048,8 +1046,8 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.23297188
-      value: 0.90726656
+      time: 0.48713753
+      value: 0.25415987
       inSlope: 1.449185
       outSlope: 1.449185
       tangentMode: 0
@@ -1081,8 +1079,8 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.5186858
-      value: 0.05949977
+      time: 0.54784536
+      value: 0.40804103
       inSlope: 1.486187
       outSlope: 1.486187
       tangentMode: 0
@@ -1113,6 +1111,15 @@ MonoBehaviour:
       weightedMode: 0
       inWeight: 0
       outWeight: 0
+    - serializedVersion: 3
+      time: 0.46666667
+      value: 0.1938555
+      inSlope: 1.4915626
+      outSlope: 1.4915626
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
       value: 1
@@ -1222,7 +1229,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  saturation: 0.8
+  saturation: 0.73
   selectiveCc: 0
   selectiveFromColor: {r: 1, g: 1, b: 1, a: 1}
   selectiveToColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2565,6 +2572,7 @@ MonoBehaviour:
   - {fileID: 1897627684}
   - {fileID: 12776707}
   speed: 25
+  height: 0
 --- !u!61 &567017466
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5153,6 +5161,7 @@ MonoBehaviour:
   - {fileID: 1897627684}
   - {fileID: 12776707}
   speed: 25
+  height: 0
 --- !u!61 &1162717787
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5540,6 +5549,7 @@ GameObject:
   - component: {fileID: 1248447996}
   - component: {fileID: 1248447995}
   - component: {fileID: 1248447997}
+  - component: {fileID: 1248447998}
   m_Layer: 0
   m_Name: Bar1
   m_TagString: PapirosObject
@@ -5642,6 +5652,7 @@ MonoBehaviour:
   - {fileID: 1897627684}
   - {fileID: 12776707}
   speed: 25
+  height: 0
 --- !u!61 &1248447996
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5683,6 +5694,17 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0
   colorLerpDuration: 0
+--- !u!114 &1248447998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1248447991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d04245647fc408ea25a16b1aac2e6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1281660174
 GameObject:
   m_ObjectHideFlags: 0
@@ -6253,6 +6275,7 @@ MonoBehaviour:
   - {fileID: 1897627684}
   - {fileID: 12776707}
   speed: 25
+  height: 0
 --- !u!61 &1470839145
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6517,6 +6540,7 @@ MonoBehaviour:
   - {fileID: 1897627684}
   - {fileID: 12776707}
   speed: 25
+  height: 0
 --- !u!61 &1499616721
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8085,7 +8109,6 @@ GameObject:
   - component: {fileID: 1998413374}
   - component: {fileID: 1998413373}
   - component: {fileID: 1998413372}
-  - component: {fileID: 1998413371}
   - component: {fileID: 1998413370}
   m_Layer: 0
   m_Name: Player
@@ -8195,28 +8218,6 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &1998413371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1998413369}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3f342be6f30f4993be78e163adcb93f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inner: 0
-  speed: 0
-  outer: 0
-  outline1: {fileID: 0}
-  outline2: {fileID: 0}
-  outline3: {fileID: 0}
-  circle1: {fileID: 0}
-  circle2: {fileID: 0}
-  circle3: {fileID: 0}
-  enemy1: {fileID: 0}
-  enemy2: {fileID: 0}
 --- !u!114 &1998413372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8228,13 +8229,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
-  magnitude: 200
+  magnitude: 25
   myDrag: 5
   PapirosCollisionCount: 0
-  Reaction: {fileID: 1140542491}
-  ReactionSprite1: {fileID: 0}
-  ReactionSprite12: {fileID: 0}
 --- !u!50 &1998413373
 Rigidbody2D:
   serializedVersion: 4
@@ -8513,7 +8510,8 @@ MonoBehaviour:
   target:
   - {fileID: 1179583267}
   - {fileID: 891943380}
-  speed: 20
+  speed: 10.62
+  height: 2.01
 --- !u!50 &2041267042
 Rigidbody2D:
   serializedVersion: 4
@@ -8874,6 +8872,7 @@ MonoBehaviour:
   - {fileID: 1897627684}
   - {fileID: 12776707}
   speed: 25
+  height: 0
 --- !u!61 &2145636622
 BoxCollider2D:
   m_ObjectHideFlags: 0

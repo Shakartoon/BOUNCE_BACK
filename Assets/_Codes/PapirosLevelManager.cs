@@ -62,8 +62,8 @@ public class PapirosLevelManager : MonoBehaviour {
 			if (moveScript.PapirosCollisionCount == 5) 
 			{
 				Camera.main.transform.DOMove(position6, moveTime);
+				NewLevelManagement.lvlManagement.isConditionReached = true; 
 			}
-		} 
-		
+		}
 	}
 }

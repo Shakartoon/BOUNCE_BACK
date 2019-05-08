@@ -6,6 +6,7 @@ using UnityEngine;
 public class SquareScaleEffect : MonoBehaviour
 {
 
+	public float xVal; 
 	public GameObject objectToLoad;
 	private GameObject currentObject; 
 	public float ScaleUntilLoad;
@@ -14,14 +15,12 @@ public class SquareScaleEffect : MonoBehaviour
 	public float rotationAmount;
 	private SpriteRenderer sr; 
 
-	public Color[] my_colors = new Color[6]; 
+	public Color[] my_colors = new Color[6];
 
-	private float timer;
 	//private SpriteRenderer SR; 
 	
 	void Start () {
 		
-		timer += Time.deltaTime;
 		LoadNewObject(); 
 		SpriteRenderer sr = GetComponent<SpriteRenderer>();
 
@@ -40,13 +39,20 @@ public class SquareScaleEffect : MonoBehaviour
 		currentObject.transform.Rotate(0, 0, rotationAmount);
 
 
-		float width = currentObject.GetComponent<SpriteRenderer>().bounds.size.x; 
-		Debug.Log(width + " / " + Screen.width);
+		//float width = currentObject.GetComponent<SpriteRenderer>().bounds.size.x; 
 
-		if (currentObject.transform.localScale.x > Screen.width / 11f)
+		if (currentObject.transform.localScale.x > Screen.width / xVal) 
 		{
 			LoadNewObject();
 		}
+				
+		if (currentObject != null)
+		{
+
+			Destroy(currentObject, 3);
+			
+		}
+		
 
 	}
 

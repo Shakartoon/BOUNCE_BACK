@@ -246,6 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 10
   xtranslate: -1
   ytranslate: 0
@@ -255,6 +256,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!50 &21481005
 Rigidbody2D:
   serializedVersion: 4
@@ -357,7 +362,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &24747470
 GameObject:
@@ -551,7 +556,7 @@ Transform:
   m_LocalScale: {x: 2.954539, y: 1.7170501, z: 3.527808}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 116
+  m_RootOrder: 113
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &25021845
 GameObject:
@@ -587,6 +592,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &25021847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -761,7 +770,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 63
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -66.18301}
 --- !u!1 &47036835
 GameObject:
@@ -851,7 +860,7 @@ Transform:
   m_LocalScale: {x: 1.27, y: 1.27, z: 1.27}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 58
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &49522916
 GameObject:
@@ -956,6 +965,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 0
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!1 &59501167
 GameObject:
   m_ObjectHideFlags: 0
@@ -985,6 +998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 0.49
   xtranslate: -0.85
   ytranslate: 0
@@ -994,6 +1008,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!114 &59501169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1098,6 +1116,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!50 &61987963
 Rigidbody2D:
   serializedVersion: 4
@@ -1200,7 +1222,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &62085053
 GameObject:
@@ -1234,6 +1256,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &62085055
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1291,7 +1317,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 95
+  m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 138.832}
 --- !u!1 &67150277
 GameObject:
@@ -1474,6 +1500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -1483,6 +1510,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &67150283
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1721,7 +1752,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 113
+  m_RootOrder: 110
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -33.967003}
 --- !u!1 &72583741
 GameObject:
@@ -1990,7 +2021,7 @@ Transform:
   m_LocalScale: {x: 2.954539, y: 1.7170501, z: 3.527808}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 108
+  m_RootOrder: 105
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &86551782
 GameObject:
@@ -2173,6 +2204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -2182,6 +2214,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &86551788
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2409,6 +2445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -2418,6 +2455,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &97559224
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2496,6 +2537,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &100330288
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2553,7 +2598,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 75
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &106028660
 GameObject:
@@ -2747,7 +2792,7 @@ Transform:
   m_LocalScale: {x: 2.954539, y: 1.7170501, z: 3.527808}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 110
+  m_RootOrder: 107
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &123057085
 GameObject:
@@ -2781,6 +2826,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &123057087
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2838,7 +2887,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 88
+  m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &125604234
 GameObject:
@@ -3115,7 +3164,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &142682655
 GameObject:
@@ -3298,6 +3347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -3307,6 +3357,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &142682661
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3387,6 +3441,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!50 &157673868
 Rigidbody2D:
   serializedVersion: 4
@@ -3489,7 +3547,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &164852171
 GameObject:
@@ -3672,6 +3730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -3681,6 +3740,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &164852177
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3908,6 +3971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -3917,6 +3981,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &167495897
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3963,61 +4031,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &171494424
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 171494426}
-  - component: {fileID: 171494425}
-  - component: {fileID: 171494427}
-  m_Layer: 0
-  m_Name: InputManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &171494425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 171494424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf94ebf6329bb4276919e6528804a2c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &171494426
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 171494424}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -309.18378, y: -184.3972, z: -10.653963}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &171494427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 171494424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83ddbc8f4e83a457fa7434a8f5f9af12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ball1: {fileID: 2137459172}
-  ball2: {fileID: 0}
-  ball3: {fileID: 0}
 --- !u!1 &194084389
 GameObject:
   m_ObjectHideFlags: 0
@@ -4052,6 +4065,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!50 &194084391
 Rigidbody2D:
   serializedVersion: 4
@@ -4154,7 +4171,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &200209949
 GameObject:
@@ -4337,6 +4354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -4346,6 +4364,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &200209955
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4584,7 +4606,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &206336379
 GameObject:
@@ -4791,6 +4813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -4800,6 +4823,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &208709636
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4893,6 +4920,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &212179456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5067,7 +5098,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 61
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -66.18301}
 --- !u!1 &214690137
 GameObject:
@@ -5261,7 +5292,7 @@ Transform:
   m_LocalScale: {x: 5.8609076, y: 6.263538, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 99
+  m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &217931161
 GameObject:
@@ -5293,6 +5324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 10
   xtranslate: -1
   ytranslate: 0
@@ -5302,6 +5334,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!50 &217931163
 Rigidbody2D:
   serializedVersion: 4
@@ -5404,7 +5440,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &221877015
 GameObject:
@@ -5436,6 +5472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 10
   xtranslate: -1
   ytranslate: 0
@@ -5445,6 +5482,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!50 &221877017
 Rigidbody2D:
   serializedVersion: 4
@@ -5547,7 +5588,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &231503967
 GameObject:
@@ -5730,6 +5771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -5739,6 +5781,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &231503973
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5998,6 +6044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -6007,6 +6054,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &274286388
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6356,6 +6407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -6365,6 +6417,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &284336755
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6443,6 +6499,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &289700435
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6500,7 +6560,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 87
+  m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &300213629
 GameObject:
@@ -6694,7 +6754,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 107
+  m_RootOrder: 104
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &315791886
 GameObject:
@@ -6799,7 +6859,7 @@ Transform:
   m_LocalScale: {x: 0.71208626, y: 0.7211, z: 0.7211}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &346079034
 GameObject:
@@ -6982,6 +7042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -6991,6 +7052,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &346079040
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7218,6 +7283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -7227,6 +7293,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &357415401
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7303,6 +7373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 10
   xtranslate: -1
   ytranslate: 0
@@ -7312,6 +7383,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!50 &365212358
 Rigidbody2D:
   serializedVersion: 4
@@ -7414,7 +7489,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 56
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &379219805
 GameObject:
@@ -7537,6 +7612,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!50 &385819571
 Rigidbody2D:
   serializedVersion: 4
@@ -7639,7 +7718,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &389550616
 GameObject:
@@ -7717,7 +7796,7 @@ Transform:
   m_LocalScale: {x: 3.4052198, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &389550619
 MonoBehaviour:
@@ -7968,6 +8047,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &404832449
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8025,7 +8108,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 93
+  m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 48.832}
 --- !u!1 &412918905
 GameObject:
@@ -8222,7 +8305,7 @@ Transform:
   m_LocalScale: {x: -6.8255534, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -38.524}
 --- !u!1 &447136053
 GameObject:
@@ -8405,6 +8488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -8414,6 +8498,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &447136059
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8494,6 +8582,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!50 &455112378
 Rigidbody2D:
   serializedVersion: 4
@@ -8596,7 +8688,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &469612543
 GameObject:
@@ -8630,6 +8722,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &469612545
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8687,7 +8783,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 81
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 48.832}
 --- !u!1 &473358882
 GameObject:
@@ -8870,6 +8966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -8879,6 +8976,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &473358888
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8957,6 +9058,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &475052615
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9014,7 +9119,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 94
+  m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 48.832}
 --- !u!1 &488178049
 GameObject:
@@ -9046,6 +9151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 10
   xtranslate: -1
   ytranslate: 0
@@ -9055,6 +9161,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!50 &488178051
 Rigidbody2D:
   serializedVersion: 4
@@ -9157,7 +9267,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &491503807
 GameObject:
@@ -9443,6 +9553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -9452,6 +9563,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &493391778
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9498,56 +9613,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &522880578
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 522880580}
-  - component: {fileID: 522880579}
-  m_Layer: 0
-  m_Name: CircleManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &522880579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 522880578}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3f342be6f30f4993be78e163adcb93f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inner: 0
-  outer: 0
-  outline1: {fileID: 0}
-  outline2: {fileID: 0}
-  outline3: {fileID: 0}
-  circle1: {fileID: 0}
-  circle2: {fileID: 0}
-  circle3: {fileID: 0}
-  enemy1: {fileID: 0}
-  enemy2: {fileID: 0}
---- !u!4 &522880580
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 522880578}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.021454, y: -0.25753516, z: -0.0008258943}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &528084605
 GameObject:
   m_ObjectHideFlags: 0
@@ -9668,7 +9733,7 @@ Transform:
   m_LocalScale: {x: -220.62395, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &533407933
 GameObject:
@@ -9705,7 +9770,7 @@ Transform:
   - {fileID: 1521931070}
   - {fileID: 912714748}
   m_Father: {fileID: 0}
-  m_RootOrder: 67
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &537134693
 GameObject:
@@ -9876,7 +9941,7 @@ Transform:
   m_LocalScale: {x: 1.0341183, y: 1.7170501, z: 3.527808}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 117
+  m_RootOrder: 114
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &547647905
 MonoBehaviour:
@@ -10030,7 +10095,7 @@ Transform:
   - {fileID: 97559219}
   - {fileID: 823629843}
   m_Father: {fileID: 0}
-  m_RootOrder: 65
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &551723196
 GameObject:
@@ -10142,52 +10207,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 57
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &562861345
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 562861347}
-  - component: {fileID: 562861346}
-  m_Layer: 0
-  m_Name: SceneChanger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &562861346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 562861345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30f3e235b33aa4888aa0c0398a2916b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 0
-  timeToNextScene: 40
-  _short: []
-  _medium: []
-  _long: []
---- !u!4 &562861347
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 562861345}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -309.18378, y: -184.3972, z: -10.653963}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &567586367
 GameObject:
@@ -10370,6 +10390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -10379,6 +10400,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &567586373
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10593,6 +10618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -10602,6 +10628,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &572172715
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10842,6 +10872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -10851,6 +10882,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &583925019
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11000,6 +11035,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!1 &588493602
 GameObject:
   m_ObjectHideFlags: 0
@@ -11192,7 +11231,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &591488845
 GameObject:
@@ -11375,6 +11414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -11384,6 +11424,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &591488851
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11622,7 +11666,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 109
+  m_RootOrder: 106
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &617953952
 GameObject:
@@ -11655,6 +11699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -11664,6 +11709,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &617953954
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11894,6 +11943,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!50 &626667923
 Rigidbody2D:
   serializedVersion: 4
@@ -11996,7 +12049,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &630551252
 GameObject:
@@ -12166,6 +12219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -12175,6 +12229,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &630551257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12443,6 +12501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -12452,6 +12511,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &645190776
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12679,6 +12742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -12688,6 +12752,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &645867896
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12902,6 +12970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -12911,6 +12980,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &649168393
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13151,6 +13224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -13160,6 +13234,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &653324176
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13310,6 +13388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 0.49
   xtranslate: -0.85
   ytranslate: 0
@@ -13319,6 +13398,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!114 &660066829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13423,6 +13506,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!50 &661425872
 Rigidbody2D:
   serializedVersion: 4
@@ -13525,7 +13612,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &661526849
 GameObject:
@@ -13559,6 +13646,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &661526851
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13616,7 +13707,7 @@ Transform:
   m_LocalScale: {x: 1, y: 2.6625, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 90
+  m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &669170614
 GameObject:
@@ -13650,6 +13741,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &669170616
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13707,7 +13802,7 @@ Transform:
   m_LocalScale: {x: 1, y: 2.6625, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 92
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &692714647
 GameObject:
@@ -13976,7 +14071,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &697607635
 GameObject:
@@ -14087,6 +14182,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &713938126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14261,7 +14360,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 62
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -66.18301}
 --- !u!1 &720279965
 GameObject:
@@ -14411,7 +14510,7 @@ Transform:
   m_LocalScale: {x: 1.01, y: 1.01, z: 1.01}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &741928583
 GameObject:
@@ -14445,6 +14544,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &741928585
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14502,7 +14605,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 74
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &744956282
 GameObject:
@@ -14696,7 +14799,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 111
+  m_RootOrder: 108
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &755124723
 GameObject:
@@ -14726,6 +14829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: -1.62
   ytranslate: 0
@@ -14735,6 +14839,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: -34.6
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &755124725
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14975,6 +15083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -14984,6 +15093,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &759611195
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15211,6 +15324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -15220,6 +15334,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &784958726
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15522,6 +15640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -15531,6 +15650,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &796157347
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15745,6 +15868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -15754,6 +15878,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &804754271
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15994,6 +16122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -16003,6 +16132,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &811870542
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16078,6 +16211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 0.49
   xtranslate: -0.85
   ytranslate: 0
@@ -16087,6 +16221,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!114 &813285990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16187,7 +16325,7 @@ Transform:
   - {fileID: 1003922828}
   - {fileID: 1344802314}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &822121337
 GameObject:
@@ -16262,7 +16400,7 @@ Transform:
   m_LocalScale: {x: 5, y: -7.25, z: 2.0988}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 105
+  m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &823629842
 GameObject:
@@ -16445,6 +16583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -16454,6 +16593,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &823629848
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16637,6 +16780,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &833731468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16811,7 +16958,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 60
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -66.18301}
 --- !u!1 &868615311
 GameObject:
@@ -16886,7 +17033,7 @@ Transform:
   m_LocalScale: {x: 0.95675117, y: 0.95675117, z: 0.95675117}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 119
+  m_RootOrder: 116
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &870023126
 GameObject:
@@ -16918,7 +17065,7 @@ Transform:
   - {fileID: 49522917}
   - {fileID: 1625394541}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &872778966
 GameObject:
@@ -16951,6 +17098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: -1
   ytranslate: 0
@@ -16960,6 +17108,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &872778968
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17188,6 +17340,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &894992813
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17245,7 +17401,7 @@ Transform:
   m_LocalScale: {x: 1, y: 2.6625, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 89
+  m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &896143545
 GameObject:
@@ -17515,6 +17671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -17524,6 +17681,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &912714753
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17751,6 +17912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -17760,6 +17922,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &916110917
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17913,6 +18079,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &924010895
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17970,7 +18140,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 85
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &927867427
 GameObject:
@@ -18004,6 +18174,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &927867429
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18061,7 +18235,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 84
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 138.832}
 --- !u!1 &938023069
 GameObject:
@@ -18244,6 +18418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -18253,6 +18428,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &938023075
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18329,6 +18508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 10
   xtranslate: -1
   ytranslate: 0
@@ -18338,6 +18518,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!50 &955187169
 Rigidbody2D:
   serializedVersion: 4
@@ -18440,7 +18624,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &973739826
 GameObject:
@@ -18623,6 +18807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -18632,6 +18817,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &973739832
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18859,6 +19048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -18868,6 +19058,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &990222116
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19217,6 +19411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -19226,6 +19421,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &994080764
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19332,9 +19531,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 1000
   myDrag: 20
+  PapirosCollisionCount: 0
 --- !u!82 &996129186
 AudioSource:
   m_ObjectHideFlags: 0
@@ -19513,7 +19712,7 @@ Transform:
   m_LocalScale: {x: -0.15508999, y: -0.02646, z: 1.88251}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1003922827
 GameObject:
@@ -19730,6 +19929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -19739,6 +19939,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1018224695
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19819,6 +20023,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!50 &1026552112
 Rigidbody2D:
   serializedVersion: 4
@@ -19921,7 +20129,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1042823771
 GameObject:
@@ -19955,6 +20163,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &1042823773
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20012,7 +20224,7 @@ Transform:
   m_LocalScale: {x: 1, y: 2.6625, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 77
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1044479642
 GameObject:
@@ -20195,6 +20407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -20204,6 +20417,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1044479648
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20431,6 +20648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -20440,6 +20658,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1045112664
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20678,7 +20900,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 3.036867, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 100
+  m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1056247368
 GameObject:
@@ -20712,6 +20934,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &1056247370
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20769,7 +20995,7 @@ Transform:
   m_LocalScale: {x: 1, y: 2.6625, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 91
+  m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1094851552
 GameObject:
@@ -20952,6 +21178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -20961,6 +21188,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1094851558
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21188,6 +21419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -21197,6 +21429,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1097467864
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21273,6 +21509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 10
   xtranslate: -1
   ytranslate: 0
@@ -21282,6 +21519,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!50 &1098085311
 Rigidbody2D:
   serializedVersion: 4
@@ -21384,7 +21625,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1106655351
 GameObject:
@@ -21729,6 +21970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -21738,6 +21980,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1114202270
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21890,6 +22136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: -1.62
   ytranslate: 0
@@ -21899,6 +22146,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: -34.6
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1135088241
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22127,9 +22378,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 1000
   myDrag: 20
+  PapirosCollisionCount: 0
 --- !u!114 &1142492222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22229,7 +22480,7 @@ Transform:
   m_LocalScale: {x: -0.15508999, y: -0.02646, z: 1.88251}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1142492226
 AudioSource:
@@ -22369,6 +22620,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &1161546784
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22426,7 +22681,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 76
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1186454825
 GameObject:
@@ -22460,6 +22715,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &1186454827
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22517,7 +22776,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 86
+  m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1200827447
 GameObject:
@@ -22687,6 +22946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -22696,6 +22956,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1200827452
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22947,7 +23211,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 72
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1208838229
 GameObject:
@@ -23130,6 +23394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -23139,6 +23404,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1208838235
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23366,6 +23635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -23375,6 +23645,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1210033000
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23453,6 +23727,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &1218195194
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23510,7 +23788,7 @@ Transform:
   m_LocalScale: {x: 1, y: 2.6625, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 78
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1226057215
 GameObject:
@@ -23693,6 +23971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -23702,6 +23981,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1226057221
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23780,6 +24063,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &1228691442
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23837,7 +24124,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 82
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 48.832}
 --- !u!1 &1231856553
 GameObject:
@@ -23869,6 +24156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 10
   xtranslate: -1
   ytranslate: 0
@@ -23878,6 +24166,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!50 &1231856555
 Rigidbody2D:
   serializedVersion: 4
@@ -23980,7 +24272,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 53
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1238982609
 GameObject:
@@ -24150,6 +24442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -24159,6 +24452,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1238982614
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24321,6 +24618,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!1 &1245459507
 GameObject:
   m_ObjectHideFlags: 0
@@ -24502,6 +24803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -24511,6 +24813,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1245459513
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24825,6 +25131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -24834,6 +25141,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1258567585
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25072,7 +25383,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 4.8210263, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 102
+  m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1279542570
 GameObject:
@@ -25194,7 +25505,7 @@ Transform:
   m_LocalScale: {x: -6.8255534, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 38.524002}
 --- !u!1 &1282205624
 GameObject:
@@ -25269,7 +25580,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 122
+  m_RootOrder: 119
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1306713423
 GameObject:
@@ -25463,7 +25774,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 115
+  m_RootOrder: 112
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1307920114
 GameObject:
@@ -25525,9 +25836,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 1000
   myDrag: 20
+  PapirosCollisionCount: 0
 --- !u!82 &1307920118
 AudioSource:
   m_ObjectHideFlags: 0
@@ -25706,7 +26017,7 @@ Transform:
   m_LocalScale: {x: -0.15508999, y: -0.02646, z: 1.88251}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1343202965
 GameObject:
@@ -25889,6 +26200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -25898,6 +26210,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1343202971
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26051,6 +26367,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &1404957627
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26108,7 +26428,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 73
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1407481087
 GameObject:
@@ -26230,7 +26550,7 @@ Transform:
   m_LocalScale: {x: -6.8255534, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 38.524002}
 --- !u!1 &1412417124
 GameObject:
@@ -26424,7 +26744,7 @@ Transform:
   m_LocalScale: {x: 2.954539, y: 1.7170501, z: 3.527808}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 114
+  m_RootOrder: 111
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -33.967003}
 --- !u!1 &1416432348
 GameObject:
@@ -26594,6 +26914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -26603,6 +26924,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1416432353
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26843,6 +27168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -26852,6 +27178,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1419015881
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27090,7 +27420,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 70
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 19.939001}
 --- !u!1 &1428604254
 GameObject:
@@ -27126,6 +27456,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!50 &1428604256
 Rigidbody2D:
   serializedVersion: 4
@@ -27228,7 +27562,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1440129506
 GameObject:
@@ -27411,6 +27745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -27420,6 +27755,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1440129512
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27500,6 +27839,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!50 &1440913753
 Rigidbody2D:
   serializedVersion: 4
@@ -27602,7 +27945,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1443910695
 GameObject:
@@ -27639,7 +27982,7 @@ Transform:
   - {fileID: 784958721}
   - {fileID: 1671555381}
   m_Father: {fileID: 0}
-  m_RootOrder: 66
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &1449167960
 GameObject:
@@ -27833,7 +28176,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 69
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -31.922}
 --- !u!1 &1450780511
 GameObject:
@@ -28090,6 +28433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -28099,6 +28443,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1482114676
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28350,7 +28698,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1493318922
 GameObject:
@@ -28533,6 +28881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -28542,6 +28891,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1493318928
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28769,6 +29122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -28778,6 +29132,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1500357503
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29005,6 +29363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -29014,6 +29373,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1506654179
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29091,6 +29454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: -1
   ytranslate: 0
@@ -29100,6 +29464,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1510738597
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29477,6 +29845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -29486,6 +29855,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1514276284
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29724,7 +30097,7 @@ Transform:
   m_LocalScale: {x: 2.954539, y: 1.7170501, z: 3.527808}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 112
+  m_RootOrder: 109
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1521931069
 GameObject:
@@ -29907,6 +30280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -29916,6 +30290,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1521931075
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29994,6 +30372,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &1534894672
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30051,7 +30433,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 83
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 138.832}
 --- !u!1 &1544079935
 GameObject:
@@ -30087,6 +30469,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!50 &1544079937
 Rigidbody2D:
   serializedVersion: 4
@@ -30189,7 +30575,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1551923140
 GameObject:
@@ -30535,6 +30921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 20
   xtranslate: 0.15
   ytranslate: 0
@@ -30544,6 +30931,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!1 &1552310422
 GameObject:
   m_ObjectHideFlags: 0
@@ -30578,6 +30969,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!50 &1552310424
 Rigidbody2D:
   serializedVersion: 4
@@ -30680,7 +31075,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1552516083
 GameObject:
@@ -30863,6 +31258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -30872,6 +31268,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1552516089
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30991,7 +31391,7 @@ Transform:
   m_LocalScale: {x: 0.95675117, y: 0.95675117, z: 0.95675117}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 118
+  m_RootOrder: 115
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1554113744
 GameObject:
@@ -31077,6 +31477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 10
   xtranslate: -1
   ytranslate: 0
@@ -31086,6 +31487,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!50 &1556334561
 Rigidbody2D:
   serializedVersion: 4
@@ -31188,7 +31593,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1558588143
 GameObject:
@@ -31263,7 +31668,7 @@ Transform:
   m_LocalScale: {x: 5, y: -7.25, z: 2.0988}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 106
+  m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1562599511
 GameObject:
@@ -31446,6 +31851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -31455,6 +31861,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1562599517
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31533,6 +31943,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &1566888347
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31590,7 +32004,7 @@ Transform:
   m_LocalScale: {x: 1, y: 2.6625, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 80
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1570524169
 GameObject:
@@ -31624,6 +32038,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &1570524171
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31681,7 +32099,7 @@ Transform:
   m_LocalScale: {x: 1.825, y: 4.8590627, z: 1.825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 96
+  m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 138.832}
 --- !u!1 &1576936283
 GameObject:
@@ -31875,7 +32293,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 68
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 19.939001}
 --- !u!1 &1590679884
 GameObject:
@@ -31911,6 +32329,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!114 &1590679886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32085,7 +32507,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 59
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -66.18301}
 --- !u!1 &1602400940
 GameObject:
@@ -32115,6 +32537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -32124,6 +32547,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1602400942
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32286,6 +32713,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!1 &1631915547
 GameObject:
   m_ObjectHideFlags: 0
@@ -32467,6 +32898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -32476,6 +32908,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1631915553
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32703,6 +33139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -32712,6 +33149,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1648260682
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32831,7 +33272,7 @@ Transform:
   m_LocalScale: {x: 1.01, y: 1.01, z: 1.01}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1671555380
 GameObject:
@@ -33014,6 +33455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -33023,6 +33465,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1671555386
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33101,6 +33547,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: -1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &1672771243
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33158,7 +33608,7 @@ Transform:
   m_LocalScale: {x: 1, y: 2.6625, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 79
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1708667702
 GameObject:
@@ -33280,7 +33730,7 @@ Transform:
   m_LocalScale: {x: -6.8255534, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -38.524}
 --- !u!1 &1710891261
 GameObject:
@@ -33312,6 +33762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 10
   xtranslate: -1
   ytranslate: 0
@@ -33321,6 +33772,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!50 &1710891263
 Rigidbody2D:
   serializedVersion: 4
@@ -33423,7 +33878,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1716369274
 GameObject:
@@ -33585,7 +34040,7 @@ Transform:
   m_LocalScale: {x: 3.7928355, y: 3.7928355, z: 3.7928355}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 121
+  m_RootOrder: 118
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1724260127
 GameObject:
@@ -33805,6 +34260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -33814,6 +34270,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1727730636
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34191,6 +34651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -34200,6 +34661,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1747154541
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34279,7 +34744,7 @@ Transform:
   - {fileID: 1975951956}
   - {fileID: 1731845954}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1807902788
 GameObject:
@@ -34401,7 +34866,7 @@ Transform:
   m_LocalScale: {x: -220.62395, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1836300937
 GameObject:
@@ -34508,6 +34973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 10
   xtranslate: -1
   ytranslate: 0
@@ -34517,6 +34983,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!50 &1840182348
 Rigidbody2D:
   serializedVersion: 4
@@ -34619,7 +35089,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1856737332
 GameObject:
@@ -34813,7 +35283,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 103
+  m_RootOrder: 100
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1860873865
 GameObject:
@@ -34996,6 +35466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -35005,6 +35476,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1860873871
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35111,9 +35586,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 1000
   myDrag: 20
+  PapirosCollisionCount: 0
 --- !u!82 &1870466336
 AudioSource:
   m_ObjectHideFlags: 0
@@ -35291,7 +35766,7 @@ Transform:
   m_LocalScale: {x: -0.15508999, y: -0.02646, z: 1.88251}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1872726491
 GameObject:
@@ -35353,9 +35828,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 1000
   myDrag: 20
+  PapirosCollisionCount: 0
 --- !u!82 &1872726495
 AudioSource:
   m_ObjectHideFlags: 0
@@ -35533,7 +36008,7 @@ Transform:
   m_LocalScale: {x: -0.15508999, y: -0.02646, z: 1.88251}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1875354235
 GameObject:
@@ -35608,7 +36083,7 @@ Transform:
   m_LocalScale: {x: 3.2241, y: 3.2241, z: 3.2241}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 104
+  m_RootOrder: 101
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1875680101
 GameObject:
@@ -35802,7 +36277,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 4.8210263, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 101
+  m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1900758680
 GameObject:
@@ -35996,7 +36471,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 97
+  m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1905219155
 GameObject:
@@ -36254,6 +36729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -36263,6 +36739,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1954257011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36769,6 +37249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -36778,6 +37259,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1979825570
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37112,6 +37597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -37121,6 +37607,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1993744496
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37202,7 +37692,7 @@ Transform:
   - {fileID: 1419015876}
   - {fileID: 473358883}
   m_Father: {fileID: 0}
-  m_RootOrder: 64
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2032368986
 GameObject:
@@ -37385,6 +37875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -37394,6 +37885,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &2032368992
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37560,7 +38055,7 @@ Transform:
   m_LocalScale: {x: -6.8255534, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 38.524002}
 --- !u!1 &2035524680
 GameObject:
@@ -37591,6 +38086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 0.49
   xtranslate: -0.85
   ytranslate: 0
@@ -37600,6 +38096,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!114 &2035524682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37701,6 +38201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: -1
   ytranslate: 0
@@ -37710,6 +38211,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &2038752763
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37936,6 +38441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 10
   xtranslate: -1
   ytranslate: 0
@@ -37945,6 +38451,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!50 &2039380692
 Rigidbody2D:
   serializedVersion: 4
@@ -38047,7 +38557,7 @@ Transform:
   m_LocalScale: {x: 1.6581857, y: 1.6402969, z: 1.6402969}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 52
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2052920776
 GameObject:
@@ -38109,9 +38619,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 1000
   myDrag: 20
+  PapirosCollisionCount: 0
 --- !u!82 &2052920780
 AudioSource:
   m_ObjectHideFlags: 0
@@ -38289,7 +38799,7 @@ Transform:
   m_LocalScale: {x: -0.15508999, y: -0.02646, z: 1.88251}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2055016220
 GameObject:
@@ -38364,7 +38874,7 @@ Transform:
   m_LocalScale: {x: 0.95675117, y: 0.95675117, z: 0.95675117}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 120
+  m_RootOrder: 117
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2060971284
 GameObject:
@@ -38558,7 +39068,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 3.036867, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 98
+  m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2082551668
 GameObject:
@@ -38603,9 +39113,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 1000
   myDrag: 20
+  PapirosCollisionCount: 0
 --- !u!50 &2082551671
 Rigidbody2D:
   serializedVersion: 4
@@ -38702,7 +39212,7 @@ Transform:
   - {fileID: 1127904694}
   - {fileID: 1957487946}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2084722842
 GameObject:
@@ -38824,7 +39334,7 @@ Transform:
   m_LocalScale: {x: -6.8255534, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -38.524}
 --- !u!1 &2102408508
 GameObject:
@@ -39018,7 +39528,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2114216164
 GameObject:
@@ -39212,7 +39722,7 @@ Transform:
   m_LocalScale: {x: 2.6194, y: 1.1459875, z: 2.6194}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 71
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -16.687}
 --- !u!1 &2137459172
 GameObject:
@@ -39332,9 +39842,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 1000
   myDrag: 20
+  PapirosCollisionCount: 0
 --- !u!58 &2137459177
 CircleCollider2D:
   m_ObjectHideFlags: 0

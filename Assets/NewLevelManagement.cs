@@ -5,15 +5,8 @@ using UnityEngine;
 
 public class NewLevelManagement : MonoBehaviour
 {
-	private float timer;
-	public float timeToNextScene = 3f; 
-	public Maze_TriggerManager triggerScript;
-
 	public bool isConditionReached = false;
-
-
 	public static NewLevelManagement lvlManagement;
-	
 	
 	void Start ()
 	{
@@ -21,9 +14,10 @@ public class NewLevelManagement : MonoBehaviour
 		lvlManagement = this;
 
 	}
-	
+
 	void Update () {
-				//Hub World 1
+		
+		//Hub World 1
 		// Immigration 1 
 		// Rug Fringe 1 
 		//Hub World 2
@@ -33,36 +27,14 @@ public class NewLevelManagement : MonoBehaviour
 		// Escape 
 		// Rug Fringe 2 
 		// Phone 
-
-		//if (triggerScript.ImmigrationCollision1)
-		//{
-		//	SceneManager.LoadScene("Immigration1");
-		//}
-
-		//if ()
-		//{
-		//	SceneManager.LoadScene("RugFringe");
-
-		//}
 		
-		timer += Time.deltaTime;
-/*
-		if (timer >= timeToNextScene || Input.GetKey(KeyCode.RightArrow))
-
-		{
-
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-			timer = 0;
-		} 
-		
-		*/
-
 		if (isConditionReached == true)
 		{
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+			int indexOfSceneToLoad = SceneManager.GetActiveScene().buildIndex + 1;
+			SceneManager.LoadScene(indexOfSceneToLoad);
 			isConditionReached = false;
+			Debug.Log((SceneManager.GetActiveScene().buildIndex+1f) + "is the current active scene");
 		}
-		
 		
 		DontDestroyOnLoad(gameObject);
 

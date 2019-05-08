@@ -21,14 +21,14 @@ public class Maze_Camera : MonoBehaviour
 	
 	void Update ()
 	{		
-		if (MTMScript.MazeTrigger1Entered)
+		/*if (MTMScript.MazeTrigger1Entered)
 		{
 			transform.position = position; 
 			//transform.rotation = Quaternion.Euler(90, 0, 0);
 			gameObject.GetComponent<CameraPlayerFollow>().enabled = false;
 
 
-		}
+		}*/ 
 		
 	}
 }

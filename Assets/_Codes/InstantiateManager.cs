@@ -6,6 +6,7 @@ public class InstantiateManager : MonoBehaviour
 {
 
 	public GameObject myBall;
+	public float timeTillDestruction; 
 	private GameObject instantiatedBall; 
 	RaycastHit beatHit; 
  
@@ -33,8 +34,8 @@ public class InstantiateManager : MonoBehaviour
 			//so instead of instantiating at mousePosition we instantiate at worldPosition 
 			bool clickedScreen = true; 
 			instantiatedBall = Instantiate(myBall, worldPosition, Quaternion.identity);
+			Destroy (instantiatedBall, timeTillDestruction);
 
-			
 			
 			if (Physics.Raycast(ray, out hit) && Input.GetMouseButtonDown(0))
 			{

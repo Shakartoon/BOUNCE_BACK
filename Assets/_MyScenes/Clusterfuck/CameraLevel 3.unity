@@ -224,6 +224,7 @@ MonoBehaviour:
   - {fileID: 786361179}
   - {fileID: 920257738}
   speed: 7
+  height: 0
 --- !u!50 &5552843
 Rigidbody2D:
   serializedVersion: 4
@@ -467,6 +468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 0.49
   xtranslate: -0.85
   ytranslate: 0
@@ -476,6 +478,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!114 &59501169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -648,6 +654,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &63521601
 AudioSource:
   m_ObjectHideFlags: 0
@@ -895,7 +903,7 @@ Transform:
   m_LocalScale: {x: 3.6117, y: 3.6117, z: 3.6117}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &83965912
 GameObject:
@@ -1024,7 +1032,7 @@ Transform:
   m_LocalScale: {x: 3.6117, y: 3.6117, z: 3.6117}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &86551782
 GameObject:
@@ -1192,9 +1200,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &86551787
 MonoBehaviour:
@@ -1207,6 +1215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -1216,6 +1225,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &86551788
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1768,7 +1781,7 @@ Transform:
   - {fileID: 176636971}
   - {fileID: 642925803}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &159772135
 GameObject:
@@ -2011,9 +2024,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &164852176
 MonoBehaviour:
@@ -2026,6 +2039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -2035,6 +2049,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &164852177
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2081,61 +2099,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &171494424
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 171494426}
-  - component: {fileID: 171494425}
-  - component: {fileID: 171494427}
-  m_Layer: 0
-  m_Name: InputManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &171494425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 171494424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf94ebf6329bb4276919e6528804a2c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &171494426
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 171494424}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -309.18378, y: -184.3972, z: -10.653963}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &171494427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 171494424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83ddbc8f4e83a457fa7434a8f5f9af12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ball1: {fileID: 2137459172}
-  ball2: {fileID: 0}
-  ball3: {fileID: 0}
 --- !u!1 &174681737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2168,6 +2131,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &174681739
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2225,7 +2192,7 @@ Transform:
   m_LocalScale: {x: 4.2, y: 4.2, z: 4.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &176636969
 GameObject:
@@ -2429,7 +2396,7 @@ Transform:
   m_LocalScale: {x: 3.6117, y: 3.6117, z: 3.6117}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &200209949
 GameObject:
@@ -2597,9 +2564,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &200209954
 MonoBehaviour:
@@ -2612,6 +2579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -2621,6 +2589,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &200209955
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2857,9 +2829,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &208709635
 MonoBehaviour:
@@ -2872,6 +2844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -2881,6 +2854,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &208709636
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3013,7 +2990,7 @@ Transform:
   m_LocalScale: {x: 2.416, y: 2.416, z: 2.416}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &230092531
 GameObject:
@@ -3209,6 +3186,10 @@ MonoBehaviour:
   rotDirX: 4
   rotDirY: 4
   rotDirZ: 4
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &254176120
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3266,7 +3247,7 @@ Transform:
   m_LocalScale: {x: 0.13456, y: -0.017509999, z: 1.88251}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.344}
 --- !u!1 &260978441
 GameObject:
@@ -3584,9 +3565,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &284336754
 MonoBehaviour:
@@ -3599,6 +3580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -3608,6 +3590,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &284336755
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4000,9 +3986,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &346079039
 MonoBehaviour:
@@ -4015,6 +4001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -4024,6 +4011,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &346079040
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4218,7 +4209,7 @@ Transform:
   m_LocalScale: {x: 2.416, y: 2.416, z: 2.416}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &370276398
 GameObject:
@@ -4443,7 +4434,7 @@ Transform:
   m_LocalScale: {x: 1.7632982, y: 1.7632982, z: 1.7632982}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &379219805
 GameObject:
@@ -4848,9 +4839,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &447136058
 MonoBehaviour:
@@ -4863,6 +4854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -4872,6 +4864,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &447136059
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4991,7 +4987,7 @@ Transform:
   m_LocalScale: {x: 1.7632982, y: 1.7632982, z: 1.7632982}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &465197783
 GameObject:
@@ -5120,7 +5116,7 @@ Transform:
   m_LocalScale: {x: 3.6117, y: 3.6117, z: 3.6117}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &468333285
 GameObject:
@@ -5299,6 +5295,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &486316419
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5521,6 +5519,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &513111630
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5893,8 +5893,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3f342be6f30f4993be78e163adcb93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  expandTime: 0
-  loadMe: {fileID: 1156155847150526, guid: f1bc08ffba7064afe888b7e47e820f06, type: 2}
+  inner: 0
+  speed: 0
+  outer: 0
+  outline1: {fileID: 0}
+  outline2: {fileID: 0}
+  outline3: {fileID: 0}
+  circle1: {fileID: 0}
+  circle2: {fileID: 0}
+  circle3: {fileID: 0}
+  enemy1: {fileID: 0}
+  enemy2: {fileID: 0}
 --- !u!4 &522880580
 Transform:
   m_ObjectHideFlags: 0
@@ -5906,7 +5915,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &536427016 stripped
 Rigidbody2D:
@@ -5950,54 +5959,6 @@ Transform:
   m_Father: {fileID: 236788500}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
---- !u!1 &562861345
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 562861347}
-  - component: {fileID: 562861346}
-  m_Layer: 0
-  m_Name: SceneChanger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &562861346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 562861345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30f3e235b33aa4888aa0c0398a2916b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 0
-  timeToNextScene: 40
-  _short: []
-  _medium: []
-  _long: []
-  shortSceneTime: 0
-  MediumSceneTime: 0
-  LongSceneTime: 0
---- !u!4 &562861347
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 562861345}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -309.18378, y: -184.3972, z: -10.653963}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &567586367
 GameObject:
   m_ObjectHideFlags: 0
@@ -6164,9 +6125,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &567586372
 MonoBehaviour:
@@ -6179,6 +6140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -6188,6 +6150,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &567586373
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6387,9 +6353,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &572172714
 MonoBehaviour:
@@ -6402,6 +6368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -6411,6 +6378,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &572172715
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6572,6 +6543,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &593218167
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6873,6 +6846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -6882,6 +6856,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &617953954
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7074,9 +7052,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!1 &619875394
 GameObject:
@@ -7226,7 +7204,7 @@ Transform:
   m_LocalScale: {x: 2.416, y: 2.416, z: 2.416}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &630551252
 GameObject:
@@ -7381,9 +7359,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &630551256
 MonoBehaviour:
@@ -7396,6 +7374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -7405,6 +7384,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &630551257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7733,9 +7716,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &645190775
 MonoBehaviour:
@@ -7748,6 +7731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -7757,6 +7741,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &645190776
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7956,9 +7944,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &649168392
 MonoBehaviour:
@@ -7971,6 +7959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -7980,6 +7969,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &649168393
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8205,9 +8198,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &653324175
 MonoBehaviour:
@@ -8220,6 +8213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -8229,6 +8223,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &653324176
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8379,6 +8377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 0.49
   xtranslate: -0.85
   ytranslate: 0
@@ -8388,6 +8387,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!114 &660066829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8934,6 +8937,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &716246645
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9207,6 +9212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: -1.62
   ytranslate: 0
@@ -9216,6 +9222,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: -34.6
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &755124725
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9377,6 +9387,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &764012737
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9599,6 +9611,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &774809761
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10110,9 +10124,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &796157346
 MonoBehaviour:
@@ -10125,6 +10139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -10134,6 +10149,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &796157347
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10333,9 +10352,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &804754270
 MonoBehaviour:
@@ -10348,6 +10367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -10357,6 +10377,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &804754271
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10582,9 +10606,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &811870541
 MonoBehaviour:
@@ -10597,6 +10621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -10606,6 +10631,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &811870542
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10681,6 +10710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 0.49
   xtranslate: -0.85
   ytranslate: 0
@@ -10690,6 +10720,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!114 &813285990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10791,7 +10825,7 @@ Transform:
   - {fileID: 1003922828}
   - {fileID: 1344802314}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &854740155
 GameObject:
@@ -10866,7 +10900,7 @@ Transform:
   m_LocalScale: {x: 2.416, y: 2.416, z: 2.416}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &872778966
 GameObject:
@@ -10899,6 +10933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: -1
   ytranslate: 0
@@ -10908,6 +10943,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &872778968
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11100,9 +11139,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!1 &889060136
 GameObject:
@@ -11136,6 +11175,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &889060138
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11193,7 +11236,7 @@ Transform:
   m_LocalScale: {x: 4.2, y: 4.2, z: 4.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &896143545
 GameObject:
@@ -11321,7 +11364,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &920257736
 GameObject:
@@ -11639,9 +11682,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &938023074
 MonoBehaviour:
@@ -11654,6 +11697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -11663,6 +11707,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &938023075
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11911,7 +11959,7 @@ Transform:
   m_LocalScale: {x: 3.6117, y: 3.6117, z: 3.6117}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &967718912
 GameObject:
@@ -12090,6 +12138,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &969188391
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12338,7 +12388,7 @@ Transform:
   m_LocalScale: {x: 3.6117, y: 3.6117, z: 3.6117}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &982245402
 MonoBehaviour:
@@ -12478,7 +12528,7 @@ Transform:
   m_LocalScale: {x: 3.6117, y: 3.6117, z: 3.6117}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1002647603
 GameObject:
@@ -12755,9 +12805,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1018224694
 MonoBehaviour:
@@ -12770,6 +12820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -12779,6 +12830,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1018224695
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13216,9 +13271,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1045112663
 MonoBehaviour:
@@ -13231,6 +13286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -13240,6 +13296,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1045112664
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13775,6 +13835,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &1111794447
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14061,9 +14123,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1114202269
 MonoBehaviour:
@@ -14076,6 +14138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -14085,6 +14148,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1114202270
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14249,6 +14316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: -1.62
   ytranslate: 0
@@ -14258,6 +14326,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: -34.6
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1135088241
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14450,9 +14522,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!1 &1142492220
 GameObject:
@@ -14486,9 +14558,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 20
   myDrag: 50
+  PapirosCollisionCount: 0
 --- !u!114 &1142492222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14502,9 +14574,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!61 &1142492223
 BoxCollider2D:
@@ -14588,7 +14660,7 @@ Transform:
   m_LocalScale: {x: -0.15508999, y: -0.02646, z: 1.88251}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1142492226
 AudioSource:
@@ -14999,9 +15071,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1200827451
 MonoBehaviour:
@@ -15014,6 +15086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -15023,6 +15096,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1200827452
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15119,7 +15196,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4106552595844978, guid: e9a6e08758f514c6285d3841d9e8bbc1, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 114314452320061866, guid: e9a6e08758f514c6285d3841d9e8bbc1,
         type: 2}
@@ -15300,9 +15377,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1208838234
 MonoBehaviour:
@@ -15315,6 +15392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -15324,6 +15402,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1208838235
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15472,6 +15554,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &1238934183
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15745,9 +15829,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1238982613
 MonoBehaviour:
@@ -15760,6 +15844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -15769,6 +15854,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1238982614
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15930,6 +16019,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &1244810760
 AudioSource:
   m_ObjectHideFlags: 0
@@ -16211,7 +16302,7 @@ Transform:
   m_LocalScale: {x: 4.2, y: 4.2, z: 4.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1254939435
 MonoBehaviour:
@@ -16228,6 +16319,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!1 &1291648397
 GameObject:
   m_ObjectHideFlags: 0
@@ -16423,9 +16518,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1307920117
 MonoBehaviour:
@@ -16438,9 +16533,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 20
   myDrag: 50
+  PapirosCollisionCount: 0
 --- !u!82 &1307920118
 AudioSource:
   m_ObjectHideFlags: 0
@@ -16619,7 +16714,7 @@ Transform:
   m_LocalScale: {x: -0.15508999, y: -0.02646, z: 1.88251}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1315633799
 GameObject:
@@ -16862,9 +16957,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1343202970
 MonoBehaviour:
@@ -16877,6 +16972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -16886,6 +16982,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1343202971
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17072,6 +17172,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &1357288390
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17397,7 +17499,7 @@ Transform:
   m_LocalScale: {x: 3.6117, y: 3.6117, z: 3.6117}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1371165086
 MonoBehaviour:
@@ -17412,9 +17514,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!82 &1371165087
 AudioSource:
@@ -17811,6 +17913,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &1410971363
 AudioSource:
   m_ObjectHideFlags: 0
@@ -18084,9 +18188,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1416432352
 MonoBehaviour:
@@ -18099,6 +18203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -18108,6 +18213,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1416432353
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18333,9 +18442,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1440129511
 MonoBehaviour:
@@ -18348,6 +18457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -18357,6 +18467,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1440129512
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18643,9 +18757,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1482114675
 MonoBehaviour:
@@ -18658,6 +18772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -18667,6 +18782,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1482114676
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19042,9 +19161,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1500357502
 MonoBehaviour:
@@ -19057,6 +19176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -19066,6 +19186,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1500357503
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19143,6 +19267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: -1
   ytranslate: 0
@@ -19152,6 +19277,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1510738597
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19344,9 +19473,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!1 &1514276278
 GameObject:
@@ -19514,9 +19643,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1514276283
 MonoBehaviour:
@@ -19529,6 +19658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -19538,6 +19668,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1514276284
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19916,6 +20050,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &1550122050
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19973,7 +20111,7 @@ Transform:
   m_LocalScale: {x: 4.2, y: 4.2, z: 4.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1551923140
 GameObject:
@@ -20347,7 +20485,7 @@ Transform:
   m_LocalScale: {x: 2.416, y: 2.416, z: 2.416}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1552516083
 GameObject:
@@ -20515,9 +20653,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1552516088
 MonoBehaviour:
@@ -20530,6 +20668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -20539,6 +20678,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1552516089
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20763,6 +20906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -20772,6 +20916,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1602400942
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20904,7 +21052,7 @@ Transform:
   m_LocalScale: {x: 2.416, y: 2.416, z: 2.416}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1624715343
 GameObject:
@@ -21049,6 +21197,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &1628156813
 AudioSource:
   m_ObjectHideFlags: 0
@@ -21271,6 +21421,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &1633593172
 AudioSource:
   m_ObjectHideFlags: 0
@@ -21464,7 +21616,7 @@ Transform:
   m_LocalScale: {x: 2.416, y: 2.416, z: 2.416}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1648260676
 GameObject:
@@ -21632,9 +21784,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1648260681
 MonoBehaviour:
@@ -21647,6 +21799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -21656,6 +21809,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1648260682
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21804,6 +21961,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &1660263085
 AudioSource:
   m_ObjectHideFlags: 0
@@ -22026,6 +22185,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &1663594895
 AudioSource:
   m_ObjectHideFlags: 0
@@ -22323,6 +22484,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &1675638818
 AudioSource:
   m_ObjectHideFlags: 0
@@ -22570,7 +22733,7 @@ Transform:
   m_LocalScale: {x: 3.6117, y: 3.6117, z: 3.6117}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1679560077
 GameObject:
@@ -23061,6 +23224,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &1717189521
 AudioSource:
   m_ObjectHideFlags: 0
@@ -23384,9 +23549,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1727730635
 MonoBehaviour:
@@ -23399,6 +23564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -23408,6 +23574,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1727730636
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23715,6 +23885,7 @@ MonoBehaviour:
   - {fileID: 786361179}
   - {fileID: 920257738}
   speed: 8
+  height: 0
 --- !u!50 &1767293097
 Rigidbody2D:
   serializedVersion: 4
@@ -23907,6 +24078,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &1775557878
 AudioSource:
   m_ObjectHideFlags: 0
@@ -24138,6 +24311,7 @@ MonoBehaviour:
   - {fileID: 786361179}
   - {fileID: 920257738}
   speed: 9
+  height: 0
 --- !u!50 &1782609184
 Rigidbody2D:
   serializedVersion: 4
@@ -24411,7 +24585,7 @@ Transform:
   - {fileID: 1975951956}
   - {fileID: 1731845954}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1812033894
 GameObject:
@@ -24750,7 +24924,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4775563318608824, guid: 4b9020665a0bc4799b778052550dbbf7, type: 2}
       propertyPath: m_RootOrder
-      value: 35
+      value: 33
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b9020665a0bc4799b778052550dbbf7, type: 2}
@@ -24921,9 +25095,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1860873870
 MonoBehaviour:
@@ -24936,6 +25110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -24945,6 +25120,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1860873871
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25036,9 +25215,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1870466335
 MonoBehaviour:
@@ -25051,9 +25230,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 20
   myDrag: 50
+  PapirosCollisionCount: 0
 --- !u!82 &1870466336
 AudioSource:
   m_ObjectHideFlags: 0
@@ -25231,7 +25410,7 @@ Transform:
   m_LocalScale: {x: -0.15508999, y: -0.02646, z: 1.88251}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1872726491
 GameObject:
@@ -25278,9 +25457,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1872726494
 MonoBehaviour:
@@ -25293,9 +25472,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 20
   myDrag: 50
+  PapirosCollisionCount: 0
 --- !u!82 &1872726495
 AudioSource:
   m_ObjectHideFlags: 0
@@ -25473,7 +25652,7 @@ Transform:
   m_LocalScale: {x: -0.15508999, y: -0.02646, z: 1.88251}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1872841465
 GameObject:
@@ -25577,6 +25756,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyOnCollision: 0
+  changePitch: 0
+  TimeToDestroy: 2
 --- !u!82 &1872841470
 AudioSource:
   m_ObjectHideFlags: 0
@@ -25879,6 +26060,10 @@ MonoBehaviour:
   rotDirX: 0
   rotDirY: 0
   rotDirZ: 1
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &1932421491
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25936,7 +26121,7 @@ Transform:
   m_LocalScale: {x: 4.2, y: 4.2, z: 4.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1940159672
 GameObject:
@@ -26208,9 +26393,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1954257010
 MonoBehaviour:
@@ -26223,6 +26408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -26232,6 +26418,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1954257011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26594,9 +26784,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1979825569
 MonoBehaviour:
@@ -26609,6 +26799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -26618,6 +26809,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1979825570
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26862,9 +27057,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &1993744495
 MonoBehaviour:
@@ -26877,6 +27072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: 1.62
   ytranslate: 0
@@ -26886,6 +27082,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &1993744496
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27036,6 +27236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 0.49
   xtranslate: -0.85
   ytranslate: 0
@@ -27045,6 +27246,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!114 &2035524682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27146,6 +27351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be8107ba6aa24237b4d3b69ed4d7b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAcross: 0
   speed: 15
   xtranslate: -1
   ytranslate: 0
@@ -27155,6 +27361,10 @@ MonoBehaviour:
   ztranslate2: 0
   maxPosX: 0
   maxPosY: 0
+  loop: 0
+  maxPosition: 0.5
+  destroy: 0
+  timetodestroy: 0
 --- !u!212 &2038752763
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27347,9 +27557,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!1 &2050658696
 GameObject:
@@ -27471,9 +27681,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0
 --- !u!114 &2052920779
 MonoBehaviour:
@@ -27486,9 +27696,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 20
   myDrag: 50
+  PapirosCollisionCount: 0
 --- !u!82 &2052920780
 AudioSource:
   m_ObjectHideFlags: 0
@@ -27666,7 +27876,7 @@ Transform:
   m_LocalScale: {x: -0.15508999, y: -0.02646, z: 1.88251}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2073261898
 GameObject:
@@ -27706,6 +27916,7 @@ MonoBehaviour:
   - {fileID: 697607637}
   - {fileID: 1975951956}
   speed: 10
+  height: 0
 --- !u!50 &2073261900
 Rigidbody2D:
   serializedVersion: 4
@@ -27798,7 +28009,7 @@ Transform:
   - {fileID: 5552846}
   - {fileID: 1134756602}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &2073261904
 AudioSource:
@@ -28143,7 +28354,7 @@ Transform:
   m_LocalScale: {x: 1.7632982, y: 1.7632982, z: 1.7632982}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2107271550
 GameObject:
@@ -28451,7 +28662,7 @@ Transform:
   - {fileID: 735636459}
   - {fileID: 2138576415}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &2137459175
 Rigidbody2D:
@@ -28484,9 +28695,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   magnitude: 1000
   myDrag: 20
+  PapirosCollisionCount: 0
 --- !u!58 &2137459177
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -28626,6 +28837,10 @@ MonoBehaviour:
   rotDirX: 4
   rotDirY: 4
   rotDirZ: 4
+  rotateBackAndForth: 0
+  m_from: {x: 0, y: 45, z: 0}
+  m_to: {x: 0, y: -45, z: 0}
+  m_frequency: 1
 --- !u!212 &2139613088
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28854,7 +29069,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RandomizeClips: 0
   UseAudioID: 0
+  volumeForce: 0
   changePitch: 0
   audioClips: []
-  ballToLoad: {fileID: 0}
   AudioID: 0

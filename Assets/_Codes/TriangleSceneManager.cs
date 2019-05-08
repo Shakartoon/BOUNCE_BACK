@@ -2,45 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriangleSceneManager : MonoBehaviour {
-
+public class TriangleSceneManager : MonoBehaviour
+{
+	private float timer = 5;
+	private float time; 
 	void Start () {
 		
 	}
-	
-	void Update ()
+
+	void Update()
 	{
-
-		if (SceneTracker.me.TimesPlayedTriangle == 0) //LevelManager15.Level1Played2)
-		{
-			Camera.main.backgroundColor = Color.black; 
-		}
-
-		if (SceneTracker.me.TimesPlayedTriangle == 1)
-		{
-			Camera.main.backgroundColor = Color.green; 
-
-		}
 		
-		if (SceneTracker.me.TimesPlayedTriangle == 2)
-		{
-			Camera.main.backgroundColor = Color.red; 
-
-		}
+		time += Time.deltaTime;
 		
-		/* 
-		
-		if (SceneTracker.me.TimesPlayedLevel1 > 1) //LevelManager15.Level1Played2)
+		if (time >= timer)
 		{
-			Debug.Log("Number Two");
-			Camera.main.backgroundColor = Color.black; 
+			NewLevelManagement.lvlManagement.isConditionReached = true; 
 		}
 
-		if (SceneTracker.me.TimesPlayedLevel1 > 2)
-		{
-			Camera.main.backgroundColor = Color.green; 
-
-		} */ 
-
-	}
+	} 
 }

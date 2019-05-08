@@ -63,7 +63,7 @@
                      currentRatio = Mathf.MoveTowards(currentRatio, shrinkBound, approachSpeed);
 
                      // Update our text element
-                     SR.transform.localScale = Vector3.one * currentRatio;
+//                     SR.transform.localScale = Vector3.one * currentRatio;
                      //SR = "Shrinking!";
 
                      //yield return new WaitForEndOfFrame();
