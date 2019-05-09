@@ -5,7 +5,7 @@ public class CameraScript : MonoBehaviour
 {
 	public Color color1 = Color.red;
 	public Color color2 = Color.blue;
-	public float duration = 30.0F;
+	public float duration;  
 
 
 
@@ -19,8 +19,10 @@ public class CameraScript : MonoBehaviour
 
 	}
 
-	void Update()
+	void FixedUpdate()
 	{
+
+		duration = Random.Range(1, 15); 
 		float t = Mathf.PingPong(Time.time, duration) / duration;
 		cam.backgroundColor = Color.Lerp(color1, color2, t);
 	
