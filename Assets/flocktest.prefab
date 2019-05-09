@@ -9,53 +9,53 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1036781138822208}
+  m_RootGameObject: {fileID: 1561950108137216}
   m_IsPrefabAsset: 1
---- !u!1 &1036781138822208
+--- !u!1 &1561950108137216
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4985406880558436}
-  - component: {fileID: 212186361331692156}
-  - component: {fileID: 58415447303557890}
-  - component: {fileID: 50793117777063920}
-  - component: {fileID: 114188017665526680}
+  - component: {fileID: 4943019470994864}
+  - component: {fileID: 212802587588034422}
+  - component: {fileID: 114465618287554354}
+  - component: {fileID: 50474628484623136}
+  - component: {fileID: 61475603156595616}
   m_Layer: 0
-  m_Name: starPrefab
+  m_Name: flocktest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4985406880558436
+--- !u!4 &4943019470994864
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1036781138822208}
+  m_GameObject: {fileID: 1561950108137216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.790613, y: -11.927776, z: 10.79}
-  m_LocalScale: {x: 1.7057, y: 1.7057, z: 1.7057}
+  m_LocalPosition: {x: 16.9, y: -12.6, z: 32.97}
+  m_LocalScale: {x: 0.518, y: 0.518, z: 0.518}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50793117777063920
+--- !u!50 &50474628484623136
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1036781138822208}
+  m_GameObject: {fileID: 1561950108137216}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0.2
+  m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -63,12 +63,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &58415447303557890
-CircleCollider2D:
+--- !u!61 &61475603156595616
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1036781138822208}
+  m_GameObject: {fileID: 1561950108137216}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -76,14 +76,24 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.59, y: 5.45}
+    newSize: {x: 9.59, y: 5.45}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.29
---- !u!114 &114188017665526680
+  m_Size: {x: 9.59, y: 5.45}
+  m_EdgeRadius: 0
+--- !u!114 &114465618287554354
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1036781138822208}
+  m_GameObject: {fileID: 1561950108137216}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45788ee1b18164a67b03928b428e8ef0, type: 3}
@@ -92,13 +102,13 @@ MonoBehaviour:
   UnitManager: {fileID: 0}
   location: {x: 0, y: 0}
   Velocity: {x: 0, y: 0}
-  shouldFollowBall: 1
---- !u!212 &212186361331692156
+  shouldFollowBall: 0
+--- !u!212 &212802587588034422
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1036781138822208}
+  m_GameObject: {fileID: 1561950108137216}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -127,13 +137,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 22bd6018df038489793b0737b946c2cb, type: 3}
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300000, guid: 15e239325c42d4b349f8b1686519add1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.58, y: 0.58}
+  m_Size: {x: 9.59, y: 5.45}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

@@ -24,8 +24,8 @@ public class AllUnits : MonoBehaviour
 		units = new GameObject[numUnits];
 		for (int i = 0; i < numUnits; i++)
 		{
-			Vector3 unitPos = new Vector3(Random.Range(-range.x, range.x),Random.Range(-range.y, range.y), Random.Range(10, 11));
-			units[i] = Instantiate(unitPrefab, this.transform.localPosition + unitPos, Quaternion.identity);
+			Vector3 unitPos = new Vector3(Random.Range(-range.x, range.x),Random.Range(-range.y, range.y), 0);
+			units[i] = Instantiate(unitPrefab, this.transform.position + unitPos, Quaternion.identity);
 			units[i].GetComponent<Unit>().UnitManager = this.gameObject; 
 		}
 
