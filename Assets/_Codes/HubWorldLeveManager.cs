@@ -12,7 +12,8 @@ public class HubWorldLeveManager : MonoBehaviour {
 
 	public CameraPlayerFollow CameraFollowScript;
 	public Rotate cameraRotateScript; 
-	public GameObject TitleScreen1; 
+	public GameObject TitleScreen1;
+	private SpriteRenderer Title1ScreenSpriteRenderer; 
 
 	//Temporary Timer to change scene 
 	float timer = 4;
@@ -20,7 +21,7 @@ public class HubWorldLeveManager : MonoBehaviour {
 	
 	void Start ()
 	{
-
+		Title1ScreenSpriteRenderer = TitleScreen1.GetComponent<SpriteRenderer>(); 
 		CameraFollowScript.enabled = true; 
 		cameraRotateScript.enabled = true; 
 		TitleScreen1.SetActive(false);
@@ -38,6 +39,7 @@ public class HubWorldLeveManager : MonoBehaviour {
 			cameraRotateScript.enabled = false; 
 			Camera.main.transform.position = new Vector3(58, 6.6f, -25.9f);
 			TitleScreen1.SetActive(true);
+			Title1ScreenSpriteRenderer.DOColor(new Color (0, 0, 0, 1), 2f); 
 			//DontDestroyOnLoad(TitleScreen1);
 		}
 		
