@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3682ab6-c3bd-4361-8b70-3a026af15fe2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Animations/circlebackground.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Animations/circlebackground.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Codes/CameraScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Codes/CameraScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_MyScenes/_FINAL SCENES/Immigration1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_MyScenes/_FINAL SCENES/Immigration1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_MyScenes/_FINAL SCENES/RugFringe.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_MyScenes/_FINAL SCENES/RugFringe.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,13 +62,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="463" />
+          <entry key="cs" value="464" />
           <entry key="shader" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="463" />
+          <entry key="C#" value="464" />
           <entry key="ShaderLab" value="2" />
         </counts>
       </usages-collector>
@@ -145,10 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Codes/CameraRotate.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="240">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <marker date="1555289611000" expanded="false" signature="6:97" ph="..." />
                 <marker date="1555289611000" expanded="true" signature="142:290" ph="{...}" />
@@ -196,7 +194,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Codes/BallMovementScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="-907">
               <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding>
                 <marker date="1557297289000" expanded="false" signature="6:97" ph="..." />
@@ -217,16 +215,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/_Codes/LevelManager_RigFringes.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/_Codes/BBonCollisionChangeColor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="-115">
               <folding>
-                <marker date="1557296344000" expanded="false" signature="6:98" ph="..." />
-                <marker date="1557296344000" expanded="true" signature="153:280" ph="{...}" />
-                <marker date="1557296344000" expanded="true" signature="247:254" ph="{...}" />
-                <marker date="1557296344000" expanded="true" signature="272:278" ph="{...}" />
+                <marker date="1555014195000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555014195000" expanded="true" signature="133:921" ph="{...}" />
+                <marker date="1555014195000" expanded="true" signature="288:366" ph="{...}" />
+                <marker date="1555014195000" expanded="true" signature="383:480" ph="{...}" />
+                <marker date="1555014195000" expanded="true" signature="437:476" ph="{...}" />
+                <marker date="1555014195000" expanded="true" signature="522:737" ph="{...}" />
+                <marker date="1555014195000" expanded="true" signature="580:733" ph="{...}" />
+                <marker date="1555014195000" expanded="true" signature="588:701" ph="/* lerpedColor = Color.Lerp(lerpedColor, Color.white, Mathf.PingPong(Time.time, 1)); ... */" />
+                <marker date="1555014195000" expanded="true" signature="779:918" ph="{...}" />
+                <marker date="1555014195000" expanded="true" signature="853:911" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -301,6 +304,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Codes/tempCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Codes/BBonCollisionChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Codes/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D569CB30-37DD-4660-A175-BF2FB519BD4D/c0/de3ef7cb/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Codes/EscapeLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -692,12 +696,12 @@
       <workItem from="1557333578363" duration="301000" />
       <workItem from="1557337218461" duration="3195000" />
       <workItem from="1557346601448" duration="1147000" />
-      <workItem from="1557432513216" duration="3578000" />
+      <workItem from="1557432513216" duration="4215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="553525000" />
+    <option name="totallyTimeSpent" value="554162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -789,7 +793,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/HubWorldLevelChanges.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/BallCollisionManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/_Codes/circleEffect.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -1041,28 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Codes/BallMovementScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding>
-            <marker date="1557297289000" expanded="false" signature="6:97" ph="..." />
-            <marker date="1557297289000" expanded="true" signature="148:3224" ph="{...}" />
-            <marker date="1557297289000" expanded="true" signature="608:655" ph="{...}" />
-            <marker date="1557297289000" expanded="true" signature="658:1549" ph="/* void OnMouseDown() ... */" />
-            <marker date="1557297289000" expanded="true" signature="1571:2241" ph="{...}" />
-            <marker date="1557297289000" expanded="true" signature="1607:2235" ph="/* move to the position with force ... */" />
-            <marker date="1557297289000" expanded="true" signature="2262:2289" ph="{...}" />
-            <marker date="1557297289000" expanded="true" signature="2332:2613" ph="{...}" />
-            <marker date="1557297289000" expanded="true" signature="2392:2429" ph="{...}" />
-            <marker date="1557297289000" expanded="true" signature="2526:2608" ph="{...}" />
-            <marker date="1557297289000" expanded="true" signature="2640:2675" ph="{...}" />
-            <marker date="1557297289000" expanded="true" signature="2691:3222" ph="{...}" />
-            <marker date="1557297289000" expanded="true" signature="2996:3215" ph="/* NEED TO FIX ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Codes/LevelManager_RigFringes.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1189,12 +1170,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Codes/CameraRotate.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="240">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <marker date="1555289611000" expanded="false" signature="6:97" ph="..." />
             <marker date="1555289611000" expanded="true" signature="142:290" ph="{...}" />
             <marker date="1555289611000" expanded="true" signature="196:203" ph="{...}" />
             <marker date="1555289611000" expanded="true" signature="221:288" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Codes/BallMovementScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-907">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <marker date="1557297289000" expanded="false" signature="6:97" ph="..." />
+            <marker date="1557297289000" expanded="true" signature="148:3224" ph="{...}" />
+            <marker date="1557297289000" expanded="true" signature="608:655" ph="{...}" />
+            <marker date="1557297289000" expanded="true" signature="658:1549" ph="/* void OnMouseDown() ... */" />
+            <marker date="1557297289000" expanded="true" signature="1571:2241" ph="{...}" />
+            <marker date="1557297289000" expanded="true" signature="1607:2235" ph="/* move to the position with force ... */" />
+            <marker date="1557297289000" expanded="true" signature="2262:2289" ph="{...}" />
+            <marker date="1557297289000" expanded="true" signature="2332:2613" ph="{...}" />
+            <marker date="1557297289000" expanded="true" signature="2392:2429" ph="{...}" />
+            <marker date="1557297289000" expanded="true" signature="2526:2608" ph="{...}" />
+            <marker date="1557297289000" expanded="true" signature="2640:2675" ph="{...}" />
+            <marker date="1557297289000" expanded="true" signature="2691:3222" ph="{...}" />
+            <marker date="1557297289000" expanded="true" signature="2996:3215" ph="/* NEED TO FIX ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Codes/BBonCollisionChangeColor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <folding>
+            <marker date="1555014195000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555014195000" expanded="true" signature="133:921" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="288:366" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="383:480" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="437:476" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="522:737" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="580:733" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="588:701" ph="/* lerpedColor = Color.Lerp(lerpedColor, Color.white, Mathf.PingPong(Time.time, 1)); ... */" />
+            <marker date="1555014195000" expanded="true" signature="779:918" ph="{...}" />
+            <marker date="1555014195000" expanded="true" signature="853:911" ph="{...}" />
           </folding>
         </state>
       </provider>
