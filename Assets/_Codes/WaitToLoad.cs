@@ -5,51 +5,50 @@ using UnityEngine;
 
 public class WaitToLoad : MonoBehaviour
 {
+	public bool enableObject, enableRigidbody, FadeIn;
 	
-	public bool enableObject; 
-	public bool enableRigidbody;
-	public bool FadeIn; 
-	
-	public GameObject objectToEnable1, objectToEnable2;
 	public float timeToEnableGameObject, timeToEnableRigidbody, timeToFadeIn;
-	public Color object1FadeInColor, object2FadeInColor; 
+	public Color newColor; 
 	
 	private float time; 
-	private Rigidbody2D my_rb;
-	private SpriteRenderer object1SR, object2SR; 
+	private Rigidbody2D myRB;
+	private SpriteRenderer mySR; 
 	
 	void Start ()
 	{
 		if (enableRigidbody)
 		{
-			my_rb = GetComponent<Rigidbody2D>();
-			my_rb.isKinematic = true; 
+			myRB.isKinematic = true;
+
 		}
 
 		if (FadeIn)
 		{
-			object1SR = objectToEnable1.GetComponent<SpriteRenderer>(); 
-			object2SR = objectToEnable2.GetComponent<SpriteRenderer>(); 
+			mySR = gameObject.GetComponent<SpriteRenderer>(); 
+
 		}
 
 		if (enableObject)
 		{
-			objectToEnable1.SetActive(false);
-			objectToEnable2.SetActive(false);
+			gameObject.SetActive(false);
+
 
 		}
 	}
 
-	void Update()
+	void FixedUpdate()
 	{
-		time += Time.deltaTime;
+		
+		time = time + Time.deltaTime;
+		Debug.Log(time);
+
 
 		if (enableObject)
 		{		
 			if(time >= timeToEnableGameObject)
 			{
-				objectToEnable1.SetActive(true);
-				objectToEnable2.SetActive(true);
+				Debug.Log("shdwork");
+				gameObject.SetActive(true);
 			}
 		}
 
@@ -57,17 +56,15 @@ public class WaitToLoad : MonoBehaviour
 		{
 			if(time >= timeToFadeIn)
 			{
-				object1SR.DOColor(object1FadeInColor, timeToFadeIn);
-				object2SR.DOColor(object2FadeInColor, timeToFadeIn);
+				mySR.DOColor(newColor, timeToFadeIn);
 			}
-
 		}
 		
 		if (enableRigidbody)
 		{
 			if (time >= timeToEnableRigidbody)
 			{
-				my_rb.isKinematic = false; 
+				myRB.isKinematic = false;
 			}
 			
 		}
