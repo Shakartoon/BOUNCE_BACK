@@ -7,8 +7,9 @@ public class WaitToLoad : MonoBehaviour
 {
 	public bool enableObject, enableRigidbody, FadeIn;
 	
-	public float timeToEnableGameObject, timeToEnableRigidbody, timeToFadeIn;
-	public Color newColor; 
+	public float timeToEnableRigidbody, timeToFadeIn;
+	public Color newColor;
+	private float timeToEnableGameObject = 4; 
 	
 	private float time; 
 	private Rigidbody2D myRB;
@@ -36,10 +37,10 @@ public class WaitToLoad : MonoBehaviour
 		}
 	}
 
-	void FixedUpdate()
+	void Update()
 	{
 		
-		time = time + Time.deltaTime;
+		time += Time.deltaTime;
 		Debug.Log(time);
 
 

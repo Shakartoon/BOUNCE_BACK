@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class ImmigrationLevelManager : MonoBehaviour {
 
-    public GameObject player;
+    public GameObject player, flock1, sideBalls, hex, borderbugs;
 	private Rigidbody2D playerRigidBody;
-
+	
 	public float timer = 1;
 	private float time;
 
@@ -20,6 +20,16 @@ public class ImmigrationLevelManager : MonoBehaviour {
 	{
 		playerRigidBody = player.GetComponent<Rigidbody2D>(); 		
 		playerRigidBody.isKinematic = true;
+		
+		flock1.SetActive(false);
+		sideBalls.SetActive(false);
+		hex.SetActive(false);
+		borderbugs.SetActive(false);
+
+		//border.GetComponent<Rotate>().enabled = true;
+		//border.GetComponent<Rotate>().rotateBackAndForth = true;
+
+		//borderRotateScript.enabled = true;
 
 		//playerSpriteRenderer.color = new Color (1, 0, 0, 0); 
 	}
@@ -35,6 +45,14 @@ public class ImmigrationLevelManager : MonoBehaviour {
 			//time = 0; 
 			turnedOffKinematic = true;
 			playerRigidBody.isKinematic = false; 
+		}
+
+		if (time >= 5f)
+		{
+			flock1.SetActive(true);
+			sideBalls.SetActive(true);
+			hex.SetActive(true);
+			borderbugs.SetActive(true);			
 		}
 
 		

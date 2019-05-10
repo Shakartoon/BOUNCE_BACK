@@ -31,6 +31,7 @@ using System.Collections;
 				float lerp = 0.5F * (1.0F + Mathf.Sin(Mathf.PI * Time.realtimeSinceStartup * this.m_frequency));
 				transform.localRotation = Quaternion.Lerp(from, to, lerp);
 			}
+			
 		}
 	}
 
