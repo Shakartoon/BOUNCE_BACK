@@ -13,15 +13,15 @@ public class HubWorldLeveManager : MonoBehaviour {
 	public CameraPlayerFollow CameraFollowScript;
 	public Rotate cameraRotateScript; 
 	public GameObject TitleScreen1;
-	private SpriteRenderer Title1ScreenSpriteRenderer; 
 
 	//Temporary Timer to change scene 
-	float timer = 4;
+	public float timer = 4;
+	public float timeItTakesToMove, timeTitleMove;
+	public Vector3 moveToPosition; 
 	private float time;
 	
 	void Start ()
 	{
-		Title1ScreenSpriteRenderer = TitleScreen1.GetComponent<SpriteRenderer>(); 
 		CameraFollowScript.enabled = true; 
 		cameraRotateScript.enabled = true; 
 		TitleScreen1.SetActive(false);
@@ -33,19 +33,26 @@ public class HubWorldLeveManager : MonoBehaviour {
 		time += Time.deltaTime;
 		backgroundFlower.SetActive(true);
 
-		if (time > 2f)
+		if (time > timer - 3f)
 		{
 			CameraFollowScript.enabled = false;
 			cameraRotateScript.enabled = false; 
-			Camera.main.transform.position = new Vector3(58, 6.6f, -25.9f);
+			Camera.main.transform.DOMove(moveToPosition, timeItTakesToMove);
+			Camera.main.transform.DORotate(new Vector3(4, 0, 0), timeItTakesToMove, RotateMode.Fast); 
+		}
+
+		if (time > timer - 1f)
+		{
 			TitleScreen1.SetActive(true);
-			Title1ScreenSpriteRenderer.DOColor(new Color (0, 0, 0, 1), 2f); 
+			TitleScreen1.transform.DOMove(new Vector3(Camera.main.transform.position.x,Camera.main.transform.position.y, Camera.main.transform.position.z), timeTitleMove);
+			//Title1ScreenSpriteRenderer.DOColor(new Color (1, 1, 1, 1), 2f); 
 			//DontDestroyOnLoad(TitleScreen1);
 		}
 		
 		if (time > timer)
 		{
-			NewLevelManagement.lvlManagement.isConditionReached = true;
+			//NewLevelManagement.lvlManagement.isConditionReached = true;
+			NewLevelManagement.lvlManagement.LoadNextLevel(); 
 			time = 0; 
 		}
 								
