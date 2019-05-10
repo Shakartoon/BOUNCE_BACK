@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3682ab6-c3bd-4361-8b70-3a026af15fe2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HexGeometricPattern1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HexGeometricPattern1.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_MyScenes/_FINAL SCENES/RugFringe.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_MyScenes/_FINAL SCENES/RugFringe.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,19 +30,19 @@
     <session id="1163221535">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="109454" />
+          <entry key="cs" value="109477" />
           <entry key="shader" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="109454" />
+          <entry key="C#" value="109477" />
           <entry key="ShaderLab" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="195" />
+          <entry key="project.closed" value="196" />
           <entry key="project.open.time.10" value="29" />
           <entry key="project.open.time.11" value="44" />
           <entry key="project.open.time.12" value="31" />
@@ -178,14 +180,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/RugFringeLevelManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+            <state relative-caret-position="105">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
-                <marker date="1557512558000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1557512558000" expanded="true" signature="130:484" ph="{...}" />
-                <marker date="1557512558000" expanded="true" signature="233:303" ph="{...}" />
-                <marker date="1557512558000" expanded="true" signature="357:482" ph="{...}" />
-                <marker date="1557512558000" expanded="true" signature="408:478" ph="{...}" />
+                <marker date="1557512652000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1557512652000" expanded="true" signature="130:633" ph="{...}" />
+                <marker date="1557512652000" expanded="true" signature="246:376" ph="{...}" />
+                <marker date="1557512652000" expanded="true" signature="430:631" ph="{...}" />
+                <marker date="1557512652000" expanded="true" signature="495:627" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -652,12 +654,12 @@
       <workItem from="1557432513216" duration="4564000" />
       <workItem from="1557463248238" duration="1663000" />
       <workItem from="1557502079289" duration="1378000" />
-      <workItem from="1557508533132" duration="2571000" />
+      <workItem from="1557508533132" duration="3670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="564553000" />
+    <option name="totallyTimeSpent" value="565652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -670,7 +672,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48015365" weight="0.43061516" />
       <window_info id="Structure" order="1" sideWeight="0.5198464" side_tool="true" weight="0.41917023" />
@@ -1162,14 +1163,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/RugFringeLevelManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+        <state relative-caret-position="105">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
-            <marker date="1557512558000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1557512558000" expanded="true" signature="130:484" ph="{...}" />
-            <marker date="1557512558000" expanded="true" signature="233:303" ph="{...}" />
-            <marker date="1557512558000" expanded="true" signature="357:482" ph="{...}" />
-            <marker date="1557512558000" expanded="true" signature="408:478" ph="{...}" />
+            <marker date="1557512652000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1557512652000" expanded="true" signature="130:633" ph="{...}" />
+            <marker date="1557512652000" expanded="true" signature="246:376" ph="{...}" />
+            <marker date="1557512652000" expanded="true" signature="430:631" ph="{...}" />
+            <marker date="1557512652000" expanded="true" signature="495:627" ph="{...}" />
           </folding>
         </state>
       </provider>
