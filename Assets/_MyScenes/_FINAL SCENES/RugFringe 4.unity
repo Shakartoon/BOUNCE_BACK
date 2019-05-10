@@ -51383,6 +51383,9 @@ MonoBehaviour:
   zValMin: 0
   zValMax: 0
   timer: 0.12
+  object2Follow: {fileID: 0}
+  automatic: 0
+  followObject: 0
 --- !u!4 &1792537954
 Transform:
   m_ObjectHideFlags: 0
