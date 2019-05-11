@@ -18865,7 +18865,7 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 439293321}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5a4aabeecf708427bab83a4c646eee5d, type: 3}
@@ -18960,7 +18960,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 439293321}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 
@@ -49968,7 +49968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631569a4faf914b809b2e1543022ecf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  magnitude: 45
+  magnitude: 100
   myDrag: 3
   PapirosCollisionCount: 0
   levelChangeCollisionHappened: 0
@@ -63880,7 +63880,7 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1525683193}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5a4aabeecf708427bab83a4c646eee5d, type: 3}
@@ -63975,7 +63975,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1525683193}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a2874efddfbc2410994e80262baa3d36, type: 3}
   m_Name: 

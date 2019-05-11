@@ -10,6 +10,9 @@ public class ONLYClickAndDrag : MonoBehaviour
 	public bool _OnMouseDrag;
 	public bool _OnMouseUp; 
 	private Vector3 offset;
+
+	public bool thisCollisionHappened; 
+	public bool thishappened; 
 	
 	void OnMouseDown()
 	{
@@ -29,5 +32,24 @@ public class ONLYClickAndDrag : MonoBehaviour
 	void OnMouseUp()
 	{
 		_OnMouseUp = true; 
+	}
+
+	void Update()
+	{
+		if(thishappened)
+		{
+			thisCollisionHappened = true;
+		}
+		
+	}
+
+	void OnCollisionEnter2D(Collision2D col)
+	{
+		if (col.gameObject.CompareTag("LevelChanger"))
+		{
+			thishappened = true; 
+		
+		}
+		
 	}
 }

@@ -5,36 +5,35 @@ using UnityEngine;
 public class RugFringeLevelManager : MonoBehaviour
 {
 
-	public GameObject tileObj1, tileObj2;
-	public GameObject line1, line2, line3, line4, line5; 
-	public float TimeToMoveTitleObjs, timeToChangeLevel;
+	public GameObject levelChanger; 
+	public BallMovementScript ballMovement; 
+	public float timeToChangeLevel, timeToLoadLevelObj;
 	private float time; 
 	
 	void Start ()
 	{
-		tileObj1.GetComponent<moveAcrossScreen>().enabled = false; 
-		tileObj2.GetComponent<moveAcrossScreen>().enabled = false; 
+		levelChanger.SetActive(false);
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-
 		time += Time.deltaTime;
-		if (time >= TimeToMoveTitleObjs)
-		{
-			tileObj1.GetComponent<moveAcrossScreen>().enabled = true; 
-			tileObj2.GetComponent<moveAcrossScreen>().enabled = true; 
-		}
 
-		//if (time >= 5)
-		
-		if(line1.GetComponentInChildren<SpriteRenderer>().color == Color.black &&line2.GetComponentInChildren<SpriteRenderer>().color == Color.black && line3.GetComponentInChildren<SpriteRenderer>().color == Color.black
-		   && line4.GetComponentInChildren<SpriteRenderer>().color == Color.black && line5.GetComponentInChildren<SpriteRenderer>().color == Color.black)
+		if (time >= timeToLoadLevelObj)
 		{
-			Debug.Log("YOU DID IT!!");
+			
+			levelChanger.SetActive(true);
+
+		}
+		 	
+		if (time >= timeToChangeLevel || ballMovement.levelChangeCollisionHappened)
+		{
 			NewLevelManagement.lvlManagement.LoadNextLevel();
 		}
+		//if(line1.GetComponentInChildren<SpriteRenderer>().color == Color.black &&line2.GetComponentInChildren<SpriteRenderer>().color == Color.black && line3.GetComponentInChildren<SpriteRenderer>().color == Color.black
+		//&& line4.GetComponentInChildren<SpriteRenderer>().color == Color.black && line5.GetComponentInChildren<SpriteRenderer>().color == Color.black)
+
 
 	}
 }
