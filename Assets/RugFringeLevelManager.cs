@@ -6,7 +6,7 @@ public class RugFringeLevelManager : MonoBehaviour
 {
 
 	public GameObject tileObj1, tileObj2;
-	public float TimeToMoveTitleObjs;
+	public float TimeToMoveTitleObjs, timeToChangeLevel;
 	private float time; 
 	
 	void Start ()
@@ -24,6 +24,11 @@ public class RugFringeLevelManager : MonoBehaviour
 		{
 			tileObj1.GetComponent<moveAcrossScreen>().enabled = true; 
 			tileObj2.GetComponent<moveAcrossScreen>().enabled = true; 
+		}
+
+		if (time >= 5)
+		{
+			NewLevelManagement.lvlManagement.LoadNextLevel();
 		}
 
 	}

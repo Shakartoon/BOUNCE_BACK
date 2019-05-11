@@ -34,7 +34,8 @@ public class EscapeLevelManager : MonoBehaviour
 		if (secondDiamond.GetComponentInChildren<SpriteRenderer>().color == Color.black)
 		{	
 		  
-			NewLevelManagement.lvlManagement.isConditionReached = true;
+			//NewLevelManagement.lvlManagement.isConditionReached = true;
+			NewLevelManagement.lvlManagement.LoadNextLevel();
 
 		
 			//This is super BUGGY 

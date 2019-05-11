@@ -26991,6 +26991,9 @@ MonoBehaviour:
   zValMin: 0
   zValMax: 0
   timer: 0.12
+  object2Follow: {fileID: 0}
+  automatic: 1
+  followObject: 0
 --- !u!1 &665813264
 GameObject:
   m_ObjectHideFlags: 0

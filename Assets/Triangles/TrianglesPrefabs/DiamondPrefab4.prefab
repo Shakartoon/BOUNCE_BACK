@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 82694404721975348}
   - component: {fileID: 114200388774963512}
   - component: {fileID: 114906799192740574}
+  - component: {fileID: 114610452666554498}
   m_Layer: 0
   m_Name: DiamondPrefab4
   m_TagString: Untagged
@@ -202,13 +203,26 @@ MonoBehaviour:
   changePitch: 1
   audioClips: []
   AudioID: 0
---- !u!114 &114906799192740574
+--- !u!114 &114610452666554498
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1778070417735598}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abdf1d387e94148019f12e1cdd30557a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContinuousPulse: 1
+  timeToScale: 1
+--- !u!114 &114906799192740574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778070417735598}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e32059d35ea114aecb13d515d9d2fce7, type: 3}
   m_Name: 
