@@ -5,11 +5,13 @@ using UnityEngine;
 public class OnTriggerPlaySound : MonoBehaviour
 {
 	private AudioSource AS;
-	public bool DestroyOnCollision; 
+	public bool DestroyOnCollision, RandomizeClips; 
 	[SerializeField] bool changePitch;
 	public float TimeToDestroy = 2f;
 	private SpriteRenderer SR; 
-
+	
+	[SerializeField] AudioClip[] audioClips;
+	private AudioClip myClip; 
 	
 	void Start ()
 	{
@@ -36,6 +38,14 @@ public class OnTriggerPlaySound : MonoBehaviour
 		{
 			AS.pitch = Random.Range(0.5f, 1f);
 				
+		}
+		
+		if (RandomizeClips)
+		{
+			int index = Random.Range(0, audioClips.Length);
+			myClip = audioClips[index];
+			AS.clip = myClip; 
+			AS.Play();			
 		}
 	}
 }

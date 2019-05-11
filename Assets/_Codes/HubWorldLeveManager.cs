@@ -13,7 +13,7 @@ public class HubWorldLeveManager : MonoBehaviour {
 
 	public CameraPlayerFollow CameraFollowScript;
 	public Rotate cameraRotateScript; 
-	public GameObject GameObjectLevelChanger, TitleScreen1;
+	public GameObject TitleScreen1;
 
 	//Temporary Timer to change scene 
 	public float timer = 4;
