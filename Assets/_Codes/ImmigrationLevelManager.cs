@@ -5,16 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class ImmigrationLevelManager : MonoBehaviour {
 
-    public GameObject player, flock1, sideBalls, hex, borderbugs;
+    public GameObject player, flock1, sideBalls, hex, borderbugs, levelChanger;
 	private Rigidbody2D playerRigidBody;
 	
 	public float timer = 1;
+	public float TimeToShowTheLevelChanger; 
 	private float time;
-
+	public float TimeToChangeLevel; 
 	public bool PlayerIsOnTheRight;
 
 	public bool immigration1; 
 	public bool immigration2;
+
+	public BallMovementScript ballScript; 
 	
 	void Start ()
 	{
@@ -25,6 +28,7 @@ public class ImmigrationLevelManager : MonoBehaviour {
 		sideBalls.SetActive(false);
 		hex.SetActive(false);
 		borderbugs.SetActive(false);
+		levelChanger.SetActive(false);
 
 		//border.GetComponent<Rotate>().enabled = true;
 		//border.GetComponent<Rotate>().rotateBackAndForth = true;
@@ -55,10 +59,13 @@ public class ImmigrationLevelManager : MonoBehaviour {
 			borderbugs.SetActive(true);			
 		}
 
-		
-		if (time >= 10)
+		if (time >= TimeToShowTheLevelChanger)
 		{
-			time = 0; 
+			levelChanger.SetActive(true);
+		}
+		
+		if (time >= TimeToChangeLevel || ballScript.levelChangeCollisionHappened)
+		{
 			NewLevelManagement.lvlManagement.LoadNextLevel();
 		}
 
