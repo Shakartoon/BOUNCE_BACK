@@ -8,7 +8,8 @@ public class OnCollisionColorChange : MonoBehaviour
 	public float decrementValue = 0.1f;
 	float colorValue = 1;
 
-	private SpriteRenderer SR;  
+	private SpriteRenderer SR;
+	public bool destroy; 
 
 	
 	void Start ()
@@ -30,6 +31,20 @@ public class OnCollisionColorChange : MonoBehaviour
 
 		}
 
+	}
+
+	void Update()
+	{
+		if (destroy)
+		{
+			if (SR.color == Color.black)
+			{
+				Debug.Log("BLACK");
+				Destroy(gameObject, 1);
+			}
+			
+		}
+		
 	}
 
 }

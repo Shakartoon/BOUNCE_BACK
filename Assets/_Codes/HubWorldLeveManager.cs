@@ -51,7 +51,6 @@ public class HubWorldLeveManager : MonoBehaviour {
 		
 		if (time > timer)
 		{
-			//NewLevelManagement.lvlManagement.isConditionReached = true;
 			NewLevelManagement.lvlManagement.LoadNextLevel(); 
 			time = 0; 
 		}

@@ -59,7 +59,6 @@ public class ImmigrationLevelManager : MonoBehaviour {
 		if (time >= 10)
 		{
 			time = 0; 
-			//NewLevelManagement.lvlManagement.isConditionReached = true; 
 			NewLevelManagement.lvlManagement.LoadNextLevel();
 		}
 

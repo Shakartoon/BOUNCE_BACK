@@ -64,7 +64,6 @@ public class TriangleSceneManager : MonoBehaviour
 		
 		if (time >= timeToLoadNextScene)
 		{
-			//NewLevelManagement.lvlManagement.isConditionReached = true; 
 			NewLevelManagement.lvlManagement.LoadNextLevel();
 
 		}
