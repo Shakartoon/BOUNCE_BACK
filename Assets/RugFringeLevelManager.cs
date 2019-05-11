@@ -6,6 +6,7 @@ public class RugFringeLevelManager : MonoBehaviour
 {
 
 	public GameObject tileObj1, tileObj2;
+	public GameObject line1, line2, line3, line4, line5; 
 	public float TimeToMoveTitleObjs, timeToChangeLevel;
 	private float time; 
 	
@@ -26,8 +27,12 @@ public class RugFringeLevelManager : MonoBehaviour
 			tileObj2.GetComponent<moveAcrossScreen>().enabled = true; 
 		}
 
-		if (time >= 5)
+		//if (time >= 5)
+		
+		if(line1.GetComponentInChildren<SpriteRenderer>().color == Color.black &&line2.GetComponentInChildren<SpriteRenderer>().color == Color.black && line3.GetComponentInChildren<SpriteRenderer>().color == Color.black
+		   && line4.GetComponentInChildren<SpriteRenderer>().color == Color.black && line5.GetComponentInChildren<SpriteRenderer>().color == Color.black)
 		{
+			Debug.Log("YOU DID IT!!");
 			NewLevelManagement.lvlManagement.LoadNextLevel();
 		}
 
