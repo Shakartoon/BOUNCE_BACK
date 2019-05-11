@@ -25,7 +25,8 @@ public class BallMovementScript : MonoBehaviour
 	private Vector3 newMousePos;
 	private Vector2 direction;
 
-	private bool mouseIsOver; 
+	private bool mouseIsOver;
+	public bool levelChangeCollisionHappened; 
 
 	void Start()
 	{
@@ -96,10 +97,13 @@ public class BallMovementScript : MonoBehaviour
 		{
 			Debug.Log(PapirosCollisionCount);
 			PapirosCollisionCount++; 
-			
-			
 		}
-	
+
+		if (col.gameObject.CompareTag("LevelChanger"))
+		{
+			levelChangeCollisionHappened = true;
+		}
+
 	}
 
 	void OnCollisionExit2D()
