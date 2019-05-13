@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using DG.Tweening; 
 
 public class ImmigrationLevelManager : MonoBehaviour {
 
@@ -17,7 +18,9 @@ public class ImmigrationLevelManager : MonoBehaviour {
 	public bool immigration1; 
 	public bool immigration2;
 
-	public BallMovementScript ballScript; 
+	public BallMovementScript ballScript;
+	public OnCollisionPlaySound SMOscript;
+	public CameraPlayerFollow camScript; 
 	
 	void Start ()
 	{
@@ -67,6 +70,18 @@ public class ImmigrationLevelManager : MonoBehaviour {
 		if (time >= TimeToChangeLevel || ballScript.levelChangeCollisionHappened)
 		{
 			NewLevelManagement.lvlManagement.LoadNextLevel();
+		}
+
+		if (immigration2)
+		{
+			if (SMOscript.collidedWithBall || ballScript.immObjCollision) 
+			{
+				//Camera.main.transform.DOShakePosition(float duration, float/Vector3 strength, int vibrato, float randomness, bool fadeOut)
+
+				Camera.main.transform.DOShakePosition(Random.Range(1f, 3f), new Vector3(0, 0, Random.Range(1, 5)), 1, 3f, true);
+				camScript.smoothSpeed = camScript.smoothSpeed * -5; 
+			}
+			
 		}
 
 	}

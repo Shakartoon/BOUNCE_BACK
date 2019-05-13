@@ -26,7 +26,7 @@ public class BallMovementScript : MonoBehaviour
 	private Vector2 direction;
 
 	private bool mouseIsOver;
-	public bool levelChangeCollisionHappened; 
+	public bool levelChangeCollisionHappened, immObjCollision; 
 
 	void Start()
 	{
@@ -102,6 +102,11 @@ public class BallMovementScript : MonoBehaviour
 		if (col.gameObject.CompareTag("LevelChanger"))
 		{
 			levelChangeCollisionHappened = true;
+		}
+
+		if (col.gameObject.CompareTag("ImmObjects"))
+		{
+			immObjCollision = true; 
 		}
 
 	}

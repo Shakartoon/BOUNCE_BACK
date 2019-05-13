@@ -19,6 +19,8 @@ public class OnCollisionPlaySound : MonoBehaviour
 	private float maxScreenSize = 30f;
 	private float minScreenSize = 1f;
 
+	public bool collidedWithBall; 
+
 	public int AudioID;
 	
 	void Start ()
@@ -32,6 +34,7 @@ public class OnCollisionPlaySound : MonoBehaviour
 		
 		if (col.gameObject.CompareTag("Ball"))
 		{
+			
 			AS.Play();
 			
 			if (RandomizeClips)
