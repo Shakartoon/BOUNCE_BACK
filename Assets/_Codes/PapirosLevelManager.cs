@@ -11,7 +11,7 @@ public class PapirosLevelManager : MonoBehaviour {
 	private float time;
 	private int CameraMoves;
 
-	public float moveTime; 
+	public float moveTime, timeToEndGame; 
 	public Vector3 position1, position2, position3, position4, position5, position6;
 
 	public BallMovementScript moveScript;
@@ -19,6 +19,12 @@ public class PapirosLevelManager : MonoBehaviour {
 	void Start () {
 		
 	}
+	
+	IEnumerator WaitBeforeLoad()
+	{
+		yield return new WaitForSeconds(timeToEndGame); 
+		NewLevelManagement.lvlManagement.LoadNextLevel();
+	} 
 	
 	void Update () {
 
@@ -62,7 +68,7 @@ public class PapirosLevelManager : MonoBehaviour {
 			if (moveScript.PapirosCollisionCount == 5) 
 			{
 				Camera.main.transform.DOMove(position6, moveTime);
-				NewLevelManagement.lvlManagement.LoadNextLevel(); 
+				StartCoroutine(WaitBeforeLoad()); 
 			}
 		}
 	}

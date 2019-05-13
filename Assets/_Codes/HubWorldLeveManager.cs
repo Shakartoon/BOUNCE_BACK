@@ -17,7 +17,7 @@ public class HubWorldLeveManager : MonoBehaviour {
 
 	//Temporary Timer to change scene 
 	public float timer = 4;
-	public float timeItTakesToMove, timeTitleMove;
+	public float timeItTakesToMove, timeTitleMove, timeToEndGame;
 	public Vector3 moveToPosition; 
 	private float time;
 
@@ -32,6 +32,13 @@ public class HubWorldLeveManager : MonoBehaviour {
 		backgroundFlower.SetActive(false);
 	}
 
+	
+	IEnumerator WaitBeforeLoad()
+	{
+		yield return new WaitForSeconds(timeToEndGame); 
+		NewLevelManagement.lvlManagement.LoadNextLevel();
+	} 
+	
 	
 	void Update ()
 	{
@@ -63,7 +70,7 @@ public class HubWorldLeveManager : MonoBehaviour {
 			Camera.main.transform.DORotate(new Vector3(4, 0, 0), timeItTakesToMove, RotateMode.Fast); 
 			TitleScreen1.SetActive(true);
 			TitleScreen1.transform.DOMove(new Vector3(Camera.main.transform.position.x,Camera.main.transform.position.y, Camera.main.transform.position.z), timeTitleMove);
-			NewLevelManagement.lvlManagement.LoadNextLevel(); 
+			StartCoroutine(WaitBeforeLoad()); 
 		}
 								
 	}

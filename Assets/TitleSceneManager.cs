@@ -7,38 +7,39 @@ public class TitleSceneManager : MonoBehaviour
 
 	public GameObject diamond, textToLoad;
 	private float time;
-	private float timer = 5;
+	public float timeToEndGame; 
 
 	public bool ExitScene;
-	private bool sceneChanged; 
+	private bool sceneChanged;
+	public bool title2; 
 	
 	void Start () {
 		
 		textToLoad.SetActive(false);
 		
 	}
-	
-	// Update is called once per frame
+
+	IEnumerator WaitBeforeLoad()
+	{
+		yield return new WaitForSeconds(timeToEndGame); 
+		NewLevelManagement.lvlManagement.LoadNextLevel();
+	} 
+
 	void Update () {
 				
 		if(diamond.GetComponent<SpriteRenderer>().color == Color.black)
 		{
 			textToLoad.SetActive(true);
-			
-		//	time += Time.deltaTime; 
-		//	if (time >= timer)
-		//	{
-			NewLevelManagement.lvlManagement.LoadNextLevel();
-			sceneChanged = true; 
+			sceneChanged = true;
+			StartCoroutine(WaitBeforeLoad()); 
+						
+			if(title2)
+			{
+				StartCoroutine(WaitBeforeLoad()); 
+				Application.Quit();
+			}
 
-			//	}		
-		}
+		}		
 
-		if (ExitScene && sceneChanged)
-		{
-			
-			Application.Quit();
-
-		}
 	}
 }
