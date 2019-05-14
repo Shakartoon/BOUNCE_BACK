@@ -835,6 +835,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &24054956
 MonoBehaviour:
@@ -1077,6 +1078,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &30951637
 MonoBehaviour:
@@ -1706,6 +1708,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &46043125
 MonoBehaviour:
@@ -1984,6 +1987,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &51655577
 MonoBehaviour:
@@ -2216,6 +2220,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &55505772
 MonoBehaviour:
@@ -3442,6 +3447,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &81609928
 MonoBehaviour:
@@ -3831,6 +3837,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &87152243
 MonoBehaviour:
@@ -4063,6 +4070,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &94200896
 MonoBehaviour:
@@ -4635,6 +4643,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &118127202
 MonoBehaviour:
@@ -4966,6 +4975,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &126919516
 MonoBehaviour:
@@ -5318,6 +5328,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!82 &132777889
 AudioSource:
@@ -5702,6 +5713,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &133879413
 MonoBehaviour:
@@ -6233,6 +6245,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &143630787
 MonoBehaviour:
@@ -7069,6 +7082,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &159838384
 MonoBehaviour:
@@ -7311,6 +7325,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &160251329
 MonoBehaviour:
@@ -7581,6 +7596,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &163523457
 MonoBehaviour:
@@ -8203,6 +8219,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &187984993
 MonoBehaviour:
@@ -8640,6 +8657,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &201281665
 MonoBehaviour:
@@ -8975,6 +8993,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &218249886
 MonoBehaviour:
@@ -11089,6 +11108,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &305282945
 MonoBehaviour:
@@ -11331,6 +11351,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &309103322
 MonoBehaviour:
@@ -11660,6 +11681,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &314483713
 MonoBehaviour:
@@ -11890,6 +11912,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &319893433
 MonoBehaviour:
@@ -12305,6 +12328,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!82 &323491602
 AudioSource:
@@ -12717,6 +12741,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &340338116
 MonoBehaviour:
@@ -15032,6 +15057,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &439591043
 MonoBehaviour:
@@ -15358,6 +15384,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &458404501
 MonoBehaviour:
@@ -15601,6 +15628,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &458907278
 MonoBehaviour:
@@ -16249,6 +16277,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &475356292
 MonoBehaviour:
@@ -16492,6 +16521,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &481099462
 MonoBehaviour:
@@ -16724,6 +16754,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &489110812
 MonoBehaviour:
@@ -17441,7 +17472,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 493407513}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d62dcafd6c9541459ace6e5e58a32fa, type: 3}
   m_Name: 
@@ -17790,6 +17821,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &505701447
 MonoBehaviour:
@@ -18849,6 +18881,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &537369034
 MonoBehaviour:
@@ -19335,6 +19368,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &545356364
 MonoBehaviour:
@@ -19565,6 +19599,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &547531531
 MonoBehaviour:
@@ -19789,6 +19824,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!61 &558682843
 BoxCollider2D:
@@ -19993,6 +20029,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!82 &561979796
 AudioSource:
@@ -21000,6 +21037,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &590967300
 MonoBehaviour:
@@ -21241,6 +21279,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &595559935
 MonoBehaviour:
@@ -21624,6 +21663,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &611962649
 MonoBehaviour:
@@ -21762,6 +21802,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!61 &612313314
 BoxCollider2D:
@@ -22181,6 +22222,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!61 &625042611
 BoxCollider2D:
@@ -22594,6 +22636,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &627554831
 MonoBehaviour:
@@ -22825,6 +22868,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &630592341
 MonoBehaviour:
@@ -23427,6 +23471,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &644280226
 MonoBehaviour:
@@ -23982,6 +24027,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &651745389
 MonoBehaviour:
@@ -24297,6 +24343,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &665959637
 MonoBehaviour:
@@ -24613,6 +24660,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &674248893
 MonoBehaviour:
@@ -25096,6 +25144,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &695242101
 MonoBehaviour:
@@ -25334,6 +25383,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!61 &707844700
 BoxCollider2D:
@@ -26170,6 +26220,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &717887477
 MonoBehaviour:
@@ -26714,6 +26765,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &732660393
 MonoBehaviour:
@@ -27236,6 +27288,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!61 &753844243
 BoxCollider2D:
@@ -27801,6 +27854,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &759106229
 MonoBehaviour:
@@ -28305,6 +28359,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &762970166
 MonoBehaviour:
@@ -29048,6 +29103,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &788254195
 MonoBehaviour:
@@ -29180,6 +29236,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!82 &788523912
 AudioSource:
@@ -29597,6 +29654,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &790370491
 MonoBehaviour:
@@ -29988,6 +30046,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!61 &803583553
 BoxCollider2D:
@@ -30158,6 +30217,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!82 &803901079
 AudioSource:
@@ -30653,6 +30713,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &809733950
 MonoBehaviour:
@@ -31002,6 +31063,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &817903174
 MonoBehaviour:
@@ -31933,6 +31995,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &860433685
 MonoBehaviour:
@@ -32502,6 +32565,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &876172112
 MonoBehaviour:
@@ -33017,6 +33081,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &891870070
 MonoBehaviour:
@@ -33602,6 +33667,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &901045548
 MonoBehaviour:
@@ -33962,6 +34028,7 @@ MonoBehaviour:
   myDrag: 20
   PapirosCollisionCount: 0
   levelChangeCollisionHappened: 0
+  immObjCollision: 0
 --- !u!58 &918880964
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -35067,6 +35134,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &948210256
 MonoBehaviour:
@@ -35814,6 +35882,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &959468606
 MonoBehaviour:
@@ -36045,6 +36114,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &961951739
 MonoBehaviour:
@@ -36314,6 +36384,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &972602157
 MonoBehaviour:
@@ -36546,6 +36617,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &975554493
 MonoBehaviour:
@@ -36777,6 +36849,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &977768268
 MonoBehaviour:
@@ -37008,6 +37081,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &978268569
 MonoBehaviour:
@@ -37251,6 +37325,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &981670018
 MonoBehaviour:
@@ -38198,6 +38273,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1014039091
 MonoBehaviour:
@@ -38682,6 +38758,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1026844661
 MonoBehaviour:
@@ -39057,6 +39134,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1035871805
 MonoBehaviour:
@@ -39316,6 +39394,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1042007048
 MonoBehaviour:
@@ -39547,6 +39626,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1043740000
 MonoBehaviour:
@@ -39817,6 +39897,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1046423258
 MonoBehaviour:
@@ -40205,6 +40286,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1063662572
 MonoBehaviour:
@@ -40653,6 +40735,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1079261640
 MonoBehaviour:
@@ -41967,6 +42050,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1118503114
 MonoBehaviour:
@@ -42607,6 +42691,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1127576341
 MonoBehaviour:
@@ -42894,6 +42979,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1138894611
 MonoBehaviour:
@@ -43137,6 +43223,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1140757823
 MonoBehaviour:
@@ -43424,6 +43511,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1155508075
 MonoBehaviour:
@@ -43899,6 +43987,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1169651273
 MonoBehaviour:
@@ -44131,6 +44220,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1178525848
 MonoBehaviour:
@@ -44566,6 +44656,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1191242412
 MonoBehaviour:
@@ -45394,6 +45485,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1200741112
 MonoBehaviour:
@@ -45636,6 +45728,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1206392222
 MonoBehaviour:
@@ -45963,6 +46056,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1208080393
 MonoBehaviour:
@@ -46193,6 +46287,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1208576817
 MonoBehaviour:
@@ -46423,6 +46518,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1212467288
 MonoBehaviour:
@@ -46653,6 +46749,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1213713916
 MonoBehaviour:
@@ -47168,6 +47265,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1221467969
 MonoBehaviour:
@@ -47899,6 +47997,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!82 &1260617180
 AudioSource:
@@ -48497,6 +48596,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1268232776
 MonoBehaviour:
@@ -48827,6 +48927,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1274049553
 MonoBehaviour:
@@ -49514,6 +49615,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1303811277
 MonoBehaviour:
@@ -49841,6 +49943,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1304965256
 MonoBehaviour:
@@ -50157,6 +50260,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1317148589
 MonoBehaviour:
@@ -50967,6 +51071,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1346413836
 MonoBehaviour:
@@ -51108,6 +51213,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!82 &1360785434
 AudioSource:
@@ -51665,6 +51771,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1367834287
 MonoBehaviour:
@@ -52035,6 +52142,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1371553557
 MonoBehaviour:
@@ -52266,6 +52374,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1373680499
 MonoBehaviour:
@@ -52674,6 +52783,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1380442999
 MonoBehaviour:
@@ -52991,6 +53101,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1385460588
 MonoBehaviour:
@@ -53548,6 +53659,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1395716011
 MonoBehaviour:
@@ -54105,6 +54217,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1420819216
 MonoBehaviour:
@@ -55904,6 +56017,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1465202308
 MonoBehaviour:
@@ -56134,6 +56248,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1471082888
 MonoBehaviour:
@@ -56365,6 +56480,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1476391234
 MonoBehaviour:
@@ -57080,6 +57196,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!82 &1497453512
 AudioSource:
@@ -57491,6 +57608,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1497609001
 MonoBehaviour:
@@ -57723,6 +57841,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1499598478
 MonoBehaviour:
@@ -57863,6 +57982,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!61 &1503460219
 BoxCollider2D:
@@ -58499,6 +58619,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1522299791
 MonoBehaviour:
@@ -59123,6 +59244,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1532651161
 MonoBehaviour:
@@ -59650,6 +59772,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!82 &1561096137
 AudioSource:
@@ -60390,6 +60513,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1567332970
 MonoBehaviour:
@@ -61023,6 +61147,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1579837958
 MonoBehaviour:
@@ -61321,6 +61446,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1591804935
 MonoBehaviour:
@@ -61935,6 +62061,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1603236438
 MonoBehaviour:
@@ -62195,6 +62322,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1612170510
 MonoBehaviour:
@@ -62426,6 +62554,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1612966693
 MonoBehaviour:
@@ -62768,6 +62897,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1624737815
 MonoBehaviour:
@@ -63408,6 +63538,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1629234632
 MonoBehaviour:
@@ -63723,6 +63854,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1641915450
 MonoBehaviour:
@@ -64294,6 +64426,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1663458029
 MonoBehaviour:
@@ -64821,6 +64954,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1676419746
 MonoBehaviour:
@@ -65062,6 +65196,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1682773586
 MonoBehaviour:
@@ -65421,6 +65556,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1688143715
 MonoBehaviour:
@@ -66115,6 +66251,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1703404449
 MonoBehaviour:
@@ -66347,6 +66484,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1706502709
 MonoBehaviour:
@@ -67244,6 +67382,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1728023627
 MonoBehaviour:
@@ -67932,6 +68071,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1750966711
 MonoBehaviour:
@@ -68374,6 +68514,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1765688736
 MonoBehaviour:
@@ -69843,6 +69984,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1796212338
 MonoBehaviour:
@@ -70075,6 +70217,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1804421517
 MonoBehaviour:
@@ -70305,6 +70448,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1804427916
 MonoBehaviour:
@@ -70874,6 +71018,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1818345150
 MonoBehaviour:
@@ -71321,6 +71466,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1823161842
 MonoBehaviour:
@@ -71552,6 +71698,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1825134102
 MonoBehaviour:
@@ -71795,6 +71942,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1827062826
 MonoBehaviour:
@@ -72055,6 +72203,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1839236199
 MonoBehaviour:
@@ -72285,6 +72434,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1843477759
 MonoBehaviour:
@@ -72515,6 +72665,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1844612452
 MonoBehaviour:
@@ -73352,6 +73503,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1875681147
 MonoBehaviour:
@@ -73584,6 +73736,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1879359630
 MonoBehaviour:
@@ -74039,6 +74192,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!61 &1896130713
 BoxCollider2D:
@@ -74269,6 +74423,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!61 &1903426751
 BoxCollider2D:
@@ -75005,6 +75160,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1932184657
 MonoBehaviour:
@@ -75452,6 +75608,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1940788376
 MonoBehaviour:
@@ -75694,6 +75851,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1942124895
 MonoBehaviour:
@@ -76391,6 +76549,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1964336687
 MonoBehaviour:
@@ -76923,6 +77082,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1985788542
 MonoBehaviour:
@@ -77155,6 +77315,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1991555536
 MonoBehaviour:
@@ -77503,6 +77664,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &1999249745
 MonoBehaviour:
@@ -77847,6 +78009,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &2001107163
 MonoBehaviour:
@@ -78079,6 +78242,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &2001800850
 MonoBehaviour:
@@ -78356,6 +78520,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &2004075350
 MonoBehaviour:
@@ -79683,6 +79848,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &2086072961
 MonoBehaviour:
@@ -79913,6 +80079,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &2090433570
 MonoBehaviour:
@@ -80443,6 +80610,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &2099821270
 MonoBehaviour:
@@ -80759,6 +80927,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &2101660580
 MonoBehaviour:
@@ -81161,6 +81330,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 1
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &2133197449
 MonoBehaviour:
@@ -81404,6 +81574,7 @@ MonoBehaviour:
   volumeForce: 0
   changePitch: 0
   audioClips: []
+  collidedWithBall: 0
   AudioID: 0
 --- !u!114 &2134347793
 MonoBehaviour:
