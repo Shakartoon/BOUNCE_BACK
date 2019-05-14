@@ -20,7 +20,9 @@ public class ImmigrationLevelManager : MonoBehaviour {
 
 	public BallMovementScript ballScript;
 	public OnCollisionPlaySound SMOscript;
-	public CameraPlayerFollow camScript; 
+	public CameraPlayerFollow camScript;
+
+	public Camera myCamera; 
 	
 	void Start ()
 	{
@@ -74,12 +76,16 @@ public class ImmigrationLevelManager : MonoBehaviour {
 
 		if (immigration2)
 		{
-			if (SMOscript.collidedWithBall || ballScript.immObjCollision) 
+			if (SMOscript.collidedWithBall || ballScript.immObjCollision)
 			{
+				//DOTween.Shake(camScript.zOffset); 
+				//camScript.zOffset.transform.DOTween.Shake(2, 4, 4, 3f);
+				
 				//Camera.main.transform.DOShakePosition(float duration, float/Vector3 strength, int vibrato, float randomness, bool fadeOut)
 
-				Camera.main.transform.DOShakePosition(Random.Range(1f, 3f), new Vector3(0, 0, Random.Range(1, 5)), 1, 3f, true);
-				camScript.smoothSpeed = camScript.smoothSpeed * -5; 
+				//myCamera.transform.DOShakePosition(2, 4, 4, 3f);
+				//camScript.smoothSpeed = camScript.smoothSpeed =-5; 
+				//camScript.target.position 
 			}
 			
 		}
