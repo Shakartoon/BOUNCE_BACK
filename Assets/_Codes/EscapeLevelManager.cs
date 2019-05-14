@@ -35,7 +35,7 @@ public class EscapeLevelManager : MonoBehaviour
 		{	
 		  
 			//NewLevelManagement.lvlManagement.isConditionReached = true;
-			NewLevelManagement.lvlManagement.LoadNextLevel();
+			//NewLevelManagement.lvlManagement.LoadNextLevel();
 
 		
 			//This is super BUGGY 

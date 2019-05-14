@@ -149,6 +149,7 @@ MonoBehaviour:
   myDrag: 3
   PapirosCollisionCount: 0
   levelChangeCollisionHappened: 0
+  immObjCollision: 0
 --- !u!96 &32715965
 TrailRenderer:
   serializedVersion: 2
@@ -696,6 +697,16 @@ Prefab:
       propertyPath: decrementValue
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 114316128409814506, guid: 21cfc7132b7de4604bc8b235283159fa,
+        type: 2}
+      propertyPath: destroy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114208712359397168, guid: 21cfc7132b7de4604bc8b235283159fa,
+        type: 2}
+      propertyPath: minTimeBetweenSounds
+      value: 0.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21cfc7132b7de4604bc8b235283159fa, type: 2}
   m_IsPrefabAsset: 0
@@ -704,6 +715,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1000221103244512, guid: 21cfc7132b7de4604bc8b235283159fa,
     type: 2}
   m_PrefabInternal: {fileID: 637647884}
+--- !u!114 &637647893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 637647885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf308af4480e4624b3e7f908d9a9d38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &642163672
 GameObject:
   m_ObjectHideFlags: 0

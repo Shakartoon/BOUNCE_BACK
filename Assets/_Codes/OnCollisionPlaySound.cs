@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 
 public class OnCollisionPlaySound : MonoBehaviour
 {
@@ -22,7 +23,8 @@ public class OnCollisionPlaySound : MonoBehaviour
 	public bool collidedWithBall; 
 
 	public int AudioID;
-	
+	public float minTimeBetweenSounds;
+	private float lastSoundTime;
 	void Start ()
 	{
 
@@ -34,7 +36,9 @@ public class OnCollisionPlaySound : MonoBehaviour
 		
 		if (col.gameObject.CompareTag("Ball"))
 		{
-			
+			if (Time.timeSinceLevelLoad - lastSoundTime < minTimeBetweenSounds)
+				return;
+			lastSoundTime = Time.timeSinceLevelLoad;
 			AS.Play();
 			
 			if (RandomizeClips)

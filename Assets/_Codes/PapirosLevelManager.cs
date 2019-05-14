@@ -15,9 +15,15 @@ public class PapirosLevelManager : MonoBehaviour {
 	public Vector3 position1, position2, position3, position4, position5, position6;
 
 	public BallMovementScript moveScript;
+
+	public GameObject reactionAnimation; 
+	public OnCollisionColorAndDestroy ballCollisionScript; 
 	
-	void Start () {
+	void Start ()
+	{
+		reactionAnimation.GetComponent<Animation>(); 
 		
+
 	}
 	
 	IEnumerator WaitBeforeLoad()
@@ -28,6 +34,13 @@ public class PapirosLevelManager : MonoBehaviour {
 	
 	void Update () {
 
+
+		//if (ballCollisionScript.collidedWithBall)
+		//{
+			//reactionAnimation.GetComponent<Animator>.animation.play("");
+
+		//}
+		
 		//move camera in a sequence 
 
 		if (Camera.main.transform.position == position1)

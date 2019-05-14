@@ -8,7 +8,8 @@ public class PlayerAudio : MonoBehaviour
 {
 	private AudioSource myAS;
 	private AudioMixer myMixer;
-	private bool collision; 
+	private bool collision;
+	private float targetVolume;
 	void Start ()
 	{
 
@@ -16,33 +17,25 @@ public class PlayerAudio : MonoBehaviour
 		myMixer = GetComponent<AudioMixer>(); 
 	}
 	
-	void Update () {
-
-		if (collision)
-		{
-			StartCoroutine(AudioLength()); 
-
-		}	
-		
-	}
-
-	IEnumerator AudioLength()
+	void Update ()
 	{
-		myMixer.DOSetFloat("myVolume", 0, 0.1f); 
-		yield return new WaitForSeconds(2);
-		myMixer.DOSetFloat("myVolume", 3, 0.1f); 
-		yield return new WaitForSeconds(0);
 
-		
+		myAS.volume = Mathf.MoveTowards(myAS.volume, targetVolume, Time.deltaTime * 3f);
+
+
+		targetVolume = Mathf.MoveTowards(targetVolume, 0, .2f * Time.deltaTime);
 	}
+
+
 	
-	void OnCollisionEnter2D (Collision2D col) {
+	void OnCollisionStay2D (Collision2D col) {
 	
 	    if (col.gameObject.CompareTag("Ball"))
 	    {
-		    collision = true; 
+		    targetVolume = 1;
 
 	    }
+		
 		
 	}
 }

@@ -3,22 +3,33 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening; 
 
-public class OnCollisionShake : MonoBehaviour {
+public class OnCollisionShake : MonoBehaviour
+{
 
-	// Use this for initialization
+	public float duration;
+	public float strength;
+	public int vibrato;
+	public float randomness;
+	private bool collided; 
 	void Start () {
 		
 	}
+
+	void Update()
+	{
+		if (collided)
+		{
+			transform.DOShakePosition(3, 2, 1, 1f);
+			Camera.main.transform.DOShakePosition(duration, strength, vibrato, randomness);
+		}
+
+	}
 	
-	// Update is called once per frame
 	void OnCollisionEnter2D (Collision2D col) {
 		
 		if (col.gameObject.CompareTag("Ball"))
 		{
-			//DOShakePosition(float duration, float / Vector3 strength, int vibrato,  float randomness,  bool fadeOut)
-			transform.DOShakePosition(3, 2, 1, 1f);
-			Camera.main.transform.DOShakePosition(3f, 3, 3, 1f);
-
+			collided = true; 
 		}
 
 	}

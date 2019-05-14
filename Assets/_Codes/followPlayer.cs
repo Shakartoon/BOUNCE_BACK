@@ -22,7 +22,7 @@ public class followPlayer : MonoBehaviour
 	{
 		//transform.LookAt(Player.transform);
 		//thing = transform.position + offset; 
-		offset = new Vector3(Random.Range(4, 10f), Random.Range(4, 10f), 0);
+		//offset = new Vector3(Random.Range(4, 10f), Random.Range(4, 10f), 0);
 		moveDirection = Vector3.Normalize(Player.transform.position - transform.position + offset); 
 		transform.position += moveDirection * movementSpeed * Time.deltaTime;
 

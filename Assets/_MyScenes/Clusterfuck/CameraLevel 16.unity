@@ -226,7 +226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272a11aed5812478db9ecbfea8720eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instObj: {fileID: 0}
 --- !u!1 &5541347
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,6 +821,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &86551787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1126,7 +1126,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272a11aed5812478db9ecbfea8720eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instObj: {fileID: 0}
 --- !u!1 &125604234
 GameObject:
   m_ObjectHideFlags: 0
@@ -1911,6 +1910,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &164852176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2228,6 +2228,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &200209954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2548,6 +2549,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &208709635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3372,6 +3374,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &284336754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3836,6 +3839,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &346079039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4266,7 +4270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272a11aed5812478db9ecbfea8720eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instObj: {fileID: 0}
 --- !u!1 &409985835
 GameObject:
   m_ObjectHideFlags: 0
@@ -4783,6 +4786,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &447136058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5876,6 +5880,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &567586372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6105,6 +6110,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &572172714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6612,6 +6618,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!1 &627790368
 GameObject:
   m_ObjectHideFlags: 0
@@ -6920,6 +6927,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &630551256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7278,6 +7286,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &645190775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7582,6 +7591,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &649168392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7837,6 +7847,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &653324175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8776,6 +8787,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &763894576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9097,6 +9109,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &787743131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9492,6 +9505,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &796157346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9896,6 +9910,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &804754270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10280,6 +10295,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &811870541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10696,6 +10712,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &823863435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11649,6 +11666,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!1 &880407451
 GameObject:
   m_ObjectHideFlags: 0
@@ -12588,6 +12606,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &938023074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18175,6 +18194,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1018224694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18619,6 +18639,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1045112663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18955,6 +18976,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1090855083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19512,6 +19534,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1114202269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19900,6 +19923,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!1 &1135373051
 GameObject:
   m_ObjectHideFlags: 0
@@ -20622,6 +20646,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1184658577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20907,6 +20932,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1187196579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21268,6 +21294,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1200827451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21523,6 +21550,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1208838234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21752,6 +21780,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1238982613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22211,7 +22240,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272a11aed5812478db9ecbfea8720eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instObj: {fileID: 0}
 --- !u!1 &1267101885
 GameObject:
   m_ObjectHideFlags: 0
@@ -22894,6 +22922,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1343202970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23752,6 +23781,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1416432352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24007,6 +24037,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1440129511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24452,6 +24483,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1482114675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24861,6 +24893,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1500357502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25174,6 +25207,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!1 &1512929908
 GameObject:
   m_ObjectHideFlags: 0
@@ -25399,6 +25433,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1514276283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26092,7 +26127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveAcross: 0
-  speed: 1
+  speed: 2.42
   xtranslate: 1
   ytranslate: 0
   ztranslate: 0
@@ -26360,6 +26395,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1552516088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26916,7 +26952,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272a11aed5812478db9ecbfea8720eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instObj: {fileID: 0}
 --- !u!1 &1583781568
 GameObject:
   m_ObjectHideFlags: 0
@@ -27727,6 +27762,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1648260681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28484,6 +28520,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1727730635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29335,6 +29372,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1860873870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30209,6 +30247,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1927388674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30611,6 +30650,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1954257010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31087,6 +31127,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1979825569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31490,6 +31531,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &1993744495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32070,6 +32112,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!1 &2046430007
 GameObject:
   m_ObjectHideFlags: 0
@@ -32410,6 +32453,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!114 &2131322909
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10,7 +10,9 @@ public class OnCollisionColorAndDestroy : MonoBehaviour
 	[SerializeField] Color newColor = Color.blue;
 	[SerializeField] private bool destroyOnCollision; 
 	[SerializeField] float timeToDestroy; 
-	[SerializeField] float colorLerpDuration; 
+	[SerializeField] float colorLerpDuration;
+
+	public bool collidedWithBall; 
 
 	private SpriteRenderer mySR; 
 	
@@ -28,7 +30,8 @@ public class OnCollisionColorAndDestroy : MonoBehaviour
 		Color newColor = Color.Lerp(originalColor, this.newColor, t);
 
 		if (col.gameObject.CompareTag("Ball"))
-		{			
+		{
+			collidedWithBall = true; 
 			if(destroyOnCollision)
 			{
 				Destroy(gameObject, timeToDestroy);

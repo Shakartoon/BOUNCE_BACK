@@ -1194,7 +1194,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &26231265
 MonoBehaviour:
@@ -1396,7 +1396,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &33136950
 GameObject:
@@ -1604,6 +1604,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!61 &33947510
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1637,7 +1638,8 @@ AudioSource:
   m_GameObject: {fileID: 33947505}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: adb9c0b2edc4a43ffab97f4b094331a2,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 78aee6e9a5bfa4af399666839cccc415, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -6655,11 +6657,6 @@ Transform:
   m_Father: {fileID: 360726825}
   m_RootOrder: 325
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &113754659 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1561950108137216, guid: af68fc5c6c2cc497a889f14ca466053f,
-    type: 2}
-  m_PrefabInternal: {fileID: 1257810311}
 --- !u!1 &115196564
 GameObject:
   m_ObjectHideFlags: 0
@@ -7793,7 +7790,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 130462693}
   m_LocalRotation: {x: -0, y: 0.10079563, z: -0, w: -0.9949072}
-  m_LocalPosition: {x: -39.428593, y: -57.3, z: -8.071999}
+  m_LocalPosition: {x: -43.8, y: -15.4, z: -8.6}
   m_LocalScale: {x: 1.9575282, y: 12.450106, z: 1.1954371}
   m_Children: []
   m_Father: {fileID: 372000012}
@@ -7805,13 +7802,13 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 130462693}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21768b063cf8143089298570be4c898d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 1, g: 0, b: 0, a: 1}
-  color2: {r: 0, g: 0, b: 1, a: 1}
+  color1: {r: 0.854902, g: 0.627451, b: 1, a: 0.19607843}
+  color2: {r: 0, g: 0, b: 1, a: 0.23137255}
   duration: 30
 --- !u!212 &130462696
 SpriteRenderer:
@@ -7847,9 +7844,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 9
   m_Sprite: {fileID: 21300000, guid: c7e9a8ee241b744a5815154fcc765fe8, type: 3}
-  m_Color: {r: 0.8545939, g: 0.627451, b: 1, a: 0.2784314}
+  m_Color: {r: 0.8545939, g: 0.627451, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8146,7 +8143,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &143566310
 GameObject:
@@ -10463,6 +10460,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!60 &169025860
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -10966,7 +10964,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &190470526
 GameObject:
@@ -13823,7 +13821,7 @@ Transform:
   - {fileID: 2030363060}
   - {fileID: 1828267250}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &225315749
 MonoBehaviour:
@@ -14135,7 +14133,7 @@ Transform:
   - {fileID: 1146804980}
   - {fileID: 357246673}
   m_Father: {fileID: 0}
-  m_RootOrder: 61
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &238031068
 GameObject:
@@ -17292,7 +17290,7 @@ Transform:
   - {fileID: 540088672}
   - {fileID: 2071384771}
   m_Father: {fileID: 0}
-  m_RootOrder: 56
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &278286779
 MonoBehaviour:
@@ -19787,6 +19785,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!60 &327663617
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -20386,7 +20385,7 @@ Transform:
   m_LocalScale: {x: 1.4375, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &341184285
 GameObject:
@@ -22147,7 +22146,7 @@ Transform:
   m_LocalScale: {x: 0.26227, y: 0.26227, z: 0.26227}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &358844033
 CircleCollider2D:
@@ -22277,6 +22276,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!50 &358844036
 Rigidbody2D:
   serializedVersion: 4
@@ -22338,7 +22338,7 @@ Transform:
   - {fileID: 1086613433}
   - {fileID: 1619710319}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &360409342
 GameObject:
@@ -22841,7 +22841,7 @@ Transform:
   - {fileID: 622054198}
   - {fileID: 158947017}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &364184295
 GameObject:
@@ -23263,7 +23263,7 @@ Transform:
   m_LocalScale: {x: 1.6872, y: 1.6872, z: 1.6872}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 63.4, y: 369.1, z: -709.46}
 --- !u!1 &372000011
 GameObject:
@@ -23292,8 +23292,9 @@ Transform:
   m_Children:
   - {fileID: 1487233674}
   - {fileID: 130462694}
+  - {fileID: 1345775474}
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &374872380
 GameObject:
@@ -23982,7 +23983,7 @@ Transform:
   - {fileID: 1517846330}
   - {fileID: 731005097}
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &383396739
 GameObject:
@@ -28684,7 +28685,7 @@ Transform:
   m_LocalScale: {x: 0.26227, y: 0.26227, z: 0.26227}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &439135705
 GameObject:
@@ -28945,6 +28946,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!96 &439293325
 TrailRenderer:
   serializedVersion: 2
@@ -30486,6 +30488,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!60 &461417822
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -33147,7 +33150,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &516862243
 GameObject:
@@ -36455,7 +36458,7 @@ Transform:
   - {fileID: 708895080}
   - {fileID: 402789464}
   m_Father: {fileID: 0}
-  m_RootOrder: 67
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &579937705
 GameObject:
@@ -36933,7 +36936,7 @@ Transform:
   m_LocalScale: {x: 0.37612128, y: 0.37612128, z: 0.37612128}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &588347538
 Animator:
@@ -37123,7 +37126,7 @@ Transform:
   m_LocalScale: {x: 0.5167792, y: 0.17932238, z: 0.5167792}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &589119615
 MonoBehaviour:
@@ -37143,6 +37146,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!82 &589119616
 AudioSource:
   m_ObjectHideFlags: 0
@@ -37555,7 +37559,7 @@ Transform:
   m_LocalScale: {x: 6.4008703, y: 2.8226535, z: 2.3042068}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 52
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &593474056
 GameObject:
@@ -39284,6 +39288,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!60 &624716463
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -40371,6 +40376,98 @@ Transform:
   m_Father: {fileID: 360726825}
   m_RootOrder: 231
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &631779785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 631779786}
+  - component: {fileID: 631779787}
+  - component: {fileID: 631779788}
+  m_Layer: 0
+  m_Name: roots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &631779786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 631779785}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 8.15}
+  m_LocalScale: {x: 2.4555993, y: 2.4555993, z: 2.4555993}
+  m_Children: []
+  m_Father: {fileID: 840514270}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &631779787
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 631779785}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 63
+  m_Sprite: {fileID: 21300000, guid: ad389ff55c1c245418d33e227ce4ed3d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.23137255}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8, y: 6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &631779788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 631779785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ce430228efd54c5797684c6df108a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  justDestroy: 1
+  fade: 0
+  timeToKill: 2
+  fadeTime: 0
+  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &631921421
 GameObject:
   m_ObjectHideFlags: 0
@@ -40682,7 +40779,7 @@ Transform:
   m_LocalScale: {x: 0.26227, y: 0.26227, z: 0.26227}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &637016858
 CircleCollider2D:
@@ -40815,6 +40912,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 0c57c8877ce3e4fe9984a6d5a6e7c656, type: 3}
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!50 &637016861
 Rigidbody2D:
   serializedVersion: 4
@@ -40909,7 +41007,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &639716490
 MonoBehaviour:
@@ -48978,7 +49076,7 @@ Transform:
   m_LocalScale: {x: 0.92282, y: 0.92282, z: 0.92282}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 219.756, y: 229.005, z: 517.272}
 --- !u!1 &710740379
 GameObject:
@@ -50352,7 +50450,7 @@ Transform:
   m_LocalScale: {x: 0.1442485, y: 0.1442485, z: 0.1442485}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &730504917
 SpriteRenderer:
@@ -51630,7 +51728,7 @@ Transform:
   - {fileID: 1168381718}
   - {fileID: 2047576100}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &749214718
 GameObject:
@@ -52857,7 +52955,7 @@ Transform:
   m_LocalScale: {x: 0.5167792, y: 0.17932238, z: 0.5167792}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &763416975
 MonoBehaviour:
@@ -52877,6 +52975,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!82 &763416976
 AudioSource:
   m_ObjectHideFlags: 0
@@ -55110,7 +55209,7 @@ Transform:
   m_LocalScale: {x: 17.171768, y: 8.382021, z: 1.4405}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &792555936
 GameObject:
@@ -55509,7 +55608,7 @@ Transform:
   - {fileID: 575912057}
   - {fileID: 590263457}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &795421298
 GameObject:
@@ -56866,7 +56965,7 @@ Transform:
   - {fileID: 919070482}
   - {fileID: 68301117}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &806023963
 GameObject:
@@ -57820,6 +57919,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!60 &833567574
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -58042,7 +58142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1137679736}
-  flock1: {fileID: 1116675065}
+  flock1: {fileID: 0}
   sideBalls: {fileID: 1370089064}
   hex: {fileID: 1299076929}
   borderbugs: {fileID: 1276604260}
@@ -58207,7 +58307,7 @@ GameObject:
   - component: {fileID: 840514274}
   - component: {fileID: 840514275}
   m_Layer: 0
-  m_Name: Camera1
+  m_Name: Camera*******************
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58272,8 +58372,9 @@ Transform:
   m_Children:
   - {fileID: 664932455}
   - {fileID: 2083057382}
+  - {fileID: 631779786}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &840514271
 AudioSource:
@@ -58285,12 +58386,12 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: b0f7e3d8c027a49a3a70bef790505df8,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: e620016e6369043c283a0b376b36841f, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -59973,50 +60074,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &870630738
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 870630740}
-  - component: {fileID: 870630739}
-  m_Layer: 0
-  m_Name: FlockingManager2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &870630739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 870630738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cefe2159341b04561816f8d09ad7aaf2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  units: []
-  unitPrefab: {fileID: 113754659}
-  numUnits: 10
-  range: {x: 15, y: 15, z: 5}
---- !u!4 &870630740
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 870630738}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.5, y: -10.9, z: 10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &872648875
 GameObject:
   m_ObjectHideFlags: 0
@@ -62038,7 +62095,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -66709,6 +66766,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!61 &999961559
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -66742,7 +66800,8 @@ AudioSource:
   m_GameObject: {fileID: 999961554}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: adb9c0b2edc4a43ffab97f4b094331a2,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: c8ada1637433642299b042f66ea278ea, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -70299,7 +70358,7 @@ MonoBehaviour:
   RandomizeClips: 1
   UseAudioID: 0
   volumeForce: 0
-  changePitch: 0
+  changePitch: 1
   audioClips:
   - {fileID: 8300000, guid: b6659827ac3714ce082d542169f56aff, type: 3}
   - {fileID: 8300000, guid: 08db5e81476c6481eb6e352ebe087f60, type: 3}
@@ -70309,6 +70368,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d11a5f4e619c24b4aa8e61f582f20785, type: 3}
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!61 &1049221690
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -73122,6 +73182,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!60 &1086613430
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -74381,50 +74442,6 @@ Transform:
   m_Father: {fileID: 360726825}
   m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1116675065
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1116675066}
-  - component: {fileID: 1116675067}
-  m_Layer: 0
-  m_Name: FlockingManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1116675066
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1116675065}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.5, y: -10.8, z: 10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1116675067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1116675065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cefe2159341b04561816f8d09ad7aaf2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  units: []
-  unitPrefab: {fileID: 1036781138822208, guid: c685ca7991b4245b78fd7fdfac7726a4, type: 2}
-  numUnits: 3
-  range: {x: 15, y: 15, z: 5}
 --- !u!1 &1117784429
 GameObject:
   m_ObjectHideFlags: 0
@@ -75299,6 +75316,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!61 &1123040422
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -75332,7 +75350,8 @@ AudioSource:
   m_GameObject: {fileID: 1123040417}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: adb9c0b2edc4a43ffab97f4b094331a2,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: cae9ac57f03da4de2b90b59d27745ecb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -76057,7 +76076,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: e0023cf1bd3974a19bf3485cf02999f9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -76080,7 +76099,7 @@ Transform:
   m_LocalScale: {x: 1.2454, y: 1.2454, z: 1.2454}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1137679740
 MonoBehaviour:
@@ -77356,7 +77375,7 @@ Transform:
   m_LocalScale: {x: 3.9900002, y: 13.150782, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1150213110
 MonoBehaviour:
@@ -79551,7 +79570,7 @@ MonoBehaviour:
   RandomizeClips: 1
   UseAudioID: 0
   volumeForce: 0
-  changePitch: 0
+  changePitch: 1
   audioClips:
   - {fileID: 8300000, guid: b6659827ac3714ce082d542169f56aff, type: 3}
   - {fileID: 8300000, guid: 08db5e81476c6481eb6e352ebe087f60, type: 3}
@@ -79561,6 +79580,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d11a5f4e619c24b4aa8e61f582f20785, type: 3}
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!61 &1179524951
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -79864,7 +79884,7 @@ Transform:
   - {fileID: 159598949}
   - {fileID: 2088572926}
   m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &1181509991
 GameObject:
@@ -80451,7 +80471,7 @@ Transform:
   m_LocalScale: {x: 0.20555946, y: 0.20555946, z: 0.41111892}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -134.99}
 --- !u!1 &1184142979
 GameObject:
@@ -80886,6 +80906,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!60 &1194976995
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -82923,7 +82944,7 @@ Transform:
   - {fileID: 1525683194}
   - {fileID: 439293322}
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1218362192
 AudioSource:
@@ -83038,6 +83059,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!96 &1218362194
 TrailRenderer:
   serializedVersion: 2
@@ -84693,7 +84715,7 @@ Transform:
   - {fileID: 791802559}
   - {fileID: 588461167}
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1243427129
 GameObject:
@@ -85435,7 +85457,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4943019470994864, guid: af68fc5c6c2cc497a889f14ca466053f, type: 2}
       propertyPath: m_RootOrder
-      value: 55
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 1561950108137216, guid: af68fc5c6c2cc497a889f14ca466053f, type: 2}
       propertyPath: m_IsActive
@@ -86204,7 +86226,7 @@ Transform:
   - {fileID: 1814286080}
   - {fileID: 218106223}
   m_Father: {fileID: 0}
-  m_RootOrder: 60
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1279583993
 GameObject:
@@ -86620,6 +86642,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!114 &1291203604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86883,7 +86906,7 @@ Transform:
   m_Children:
   - {fileID: 670336504}
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1294180886
 Animator:
@@ -87274,7 +87297,7 @@ Transform:
   - {fileID: 1343029868}
   - {fileID: 39891492}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -94.395996, y: 0, z: 0}
 --- !u!1 &1300401364
 GameObject:
@@ -87540,7 +87563,7 @@ Transform:
   - {fileID: 1657720510}
   - {fileID: 1068136648}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1306951776
 GameObject:
@@ -87920,6 +87943,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!60 &1312993860
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -88339,6 +88363,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!60 &1319518035
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -89962,6 +89987,96 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1345775473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1345775474}
+  - component: {fileID: 1345775476}
+  - component: {fileID: 1345775475}
+  m_Layer: 0
+  m_Name: TEXTURE (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1345775474
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1345775473}
+  m_LocalRotation: {x: -0, y: 0.10079563, z: -0, w: -0.9949072}
+  m_LocalPosition: {x: 11.3, y: -15.400002, z: 2.7}
+  m_LocalScale: {x: 1.9575335, y: 12.45011, z: 1.1954371}
+  m_Children: []
+  m_Father: {fileID: 372000012}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1345775475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1345775473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21768b063cf8143089298570be4c898d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color1: {r: 1, g: 0, b: 0.18947029, a: 1}
+  color2: {r: 0, g: 0, b: 1, a: 1}
+  duration: 2
+--- !u!212 &1345775476
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1345775473}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 9
+  m_Sprite: {fileID: 21300000, guid: c7e9a8ee241b744a5815154fcc765fe8, type: 3}
+  m_Color: {r: 0.8545939, g: 0.627451, b: 1, a: 0.23921569}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 13.92, y: 11.97}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1357254118
 GameObject:
   m_ObjectHideFlags: 0
@@ -90114,7 +90229,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1358216344
 GameObject:
@@ -90638,7 +90753,7 @@ Transform:
   - {fileID: 286447615}
   - {fileID: 218059798}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1373199950
 GameObject:
@@ -92361,7 +92476,7 @@ Transform:
   m_LocalScale: {x: 30.121742, y: 2.3042068, z: 2.3042068}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 53
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1411881019
 GameObject:
@@ -93623,7 +93738,7 @@ Transform:
   - {fileID: 1375385645}
   - {fileID: 2140725738}
   m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1436532614
 GameObject:
@@ -98400,6 +98515,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!96 &1525683197
 TrailRenderer:
   serializedVersion: 2
@@ -99856,6 +99972,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!60 &1563422076
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -100038,7 +100155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1567229828
 Transform:
   m_ObjectHideFlags: 0
@@ -100560,7 +100677,7 @@ Transform:
   - {fileID: 1019574046}
   - {fileID: 1015495184}
   m_Father: {fileID: 0}
-  m_RootOrder: 66
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1583910595
 GameObject:
@@ -101165,7 +101282,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1590137286
 Rigidbody2D:
@@ -103232,7 +103349,7 @@ Transform:
   - {fileID: 1842523013}
   - {fileID: 1236422089}
   m_Father: {fileID: 0}
-  m_RootOrder: 65
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1609872784
 GameObject:
@@ -103623,7 +103740,7 @@ Transform:
   - {fileID: 2007628088}
   - {fileID: 168971161}
   m_Father: {fileID: 0}
-  m_RootOrder: 64
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: -24.869001, y: 13.872001, z: 87.782005}
 --- !u!1 &1616744266
 GameObject:
@@ -103810,6 +103927,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!60 &1619710316
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -104651,7 +104769,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1636550203
 MonoBehaviour:
@@ -106051,7 +106169,7 @@ Transform:
   m_LocalScale: {x: 1.117015, y: 0.6477696, z: 0.64776975}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 58
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: -50.15, z: 0}
 --- !u!1 &1665945152
 GameObject:
@@ -107442,7 +107560,7 @@ Transform:
   m_LocalScale: {x: 1.1170146, y: 0.6477696, z: 0.64776975}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 57
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 50, z: 0}
 --- !u!1 &1690569723
 GameObject:
@@ -107709,7 +107827,7 @@ Transform:
   m_LocalScale: {x: 6.4008703, y: 2.8226535, z: 2.3042068}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1692047726
 MonoBehaviour:
@@ -111279,7 +111397,7 @@ Transform:
   m_LocalScale: {x: 0.53831, y: 0.53831, z: 0.53831}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 59
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1749610312
 GameObject:
@@ -113809,7 +113927,7 @@ Transform:
   - {fileID: 1960207977}
   - {fileID: 1311697638}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1776306522
 GameObject:
@@ -114931,6 +115049,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!60 &1814341271
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -115256,7 +115375,7 @@ Transform:
   - {fileID: 749997330}
   - {fileID: 88881349}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1823744086
 GameObject:
@@ -120252,7 +120371,7 @@ MonoBehaviour:
   RandomizeClips: 1
   UseAudioID: 0
   volumeForce: 0
-  changePitch: 0
+  changePitch: 1
   audioClips:
   - {fileID: 8300000, guid: b6659827ac3714ce082d542169f56aff, type: 3}
   - {fileID: 8300000, guid: 08db5e81476c6481eb6e352ebe087f60, type: 3}
@@ -120262,6 +120381,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d11a5f4e619c24b4aa8e61f582f20785, type: 3}
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!61 &1907127843
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -120743,7 +120863,7 @@ Transform:
   - {fileID: 2116672310}
   - {fileID: 61981024}
   m_Father: {fileID: 0}
-  m_RootOrder: 68
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1925504125
 GameObject:
@@ -121300,6 +121420,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!60 &1927450467
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -121907,6 +122028,7 @@ MonoBehaviour:
   destroyOnCollision: 1
   timeToDestroy: 0.1
   colorLerpDuration: 0
+  collidedWithBall: 0
 --- !u!60 &1932482342
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -123818,7 +123940,7 @@ Transform:
   m_LocalScale: {x: 0.068360604, y: 0.068360604, z: 0.068360604}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1983319052
 GameObject:
@@ -129084,7 +129206,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1991656100
 GameObject:
@@ -129929,7 +130051,7 @@ Transform:
   - {fileID: 505720119}
   - {fileID: 150915921}
   m_Father: {fileID: 0}
-  m_RootOrder: 63
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: -24.869001, y: 13.872001, z: 87.782005}
 --- !u!1 &1999413687
 GameObject:
@@ -131339,7 +131461,7 @@ Transform:
   - {fileID: 403582320}
   - {fileID: 1089272675}
   m_Father: {fileID: 0}
-  m_RootOrder: 62
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 22.607, z: 0}
 --- !u!1 &2026953506
 GameObject:
@@ -132362,7 +132484,7 @@ Transform:
   m_LocalScale: {x: 0.5167792, y: 0.17932238, z: 0.5167792}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &2030260775
 MonoBehaviour:
@@ -132382,6 +132504,7 @@ MonoBehaviour:
   audioClips: []
   collidedWithBall: 0
   AudioID: 0
+  minTimeBetweenSounds: 0
 --- !u!82 &2030260776
 AudioSource:
   m_ObjectHideFlags: 0
@@ -137161,7 +137284,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 69
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2122113564
 MonoBehaviour:
@@ -137298,7 +137421,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -138189,7 +138312,7 @@ Transform:
   m_LocalScale: {x: 1.6872, y: 1.6872, z: -7.67}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 63.4, y: 369.1, z: 197.14}
 --- !u!1 &2139756758
 GameObject:

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class TitleSceneManager : MonoBehaviour
@@ -11,18 +12,22 @@ public class TitleSceneManager : MonoBehaviour
 
 	public bool ExitScene;
 	private bool sceneChanged;
-	public bool title2; 
+	public bool title2;
+	private AsyncOperation asyncLoad;
 	
 	void Start () {
 		
 		textToLoad.SetActive(false);
-		
+		asyncLoad = SceneManager.LoadSceneAsync(1);
+		asyncLoad.allowSceneActivation = false;
+
 	}
 
 	IEnumerator WaitBeforeLoad()
 	{
-		yield return new WaitForSeconds(timeToEndGame); 
-		NewLevelManagement.lvlManagement.LoadNextLevel();
+		yield return new WaitForSeconds(timeToEndGame);
+		asyncLoad.allowSceneActivation = true;
+		//NewLevelManagement.lvlManagement.LoadNextLevel();
 	} 
 
 	void Update () {
