@@ -61450,7 +61450,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 840514267}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5644f1b55d58b93489995daabedfaff9, type: 3}
   m_Name: 
@@ -61461,8 +61461,8 @@ MonoBehaviour:
   rotDirZ: 0
   rotateBackAndForth: 1
   m_from: {x: 0, y: 0, z: 0}
-  m_to: {x: 0, y: -16, z: -16}
-  m_frequency: 5
+  m_to: {x: 0, y: -16, z: -3}
+  m_frequency: 12
 --- !u!1 &840900025
 GameObject:
   m_ObjectHideFlags: 0
@@ -92079,7 +92079,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1294180885}
   - component: {fileID: 1294180886}
-  - component: {fileID: 1294180887}
   m_Layer: 0
   m_Name: Border (1)
   m_TagString: Untagged
@@ -92119,22 +92118,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1294180887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1294180884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ce430228efd54c5797684c6df108a39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  justDestroy: 1
-  fade: 0
-  timeToKill: 15
-  fadeTime: 0
-  newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1295786355
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_Codes" t="Include">
+          <e p="AllUnits.cs" t="Include" />
           <e p="AnimationController.cs" t="Include" />
           <e p="AnimationManager_Immigration.cs" t="Include" />
           <e p="AudioManager.cs" t="Include" />
@@ -72,6 +73,8 @@
           <e p="GameManager.cs" t="Include" />
           <e p="GlitchEffect.cs" t="Include" />
           <e p="hitboxeffect.cs" t="Include" />
+          <e p="HubWorld2Manager.cs" t="Include" />
+          <e p="HubWorldLevelManager234.cs" t="Include" />
           <e p="HubWorldLeveManager.cs" t="Include" />
           <e p="ImmigrationAudioMixer.cs" t="Include" />
           <e p="ImmigrationLevelManager.cs" t="Include" />
@@ -94,6 +97,7 @@
           <e p="LineRendererStuff.cs" t="Include" />
           <e p="LineRendererTest.cs" t="Include" />
           <e p="LoadChildrenOnCollision.cs" t="Include" />
+          <e p="LoopingMovement.cs" t="Include" />
           <e p="LRDRAW.cs" t="Include" />
           <e p="Maze_Camera.cs" t="Include" />
           <e p="Maze_TriggerManager.cs" t="Include" />
@@ -110,11 +114,13 @@
           <e p="MousePressed.cs" t="Include" />
           <e p="mousePressedLoad.cs" t="Include" />
           <e p="moveAcrossScreen.cs" t="Include" />
+          <e p="MoveAcrossScreen2.cs" t="Include" />
           <e p="movementrestrict.cs" t="Include" />
           <e p="moveTowards.cs" t="Include" />
           <e p="MoveWithTrig.cs" t="Include" />
           <e p="MusicPlayer.cs" t="Include" />
           <e p="MvmntTest2Script.cs" t="Include" />
+          <e p="NewLevelManagement.cs" t="Include" />
           <e p="newMousePressedLoad.cs" t="Include" />
           <e p="newSoundMakingObject.cs" t="Include" />
           <e p="NoiseMover.cs" t="Include" />
@@ -160,8 +166,10 @@
           <e p="RotateUpAndDown.cs" t="Include" />
           <e p="RotationScript.cs" t="Include" />
           <e p="RowInstantiate.cs" t="Include" />
+          <e p="RugFringeLevelManager.cs" t="Include" />
           <e p="ScaleBasedOnVolume.cs" t="Include" />
           <e p="ScaleRectIllusion.cs" t="Include" />
+          <e p="scaleTransform.cs" t="Include" />
           <e p="scalingAnimations.cs" t="Include" />
           <e p="ScrollingObject.cs" t="Include" />
           <e p="Services.cs" t="Include" />
@@ -180,11 +188,13 @@
           <e p="tempScript.cs" t="Include" />
           <e p="TextFadeIn.cs" t="Include" />
           <e p="timerLoad.cs" t="Include" />
+          <e p="TitleSceneManager.cs" t="Include" />
           <e p="touchTest.cs" t="Include" />
           <e p="TriangleSceneManager.cs" t="Include" />
           <e p="triangleTrigger.cs" t="Include" />
           <e p="triangleTriggerLoop.cs" t="Include" />
           <e p="TrigExample.cs" t="Include" />
+          <e p="Unit.cs" t="Include" />
           <e p="verticalmovement.cs" t="Include" />
           <e p="VolumeControl.cs" t="Include" />
           <e p="WaitToLoad.cs" t="Include" />
@@ -193,12 +203,6 @@
           <e p="xButtonClick.cs" t="Include" />
           <e p="ySize.cs" t="Include" />
         </e>
-        <e p="AllUnits.cs" t="Include" />
-        <e p="HubWorld2Manager.cs" t="Include" />
-        <e p="HubWorldLevelManager234.cs" t="Include" />
-        <e p="LoopingMovement.cs" t="Include" />
-        <e p="MoveAcrossScreen2.cs" t="Include" />
-        <e p="NewLevelManagement.cs" t="Include" />
         <e p="NotMine" t="Include">
           <e p="2DSoftBody" t="Include">
             <e p="Code" t="Include">
@@ -829,10 +833,7 @@
           </e>
         </e>
         <e p="OnCollisionShake.cs" t="Include" />
-        <e p="RugFringeLevelManager.cs" t="Include" />
-        <e p="scaleTransform.cs" t="Include" />
-        <e p="TitleSceneManager.cs" t="Include" />
-        <e p="Unit.cs" t="Include" />
+        <e p="PlayerAudio.cs" t="Include" />
       </e>
       <e p="BOUNCE_BACK.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
