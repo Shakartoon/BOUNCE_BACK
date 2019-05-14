@@ -80,8 +80,8 @@ public class ImmigrationLevelManager : MonoBehaviour {
 			{
 				//DOTween.Shake(camScript.zOffset); 
 				//camScript.zOffset.transform.DOTween.Shake(2, 4, 4, 3f);
-				
-				//Camera.main.transform.DOShakePosition(float duration, float/Vector3 strength, int vibrato, float randomness, bool fadeOut)
+
+				Camera.main.transform.DOShakePosition(2, new Vector3(0, 0, 10), 1, 1); 
 
 				//myCamera.transform.DOShakePosition(2, 4, 4, 3f);
 				//camScript.smoothSpeed = camScript.smoothSpeed =-5; 

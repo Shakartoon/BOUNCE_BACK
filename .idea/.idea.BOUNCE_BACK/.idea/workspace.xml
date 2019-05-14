@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b3682ab6-c3bd-4361-8b70-3a026af15fe2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Codes/CameraPlayerFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Codes/CameraPlayerFollow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Codes/ImmigrationLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Codes/ImmigrationLevelManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_MyScenes/_FINAL SCENES/Immigration4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_MyScenes/_FINAL SCENES/Immigration4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,13 +31,13 @@
     <session id="1163221535">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="112090" />
+          <entry key="cs" value="112132" />
           <entry key="shader" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="112090" />
+          <entry key="C#" value="112132" />
           <entry key="ShaderLab" value="1" />
         </counts>
       </usages-collector>
@@ -128,21 +128,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/_Codes/ImmigrationLevelManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="80" column="52" lean-forward="true" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
+            <state relative-caret-position="521">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
               <folding>
-                <marker date="1557793342000" expanded="true" signature="6:132" ph="..." />
-                <marker date="1557793342000" expanded="true" signature="188:2241" ph="{...}" />
-                <marker date="1557793342000" expanded="true" signature="683:1145" ph="{...}" />
-                <marker date="1557793342000" expanded="true" signature="935:1142" ph="/* border.GetComponent&lt;Rotate&gt;().enabled = true; ... */" />
-                <marker date="1557793342000" expanded="true" signature="1206:2239" ph="{...}" />
-                <marker date="1557793342000" expanded="true" signature="1283:1378" ph="{...}" />
-                <marker date="1557793342000" expanded="true" signature="1397:1520" ph="{...}" />
-                <marker date="1557793342000" expanded="true" signature="1562:1603" ph="{...}" />
-                <marker date="1557793342000" expanded="true" signature="1682:1743" ph="{...}" />
-                <marker date="1557793342000" expanded="true" signature="1764:2235" ph="{...}" />
-                <marker date="1557793342000" expanded="true" signature="1833:2227" ph="{...}" />
-                <marker date="1557793342000" expanded="true" signature="1884:2222" ph="/* camScript.zOffset.transform.DOTween.Shake(2, 4, 4, 3f); ... */" />
+                <marker date="1557796292000" expanded="true" signature="6:132" ph="..." />
+                <marker date="1557796292000" expanded="true" signature="188:2184" ph="{...}" />
+                <marker date="1557796292000" expanded="true" signature="683:1145" ph="{...}" />
+                <marker date="1557796292000" expanded="true" signature="935:1142" ph="/* border.GetComponent&lt;Rotate&gt;().enabled = true; ... */" />
+                <marker date="1557796292000" expanded="true" signature="1206:2182" ph="{...}" />
+                <marker date="1557796292000" expanded="true" signature="1283:1378" ph="{...}" />
+                <marker date="1557796292000" expanded="true" signature="1397:1520" ph="{...}" />
+                <marker date="1557796292000" expanded="true" signature="1562:1603" ph="{...}" />
+                <marker date="1557796292000" expanded="true" signature="1682:1743" ph="{...}" />
+                <marker date="1557796292000" expanded="true" signature="1764:2178" ph="{...}" />
+                <marker date="1557796292000" expanded="true" signature="1833:2170" ph="{...}" />
+                <marker date="1557796292000" expanded="true" signature="1843:1941" ph="/* DOTween.Shake(camScript.zOffset); ... */" />
+                <marker date="1557796292000" expanded="true" signature="2024:2165" ph="/* myCamera.transform.DOShakePosition(2, 4, 4, 3f); ... */" />
               </folding>
             </state>
           </provider>
@@ -452,7 +453,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="41" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
@@ -739,12 +740,12 @@
       <workItem from="1557562860672" duration="878000" />
       <workItem from="1557563861427" duration="3233000" />
       <workItem from="1557697046898" duration="1091000" />
-      <workItem from="1557770660543" duration="4885000" />
+      <workItem from="1557770660543" duration="6230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="588143000" />
+    <option name="totallyTimeSpent" value="589488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -756,7 +757,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="23" width="1440" height="873" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48015365" weight="0.44992846" />
@@ -781,7 +782,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.060085837" />
+      <window_info active="true" anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.060085837" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
     </layout>
     <layout-to-restore>
@@ -1260,21 +1261,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Codes/ImmigrationLevelManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="80" column="52" lean-forward="true" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
+        <state relative-caret-position="521">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
           <folding>
-            <marker date="1557793342000" expanded="true" signature="6:132" ph="..." />
-            <marker date="1557793342000" expanded="true" signature="188:2241" ph="{...}" />
-            <marker date="1557793342000" expanded="true" signature="683:1145" ph="{...}" />
-            <marker date="1557793342000" expanded="true" signature="935:1142" ph="/* border.GetComponent&lt;Rotate&gt;().enabled = true; ... */" />
-            <marker date="1557793342000" expanded="true" signature="1206:2239" ph="{...}" />
-            <marker date="1557793342000" expanded="true" signature="1283:1378" ph="{...}" />
-            <marker date="1557793342000" expanded="true" signature="1397:1520" ph="{...}" />
-            <marker date="1557793342000" expanded="true" signature="1562:1603" ph="{...}" />
-            <marker date="1557793342000" expanded="true" signature="1682:1743" ph="{...}" />
-            <marker date="1557793342000" expanded="true" signature="1764:2235" ph="{...}" />
-            <marker date="1557793342000" expanded="true" signature="1833:2227" ph="{...}" />
-            <marker date="1557793342000" expanded="true" signature="1884:2222" ph="/* camScript.zOffset.transform.DOTween.Shake(2, 4, 4, 3f); ... */" />
+            <marker date="1557796292000" expanded="true" signature="6:132" ph="..." />
+            <marker date="1557796292000" expanded="true" signature="188:2184" ph="{...}" />
+            <marker date="1557796292000" expanded="true" signature="683:1145" ph="{...}" />
+            <marker date="1557796292000" expanded="true" signature="935:1142" ph="/* border.GetComponent&lt;Rotate&gt;().enabled = true; ... */" />
+            <marker date="1557796292000" expanded="true" signature="1206:2182" ph="{...}" />
+            <marker date="1557796292000" expanded="true" signature="1283:1378" ph="{...}" />
+            <marker date="1557796292000" expanded="true" signature="1397:1520" ph="{...}" />
+            <marker date="1557796292000" expanded="true" signature="1562:1603" ph="{...}" />
+            <marker date="1557796292000" expanded="true" signature="1682:1743" ph="{...}" />
+            <marker date="1557796292000" expanded="true" signature="1764:2178" ph="{...}" />
+            <marker date="1557796292000" expanded="true" signature="1833:2170" ph="{...}" />
+            <marker date="1557796292000" expanded="true" signature="1843:1941" ph="/* DOTween.Shake(camScript.zOffset); ... */" />
+            <marker date="1557796292000" expanded="true" signature="2024:2165" ph="/* myCamera.transform.DOShakePosition(2, 4, 4, 3f); ... */" />
           </folding>
         </state>
       </provider>
