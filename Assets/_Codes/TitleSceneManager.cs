@@ -18,16 +18,16 @@ public class TitleSceneManager : MonoBehaviour
 	void Start () {
 		
 		textToLoad.SetActive(false);
-		asyncLoad = SceneManager.LoadSceneAsync(1);
-		asyncLoad.allowSceneActivation = false;
+		//asyncLoad = SceneManager.LoadSceneAsync(1);
+		//asyncLoad.allowSceneActivation = false;
 
 	}
 
 	IEnumerator WaitBeforeLoad()
 	{
 		yield return new WaitForSeconds(timeToEndGame);
-		asyncLoad.allowSceneActivation = true;
-		//NewLevelManagement.lvlManagement.LoadNextLevel();
+		//asyncLoad.allowSceneActivation = true;
+		NewLevelManagement.lvlManagement.LoadNextLevel();
 	} 
 
 	void Update () {

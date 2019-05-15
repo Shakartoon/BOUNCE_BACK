@@ -18,7 +18,8 @@ public class OnTriggerPlaySound : MonoBehaviour
 
 		AS = GetComponent<AudioSource>();
 		SR = GetComponent<SpriteRenderer>();
-		SR.enabled = true; 
+		if (SR)
+			SR.enabled = true; 
 
 	}
 
@@ -29,7 +30,8 @@ public class OnTriggerPlaySound : MonoBehaviour
 			AS.Play();		
 			if(DestroyOnCollision)
 			{
-				SR.enabled = false; 
+				if (SR)
+					SR.enabled = false; 
 				Destroy(gameObject, TimeToDestroy);
 			}	
 		}

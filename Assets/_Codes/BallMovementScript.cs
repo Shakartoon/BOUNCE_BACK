@@ -31,7 +31,8 @@ public class BallMovementScript : MonoBehaviour
 	void Start()
 	{
 		myRB = GetComponent<Rigidbody2D>();
-		
+		myRB.drag = 1.5f;
+
 	}
 
 	/* 
@@ -122,7 +123,7 @@ public class BallMovementScript : MonoBehaviour
 		newMousePos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f));
 		direction = newMousePos - transform.position.normalized; 
 		myRB.AddForce(Vector3.Normalize(newMousePos - transform.position) * magnitude, ForceMode2D.Force); //reduce to direction
-		
+		myRB.AddForce(myRB.velocity.normalized * myRB.velocity.sqrMagnitude * -.1f);
 	/* 
 	     //NEED TO FIX 
 		// If game object is outside of camera's field of view, recenter it to the middle

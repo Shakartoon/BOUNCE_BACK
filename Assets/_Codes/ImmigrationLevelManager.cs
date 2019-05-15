@@ -71,16 +71,17 @@ public class ImmigrationLevelManager : MonoBehaviour {
 		
 		if (time >= TimeToChangeLevel || ballScript.levelChangeCollisionHappened)
 		{
+			Debug.Log("RUNNING " + ballScript.levelChangeCollisionHappened);
 			NewLevelManagement.lvlManagement.LoadNextLevel();
 		}
 
 		if (immigration2)
 		{
-			if (SMOscript.collidedWithBall || ballScript.immObjCollision)
+			if (SMOscript.collidedWithBall || ballScript.immObjCollision || time >= TimeToChangeLevel)
 			{
 				//DOTween.Shake(camScript.zOffset); 
 				//camScript.zOffset.transform.DOTween.Shake(2, 4, 4, 3f);
-
+				NewLevelManagement.lvlManagement.LoadNextLevel();
 				Camera.main.transform.DOShakePosition(2, new Vector3(0, 0, 10), 1, 1); 
 				//NewLevelManagement.lvlManagement.LoadNextLevel();
 

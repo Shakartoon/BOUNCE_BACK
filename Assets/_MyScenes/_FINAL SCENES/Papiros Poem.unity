@@ -4552,7 +4552,7 @@ MonoBehaviour:
   position5: {x: 34.5, y: -19.8, z: -10}
   position6: {x: 34.5, y: -29.6, z: -10}
   moveScript: {fileID: 1722505082}
-  reactionAnimation: {fileID: 0}
+  reactionAnimation: {fileID: 113734440}
   ballCollisionScript: {fileID: 0}
 --- !u!4 &1028662957
 Transform:
@@ -7223,7 +7223,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -7241,7 +7241,7 @@ CircleCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0.000000099708004, y: 0}
   serializedVersion: 2

@@ -6,12 +6,33 @@ public class InstantiateManager : MonoBehaviour
 {
 
 	public GameObject myBall;
-	public float timeTillDestruction; 
+	public float timeTillDestruction,  timeToMakeBall; 
 	private GameObject instantiatedBall; 
-	RaycastHit beatHit; 
+	RaycastHit beatHit;
+	private float time; 
  
-	void Update() {
+	void Update()
+	{
+		Vector3 mousePosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1);
+		Vector3 worldPosition;
+		Ray ray = Camera.main.ScreenPointToRay(mousePosition);
+		worldPosition = Camera.main.ScreenToWorldPoint(mousePosition);
+		Destroy(instantiatedBall, timeTillDestruction);
+		
+		time += Time.deltaTime;
+		if (time >= timeToMakeBall)
+		{
+			instantiatedBall = Instantiate(myBall, worldPosition, Quaternion.identity);
+			time = 0; 
+		} 
 
+
+	}
+
+}
+		
+		
+		/* 
 		if (Input.GetMouseButtonDown(0))
 		{
 			//initializing a vector3 for the mouse position 
@@ -46,7 +67,5 @@ public class InstantiateManager : MonoBehaviour
 				}
 			}
 
-		}
-	
-	}
-}
+		} */ 
+
