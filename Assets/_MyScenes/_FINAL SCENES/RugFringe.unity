@@ -9827,7 +9827,6 @@ MonoBehaviour:
   - {fileID: 259621974}
   - {fileID: 1248272702}
   - {fileID: 1225601645}
-  - {fileID: 0}
 --- !u!4 &155276963
 Transform:
   m_ObjectHideFlags: 0
@@ -101183,7 +101182,7 @@ Camera:
   m_GameObject: {fileID: 1551923140}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.9607844, g: 0.7607844, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
@@ -101249,7 +101248,7 @@ MonoBehaviour:
   rotDirY: 0
   rotDirZ: 0
   rotateBackAndForth: 0
-  m_from: {x: 0, y: 45, z: 0}
+  m_from: {x: 5, y: 45, z: 0}
   m_to: {x: 0, y: -45, z: 0}
   m_frequency: 1
 --- !u!114 &1551923145

@@ -16,7 +16,7 @@ public class ParticlePlayer : MonoBehaviour
 	void OnCollisionEnter2D(Collision2D col)
 	{
 
-		if (col.gameObject.CompareTag("SoundMakingObject"))
+		if (col.gameObject.CompareTag("PSObject"))
 		{
 
 			myPS.Play(); 
