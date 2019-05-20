@@ -6,7 +6,7 @@ using UnityEngine;
 public class TitleSceneManager : MonoBehaviour
 {
 
-	public GameObject diamond, textToLoad;
+	public GameObject diamond, textToLoad, rugFringes;
 	private float time;
 	public float timeToEndGame; 
 
@@ -18,6 +18,7 @@ public class TitleSceneManager : MonoBehaviour
 	void Start () {
 		
 		textToLoad.SetActive(false);
+		rugFringes.SetActive(false);
 		//asyncLoad = SceneManager.LoadSceneAsync(1);
 		//asyncLoad.allowSceneActivation = false;
 
@@ -36,6 +37,7 @@ public class TitleSceneManager : MonoBehaviour
 		{
 			textToLoad.SetActive(true);
 			sceneChanged = true;
+			rugFringes.SetActive(true);
 			StartCoroutine(WaitBeforeLoad()); 
 						
 			if(title2)
