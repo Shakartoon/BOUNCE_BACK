@@ -4,9 +4,7 @@
     <list default="true" id="b3682ab6-c3bd-4361-8b70-3a026af15fe2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_MyScenes/Clusterfuck/CameraLevel 16.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_MyScenes/Clusterfuck/CameraLevel 16.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_MyScenes/_FINAL SCENES/Immigration1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_MyScenes/_FINAL SCENES/Immigration1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MyScenes/_FINAL SCENES/NEWIMMIGRATION.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_MyScenes/_FINAL SCENES/NEWIMMIGRATION.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +30,13 @@
     <session id="1163221535">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="115786" />
+          <entry key="cs" value="116351" />
           <entry key="shader" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="115786" />
+          <entry key="C#" value="116351" />
           <entry key="ShaderLab" value="1" />
         </counts>
       </usages-collector>
@@ -50,7 +48,7 @@
           <entry key="project.open.time.12" value="32" />
           <entry key="project.open.time.13" value="23" />
           <entry key="project.open.time.14" value="19" />
-          <entry key="project.open.time.15" value="13" />
+          <entry key="project.open.time.15" value="14" />
           <entry key="project.open.time.16" value="8" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="2" />
@@ -60,18 +58,18 @@
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="15" />
-          <entry key="project.opened" value="221" />
+          <entry key="project.opened" value="222" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="511" />
+          <entry key="cs" value="512" />
           <entry key="shader" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="511" />
+          <entry key="C#" value="512" />
           <entry key="ShaderLab" value="2" />
         </counts>
       </usages-collector>
@@ -79,47 +77,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/_Codes/RowInstantiate.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <marker date="1555014195000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1555014195000" expanded="true" signature="124:776" ph="{...}" />
-                <marker date="1555014195000" expanded="true" signature="253:774" ph="{...}" />
-                <marker date="1555014195000" expanded="true" signature="291:762" ph="{...}" />
-                <marker date="1555014195000" expanded="true" signature="297:551" ph="/* var angles = transform.rotation.eulerAngles; ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/_Codes/NewLevelManagement.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="102" />
-              <folding>
-                <marker date="1557957397000" expanded="true" signature="6:113" ph="..." />
-                <marker date="1557957397000" expanded="true" signature="162:1910" ph="{...}" />
-                <marker date="1557957397000" expanded="true" signature="399:918" ph="{...}" />
-                <marker date="1557957397000" expanded="true" signature="432:497" ph="{...}" />
-                <marker date="1557957397000" expanded="true" signature="530:571" ph="{...}" />
-                <marker date="1557957397000" expanded="true" signature="936:943" ph="{...}" />
-                <marker date="1557957397000" expanded="true" signature="1006:1170" ph="{...}" />
-                <marker date="1557957397000" expanded="true" signature="1197:1473" ph="{...}" />
-                <marker date="1557957397000" expanded="true" signature="1235:1358" ph="{...}" />
-                <marker date="1557957397000" expanded="true" signature="1502:1730" ph="{...}" />
-                <marker date="1557957397000" expanded="true" signature="1523:1564" ph="{...}" />
-                <marker date="1557957397000" expanded="true" signature="1567:1726" ph="/* StartCoroutine(WaitBeforeLoad()); ... */" />
-                <marker date="1557957397000" expanded="true" signature="1772:1907" ph="{...}" />
-                <marker date="1557957397000" expanded="true" signature="1915:2366" ph="/* Hub World 1 ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Codes/RugFringeLevelManager.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -236,11 +193,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/InfiniteBackground.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+            <state relative-caret-position="270">
+              <caret line="20" selection-start-line="14" selection-end-line="20" />
               <folding>
                 <marker date="1558462679629" expanded="false" signature="6:78" ph="..." />
                 <marker date="1558462679629" expanded="true" signature="127:1215" ph="{...}" />
@@ -253,6 +210,40 @@
                 <marker date="1558462679629" expanded="true" signature="1014:1213" ph="{...}" />
                 <marker date="1558462679629" expanded="true" signature="1031:1125" ph="{...}" />
                 <marker date="1558462679629" expanded="true" signature="1142:1192" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/NoiseScale.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <marker date="1558487248329" expanded="false" signature="6:78" ph="..." />
+                <marker date="1558487248329" expanded="true" signature="120:432" ph="{...}" />
+                <marker date="1558487248329" expanded="true" signature="193:200" ph="{...}" />
+                <marker date="1558487248329" expanded="true" signature="254:430" ph="{...}" />
+                <marker date="1558487248329" expanded="true" signature="305:424" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Immigration2LevelManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+              <folding>
+                <marker date="1558505912335" expanded="true" signature="6:97" ph="..." />
+                <marker date="1558505912335" expanded="true" signature="153:771" ph="{...}" />
+                <marker date="1558505912335" expanded="true" signature="350:546" ph="{...}" />
+                <marker date="1558505912335" expanded="true" signature="475:542" ph="{...}" />
+                <marker date="1558505912335" expanded="true" signature="564:769" ph="{...}" />
+                <marker date="1558505912335" expanded="true" signature="615:765" ph="{...}" />
+                <marker date="1558505912335" expanded="true" signature="695:761" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -323,6 +314,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Codes/tempCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NoiseScale.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Codes/Unit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Codes/BBonCollisionChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Codes/OnCollisionPlaySound.cs" root0="FORCE_HIGHLIGHTING" />
@@ -335,6 +327,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Codes/PapirosLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Codes/NewLevelManagement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Codes/TitleSceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Immigration2LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Codes/RepeatingBackground.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ResetWhenOffScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Codes/RowInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
@@ -393,8 +386,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/NotMine/Dynamic Color Curves/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Codes/SceneChangeButtonTest.cs" />
         <option value="$PROJECT_DIR$/Assets/_Codes/HubWorldLevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Codes/BallCollisionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Codes/HubWorldLevelChanges.cs" />
@@ -444,6 +435,8 @@
         <option value="$PROJECT_DIR$/Assets/_Codes/ParticlePlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/_Codes/TitleSceneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/InfiniteBackground.cs" />
+        <option value="$PROJECT_DIR$/Assets/NoiseScale.cs" />
+        <option value="$PROJECT_DIR$/Assets/Immigration2LevelManager.cs" />
       </list>
     </option>
   </component>
@@ -464,9 +457,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -478,6 +468,9 @@
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
     </panes>
@@ -752,11 +745,12 @@
       <workItem from="1558389733842" duration="270000" />
       <workItem from="1558459753456" duration="2686000" />
       <workItem from="1558462623946" duration="211000" />
+      <workItem from="1558487078633" duration="2040000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="609522000" />
+    <option name="totallyTimeSpent" value="611562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -771,7 +765,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48015365" visible="true" weight="0.369814" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48015365" visible="true" weight="0.3748212" />
       <window_info id="Structure" order="1" sideWeight="0.5198464" side_tool="true" weight="0.41917023" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -848,14 +842,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/_Codes/SquareScaleEffect.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LoopingMovement.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/_Codes/FamilyLevelManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/_Codes/LevelManager.cs">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1221,10 +1207,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/NoiseScale.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <marker date="1558487248329" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558487248329" expanded="true" signature="120:432" ph="{...}" />
+            <marker date="1558487248329" expanded="true" signature="193:200" ph="{...}" />
+            <marker date="1558487248329" expanded="true" signature="254:430" ph="{...}" />
+            <marker date="1558487248329" expanded="true" signature="305:424" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/InfiniteBackground.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        <state relative-caret-position="270">
+          <caret line="20" selection-start-line="14" selection-end-line="20" />
           <folding>
             <marker date="1558462679629" expanded="false" signature="6:78" ph="..." />
             <marker date="1558462679629" expanded="true" signature="127:1215" ph="{...}" />
@@ -1237,6 +1237,22 @@
             <marker date="1558462679629" expanded="true" signature="1014:1213" ph="{...}" />
             <marker date="1558462679629" expanded="true" signature="1031:1125" ph="{...}" />
             <marker date="1558462679629" expanded="true" signature="1142:1192" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Immigration2LevelManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <marker date="1558505912335" expanded="true" signature="6:97" ph="..." />
+            <marker date="1558505912335" expanded="true" signature="153:771" ph="{...}" />
+            <marker date="1558505912335" expanded="true" signature="350:546" ph="{...}" />
+            <marker date="1558505912335" expanded="true" signature="475:542" ph="{...}" />
+            <marker date="1558505912335" expanded="true" signature="564:769" ph="{...}" />
+            <marker date="1558505912335" expanded="true" signature="615:765" ph="{...}" />
+            <marker date="1558505912335" expanded="true" signature="695:761" ph="{...}" />
           </folding>
         </state>
       </provider>
