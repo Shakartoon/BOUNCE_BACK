@@ -9,6 +9,9 @@ public class QuarrelLevelManager : MonoBehaviour {
 	private float time, timeToEnableRB = 2f;
 	public float addedTime, timeToEndLevel; 
 	
+	private AsyncOperation asyncLoad;
+
+	
 	void Start ()
 	{
 
@@ -16,10 +19,14 @@ public class QuarrelLevelManager : MonoBehaviour {
 		pink.SetActive(false);
 		blue.SetActive(false);
 		instantiateCircles.SetActive(false);
-
-
 	}
-	
+
+	IEnumerator WaitBeforeLoad()
+	{
+		yield return new WaitForSeconds(4);
+		//asyncLoad.allowSceneActivation = true;
+		NewLevelManagement.lvlManagement.LoadNextLevel();
+	} 
 	void Update ()
 	{
 		time += Time.deltaTime; 
@@ -42,6 +49,8 @@ public class QuarrelLevelManager : MonoBehaviour {
 		if (time >= timeToEndLevel)
 		{
 			wholeShit.transform.DOScale(new Vector3(0, 0, 0), 4); 
+			StartCoroutine(WaitBeforeLoad()); 
+
 		}
 	}
 }

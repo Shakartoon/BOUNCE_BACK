@@ -14,9 +14,10 @@ public class Immigration2LevelManager : MonoBehaviour
 	private SpriteRenderer[] sprites;
 
 	public GameObject rug1, rug2, migrators, journeyText, ball4, ball3;
-	private SpriteRenderer rug1Sprite, rug2Sprite;  
-
+	private SpriteRenderer rug1Sprite, rug2Sprite; 
 	
+	private AsyncOperation asyncLoad;
+
 	void Start ()
 	{
 
@@ -33,8 +34,15 @@ public class Immigration2LevelManager : MonoBehaviour
 		rug1Sprite = rug1.GetComponent<SpriteRenderer>(); 
 		rug2Sprite = rug2.GetComponent<SpriteRenderer>(); 
 
-
 	}
+	
+	IEnumerator WaitBeforeLoad()
+	{
+		yield return new WaitForSeconds(3);
+		asyncLoad.allowSceneActivation = true;
+		NewLevelManagement.lvlManagement.LoadNextLevel();
+	} 
+
 	
 	void Update ()
 	{
@@ -72,10 +80,22 @@ public class Immigration2LevelManager : MonoBehaviour
 			migrators.SetActive(true);
 		}
 
-		if (time >= 45f)
+		if (time >= 40f)
 		{
 			ball4.GetComponent<SpriteRenderer>().DOColor(new Color(255, 188 / 255, 148/255, 0), 3f);
 			Destroy(ball4, 3f);
+		}
+
+		if (time >= 50f)
+		{
+			ball3.GetComponent<SpriteRenderer>().DOColor(new Color(255, 188 / 255, 148/255, 0), 3f);
+			Destroy(ball4, 3f);
+		}
+		
+		
+		if (time >= 77f)
+		{
+			StartCoroutine(WaitBeforeLoad()); 
 		}
 	}
 }
