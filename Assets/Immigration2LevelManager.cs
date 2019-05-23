@@ -13,7 +13,7 @@ public class Immigration2LevelManager : MonoBehaviour
 	public GameObject[] things; 
 	private SpriteRenderer[] sprites;
 
-	public GameObject rug1, rug2;
+	public GameObject rug1, rug2, migrators, journeyText, ball4, ball3;
 	private SpriteRenderer rug1Sprite, rug2Sprite;  
 
 	
@@ -21,6 +21,8 @@ public class Immigration2LevelManager : MonoBehaviour
 	{
 
 		camMove.enabled = false; 
+		migrators.SetActive(false);
+		journeyText.SetActive(false);
 		sprites = new SpriteRenderer[things.Length];
 	
 		for (int i = 0; i < sprites.Length; i++)
@@ -38,6 +40,13 @@ public class Immigration2LevelManager : MonoBehaviour
 	{
 
 		time += Time.deltaTime;
+
+		if (time >= 2.5f)
+		{
+			journeyText.SetActive(true);
+
+		}
+		
 		if (time >= timer)
 		{			
 			for (int i = 0; i < sprites.Length; i++)
@@ -57,5 +66,16 @@ public class Immigration2LevelManager : MonoBehaviour
 			camMove.enabled = true;
 		}
 
+		if (time >= timer + 6.5f)
+
+		{
+			migrators.SetActive(true);
+		}
+
+		if (time >= 45f)
+		{
+			ball4.GetComponent<SpriteRenderer>().DOColor(new Color(255, 188 / 255, 148/255, 0), 3f);
+			Destroy(ball4, 3f);
+		}
 	}
 }
