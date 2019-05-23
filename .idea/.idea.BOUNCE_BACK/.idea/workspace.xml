@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3682ab6-c3bd-4361-8b70-3a026af15fe2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BOUNCE_BACK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Border1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Border1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemy2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemy2.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuarrelBorders.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuarrelBorders.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/QuarrelLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuarrelLevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Quarrel_TitleTextAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Quarrel_TitleTextAnim.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_MyScenes/_FINAL SCENES/Quarrel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_MyScenes/_FINAL SCENES/Quarrel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ink_mat3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ink_mat3.png.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +30,13 @@
     <session id="1163221535">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="118596" />
+          <entry key="cs" value="118855" />
           <entry key="shader" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="118596" />
+          <entry key="C#" value="118855" />
           <entry key="ShaderLab" value="1" />
         </counts>
       </usages-collector>
@@ -195,15 +189,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/QuarrelLevelManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="565">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
-                <marker date="1558598520493" expanded="false" signature="6:78" ph="..." />
-                <marker date="1558598520493" expanded="true" signature="129:566" ph="{...}" />
-                <marker date="1558598520493" expanded="true" signature="221:338" ph="{...}" />
-                <marker date="1558598520493" expanded="true" signature="356:564" ph="{...}" />
-                <marker date="1558598520493" expanded="true" signature="407:476" ph="{...}" />
-                <marker date="1558598520493" expanded="true" signature="503:561" ph="{...}" />
+                <marker date="1558601231104" expanded="true" signature="6:97" ph="..." />
+                <marker date="1558601231104" expanded="true" signature="149:921" ph="{...}" />
+                <marker date="1558601231104" expanded="true" signature="322:478" ph="{...}" />
+                <marker date="1558601231104" expanded="true" signature="496:919" ph="{...}" />
+                <marker date="1558601231104" expanded="true" signature="556:625" ph="{...}" />
+                <marker date="1558601231104" expanded="true" signature="668:819" ph="{...}" />
+                <marker date="1558601231104" expanded="true" signature="768:815" ph="{...}" />
+                <marker date="1558601231104" expanded="true" signature="850:916" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -746,12 +742,12 @@
       <workItem from="1558542420904" duration="2115000" />
       <workItem from="1558549304760" duration="2723000" />
       <workItem from="1558586108217" duration="2612000" />
-      <workItem from="1558596255028" duration="2262000" />
+      <workItem from="1558596255028" duration="3723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="621631000" />
+    <option name="totallyTimeSpent" value="623092000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1234,15 +1230,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/QuarrelLevelManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="565">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <marker date="1558598520493" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558598520493" expanded="true" signature="129:566" ph="{...}" />
-            <marker date="1558598520493" expanded="true" signature="221:338" ph="{...}" />
-            <marker date="1558598520493" expanded="true" signature="356:564" ph="{...}" />
-            <marker date="1558598520493" expanded="true" signature="407:476" ph="{...}" />
-            <marker date="1558598520493" expanded="true" signature="503:561" ph="{...}" />
+            <marker date="1558601231104" expanded="true" signature="6:97" ph="..." />
+            <marker date="1558601231104" expanded="true" signature="149:921" ph="{...}" />
+            <marker date="1558601231104" expanded="true" signature="322:478" ph="{...}" />
+            <marker date="1558601231104" expanded="true" signature="496:919" ph="{...}" />
+            <marker date="1558601231104" expanded="true" signature="556:625" ph="{...}" />
+            <marker date="1558601231104" expanded="true" signature="668:819" ph="{...}" />
+            <marker date="1558601231104" expanded="true" signature="768:815" ph="{...}" />
+            <marker date="1558601231104" expanded="true" signature="850:916" ph="{...}" />
           </folding>
         </state>
       </provider>
