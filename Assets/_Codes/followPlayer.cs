@@ -6,19 +6,21 @@ public class followPlayer : MonoBehaviour
 {
 
 
+	
 	public GameObject Player;
 	public float movementSpeed = 4;
 	private Vector3 moveDirection;
 	private Vector3 thing;
-	private Vector3 offset; 
-	
-	public bool threat;
+	private Vector3 offset;
 
+	public bool RandomizeSpeed;
+	public float min, max; 
+	
 	void Start()
 	{
 	}
 	
-	void Update()
+	void FixedUpdate()
 	{
 		//transform.LookAt(Player.transform);
 		//thing = transform.position + offset; 
@@ -26,9 +28,10 @@ public class followPlayer : MonoBehaviour
 		moveDirection = Vector3.Normalize(Player.transform.position - transform.position + offset); 
 		transform.position += moveDirection * movementSpeed * Time.deltaTime;
 
-		if (threat)
+		if (RandomizeSpeed)
 		{
-			//fade player value
+
+			movementSpeed = Random.Range(min, max); 
 		}
 		
 	}

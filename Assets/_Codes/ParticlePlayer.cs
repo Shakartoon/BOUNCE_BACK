@@ -1,28 +1,42 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class ParticlePlayer : MonoBehaviour
 {
-	private ParticleSystem myPS; 
-	
-	void Start ()
-	{
+	public GameObject player;
+	private ParticleSystem playerPS;
+	public float timeToEmit;
 
-		myPS = GetComponent<ParticleSystem>(); 
+	public bool onPlayer;
+	public bool onSoundMakingObject; 
+	
+	void Awake ()
+	{
+		playerPS = player.GetComponent<ParticleSystem>();
+		playerPS.enableEmission = false;
 	}
 
 
 	void OnCollisionEnter2D(Collision2D col)
 	{
-
-		if (col.gameObject.CompareTag("PSObject"))
+		if (onSoundMakingObject)
 		{
+			if (col.gameObject.CompareTag("Ball"))
+			{
+				Debug.Log("Collided");
+				playerPS.Play();
+				//StartCoroutine(stopParticleSystem());
 
-			myPS.Play(); 
+			}
+		}		
+	}
 
-		}
-		
+	IEnumerator stopParticleSystem()
+	{
+		yield return new WaitForSeconds(timeToEmit); 
+		playerPS.enableEmission = true;
 	}
 	
 }
