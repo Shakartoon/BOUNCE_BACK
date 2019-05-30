@@ -14,8 +14,11 @@ public class ParticlePlayer : MonoBehaviour
 	
 	void Awake ()
 	{
-		playerPS = player.GetComponent<ParticleSystem>();
-		playerPS.enableEmission = false;
+		if (player != null)
+		{
+			playerPS = player.GetComponent<ParticleSystem>();
+			playerPS.enableEmission = false;
+		}
 	}
 
 
@@ -26,7 +29,8 @@ public class ParticlePlayer : MonoBehaviour
 			if (col.gameObject.CompareTag("Ball"))
 			{
 				Debug.Log("Collided");
-				playerPS.Play();
+				if (playerPS != null)
+					playerPS.Play();
 				//StartCoroutine(stopParticleSystem());
 
 			}
@@ -36,7 +40,8 @@ public class ParticlePlayer : MonoBehaviour
 	IEnumerator stopParticleSystem()
 	{
 		yield return new WaitForSeconds(timeToEmit); 
-		playerPS.enableEmission = true;
+		if (playerPS != null)
+			playerPS.enableEmission = true;
 	}
 	
 }

@@ -27,7 +27,24 @@ public class OnTriggerPlaySound : MonoBehaviour
 		
 		if (col.gameObject.CompareTag("Ball"))
 		{
-			AS.Play();		
+			if(changePitch)
+			{
+				AS.pitch = Random.Range(0.5f, 1f);
+				
+			}
+		
+			if (RandomizeClips)
+			{
+				int index = Random.Range(0, audioClips.Length);
+				myClip = audioClips[index];
+				AS.clip = myClip; 
+				AS.Play();			
+			}
+			else
+			{
+				AS.Play();	
+
+			}
 			if(DestroyOnCollision)
 			{
 				if (SR)
@@ -36,18 +53,6 @@ public class OnTriggerPlaySound : MonoBehaviour
 			}	
 		}
 		
-		if(changePitch)
-		{
-			AS.pitch = Random.Range(0.5f, 1f);
-				
-		}
-		
-		if (RandomizeClips)
-		{
-			int index = Random.Range(0, audioClips.Length);
-			myClip = audioClips[index];
-			AS.clip = myClip; 
-			AS.Play();			
-		}
+
 	}
 }

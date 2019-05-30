@@ -149,6 +149,7 @@ MonoBehaviour:
   myDrag: 3
   PapirosCollisionCount: 0
   levelChangeCollisionHappened: 0
+  immObjCollision: 0
 --- !u!96 &32715965
 TrailRenderer:
   serializedVersion: 2
@@ -1341,8 +1342,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1114683036}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1, y: -0.3, z: 0}
-  m_LocalScale: {x: 0.83, y: 0.83, z: 0.83}
+  m_LocalPosition: {x: 1.1, y: 1.7, z: 0}
+  m_LocalScale: {x: 0.50915515, y: 0.50915515, z: 0.50915515}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -1880,6 +1881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   diamond: {fileID: 637647885}
   textToLoad: {fileID: 1114683036}
+  rugFringes: {fileID: 0}
   timeToEndGame: 0
   ExitScene: 0
   title2: 1

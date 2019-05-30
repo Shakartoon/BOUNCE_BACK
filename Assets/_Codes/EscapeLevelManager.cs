@@ -11,13 +11,14 @@ public class EscapeLevelManager : MonoBehaviour
 	public float timer = 8f;
 	private Rigidbody2D playerRB;
 	private float time;
+	private SpriteRenderer[] sprites;
 		
 	void Start ()
 	{
 
 		playerRB = player.GetComponent<Rigidbody2D>(); 
-		playerRB.constraints = RigidbodyConstraints2D.FreezePosition;   
-
+		playerRB.constraints = RigidbodyConstraints2D.FreezePosition;
+		sprites = fourDiamonds.GetComponentsInChildren<SpriteRenderer>();
 
 	}
 	
@@ -31,7 +32,22 @@ public class EscapeLevelManager : MonoBehaviour
 			playerRB.constraints = RigidbodyConstraints2D.None; 
 		}
 
-		if (secondDiamond.GetComponentInChildren<SpriteRenderer>().color == Color.black)
+		bool weDone = true;
+		for (int i = 0; i < sprites.Length; i++)
+		{
+			if (sprites[i] != null && sprites[i].color != Color.black)
+			{
+				weDone = false;
+				break;
+			}
+		}
+
+		if (weDone)
+		{
+			NewLevelManagement.lvlManagement.LoadNextLevel();
+		}
+		
+		/*if (secondDiamond.GetComponentInChildren<SpriteRenderer>().color == Color.black)
 		{	
 		  
 			//NewLevelManagement.lvlManagement.isConditionReached = true;
@@ -48,7 +64,7 @@ public class EscapeLevelManager : MonoBehaviour
 			//For now, I'm going to use a timer 
 
 
-		}
+		}*/
 
 	}
 }

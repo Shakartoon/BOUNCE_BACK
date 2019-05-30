@@ -42,7 +42,7 @@ public class PapirosLevelManager : MonoBehaviour {
 		//}
 		
 		//move camera in a sequence 
-
+   
 		if (Camera.main.transform.position == position1)
 		{
 			if (moveScript.PapirosCollisionCount == 1) 

@@ -33,7 +33,8 @@ public class ImmigrationLevelManager : MonoBehaviour {
 		sideBalls.SetActive(false);
 		hex.SetActive(false);
 		borderbugs.SetActive(false);
-		levelChanger.SetActive(false);
+		if (levelChanger != null)
+			levelChanger.SetActive(false);
 
 		//border.GetComponent<Rotate>().enabled = true;
 		//border.GetComponent<Rotate>().rotateBackAndForth = true;
@@ -66,12 +67,12 @@ public class ImmigrationLevelManager : MonoBehaviour {
 
 		if (time >= TimeToShowTheLevelChanger)
 		{
-			levelChanger.SetActive(true);
+			if (levelChanger != null)
+				levelChanger.SetActive(true);
 		}
 		
-		if (time >= TimeToChangeLevel || ballScript.levelChangeCollisionHappened)
+		if (time >= TimeToChangeLevel) // || ballScript.levelChangeCollisionHappened)
 		{
-			Debug.Log("RUNNING " + ballScript.levelChangeCollisionHappened);
 			NewLevelManagement.lvlManagement.LoadNextLevel();
 		}
 
